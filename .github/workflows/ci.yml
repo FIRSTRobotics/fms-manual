@@ -20,7 +20,7 @@ jobs:
 
     - name: Build HTML
       run: |
-        ./make html
+        make html
   build-pdf:
     runs-on: ubuntu-latest
     steps:
