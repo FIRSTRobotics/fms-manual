@@ -35,7 +35,7 @@ jobs:
 
     - name: Build PDF
       run: |
-        ./make latexpdf
+        make latexpdf
   check-links:
     runs-on: ubuntu-latest
     steps:
@@ -48,4 +48,4 @@ jobs:
         pip install -r source/requirements.txt
     - name: Check Links
       run: |
-        ./make linkcheck
+        make linkcheck
