@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'FMS Manual'
-copyright = '2020, Dalton Smith'
-author = 'Dalton Smith'
+project = 'Field Management System Manual'
+copyright = '2020, FIRST'
+author = 'FIRST'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '2020'
 
 
 # -- General configuration ---------------------------------------------------
