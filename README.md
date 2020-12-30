@@ -1,6 +1,6 @@
 # fms-manual
 
-![CI](https://github.com/Daltz333/fms-manual/workflows/CI/badge.svg)
+![CI](https://github.com/FIRSTRobotics/fms-manual/workflows/CI/badge.svg)
 ![docs](https://readthedocs.org/projects/fms-manual/badge/?version=latest)
 
 **Note: The following documentation is completely unofficial. While based on the official screensteps documentation, things have been modified to an extent**
