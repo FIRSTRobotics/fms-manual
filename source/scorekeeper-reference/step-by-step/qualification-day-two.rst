@@ -1,3 +1,0 @@
-Qualification (Day Two)
-=======================
-
