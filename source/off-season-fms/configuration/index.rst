@@ -4,7 +4,7 @@ Configuration
 .. toctree::
    :maxdepth: 1
 
-   about-offseason-fms-requirements
+   about-off-season-fms-requirements
    installation
    network-hardware-configuration
    router-configuration
