@@ -7,6 +7,6 @@ Field Access Point
    overview
    loading-openwrt
    default-settings
-   wireless-settings-status
+   wireless-settings
    firewall-settings
    recovery-procedure
