@@ -7,6 +7,7 @@ Accessing Settings
 ------------------
 
 .. image:: images/settings-0.png
+   :alt: Settings panel of the Audience Display
 
 To access the settings panel, with the Audience Display open and running (see `About <../../audience/l/558887?data-resolve-url=true&data-manual-id=59147>`_ ) use the hotkey combination of CTRL-SHIFT-F12 (or, alternatively, CTRL-SHIFT-C). This will trigger the upper portion of the Audience Display (or Lower, depending on the Vertical Position setting) to flip to the settings pane as shown in the graphic.
 
@@ -16,12 +17,12 @@ Video Background Style
 ----------------------
 
 .. image:: images/settings-1.png
+   :alt: Video Background Style picker
 
 The 'Video Background Style' option has two choices:
 
 * Chroma Background
 * Ranking Display
-
 
 This selection will control the behavior of the upper "two thirds" of the screen in the "Video Only" and "Video and Score" modes.
 
@@ -37,6 +38,7 @@ Background Screen Color
 -----------------------
 
 .. image:: images/settings-2.png
+   :alt: Background Screen Color picker. Many presets are shown.
 
 The Background Screen Color dropdown allows selection of the color which will be used for 'Chroma' process described previously. In the "Video Only" and "Video and Score" modes, the Chroma color is overlayed in the top "two thirds" of the screen to allow for video overlay. The Background Screen Color is not used if the "Video Background Style" is set to "Ranking Display" (the Background Screen Color would be hidden in this case).
 
@@ -46,15 +48,17 @@ Real-Time Score Type
 --------------------
 
 .. image:: images/settings-3.png
+   :alt: Real-Time Score Type picker. "[Default] Full Width" is highlighted.
 
-Careful consideration should be used before changing these options as they can cause confusion for audience members who are "use to" a traditional layout from year to year. For official FRC Events, if in doubt, please contact your Engineering support contact.
+Careful consideration should be used before changing these options as they can cause confusion for audience members who are "use to" a traditional layout from year to year. For official FRC\ |reg| Events, if in doubt, please contact your Engineering support contact.
 
-The default option of "Full Width" is the more traditional score bar that takes up the full bottom third or so of the audience display. The alternate view, Center Third, is for use on webcast versions as arranged with FIRST HQ and provides an alternate view of the data in a more compact, centered display.
+The default option of "Full Width" is the more traditional score bar that takes up the full bottom third or so of the audience display. The alternate view, Center Third, is for use on webcast versions as arranged with *FIRST*\ |reg| HQ and provides an alternate view of the data in a more compact, centered display.
 
 Real-Time Orientation
 ---------------------
 
 .. image:: images/settings-4.png
+   :alt: Real-Time Scoring Vertical Position pickers. "[Default] Red on Left" and "[Default] Bottom of Screen" are highlighted.
 
 Careful consideration should be used before changing these options, and they may cause confusion for audience members who are "use to" a traditional layout from year to year. For official FRC Events, if in doubt, please contact your Engineering support contact.
 
@@ -66,13 +70,15 @@ FIRST Championship Specific
 ---------------------------
 
 .. image:: images/settings-5.png
+   :alt: FIRST Championship: Is Center Screen checkbox. Is unchecked.
 
-Some configuration options are specific to the FIRST Championship. Please do not adjust these settings at any events except under the direction of FRC Support.
+Some configuration options are specific to the *FIRST* Championship. Please do not adjust these settings at any events except under the direction of FRC Support.
 
 Sounds
 ------
 
 .. image:: images/settings-6.png
+   :alt: Soundboard. Sounds available are "Start Match", "End Match", "Pause Match", "Restart Match", "Timer Warning #1", "Timer Warning #2".
 
 Using the third "bar" of the settings panel sounds can be force played to test the connection with the audio/video group. Depending on the season, one or more buttons may not trigger a sound to be played (2015 did not use "Warning #2" for example). Each sound plays once upon click. Additional game-specific sounds may also be present for testing as well.
 
@@ -80,6 +86,7 @@ Resolution and Positioning
 --------------------------
 
 .. image:: images/settings-7.png
+   :alt: Left to Right. Resolution Selector, "Center on Screen" Button, Audience Display move handle.
 
 [ *Resolutions* ] Audience Display is compatible with three (3) resolutions- 1024x768 (3:4 aspect ratio) and 1920x1080 / 1280x720 (16:9 aspect ratio). The resolution can be adjusted using the radio buttons, and takes effect upon clicking the "Save Changes" button. There are slight differences between the display of data in the various resolutions- but the critical game data remains the same.
 
@@ -93,6 +100,7 @@ Control Bar
 -----------
 
 .. image:: images/settings-8.png
+   :alt: Left to Right. Version Info, "Check For Updates" button, "Restore Defaults" button, "Save Changes" button, "Cancel" button.
 
 On the bottom of the settings pane is the control bar. On the left is the version of the Audience Display software (which must match FMS, see `Installation <../../audience/l/558885?data-resolve-url=true&data-manual-id=59147#Version-Matching>`_ ). On the right are options to Restore Defaults (return the Audience Display to it's "out of the box" settings, colors, etc), Save Changes (save any changes made and close settings) and Cancel (don't save any changes, and close the settings panel). Note that "Cancel" does not undo any positioning changes made, either through centering or manual adjustments. Also to the right of the Version information is the "Check for Updates" button, which checks the LOCAL FMS installation for updates to the Audience Display application. This DOES NOT look for updates on the Web. You must update FMS before using this "Check for Updates" button.
 
@@ -105,4 +113,3 @@ Jump Menu
 ---------
 
 The Audience Display has a Jump Menu, accessible by right-clicking the Audience Display icon in the Taskbar. The Jump menu provides additional functionality not accessible anywhere else in the Audience Display. The Jump Menu may not be enabled if you're using Windows 10 Home Edition (a quick Google search on "Enable Jump Lists on Windows 10 Home" can help locate instructions), Ask HQ Support for help if you need additional help using the Jump Menu.
-
