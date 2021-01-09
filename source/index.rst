@@ -6,7 +6,7 @@
 FMS Manual
 ==========
 
-.. important:: Please note that this FMS documentation is *unofficial*. Read at your own risk.
+.. important:: Please note that this FMS documentation is *in progress*. Read at your own risk.
 
 .. toctree::
    :maxdepth: 2
