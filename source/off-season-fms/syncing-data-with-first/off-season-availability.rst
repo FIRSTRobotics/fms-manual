@@ -18,7 +18,7 @@ This means the following:
 * The off-season version of the Field Management System software will not be updated for INFINITE RECHARGE.
 * No off-season events will be listed on the FRC Events Website.
 
-For more information please see `https://www.firstinspries.org/covid-19 <https://www.firstinspries.org/covid-19>`_
+For more information please see `https://www.firstinspires.org/covid-19 <https://www.firstinspires.org/covid-19>`_
 
 The following information is not relevant for 2020 any longer:
 
