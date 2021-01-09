@@ -3,10 +3,7 @@
 Awards
 ======
 
-Reward teams for their season of effort
-
-Awards
-------
+Awards are meant to reward teams for competing!
 
 Whether you're attending a DISTRICT or a REGIONAL event, the process is now the exact same!
 
