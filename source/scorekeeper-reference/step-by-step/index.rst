@@ -5,9 +5,9 @@ Scorekeeper Step-by-Step
    :maxdepth: 1
 
    overview
-   setup-day-zero
-   practice-day-one
-   qualification-day-two
-   playoffs-day-three
+   setup
+   practice
+   qualification
+   playoffs
    awards
-   archive-upload
+   archive-and-upload

@@ -6,7 +6,7 @@
 FMS Manual
 ==========
 
-.. important:: Please note that this FMS documentation is *unofficial*. Read at your own risk.
+.. important:: Please note that this FMS documentation is *in progress*. Read at your own risk.
 
 .. toctree::
    :maxdepth: 2
@@ -55,7 +55,7 @@ FMS Manual
    :caption: Off-Season FMS
 
    off-season-fms/configuration/index
-   off-season-fms/syncing-with-first/index
+   off-season-fms/syncing-data-with-first/index
    off-season-fms/field-access-point/index
 
 .. toctree::

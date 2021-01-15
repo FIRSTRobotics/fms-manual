@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'FMS Manual'
-copyright = '2020, Dalton Smith'
-author = 'Dalton Smith'
+project = 'Field Management System Manual'
+copyright = '2020, FIRST'
+author = 'FIRST'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '2020'
 
 
 # -- General configuration ---------------------------------------------------
@@ -54,6 +54,11 @@ hoverxref_roles = ['term']
 linkcheck_timeout = 30
 linkcheck_retries = 3
 linkcheck_workers = 1
+
+linkcheck_ignore = [r'http://10.0.100.5/.*']
+
+# Specify HTML logo for ReadTheDocs
+html_logo = "_static/images/FIRST.png"
 
 # Specify a standard user agent, as Sphinx default is blocked on some sites
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0'
