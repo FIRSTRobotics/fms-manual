@@ -1,11 +1,6 @@
 Match Test
 ==========
 
-Differences between Match Play and Match Test
-
-Match Test
-----------
-
 .. image:: images/match-test-0.png
 
 The Match Test functionally is nearly identical to Match Play. When using Match Test the FMS automatically assigns the match number to 999 (or 998 for multi-field events) and the team numbers to “Test Robot 1” through 6 and no schedule is displayed. Match Test is used to verify all electrical and scoring components connected to the FMS are operating correctly.

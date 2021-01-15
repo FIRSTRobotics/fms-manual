@@ -5,7 +5,7 @@ Match Play/Test
    :maxdepth: 1
 
    interface
-   bypass-dq-redcard
+   bypass-vs-dq-vs-red-card
    tabs
    status-tab
    score-tab

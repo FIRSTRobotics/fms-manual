@@ -1,11 +1,6 @@
 Game Detail Tab
 ===============
 
-Game specific field scoring and adjustments.
-
-Game Detail Tab
----------------
-
 .. image:: images/game-detail-tab-0.png
 
 The Score Detail Tab has detailed scoring information that doesn't directly impact the points granted to an Alliance. It is not used in every season. It does not apply to the off-season FMS.

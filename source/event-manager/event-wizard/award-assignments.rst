@@ -18,7 +18,7 @@ After all awards for the day (or the event) have been presented, use the Upload 
 Stealth Mode
 ###############
 
-.. image:: images/aaward-assignments-2.png
+.. image:: images/award-assignments-2.png
 
 When stealth mode is enabled the data in "Team Number", "Team Name" and "Person" fields is hidden, and a message is added on the bottom left. This data remains hidden until the button is toggled again. The data can be viewed once again by toggling the stealth mode off using the "toggle winner visibility" button. Note that stealth mode is on by default when the award page is loaded, and would need to be manually toggled off.
 

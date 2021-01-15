@@ -1,9 +1,6 @@
 Hardware
 ========
 
-Hardware
---------
-
 .. image:: images/hardware-0.png
 
 The Hardware tab is used to indicate the use of specific hardware provided for the field. Because configurations are different when using spare hardware, the FMS needs to know the locations and other information of the hardware. Only one spare component of each type is allowed to be used on a field; the spare component is generally marked with White or Black gaffer’s tape on the handle/front, whereas the normal component is generally marked with a Red or Blue (alliance-colored) piece of gaffer’s tape. The layout of the tab is similar to the `Network Config <../../eventmanager/l/607919-network-config>`_ tab.

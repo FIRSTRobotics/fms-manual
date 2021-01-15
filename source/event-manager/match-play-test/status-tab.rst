@@ -1,9 +1,6 @@
 Status Tab
 ==========
 
-Status Tab
-----------
-
 .. image:: images/status-tab-0.png
 
 Click on the Status tab shows detailed information for each robot linked to FMS, this information is also displayed on the Field Monitor used by the FTA and FTA Assistant (FTAA). Examples are for Blue Station 1 (team number 1 in this case) but the same data exists for all stations. The information for each team is:

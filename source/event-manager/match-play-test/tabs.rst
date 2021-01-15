@@ -3,9 +3,6 @@ Tabs
 
 For detailed information within the Match Play and Match Test Interfaces
 
-Tabs
-----
-
 .. image:: images/tabs-0.png
 
 The bottom of the Match Play interface has a display window with a number of tabs:
