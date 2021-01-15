@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Loading OpenWRT
 ===============
 
@@ -31,8 +33,8 @@ From Stock Firmware
 
 The following section describes how to load the FRC OpenWRT image onto the device from the stock Linksys firmware.
 
-Connecting to the AP
-^^^^^^^^^^^^^^^^^^^^
+Connecting to the AP (Default Linksys Image)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/loading-openwrt-0.png
 
@@ -75,8 +77,8 @@ OpenWRT upgrade
 
 The following section describes how to load the FRC OpenWRT image onto the device when OpenWRT has already been installed (including updating from previous FRC image).
 
-Connecting to the AP
-^^^^^^^^^^^^^^^^^^^^
+Connecting to the AP (OpenWRT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/loading-openwrt-4.png
 

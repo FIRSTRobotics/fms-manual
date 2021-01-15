@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Configure Robot Radios
 ======================
 
