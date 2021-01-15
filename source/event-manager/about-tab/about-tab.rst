@@ -1,9 +1,7 @@
 About Tab
 =========
 
-.. image:: images/abouttab.png
-	:align: center
-	:alt: About tab
+.. image:: images/about-tab-1.png
 
 The "About" tab contains version information and software notices. 2020 versions of FMS will always have a Major revision of "7".
 
