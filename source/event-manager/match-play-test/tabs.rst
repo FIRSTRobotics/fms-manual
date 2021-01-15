@@ -8,9 +8,9 @@ For detailed information within the Match Play and Match Test Interfaces
 The bottom of the Match Play interface has a display window with a number of tabs:
 
 * *Schedule -* displays the currently active schedule
-* *Score -* displays the counts for various scoring elements as they are entered by referees or collected from automated scoring components on the field ( `details found here <../../eventmanager/l/608605-score-tab>`_ )
-* *Game Details* - displays detailed information specific to the game (if applicable, `details found here <../../eventmanager/l/847060-game-detail-tab>`_ )
-* *Status -* displays connection information on all the robots current on the playing field ( `details found here <../../eventmanager/l/608692-status-tab>`_ )
+* *Score -* displays the counts for various scoring elements as they are entered by referees or collected from automated scoring components on the field ( `score tab <../../eventmanager/l/608605-score-tab>`_ )
+* *Game Details* - displays detailed information specific to the game (if applicable, `game specific <../../eventmanager/l/847060-game-detail-tab>`_ )
+* *Status -* displays connection information on all the robots current on the playing field ( `status tab <../../eventmanager/l/608692-status-tab>`_ )
 * *Video Switch -* manual interface used to control the Audience Display
 * *Message -* display messages on the Background of the Audience Display
 * *Options -* configuration options
