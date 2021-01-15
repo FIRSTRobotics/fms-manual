@@ -55,7 +55,7 @@ FMS Manual
    :caption: Off-Season FMS
 
    off-season-fms/configuration/index
-   off-season-fms/syncing-with-first/index
+   off-season-fms/syncing-data-with-first/index
    off-season-fms/field-access-point/index
 
 .. toctree::

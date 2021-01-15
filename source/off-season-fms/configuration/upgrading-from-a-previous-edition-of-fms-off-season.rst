@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 Upgrading from a previous edition of FMS Off-Season
 ===================================================
 

@@ -1,3 +1,5 @@
+.. include:: <isonum.txt>
+
 About Off-Season FMS and Requirements
 =====================================
 
