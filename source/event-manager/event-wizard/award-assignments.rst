@@ -1,7 +1,7 @@
 Award Assignments
 =================
 
-.. image:: images/activate-schedule-1.png
+.. image:: images/award-assignments-1.png
 
 [Red] In order for an award to be visible on the web through the FIRST website, it must be marked as "Post" using the checkbox in that award's row.
 
@@ -18,15 +18,15 @@ After all awards for the day (or the event) have been presented, use the Upload 
 Stealth Mode
 ###############
 
-.. image:: images/activate-schedule-2.png
+.. image:: images/aaward-assignments-2.png
 
 When stealth mode is enabled the data in "Team Number", "Team Name" and "Person" fields is hidden, and a message is added on the bottom left. This data remains hidden until the button is toggled again. The data can be viewed once again by toggling the stealth mode off using the "toggle winner visibility" button. Note that stealth mode is on by default when the award page is loaded, and would need to be manually toggled off.
 
 Present an Award
 ################
 
-.. image:: images/activate-schedule-3.png
-.. image:: images/activate-schedule-4.png
+.. image:: images/award-assignments-3.png
+.. image:: images/award-assignments-4.png
 
 To assign an award:
 
@@ -46,23 +46,24 @@ In normal operation, this process is not done by following these steps for each 
 
 For award presented to individuals, such as Volunteer of the Year, a person first/last name box is offered on the award assignment screen as shown below.
 
-.. image:: images/activate-schedule-5.png
+.. image:: images/award-assignments-5.png
 
 Award Assignment from Application
 #################################
+
 Some award require the winning team/person to have previously applied or been nominated, such as the Woodie Flower's Award. In these cases, when the assigning the award in FMS, a drop-down list of potential winners will be offered. The winning team should be included on the list, and selecting them will populate the corresponding data on the assignment screen. Select save to commit the change, as with other awards. For awards where nominees are a specific person, from a specific team, the person first and last name fields additionally appear as shown below to the right. Selecting the winner from the dropdown completes all necessary corresponding fields.
 
-.. image:: images/activate-schedule-6.png
+.. image:: images/award-assignments-6.png
 
 Award Assignment Confirmation Messages
 ######################################
 
-.. image:: images/activate-schedule-7.png
-
+.. image:: images/award-assignments-7.png
 
 When a team number is entered on the Assign Award dialogue, there are potential confirmation messages that can be presented.
 
-.. image:: images/activate-schedule-7.png
+.. image:: images/award-assignments-7.png
+
 Upon each award assignment, the assignment is compared against an eligibility algorithm for the given team to determine if they qualify for that award. If an attempt is made to assign an award to an ineligible team, a message is presented and requires confirmation. Consult with the Judge Advisor for additional information.
 
 Award Assignment Notes

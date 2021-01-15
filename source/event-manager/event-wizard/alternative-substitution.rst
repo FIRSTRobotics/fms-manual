@@ -4,7 +4,7 @@ Alternative Substitution
 
 Substitution
 ############
-.. image:: images/substitution-1.png
+.. image:: images/alternate-substitution-1.png
 
 Playoff Tournament rules (other than events using 4-team alliances, such as the FIRST Championship) stipulate that if any member of an alliance becomes unable or unwilling to continue playing through the tournament, they can be replaced by the next highest-ranking team not selected during Alliance Selection. To add a backup team to an alliance:
 
@@ -23,10 +23,10 @@ A backup robot cannot be removed once it has played in a match.
 
 
 Un-doing Substitution
-############
+#####################
 
 If a substitution is made by accident, it can be undone. Though it is possible to undo, it can add confusion to field staff and audience members, and scorekeepers should be double checking before entering substitute robots in the first place. To undo a substitution, click the red "X" next to the backup robot, as shown below with the green arrow. The software will confirm that you want to undo the backup robot, and at official FIRST events, require a password from event support before completing the process.
 
 A backup robot cannot be removed once it has played in a match.
 
-.. image:: images/substitution-2.png
+.. image:: images/alternate-substitution-2.png
