@@ -59,8 +59,8 @@ Access flash page
 
 Click on "Connectivity" in the navigation bar on the left side to access the firmware flash page.
 
-Flash Firmware
-^^^^^^^^^^^^^^
+Flash Firmware (Default Linksys)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/loading-openwrt-3.png
 
@@ -92,8 +92,8 @@ Password: "root" (for an FRC image) or blank for default OpenWRT
 
 Then click Login.
 
-Flash firmware
-^^^^^^^^^^^^^^
+Flash firmware (OpenWRT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/loading-openwrt-5.png
 
