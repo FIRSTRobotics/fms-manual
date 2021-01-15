@@ -88,7 +88,7 @@ After generation, clicking the "Schedule" tab (marked with a red box) will prese
 
 Note that these times are fixed and will not update, “The Schedule is The Schedule” so to speak.
 
-**The goal should be to play as close to the original published schedule as possible, without getting more than 4-5 minutes ahead.** The timer on the bottom bar (See :ref:`Indicators`) will display ahead/behind information.
+**The goal should be to play as close to the original published schedule as possible, without getting more than 4-5 minutes ahead.** The timer on the bottom bar (See Indicators) will display ahead/behind information.
 
 It is recommended to not get too far ahead regardless of how well things are going as this can be confusing to teams, as well as parents, VIPs, sponsors, etc. who show up to see a particular team compete only to find out the match was played early. Much of the audience is also online for FRC events, and may be tuning into the event broadcast based on the published schedule and matches. Running ahead could cause a viewer to miss important content.
 
