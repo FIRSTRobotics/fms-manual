@@ -5,3 +5,4 @@ Field Test
    :maxdepth: 1
 
    field-test
+   game-specific

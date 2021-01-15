@@ -1,8 +1,6 @@
 Build Schedule
 ==============
 
-
-
 Define Tournament Level Parameters
 ##################################
 
