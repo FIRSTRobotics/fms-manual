@@ -6,7 +6,7 @@ Installation
 Retrieve Installer
 ------------------
 
-FMS OFF-SEASON SHOULD NOT BE INSTALLED ON TOP OF A PREVIOUS FMS OFF-SEASON VERSION, YOU MUST COMPLETELY REMOVE THE OLD VERSION AND DELETE THE SQL INSTANCE BEFORE CONTINUING. For help on doing this, please `go to this article. <../../offseason/l/741938-upgrading-from-a-previous-edition-of-fms-off-season>`_
+FMS OFF-SEASON SHOULD NOT BE INSTALLED ON TOP OF A PREVIOUS FMS OFF-SEASON VERSION, YOU MUST COMPLETELY REMOVE THE OLD VERSION AND DELETE THE SQL INSTANCE BEFORE CONTINUING. For help on doing this, please :doc:`go to this article. <upgrading-from-a-previous-edition-of-fms-off-season>`
 
 In order to install FMS Off-Season, download the EXE file from the *FIRST*\ |reg| website. The file contains the necessary pre-requisites and is usually around 600 MB in size.
 
@@ -48,7 +48,7 @@ Desktop Icons
 
 The installer will place an icon on the desktop. The FMS icon (red arrow) will open the Event Manager (which includes the wizard that walks through the event, the control to turn robots on and off, etc).
 
-The Audience Display, which will display scores and team information (as well as playing game sounds), will additionally add an icon if you elect to install it. For more information, `see this article <../../audience/l/558885-installation>`_ .
+The Audience Display, which will display scores and team information (as well as playing game sounds), will additionally add an icon if you elect to install it. For more information, :doc:`see this article <../../audience-display/configuration/installation>` .
 
 Uninstalling
 ------------
@@ -71,7 +71,7 @@ Launch FMS Off-Season by double-clicking on the FMS shortcut. If you are prompte
 
 .. image:: images/installation-5.png
 
-Once FMS is loaded you will see the following screen must agree to the warning to get started. Beyond that, refer to the `User’s Manual <../../eventmanager>`_ for additional operating instructions.
+Once FMS is loaded you will see the following screen must agree to the warning to get started. Beyond that, refer to the Event Manager for additional operating instructions.
 
 .. image:: images/installation-6.png
 
@@ -80,7 +80,7 @@ Launching Audience
 
 Double click the “Audience Display” shortcut on your desktop to launch the Audience Display. The audience display will appear with the “Background” and game logo visible. Only open the Audience Display after configuring an event through FMS Event Wizard.
 
-See the Audience Display information in the `FMS User’s Guide <../../audience>`_ documentation for additional details about using the Audience Display. Note: The Audience Display must be running in order to hear game sounds.
+See the Audience Display information in the :doc:`FMS User’s Guide <../../audience-display/displays/index>` documentation for additional details about using the Audience Display. Note: The Audience Display must be running in order to hear game sounds.
 
 Audience Compatibility Mode
 ---------------------------

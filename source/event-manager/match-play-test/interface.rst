@@ -8,9 +8,9 @@ Match Play
 
 Match Play (and Match Test) are the most commonly used environments during an FRC event. The screen is used to start and stop matches, disable robots, and control the Audience Display.
 
-[Red] The top part of the screen shows the current match number, match time, score for the alliances and detail by station. Match time is updated in real time and will correspond with the same information shown on the LED Displays. The status of the robots at each end of the playing field is communicated to FMS by the SCCs and DSs. The color of each box corresponds to each end of the playing field, blue for the Blue Alliance, and red for the Red Alliance. Each box includes information on the status of the three robots on each alliance ( `described later <../../eventmanager/l/608578-interface#>`_ )
+[Red] The top part of the screen shows the current match number, match time, score for the alliances and detail by station. Match time is updated in real time and will correspond with the same information shown on the LED Displays. The status of the robots at each end of the playing field is communicated to FMS by the SCCs and DSs. The color of each box corresponds to each end of the playing field, blue for the Blue Alliance, and red for the Red Alliance. Each box includes information on the status of the three robots on each alliance.
 
-[White] Match Control is handled using the buttons in the center of the Match Play and Match Test screens ( `described later <../../eventmanager/l/608578-interface#>`_ )
+[White] Match Control is handled using the buttons in the center of the Match Play and Match Test screens.
 
 [Blue] The lower portion of the screen changes based on the selected tab to display schedule information, detailed scoring, and more (described later)
 
@@ -24,6 +24,7 @@ Match number and timing information is shown at the very top of the display (yel
 Additionally along the top bar of Match Play is detailed station information- the background color indicates the alliance (Red or Blue) and the number near the textbox indicates the station (1 to 3). The information for each Alliance is broken down into three groups, FMS, Team, and Robot (based on the titles indicated by the green arrow). Markers in the graphic are shown for Blue Alliance, though the layout is the same for the Red Alliance.
 
 FMS
+---
 
 Controls to inform FMS which robot in the indicated station position and how to handle it:
 
@@ -48,6 +49,7 @@ Controls to inform FMS which robot in the indicated station position and how to 
 
 
 Team
+----
 
 Indicates the state of the DS:
 
@@ -60,6 +62,7 @@ Indicates the state of the DS:
 
 
 Robot
+-----
 
 Indicates the state of the Robot:
 
@@ -97,9 +100,6 @@ The buttons in the middle section are used to step through the Match process. In
 * Timeout Start - initialize or end a timeout and show the timing information on the Audience Display and on field LED displays. Length of a Timeout can be changed on the "Options" tab. *Additional options are outlined below*
 
    * *Additional options are outlined below*
-
-
-
 
 Abort Match Option
 ------------------

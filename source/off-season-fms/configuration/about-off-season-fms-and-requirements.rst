@@ -42,6 +42,6 @@ If you wish to run the Audience Display in addition to the Off-Season FMS, on th
 Important Off-Season Notes
 --------------------------
 
-Do not install FMS Off-Season on top of a previous installation of the software. Due to annual changes in areas such as the database, it is safest to completely uninstall and remove any previous installations of FMS from your computer before installing a new version. For assistance in properly removing a previous version, please `see this article <../../offseason/l/741938-upgrading-from-fms-2016>`_ .
+Do not install FMS Off-Season on top of a previous installation of the software. Due to annual changes in areas such as the database, it is safest to completely uninstall and remove any previous installations of FMS from your computer before installing a new version. For assistance in properly removing a previous version, please :doc:`see this article <upgrading-from-a-previous-edition-of-fms-off-season>` .
 
 IMPORTANT: It is highly recommended that you do not install FMS Off-Season on machines that are school or business “owned” or controlled, as they often include restrictive user accounts, additional firewall and security programs, etc, which are not tested by *FIRST* and may interfere with FMS’s ability to function properly.

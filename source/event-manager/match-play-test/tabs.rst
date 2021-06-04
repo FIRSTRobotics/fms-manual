@@ -8,9 +8,9 @@ For detailed information within the Match Play and Match Test Interfaces
 The bottom of the Match Play interface has a display window with a number of tabs:
 
 * *Schedule -* displays the currently active schedule
-* *Score -* displays the counts for various scoring elements as they are entered by referees or collected from automated scoring components on the field ( `score tab <../../eventmanager/l/608605-score-tab>`_ )
-* *Game Details* - displays detailed information specific to the game (if applicable, `game specific <../../eventmanager/l/847060-game-detail-tab>`_ )
-* *Status -* displays connection information on all the robots current on the playing field ( `status tab <../../eventmanager/l/608692-status-tab>`_ )
+* *Score -* displays the counts for various scoring elements as they are entered by referees or collected from automated scoring components on the field (:doc:`score tab <score-tab>`)
+* *Game Details* - displays detailed information specific to the game (if applicable, :doc:`game specific <game-detail-tab>` )
+* *Status -* displays connection information on all the robots current on the playing field (see :doc:`status tab <status-tab>`)
 * *Video Switch -* manual interface used to control the Audience Display
 * *Message -* display messages on the Background of the Audience Display
 * *Options -* configuration options
@@ -52,7 +52,7 @@ Video Switch
 
 .. image:: images/tabs-2.png
 
-Located on the Video Switch tab are the options to select what is displayed on the Audience Screen. See `Audience Display <../../audience/c/177350>`_ Screens for more details on each option.
+Located on the Video Switch tab are the options to select what is displayed on the Audience Screen. See :doc:`Audience Display <../../audience-display/displays/index>` Screens for more details on each option.
 
 This interface allows the user to select, via the radio buttons, which screen to show to the Audience (i.e. which screen is active in the Audience program.) It also informs which screen is currently being shown.
 
@@ -78,7 +78,7 @@ On the right side of the display, there are options related to common actions th
 
 * *Force Cleanup Lights On* - When not in-match, force the purple "cleanup" lights to illuminate and indicate field staff may begin clearing the field. Cannot be used once the green lights are on.
 * *Force Field Lights On* - When not in-match, force the green field reset lights to illuminate and indicate "safe to enter" state
-* *Force Event Database Backup* - As the name suggests, forces a copy of the event database to be made and written to the USB Drive specified in `Settings <../../eventmanager/l/607921-backup-config>`_
+* *Force Event Database Backup* - As the name suggests, forces a copy of the event database to be made and written to the USB Drive specified in :doc:`Settings <../settings/backup-config>`
 * *Re-calculate Current Rankings* - Runs all teams through the calculator for the given tournament phase (i.e. Qualifications, QuarterFinals, SemiFinals, etc)
 * *Clear Access Point* - Remove the team programming from the AP (does not changed the 2.4 GHz radio). Useful in situations where a team needs to connect to their machine, but the AP is currently programmed to their team number (such as between finals matches)
 

@@ -11,7 +11,7 @@ Accessing Settings
 .. image:: images/settings-0.png
    :alt: Settings panel of the Audience Display
 
-To access the settings panel, with the Audience Display open and running (see `About <../../audience/l/558887?data-resolve-url=true&data-manual-id=59147>`_ ) use the hotkey combination of CTRL-SHIFT-F12 (or, alternatively, CTRL-SHIFT-C). This will trigger the upper portion of the Audience Display (or Lower, depending on the Vertical Position setting) to flip to the settings pane as shown in the graphic.
+To access the settings panel, with the Audience Display open and running (see :doc:`About <about-audience-display>`) use the hotkey combination of CTRL-SHIFT-F12 (or, alternatively, CTRL-SHIFT-C). This will trigger the upper portion of the Audience Display (or Lower, depending on the Vertical Position setting) to flip to the settings pane as shown in the graphic.
 
 To close the settings panel, either click the 'Save Changes' button (saves changes and closes) or the 'Cancel' button (does not save changes and closes). Note that hitting 'Cancel' will not undo any adjustments you may have made to the position of the window on the screen.
 
@@ -104,7 +104,7 @@ Control Bar
 .. image:: images/settings-8.png
    :alt: Left to Right. Version Info, "Check For Updates" button, "Restore Defaults" button, "Save Changes" button, "Cancel" button.
 
-On the bottom of the settings pane is the control bar. On the left is the version of the Audience Display software (which must match FMS, see `Installation <../../audience/l/558885?data-resolve-url=true&data-manual-id=59147#Version-Matching>`_ ). On the right are options to Restore Defaults (return the Audience Display to it's "out of the box" settings, colors, etc), Save Changes (save any changes made and close settings) and Cancel (don't save any changes, and close the settings panel). Note that "Cancel" does not undo any positioning changes made, either through centering or manual adjustments. Also to the right of the Version information is the "Check for Updates" button, which checks the LOCAL FMS installation for updates to the Audience Display application. This DOES NOT look for updates on the Web. You must update FMS before using this "Check for Updates" button.
+On the bottom of the settings pane is the control bar. On the left is the version of the Audience Display software (which must match FMS, see :doc:`Installation <installation>`). On the right are options to Restore Defaults (return the Audience Display to it's "out of the box" settings, colors, etc), Save Changes (save any changes made and close settings) and Cancel (don't save any changes, and close the settings panel). Note that "Cancel" does not undo any positioning changes made, either through centering or manual adjustments. Also to the right of the Version information is the "Check for Updates" button, which checks the LOCAL FMS installation for updates to the Audience Display application. This DOES NOT look for updates on the Web. You must update FMS before using this "Check for Updates" button.
 
 Animation Rendering Optimization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
