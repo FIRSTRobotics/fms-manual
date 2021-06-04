@@ -275,6 +275,6 @@ Provided an event has an internet connection available, the FMS server uploads m
 
 If the event does not have Internet available, event data is backed up to a USB drive. The FTA at the event then uploads the event database as possible to HQ for posting to Azure.
 
-The database is queried via the FMS API (Documentation available here: `https://usfirst.collab.net/sf/projects/first_community_developers/ <https://usfirst.collab.net/sf/projects/first_community_developers/>`_ ) and is available to users who request access.
+The database is queried via the FMS API (Documentation available here: `https://usfirst.collab.net/sf/projects/first_community_developers/ <https://usfirst.collab.net/sf/projects/first_community_developers/>`__ ) and is available to users who request access.
 
 The data model is year specific, due to game scoring breakdowns being available.

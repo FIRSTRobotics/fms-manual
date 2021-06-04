@@ -3,7 +3,7 @@
 Recovery Procedure
 ==================
 
-In the event you are unable to access your AP that has been flashed with the FRC\ |reg| OpenWRT firmware, there is a recovery procedure available to boot to the backup partition. This will restore all settings to the image defaults (as described in `Default Settings <../../offseason/l/755461-default-settings>`_ ) which should allow you to access the device again.
+In the event you are unable to access your AP that has been flashed with the FRC\ |reg| OpenWRT firmware, there is a recovery procedure available to boot to the backup partition. This will restore all settings to the image defaults (as described in :doc:`Default Settings <default-settings>` ) which should allow you to access the device again.
 
 Recovery
 --------

@@ -80,7 +80,7 @@ Launching Audience
 
 Double click the “Audience Display” shortcut on your desktop to launch the Audience Display. The audience display will appear with the “Background” and game logo visible. Only open the Audience Display after configuring an event through FMS Event Wizard.
 
-See the Audience Display information in the `FMS User’s Guide <../../audience-displays/displays/index>`_ documentation for additional details about using the Audience Display. Note: The Audience Display must be running in order to hear game sounds.
+See the Audience Display information in the :doc:`FMS User’s Guide <../../audience-display/displays/index>` documentation for additional details about using the Audience Display. Note: The Audience Display must be running in order to hear game sounds.
 
 Audience Compatibility Mode
 ---------------------------

@@ -1,7 +1,7 @@
 Firewall Settings
 =================
 
-As detailed in the `Default Settings <../../offseason/l/755461-default-settings>`_ article, the image comes with the firewall enabled by default. This article describes how to disable and re-enable the firewall. This article does not go into detail on how to add additional rules to the firewall, if you wish to do this, we recommend editing the /etc/firewall file directly (either via ssh or copying it off the device and then back on) and using the existing rules as a template.
+As detailed in the :doc:`Default Settings <default-settings>` article, the image comes with the firewall enabled by default. This article describes how to disable and re-enable the firewall. This article does not go into detail on how to add additional rules to the firewall, if you wish to do this, we recommend editing the /etc/firewall file directly (either via ssh or copying it off the device and then back on) and using the existing rules as a template.
 
 Accessing the Firewall Page
 ---------------------------
@@ -34,4 +34,4 @@ To re-enable the firewall
 #. Set the teams zone forward rule to reject
 #. Click Save & Apply
 
-Warning: Setting other entries to reject may prevent you from accessing the AP web page and/or SSH. If this happens, you may be able to access the web page via the alternate address (192.168.1.1 ont he Internet port vs 10.0.100.2 on the other ports.) If you are still unable to access the AP, you may need to perform the recovery procedure described in the `Recovery Procedure <../../offseason/l/756905-recovery-procedure>`_ article.
+Warning: Setting other entries to reject may prevent you from accessing the AP web page and/or SSH. If this happens, you may be able to access the web page via the alternate address (192.168.1.1 ont he Internet port vs 10.0.100.2 on the other ports.) If you are still unable to access the AP, you may need to perform the recovery procedure described in the :doc:`Recovery Procedure <recovery-procedure>` article.
