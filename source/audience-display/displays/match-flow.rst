@@ -25,7 +25,7 @@ Video and Score
 
 Video and Score is the audience display most typically used at an FRC\ |reg| competition. Event Name, match time, score, game-specific details such as Stage Progression and GENERATOR SWITCH state, and match number information overlayed on the "bottom third" of the screen. The *Match Under Review* icon is used to show that the Head Referee has marked the match for further review after completion- and indicated by a yellow referee icon appearing between the scores. If the event name is too long for the space provided, it will horizontally scroll to the right of the timer indicator.
 
-Traditionally, the Video and Score will have a space for chroma to add video or production data. If set to Rankings (see `Settings <../../audience/l/558886-settings#>`_ ) the upper portion of the screen will be replaced with current rankings or the bracket (as shown above)
+Traditionally, the Video and Score will have a space for chroma to add video or production data. If set to Rankings (see :doc:`Settings <../configuration/settings>` ) the upper portion of the screen will be replaced with current rankings or the bracket (as shown above)
 
 Match Result
 ------------

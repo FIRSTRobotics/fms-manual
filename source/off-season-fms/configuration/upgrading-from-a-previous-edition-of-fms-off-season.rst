@@ -53,7 +53,7 @@ Reboot the computer before continuing.
 Installing FMS Off-Season
 -------------------------
 
-For information on installing the new version of FMS, please `go to this article. <../../offseason/l/589507-installation>`_
+For information on installing the new version of FMS, please :doc:`go to this article. <installation>`.
 
 Failed Installations
 --------------------

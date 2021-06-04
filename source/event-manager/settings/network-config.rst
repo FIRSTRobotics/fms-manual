@@ -18,5 +18,5 @@ The Network Config tab on the Settings page contains all of the network settings
 
 For events with multiple fields, the "Group" option can be changed to avoid overlap in radio test groups across access points.
 
-To change the type of Router or Access Point in use, visit the `Hardware <../../eventmanager/l/607922-hardware>`_ tab. For Status information visit the `Status <../../eventmanager/l/1061805-network-status>`_ tab.
+To change the type of Router or Access Point in use, visit the :doc:`Hardware <hardware>` tab. For Status information visit the :doc:`Status <network-status>` tab.
 

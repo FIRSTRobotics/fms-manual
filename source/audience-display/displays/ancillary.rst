@@ -21,9 +21,9 @@ Video Only
 
 The Video Only audience screen is used when it is desirable to overlay no scoring, time, or match information on the audience screen.
 
-[Left] Full screen chroma for replacement with video or production information. Chroma color can be adjusted in `Settings <../../audience/l/558886-settings#>`_ .
+[Left] Full screen chroma for replacement with video or production information. Chroma color can be adjusted in :doc:`Settings <../configuration/settings>` .
 
-[Right] Instead of chroma, display a full screen version of the current rankings (Qual) or bracket (Playoff). Mode depends on `Settings <../../audience/l/558886-settings#>`_ .
+[Right] Instead of chroma, display a full screen version of the current rankings (Qual) or bracket (Playoff). Mode depends on `Settings <../../audience/l/558886-settings#>`_.
 
 Background
 ----------
@@ -47,4 +47,4 @@ The timeout display is available during both Qualification and Playoff matches, 
 
 (Above) Traditional timeout display, with chroma available for video overlay.
 
-If configured for Rankings (see `Settings <../../audience/l/558886-settings#>`_ ) instead of Chroma, the current rankings or bracket will be displayed in place of the Chroma.
+If configured for Rankings (see :doc:`Settings <../configuration/settings>` ) instead of Chroma, the current rankings or bracket will be displayed in place of the Chroma.
