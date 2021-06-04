@@ -5,9 +5,9 @@ Overview
 
 The Wireless Acess Point used for 2017 FRC\ |reg| competitions was a Linksys 1900ACS running customized OpenWRT firmware. In an attempt to provide a tested AP that can be used with FMS Offseason, we are releasing a modified version of the firmware used during the season that teams or individuals could load on their own devices.
 
-This page provides an overview of the images. For download and installation information, please see `Loading OpenWRT. <../../offseason/l/755140-loading-openwrt>`_
+This page provides an overview of the images. For download and installation information, please see :doc:`Loading OpenWRT <loading-openwrt>`
 
-While we have not yet had any issues with a device that could not be recovered using the `Recovery Procedure <../../offseason/l/756905-recovery-procedure>`_ in the 80+ devices we have flashed this season, please note that loading new firmware on a device or modifying device settings always carries some level of risk. Additionally, loading non-manufacturer provided firmware onto the device may invalidate your warranty.
+While we have not yet had any issues with a device that could not be recovered using the :doc:`Recovery Procedure <recovery-procedure>` in the 80+ devices we have flashed this season, please note that loading new firmware on a device or modifying device settings always carries some level of risk. Additionally, loading non-manufacturer provided firmware onto the device may invalidate your warranty.
 
 The OpenWRT build used during the FRC season contained a specific set of drivers (including a specific patch developed to address an issue that was seen when used with the OM5P-AC) and modules that was tested to work with the OpenMesh OM5P-AN and OM5P-AC radios. This build also contained a set of default settings such as usernames and passwords, network configurations, and firewall configuration, that matched the desired configuration for the 2017 FRC season.
 

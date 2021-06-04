@@ -23,7 +23,7 @@ The Video Only audience screen is used when it is desirable to overlay no scorin
 
 [Left] Full screen chroma for replacement with video or production information. Chroma color can be adjusted in :doc:`Settings <../configuration/settings>` .
 
-[Right] Instead of chroma, display a full screen version of the current rankings (Qual) or bracket (Playoff). Mode depends on `Settings <../../audience/l/558886-settings#>`_.
+[Right] Instead of chroma, display a full screen version of the current rankings (Qual) or bracket (Playoff). Mode depends on :doc:`Settings <../configuration/settings>`.
 
 Background
 ----------

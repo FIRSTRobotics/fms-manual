@@ -78,7 +78,7 @@ On the right side of the display, there are options related to common actions th
 
 * *Force Cleanup Lights On* - When not in-match, force the purple "cleanup" lights to illuminate and indicate field staff may begin clearing the field. Cannot be used once the green lights are on.
 * *Force Field Lights On* - When not in-match, force the green field reset lights to illuminate and indicate "safe to enter" state
-* *Force Event Database Backup* - As the name suggests, forces a copy of the event database to be made and written to the USB Drive specified in :doc:`Settings <../backup-config>`
+* *Force Event Database Backup* - As the name suggests, forces a copy of the event database to be made and written to the USB Drive specified in :doc:`Settings <../settings/backup-config>`
 * *Re-calculate Current Rankings* - Runs all teams through the calculator for the given tournament phase (i.e. Qualifications, QuarterFinals, SemiFinals, etc)
 * *Clear Access Point* - Remove the team programming from the AP (does not changed the 2.4 GHz radio). Useful in situations where a team needs to connect to their machine, but the AP is currently programmed to their team number (such as between finals matches)
 
