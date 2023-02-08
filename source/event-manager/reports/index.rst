@@ -1,4 +1,4 @@
-.. _reports_index:
+.. _reports-reports-index:
 
 Reports
 ===========
@@ -7,3 +7,4 @@ Reports
    :maxdepth: 1
 
    reports
+   operations

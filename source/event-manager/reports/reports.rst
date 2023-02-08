@@ -1,4 +1,4 @@
-.. _reports-home:
+.. _reports-reports:
 
 Reports
 ===========
@@ -8,95 +8,85 @@ Retrieve event information through formatted reports.
 Menu
 ----
 
-.. image:: images/reports-0.png
+.. image:: images/reports-menu.png
 
-The Reports screen is used to generate printable reports needed throughout the tournament. Once a report has been generated, several options are available to the user. Printing options can be selected as well as a file-export feature. Reports can be exported in Microsoft Excel, Word, or PDF file formats.
+The Reports screen is used to generate printable reports needed throughout the tournament.
+Printing options can be selected as well as a file-export options in Microsoft Excel, Word or PDF file formats.
 
 Example Report
 --------------
 
-.. image:: images/reports-1.png
+.. image:: images/report-example.png
 
-An example report, showing the event list. Report could be formatted (although default formatting should be sufficient) and then printed or saved from this interface using the buttons on the bar indicated above with the orange arrow.
+An example report, showing the qualification schedule for a demonstration regional. From here the report could be printed or saved using the buttons on the bar above the event title (in this example).
 
 Available Reports
 -----------------
 
-Tournament Level Reports:
+Tournament Reports:
 
-* Practice Tournament *Schedule* : Current active match schedule *Cycle Time* : This report shows the actual time between match starts *Bypass* : This report shows which teams have been Bypassed during the currently active match schedule
+* Practice Tournament
 
-   * *Schedule* : Current active match schedule
-   * *Cycle Time* : This report shows the actual time between match starts
-   * *Bypass* : This report shows which teams have been Bypassed during the currently active match schedule
-
-
-* Qualification Tournament *Schedule* : Current active match schedule *Schedule By Team* : Current active match schedule, sorted by team *Announcer’s Report* : detailed report all team details for each match *Match Results* : Final scores of all completed matches in the currently active schedule *Ranking* : Current ranking of all teams as the event *Bypass* : This report shows which teams have been Bypassed during the currently active match schedule *Cycle Time* : This report shows the actual time between match starts
-
-   * *Schedule* : Current active match schedule
-   * *Schedule By Team* : Current active match schedule, sorted by team
-   * *Announcer’s Report* : detailed report all team details for each match
-   * *Match Results* : Final scores of all completed matches in the currently active schedule
-   * *Ranking* : Current ranking of all teams as the event
-   * *Bypass* : This report shows which teams have been Bypassed during the currently active match schedule
-   * *Cycle Time* : This report shows the actual time between match starts
+   * *Schedule* : Practice tournament match schedule (updated as teams are added or removed from matches)
+   * *Cycle Time* : Shows the actual time between match starts
+   * *Bypass* : Shows which teams have been Bypassed during which matches of the practice tournament
 
 
-* Playoff Matches *Schedule* : Current active match schedule *Bracket* : Tournament bracket *Announcer’s Report* : detailed report all team details for each match *Match Results* : Final scores of all completed matches in the currently active schedule *Playoff Rankings Report* : Shows the playoff alliances in rank order within the current playoff level and with their ranking detail *Bypass* : This report shows which teams have been Bypassed during the currently active match schedule *Cycle Time* : This report shows the actual time between match starts
+* Qualification Tournament
 
-   * *Schedule* : Current active match schedule
+   * *Schedule* : Qualification match schedule
+   * *Schedule By Team* : Qualification match schedule, sorted by team (lengthy report, not recommended for printing)
+   * *Announcer’s Report* : Detailed report of team details for reference by the announcers (one page per match)
+   * *Match Results* : Final scores of all completed matches in the qualification tournament
+   * *Ranking* : Current qualifiction ranking of all teams at the event (updates as matches are player or re-played)
+   * *Bypass* : Shows which teams have been Bypassed during which matches of the qualification tournament
+   * *Cycle Time* : Shows the actual time between match starts
+
+
+* Playoff Matches
+
+   * *Schedule* : Playoff match schedule
    * *Bracket* : Tournament bracket
-   * *Announcer’s Report* : detailed report all team details for each match
-   * *Match Results* : Final scores of all completed matches in the currently active schedule
+   * *Announcer’s Report* : Detailed report of team details for reference by the announcers (one page per alliance)
+   * *Match Results* : Final scores of all completed matches in the playoff tournament
    * *Playoff Rankings Report* : Shows the playoff alliances in rank order within the current playoff level and with their ranking detail
-   * *Bypass* : This report shows which teams have been Bypassed during the currently active match schedule
-   * *Cycle Time* : This report shows the actual time between match starts
-
-
+   * *Bypass* : Shows which teams have been Bypassed during which matches of the playoff tournament
+   * *Cycle Time* : Shows the actual time between match starts
 
 
 FTA Reports:
 
-* *WPA Key Status Report* : shows if teams have linked or played in matches successfully
-* *FTA Team List WPA* : Same as *WPA Key Status Report* , but with WPA keys shown. Requires FTA password to run.
-* *WPA Test Pit Signs Report* : Generates one page per team that has not yet connected to the field, to place in the team’s pit or distribute as reminder
+* *WPA Key Status Report* : Shows if teams have linked or played in matches successfully
+* *FTA Team WPA Report* : Same as *WPA Key Status Report* , but with WPA keys shown. Requires FTA password to run and should not be printed.
+* *WPA Test Pit Signs Report* : Generates one page per team that has not yet connected to the field (to place in the team’s pit or distribute as reminder to come do a connection test)
 
 
 Head Referee Reports:
 
-* *Tracking Sheet:* A sheet used by Head Referees for tracking information throughout the event. Head Referee may request a copy from the Scorekeeper.
-* *Qual. Cards* : Match schedule showing teams with assigned cards during Qualification matches
-* *Backup Robots* : Report for teams to accept or decline their position as a backup robot
-* *Playoff Cards* : Match schedule showing alliances with assigned cards during Playoff matches
-* *Playoff Coupons* : Timeout and Backup coupons for Playoffs (includes Team numbers)
+* *Tracking Sheet:* Used by Head Referees for tracking information throughout the event. Head Referee may request a copy from the Scorekeeper.
+* *Qual. Cards* : Match schedule showing teams with assigned cards during the qualification tournament
+* *Backup Robots* : For tracking teams as they accept or decline their position as a backup robot in the playoff tournament
+* *Playoff Cards* : Match schedule showing alliances with assigned cards during playoff matches
+* *Playoff Coupons* : Backup robot coupons for the playoffs tournment
+
+
+Awards Reports:
+
+* *Awards List* : Lists awards to be given out at the event. The winners are included if they have been assigned.
+* *Awards Eligibility Report* : Lists all teams attending the event and their eligibility for certain awards (such as the Rookie All Star Award).
+* *Wildcards Script* : Script for the Announcer to read should any Wildcards be generated at the event
+* *Award Script Day 1* : Script for the Announcer to read for awards expected to be presented on the first day of the event
+* *Award Script Day 2* : Script for the Announcer to read for awards expected to be presented on the second day of the event
 
 
 Other Event Reports:
 
-* *Competing Teams List Report* : Same as the Season Team List, but filtered to only the teams competing at the currently selected event
-* *Awards List* : A list of the awards to be given out at the event. The winners are included if they have been assigned.
-* *Awards Eligibility Report* : A report listing all teams attending the event, and their eligibility for certain awards (such as Chairman's Award).
-* *Wildcards Script* : Script for Announcer’s should any team generate a Wildcard at the event
-* *Lineup Cards* : Lineup sheets for events using the “4 team alliances” playoff style ( *FIRST* Championship)
+* *Competing Teams List Report* : Same as the season team list, but filtered to only the teams competing at the currently selected event
+* *District Rankings for Event Report* : District rankings of eligible teams playing at the currently selected event. Not representative of overall district ranking, only position at the selected event.
+* *Lineup Cards* : Lineup submission sheets for use during the playoff tournament
 
 
 Season Reports:
 
-* *Event List* : A complete list of all FRC events in the current season (including those manually added events in FMS Off-Season)
+* *Event List* : A complete list of all FRC events in the current season (including those manually added via FMS)
 * *Team List* : A complete list of all registered FRC Teams for the given season
-
-
-Exporting Reports
------------------
-
-.. image:: images/reports-2.png
-
-To export a report (such as providing an Excel version to a Judge Advisor), first, select the export icon (pink arrow) on the bar above the report name. Second (green arrow) select the file format you wish to export. Selections include Microsoft Excel (Excel), Adobe PDF (PDF) or Microsoft Word (Word). This will (after a short "working" indicator) bring up the standard Windows save dialog (right) where you can select the location to export the report.
-
-Printing Reports
-----------------
-
-.. image:: images/reports-3.png
-
-Print reports by selecting the printer icon on the bar above the report name. This will bring up the standard Windows print dialog where the report can be printed.
-

@@ -17,7 +17,7 @@ The above shows the Event Manager interface when opened for the first time. The 
 * :ref:`match-play-test` - the tool used to test the playing field in order to verify proper functionality of all electronics and scoring devices
 * :ref:`match-review-match-review` - review or modify the score from a previous match
 * :ref:`field-test-field-test` - perform basic initial functionality tests of the playing field (not available in Off-Season version)
-* :ref:`reports-home` - generating printable reports such as match schedules, team lists, or printouts for Announcers are all handled through this interface
+* :ref:`reports-reports` - generating printable reports such as match schedules, team lists, or printouts for Announcers are all handled through this interface
 * :ref:`settings-network-status` - Global settings for the software, as well as Administrative functions
 * :ref:`about-tab` - shows the current software version number, allows updates, and shows the EULA
 
