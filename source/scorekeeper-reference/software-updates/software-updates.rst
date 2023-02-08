@@ -15,4 +15,4 @@ Recent Updates
 
 Current Version: 7.1Last Updated: 2020-2-18
 
-Updates and Information:Initial event release 2020
+Updates and Information:Initial event release 2023
