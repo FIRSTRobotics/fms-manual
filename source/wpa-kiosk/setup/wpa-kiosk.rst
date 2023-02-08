@@ -23,6 +23,8 @@ The preferred way to load an event and keys into the Kiosk is via "Sync with FMS
 
 The kiosk will prompt for the PIN number of the event currently active in FMS. This is available from the FTA. Enter the PIN and select OK.
 
+Note: At an off-season event, use the code "0000" to bypass the FTA Authentication.
+
 .. image:: images/wpa-kiosk-3.png
 
 If correct, the number of keys retrieved will be displayed. When using Sync with FMS, simply skip the "WPA File Import" step (after successful download) using the "Next" button on the bottom of the screen.

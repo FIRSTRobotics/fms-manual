@@ -3,7 +3,7 @@
 Live Monitor
 ======================
 
-Watch robot status as it happens. The Field Monitor is part of the web interface, accessible through the webpage at 10.0.100.5 (normally)
+The Field Monitor provides a live view of robot and field status. To view the Field Monitor, access the web interface at 10.0.100.5 and select Field Monitor from the navigation bar.
 
 Basic Layout
 ------------
@@ -54,7 +54,7 @@ Team 5 is actually plugged into Team 4's Driver Station, and so a yellow "M" is 
 
 .. image:: images/live-monitor-3.png
 
-In this example, the team in Station 4 has a team number that is not one expected in the match. Teams expected are 1,2,3,4,5,6, and the team number plugged into Station 4 is Team 8. So this team gets a yellow "W" circle, that means, "Wait your Turn." This can also happen when a team for the next match plugs in to a Player Station prior to a prestart.
+In this example, the team in Station 4 has a team number that is not one expected in the match. Teams expected are 1,2,3,4,5,6, and the team number plugged into Station 4 is Team 8. So this team gets a yellow "W" circle, that means, "Wrong Match." This can also happen when a team for the next match plugs in to a Player Station prior to a prestart.
 
 Match Ready
 -----------

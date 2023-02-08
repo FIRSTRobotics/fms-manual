@@ -48,6 +48,7 @@ FMS Manual
    :caption: Field Monitor
 
    field-monitor/live/index
+   field-monitor/field-connectivity/index
    field-monitor/logs-scores/index
 
 .. toctree::
