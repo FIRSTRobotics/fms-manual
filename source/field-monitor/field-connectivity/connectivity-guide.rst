@@ -17,9 +17,10 @@ In this example, all six teams have a varying connectivity state.
 * Team 3: No roboRIO connection.
 * Team 4: No Radio connection. A green Radio connection is required in order to have a green roboRIO connection.
 * Team 5: An ethernet cable is plugged in, but the DS isn't properly communicating with the FMS.
-* Team 6: Wrong station. Yellow "M" signifies that the team must "Move" to the correct station. Yellow "W" signifies that the team has come up for the "Wrong Match".
+* Team 6: Wrong station. Yellow "M" signifies that the team must "Move" to the correct station (in most cases, stations 1 and 3 are flipped). Yellow "W" signifies that the team has come up for the "Wrong Match" or has plugged in before the scoring table finalized the previous match, in which case their DS is "Waiting".
 
-Reminder: When troubleshooting connectivity, always start with the DS and work your way from left to right on the Field Monitor.
+.. note::
+   Reminder: When troubleshooting connectivity, always start with the DS and work your way from left to right on the Field Monitor.
 
 Driver Station Troubleshooting
 ------------------------------
