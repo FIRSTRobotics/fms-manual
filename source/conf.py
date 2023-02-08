@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Field Management System Manual'
-copyright = '2023, FIRST'
+copyright = '2023 FIRST Robotics Competition'
 author = 'FIRST'
 
 # The full version, including alpha/beta/rc tags
