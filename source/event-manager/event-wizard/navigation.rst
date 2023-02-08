@@ -1,5 +1,7 @@
+.. _event-wizard-nav:
+
 Event Wizard Navigation
-=======================
+=================================
 
 .. image:: images/navigation-1.png
 	:align: center

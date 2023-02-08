@@ -1,5 +1,7 @@
+.. _scorekeeper-step-index:
+
 Scorekeeper Step-by-Step
-========================
+============================================
 
 .. toctree::
    :maxdepth: 1

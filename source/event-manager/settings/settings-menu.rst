@@ -1,5 +1,7 @@
+.. _settings-menu:
+
 Settings Menu
-=============
+======================
 
 Menu
 ----

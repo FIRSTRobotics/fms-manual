@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _fms-whitepaper:
 
 FMS Whitepaper
-==============
+======================
 
 The purpose of this document is to provide an insight to the functional structure and method by which the FIELD MANAGEMENT SYSTEM (FMS) is implemented on a typical FRC\ |reg| field. All rules information should be directed to the season-specific FRC Game Manual, as that is the authoritative source for rules and regulations. This document is purely for informational purposes.
 

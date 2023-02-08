@@ -1,5 +1,7 @@
+.. _reports-home:
+
 Reports
-=======
+===========
 
 Retrieve event information through formatted reports.
 

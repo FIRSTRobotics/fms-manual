@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _off-season-router-config:
 
 Router Configuration
-====================
+======================
 
 Router Notes
 ------------

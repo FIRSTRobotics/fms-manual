@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _scorekeeper-awards:
 
 Awards
-======
+======================
 
 Awards are meant to reward teams for competing!
 

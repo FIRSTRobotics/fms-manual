@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _off-season-network-hardware:
 
 Network Hardware Configuration
-==============================
+=================================
 
 Preparing the network for Off-Season events
 

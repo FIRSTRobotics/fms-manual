@@ -1,4 +1,5 @@
 .. include:: <isonum.txt>
+.. _off-season-robot-radios:
 
 Configure Robot Radios
 ======================

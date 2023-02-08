@@ -1,5 +1,7 @@
+.. _event-wizard-team-selection:
+
 Team Selection
-==============
+======================
 
 .. _wpa_kiosk:
 

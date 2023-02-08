@@ -1,5 +1,7 @@
+.. _off-season-config-index:
+
 Configuration
-=============
+======================
 
 .. toctree::
    :maxdepth: 1

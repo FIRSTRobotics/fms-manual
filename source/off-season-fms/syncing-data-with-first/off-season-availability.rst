@@ -1,4 +1,5 @@
 .. include:: <isonum.txt>
+.. _off-season-sync-availability:
 
 Off-Season Availability
 =======================
@@ -12,28 +13,18 @@ This is not available for versions of FMS installed on personal computers, our "
 Requirements
 ------------
 
-*FIRST* will not support the planning, promotion or execution of off-season *FIRST* RISE events using district-owned or HQ-owned equipment or game elements.
+The requirements for 2023 are still under development. Please come back as updates may be made before the off-season.
 
-This means the following:
+To apply and participate for the 2023 season, the Off-Season event must requirements that include:
 
-* No access to HQ-owned or district-owned fields, game pieces, or other equipment, including renting items from vendors.
-* The off-season version of the Field Management System software will not be updated for INFINITE RECHARGE.
-* No off-season events will be listed on the FRC Events Website.
-
-For more information please see `https://www.firstinspires.org/covid-19 <https://www.firstinspires.org/covid-19>`_
-
-The following information is not relevant for 2020 any longer:
-
-To apply and participate for the 2020 season, the Off-Season event must requirements that include:
-
-* End before November 8th,2020 and start after May 18th, 2020 (dates subject to change)
+* End before November 8th, 2023 and start after May 18th, 2023 (dates subject to change)
 * Use an official *FIRST* field, with FMS and Electronics
-* Have a 2020 certified *FIRST* Technical Advisor (FTA) present throughout the event
+* Have a 2023 certified *FIRST* Technical Advisor (FTA) present throughout the event
 * Have a required minimum number of teams in attendance (read details on the application carefully, please)
 
-   * Note that this process requires all teams participating at the event to have participated in the 2020 FRC Season. For "unofficial" teams (like a "pre-rookie" team or a "second robot" team), *FIRST* has reserved Team numbers 9985-9999, and they may be used to accommodate these teams. Off-Season events may not "take" a team's number who isn't attending the event*
+   * Note that this process requires all teams participating at the event to have participated in the 2023 FRC Season. For "unofficial" teams (like a "pre-rookie" team or a "second robot" team), *FIRST* has reserved additional Team numbers, and they may be used to accommodate these teams. Off-Season events may not "take" a team's number who isn't attending the event*
   
-      * For example: If team 123 is not attending your event, but team 122 is, and brings a second robot, you cannot use team 123 for the second robot. This would miss-represent team 123's record as they are not actually participating. Instead, team 122's second robot could be any number in the reserved range of 9985-9999.*
+      * For example: If team 123 is not attending your event, but team 122 is, and brings a second robot, you cannot use team 123 for the second robot. This would miss-represent team 123's record as they are not actually participating. Instead, team 122's second robot could be any number in the reserved range of team numbers.*
 
 * Steady wired (ethernet) internet must be available throughout the event, at the scoring table. This internet connection should have unrestricted/unfiltered access to ports 80 and 443 (data sync is not WiFi compatible, only hardline internet)
 * *FIRST* Staff are not available for Support of Off-Season events, the FTA is the troubleshooting resource
@@ -48,4 +39,4 @@ Application
 
 To apply for your Off-Season event to be included, please complete the following form at least 7 days before your event start date. Upon approval of your application, you can also add competing teams or adjust basic settings using information emailed to you by *FIRST* .
 
-`https://frc-events.firstinspires.org/services/OffSeasonEvent <https://frc-events.firstinspires.org/services/OffSeasonEvent>`_
+`https://frc-events.firstinspires.org/OffseasonEvent <https://frc-events.firstinspires.org/OffseasonEvent>`_

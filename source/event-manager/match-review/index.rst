@@ -1,5 +1,7 @@
+.. _match-review-index:
+
 Match Review
-============
+======================
 
 .. toctree::
    :maxdepth: 1

@@ -1,5 +1,7 @@
+.. _settings-index:
+
 Settings
-========
+===========
 
 .. toctree::
    :maxdepth: 1

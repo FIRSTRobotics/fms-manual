@@ -1,5 +1,7 @@
+.. _scorekeeper-setup:
+
 Setup (Day 0)
-=============
+======================
 
 Prepare the field and arena for play
 

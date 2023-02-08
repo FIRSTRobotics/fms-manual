@@ -1,5 +1,7 @@
+.. _match-review-log:
+
 View Log
-========
+===========
 
 .. image:: images/view-log-0.png
 

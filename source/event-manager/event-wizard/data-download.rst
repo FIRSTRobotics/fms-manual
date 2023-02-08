@@ -1,5 +1,7 @@
+.. _event-wizard-data-download:
+
 Data Download
-=============
+======================
 
 .. image:: images/data-download-1.png
 	:align: center

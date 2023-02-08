@@ -1,5 +1,7 @@
+.. _off-season-fap-index:
+
 Field Access Point
-==================
+======================
 
 .. toctree::
    :maxdepth: 1

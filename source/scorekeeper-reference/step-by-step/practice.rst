@@ -1,5 +1,7 @@
+.. _scorekeeper-practice:
+
 Practice (Day 1)
-================
+======================
 
 Prepare the teams for official matches
 

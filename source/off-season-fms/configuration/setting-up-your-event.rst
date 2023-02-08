@@ -1,5 +1,7 @@
+.. _off-season-setting-up:
+
 Setting Up Your Event
-=====================
+======================
 
 This article is a supplement to the full documentation. See the full software documentation for detailed instructions about particular elements.
 

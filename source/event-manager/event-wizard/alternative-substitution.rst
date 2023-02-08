@@ -1,5 +1,7 @@
-Alternative Substitution
-========================
+.. _event-wizard-alternate-substitution:
+
+Alternate Substitution
+======================
 
 
 Substitution

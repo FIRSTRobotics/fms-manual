@@ -1,5 +1,7 @@
+.. _event-wizard-wildcards:
+
 Wildcards
-=========
+===========
 
 .. image:: images/wildcards-1.png
 

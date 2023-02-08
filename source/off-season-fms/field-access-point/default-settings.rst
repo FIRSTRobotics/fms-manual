@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _off-season-default:
 
 Default Settings
-================
+======================
 
 This article describes the default values of various settings in the FRC\ |reg| Offseason Simple image for the Linksys WRT1900 ACS AP.
 

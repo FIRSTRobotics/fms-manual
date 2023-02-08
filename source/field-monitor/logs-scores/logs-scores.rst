@@ -1,5 +1,7 @@
-Viewing Match Logs
-==================
+.. _field-monitor-logs-scores:
+
+Match Logs and Scores
+======================
 
 Access
 ------

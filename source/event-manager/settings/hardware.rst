@@ -1,5 +1,7 @@
+.. _settings-hardware:
+
 Hardware
-========
+===========
 
 .. image:: images/hardware-0.png
 

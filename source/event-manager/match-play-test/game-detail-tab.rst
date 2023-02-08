@@ -1,5 +1,7 @@
+.. _match-play-game-detail:
+
 Game Detail Tab
-===============
+======================
 
 .. image:: images/game-detail-tab-0.png
 

@@ -1,5 +1,7 @@
+.. _settings-network-config:
+
 Network Config
-==============
+======================
 
 Config
 ------

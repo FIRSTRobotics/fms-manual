@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _off-season-installation:
 
 Installation
-============
+======================
 
 Retrieve Installer
 ------------------

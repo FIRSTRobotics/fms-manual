@@ -1,5 +1,7 @@
+.. _navigation-indicators:
+
 Indicators
-==========
+======================
 
 Indicators around the main window of Event Manager
 

@@ -1,5 +1,7 @@
+.. _settings-backup:
+
 Backup Config
-=============
+======================
 
 Config
 ------

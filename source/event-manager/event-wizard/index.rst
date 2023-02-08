@@ -1,5 +1,7 @@
+.. _event-wizard-index:
+
 Event Wizard
-============
+======================
 
 .. toctree::
    :maxdepth: 1

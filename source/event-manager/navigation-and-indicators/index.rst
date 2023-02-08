@@ -1,5 +1,7 @@
+.. _navigation-index:
+
 Navigation and Indicators
-=========================
+=================================
 
 .. toctree::
    :maxdepth: 1

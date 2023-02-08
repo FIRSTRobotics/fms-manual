@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Field Management System Manual'
-copyright = '2020, FIRST'
+copyright = '2023, FIRST'
 author = 'FIRST'
 
 # The full version, including alpha/beta/rc tags
-release = '2020'
+release = '2023'
 
 
 # -- General configuration ---------------------------------------------------
@@ -58,7 +58,7 @@ linkcheck_workers = 1
 linkcheck_ignore = [r'http://10.0.100.5/.*']
 
 # Specify HTML logo for ReadTheDocs
-html_logo = "_static/images/FIRST.png"
+html_logo = "_static/images/frclogo.png"
 
 # Specify a standard user agent, as Sphinx default is blocked on some sites
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0'

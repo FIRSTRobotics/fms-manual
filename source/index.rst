@@ -6,7 +6,7 @@
 FMS Manual
 ==========
 
-.. important:: Please note that this FMS documentation is *in progress*. Read at your own risk.
+.. important:: Please note that this FMS documentation is *in progress* of being updated for 2023. Read at your own risk.
 
 .. toctree::
    :maxdepth: 2
@@ -48,7 +48,7 @@ FMS Manual
    :caption: Field Monitor
 
    field-monitor/live/index
-   field-monitor/match-logs/index
+   field-monitor/logs-scores/index
 
 .. toctree::
    :maxdepth: 2

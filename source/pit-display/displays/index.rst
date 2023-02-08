@@ -1,5 +1,7 @@
+.. _pit-display-display-index:
+
 Displays
-========
+======================
 
 .. toctree::
    :maxdepth: 1

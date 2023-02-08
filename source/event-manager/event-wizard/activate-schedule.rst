@@ -1,5 +1,7 @@
+.. _event-wizard-activate-schedule:
+
 Activate Schedule
-=================
+======================
 
 .. image:: images/activate-schedule-1.png
 

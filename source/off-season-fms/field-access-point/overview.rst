@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _off-season-overview:
 
 Overview
-========
+===========
 
 The Wireless Acess Point used for 2017 FRC\ |reg| competitions was a Linksys 1900ACS running customized OpenWRT firmware. In an attempt to provide a tested AP that can be used with FMS Offseason, we are releasing a modified version of the firmware used during the season that teams or individuals could load on their own devices.
 

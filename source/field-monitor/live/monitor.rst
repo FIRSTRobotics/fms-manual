@@ -1,5 +1,7 @@
+.. _field-monitor-live:
+
 Live Monitor
-============
+======================
 
 Watch robot status as it happens. The Field Monitor is part of the web interface, accessible through the webpage at 10.0.100.5 (normally)
 
