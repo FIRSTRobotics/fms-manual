@@ -11,13 +11,13 @@ FMS Manual
 .. toctree::
    :maxdepth: 2
    :caption: Overview and Key Terminology
-   
+
    overview-key-terminology/index
 
 .. toctree::
    :maxdepth: 2
    :caption: Event Manager (FMS)
-   
+
    event-manager/navigation-and-indicators/index
    event-manager/event-wizard/index
    event-manager/match-play-test/index
@@ -61,7 +61,7 @@ FMS Manual
 .. toctree::
    :maxdepth: 2
    :caption: Scorekeeper Reference
-   
+
    scorekeeper-reference/step-by-step/index
    scorekeeper-reference/software-updates/index
 

@@ -3,16 +3,16 @@
 About Tab
 ===========
 
-.. image:: images/about-tab-1.png
+.. image:: images/about-tab.png
 
-The "About" tab contains version information and software notices. 2020 versions of FMS will always have a Major revision of "7".
+The "About" tab contains version information and software notices. 2023 versions of FMS will always have a Major Version of "10".
 
-[Red] Build (revision) of the software currently installed
+[Green] Build (revision) of the software currently installed
 
-[White] Build (revision) of the PLC software currently installed. Current build should begin with v31.11 (Not applicable in Off-Season builds)
+[Red] Build (revision) of the PLC software currently installed (not applicable in Off-Season builds)
 
 [Blue] For traditional versions of FMS, check for available updated versions and initiate the install process
 
 [Green] Current software license, which was agreed to upon installation of the software
 
-In the traditional (non Off-Season) version of the software, once an update download has been initiated, the "Check for Update" button will be replaced with download progress statistics.
+There is no built in update capability in the Off-Season version of the software. In the traditional version, once an update download has been initiated, download progress statistics will be displayed and the installation process will begin automatically.
