@@ -1,5 +1,7 @@
+.. _field-test-field-test:
+
 Field Test
-==========
+===========
 
 .. image:: images/field-test-1.png
 

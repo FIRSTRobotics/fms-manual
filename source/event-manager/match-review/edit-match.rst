@@ -1,5 +1,7 @@
+.. _match-review-edit:
+
 Edit Match
-==========
+======================
 
 Fix scores from a given match.
 

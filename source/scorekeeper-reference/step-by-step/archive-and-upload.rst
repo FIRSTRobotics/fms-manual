@@ -1,5 +1,7 @@
+.. _scorekeeper-archive-upload:
+
 Archive and Upload
-==================
+======================
 
 Tell HQ you're done!
 

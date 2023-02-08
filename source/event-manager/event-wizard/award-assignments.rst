@@ -1,5 +1,7 @@
+.. _event-wizard-award-assignment:
+
 Award Assignments
-=================
+======================
 
 .. image:: images/award-assignments-1.png
 

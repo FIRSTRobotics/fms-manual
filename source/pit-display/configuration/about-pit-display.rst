@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _pit-display-about:
 
 About Pit Display
-=================
+======================
 
 Introduction
 ------------

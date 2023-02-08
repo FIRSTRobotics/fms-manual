@@ -1,5 +1,7 @@
+.. _pit-display-quals:
+
 Qualifications Pit Display
-==========================
+============================================
 
 Qualification Pit Display
 

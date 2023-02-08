@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _off-season-upgrading:
 
 Upgrading from a previous edition of FMS Off-Season
-===================================================
+=======================================================
 
 In order to install an edition of Off-Season FMS on a machine that had a previous installation of FMS (any previous year to your target install), some changes must be made prior to running the installer.
 

@@ -1,4 +1,5 @@
 .. include:: <isonum.txt>
+.. _off-season-sync-availability:
 
 Off-Season Availability
 =======================

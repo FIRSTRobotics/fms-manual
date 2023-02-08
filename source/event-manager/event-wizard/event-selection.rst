@@ -1,5 +1,7 @@
+.. _event-wizard-event-selection:
+
 Event Selection
-===============
+======================
 
 
 Selecting a traditional event

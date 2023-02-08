@@ -1,5 +1,7 @@
+.. _settings-multi-field:
+
 Multi-field Setup
-=================
+======================
 
 For events that have more than one playing field.
 

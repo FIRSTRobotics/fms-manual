@@ -1,5 +1,7 @@
+.. _match-play-index:
+
 Match Play/Test
-===============
+======================
 
 .. toctree::
    :maxdepth: 1

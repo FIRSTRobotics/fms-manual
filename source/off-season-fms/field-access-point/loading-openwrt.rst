@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _off-season-openwrt:
 
 Loading OpenWRT
-===============
+======================
 
 This article describes how to load the customized FRC\ |reg| build of OpenWRT onto a Linksys 1900ACS wireless access point. This customized build contains versions of various components that have been tested to be (mostly) stable in the FRC use case. It also contains a default network setup (network and wireless configuration, firewall, DHCP, etc.) appropriate for many FRC use cases.
 

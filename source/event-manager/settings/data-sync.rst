@@ -1,5 +1,7 @@
+.. _settings-data-sync:
+
 Data Sync
-=========
+===========
 
 Sync
 ----

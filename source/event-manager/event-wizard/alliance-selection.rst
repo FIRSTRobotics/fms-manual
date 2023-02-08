@@ -1,5 +1,7 @@
-Alliance Schedule
-=================
+.. _event-wizard-alliance-selection:
+
+Alliance Selection
+======================
 
 .. image:: images/alliance-selection-1.png
 

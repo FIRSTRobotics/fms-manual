@@ -1,5 +1,7 @@
+.. _match-play-bypass-dq-red-card:
+
 Bypass vs DQ vs Red Card
-========================
+=================================
 
 Significance
 ------------

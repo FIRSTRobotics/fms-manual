@@ -1,7 +1,7 @@
 .. _wpa-kiosk-setup:
 
 WPA Kiosk
-=========
+======================
 
 Navigation and use of the WPA Event Kiosk Pogram
 

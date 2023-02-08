@@ -1,5 +1,7 @@
+.. _event-wizard-archive-upload:
+
 Archive and Upload
-==================
+======================
 
 .. image:: images/archive-upload-1.png
 

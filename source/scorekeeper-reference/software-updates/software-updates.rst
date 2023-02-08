@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _scorekeeper-software-updates:
 
 Software Updates
-================
+======================
 
 Overview
 --------

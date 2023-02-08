@@ -1,5 +1,7 @@
+.. _match-play-interface:
+
 Interface
-=========
+===========
 
 Match Play
 ----------

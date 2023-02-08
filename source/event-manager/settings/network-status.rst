@@ -1,5 +1,7 @@
+.. _settings-network-status:
+
 Network Status
-==============
+======================
 
 Status
 ------

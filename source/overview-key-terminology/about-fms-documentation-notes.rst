@@ -1,5 +1,7 @@
+.. _overview-about:
+
 About FMS Documentation and Notes
-=================================
+============================================
 
 Introduction
 ############
@@ -17,7 +19,7 @@ Information provided in this documentation is not intended to overrule or supers
 Current Revision
 ################
 
-.. image:: images/infiniterechargelogo.png
+.. image:: images/chargeduplogo.png
 	:align: center
 	:alt: FRC Current Season Game Logo
 

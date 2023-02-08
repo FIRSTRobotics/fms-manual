@@ -1,5 +1,7 @@
+.. _scorekeeper-playoffs:
+
 Playoffs (Day 3)
-================
+======================
 
 Determine the event champions
 

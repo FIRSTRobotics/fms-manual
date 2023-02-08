@@ -1,5 +1,7 @@
+.. _event-wizard-match-maker:
+
 Run Match Maker
-===============
+======================
 
 Execute Match Maker
 ###################

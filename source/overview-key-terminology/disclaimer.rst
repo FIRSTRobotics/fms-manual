@@ -1,5 +1,7 @@
+.. _overview-disclaimer:
+
 Disclaimer
-==========
+======================
 
 .. image:: images/warningtriangle.png
 	:align: center

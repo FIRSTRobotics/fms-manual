@@ -1,5 +1,7 @@
+.. _about-tab:
+
 About Tab
-=========
+===========
 
 .. image:: images/about-tab-1.png
 

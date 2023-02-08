@@ -1,5 +1,7 @@
+.. _off-season-pc-config:
+
 FMS Computer Configuration
-==========================
+=================================
 
 Only complete these steps after completing the previous setup requirements.
 

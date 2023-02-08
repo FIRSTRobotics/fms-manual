@@ -1,5 +1,7 @@
+.. _match-play-tabs:
+
 Tabs
-====
+===========
 
 For detailed information within the Match Play and Match Test Interfaces
 

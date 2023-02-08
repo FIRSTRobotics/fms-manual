@@ -1,5 +1,7 @@
+.. _overview-terminology:
+
 Terminology
-===========
+======================
 
 A fair number of acronyms are used throughout this manual. Below is a list of many of these acronyms and additional terms along with their definition. **The official definitions and descriptions of field components are found in the FRC Game Manual.**
 

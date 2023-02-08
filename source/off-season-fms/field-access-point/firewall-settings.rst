@@ -1,5 +1,7 @@
+.. _off-season-firewall:
+
 Firewall Settings
-=================
+======================
 
 As detailed in the :doc:`Default Settings <default-settings>` article, the image comes with the firewall enabled by default. This article describes how to disable and re-enable the firewall. This article does not go into detail on how to add additional rules to the firewall, if you wish to do this, we recommend editing the /etc/firewall file directly (either via ssh or copying it off the device and then back on) and using the existing rules as a template.
 

@@ -1,5 +1,7 @@
+.. _wpa-kiosk-operation:
+
 WPA Kiosk Operation
-===================
+======================
 
 This article assumes the kiosk has been configured by event staff and is ready for team use. If not, please see the configuration article.
 

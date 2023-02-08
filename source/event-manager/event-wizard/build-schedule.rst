@@ -1,5 +1,7 @@
+.. _event-wizard-build-schedule:
+
 Build Schedule
-==============
+======================
 
 Define Tournament Level Parameters
 ##################################

@@ -1,3 +1,5 @@
+.. _off-season-sync-index:
+
 Syncing Data with FIRST
 =======================
 

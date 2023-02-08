@@ -1,5 +1,7 @@
+.. _match-play-score:
+
 Score Tab
-=========
+===========
 
 Game specific field scoring and adjustments.
 

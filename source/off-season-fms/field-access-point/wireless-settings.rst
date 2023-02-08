@@ -1,7 +1,8 @@
 .. include:: <isonum.txt>
+.. _off-season-wireless:
 
-Wireless Settings\Status
-========================
+Wireless Settings + Status
+=================================
 
 This article details how to view the wireless status and change the wireless settings for the FRC\ |reg| OpenWRT image
 

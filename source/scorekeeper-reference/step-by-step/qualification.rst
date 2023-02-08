@@ -1,5 +1,7 @@
+.. _scorekeeper-quals:
+
 Qualification (Day 2)
-=====================
+======================
 
 Determine seeding for Playoff matches
 

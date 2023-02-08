@@ -1,5 +1,7 @@
+.. _match-play-test:
+
 Match Test
-==========
+===========
 
 .. image:: images/match-test-0.png
 

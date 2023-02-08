@@ -1,5 +1,7 @@
+.. _settings-data:
+
 Data
-====
+===========
 
 Experimental data manipulation options, which should only be executed under the supervision of FRC Engineering.
 

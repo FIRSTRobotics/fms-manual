@@ -1,5 +1,7 @@
+.. _match-play-status:
+
 Status Tab
-==========
+===========
 
 .. image:: images/status-tab-0.png
 

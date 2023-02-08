@@ -1,5 +1,7 @@
+.. _pit-display-playoffs:
+
 Playoffs Pit Display
-====================
+======================
 
 Playoff Pit Display
 
