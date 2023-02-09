@@ -60,6 +60,9 @@ linkcheck_ignore = [r'http://10.0.100.5/.*']
 # Specify HTML logo for ReadTheDocs
 html_logo = "_static/images/frclogo.png"
 
+# Specify HTML Favicon
+html_favicon = "_static/images/FIRSTicon_RGB_withTM.ico"
+
 # Specify a standard user agent, as Sphinx default is blocked on some sites
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0'
 

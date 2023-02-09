@@ -63,6 +63,7 @@ FMS Manual
    :maxdepth: 2
    :caption: Scorekeeper Reference
 
+   scorekeeper-reference/overview/overview
    scorekeeper-reference/step-by-step/index
    scorekeeper-reference/software-updates/index
 
