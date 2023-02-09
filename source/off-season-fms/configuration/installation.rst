@@ -6,14 +6,15 @@ Installation
 
 Retrieve Installer
 ------------------
-
-FMS OFF-SEASON SHOULD NOT BE INSTALLED ON TOP OF A PREVIOUS FMS OFF-SEASON VERSION, YOU MUST COMPLETELY REMOVE THE OLD VERSION AND DELETE THE SQL INSTANCE BEFORE CONTINUING. For help on doing this, please :doc:`go to this article. <upgrading-from-a-previous-edition-of-fms-off-season>`
+.. note::
+    FMS Off-Season shoud not be installed on top of a previous version. Please completly remove the old version before continuing. For help on doing this, please 
+    :ref:`see this article <off-season-upgrading>`
 
 In order to install FMS Off-Season, download the EXE file from the *FIRST*\ |reg| website. The file contains the necessary pre-requisites and is usually around 600 MB in size.
 
 Access the Installer download `from this site <https://usfirst.collab.net/sf/projects/offseasonfms/>`_ (look for the most recent available)
 
-FMS (2017+) require a 64 bit OS. *FIRST* recommends Windows 10.
+FMS require a 64 bit Windows OS. *FIRST* recommends Windows 10.
 
 Installation Process
 --------------------
@@ -72,16 +73,20 @@ Launch FMS Off-Season by double-clicking on the FMS shortcut. If you are prompte
 
 .. image:: images/installation-5.png
 
-Once FMS is loaded you will see the following screen must agree to the warning to get started. Beyond that, refer to the Event Manager for additional operating instructions.
+Once FMS is loaded you must agree to a safety warning. Beyond that, refer to the :ref:`FMS User's Guide <event-wizard-navigation>` for additional operating instructions.
 
 .. image:: images/installation-6.png
 
 Launching Audience
 ------------------
 
-Double click the “Audience Display” shortcut on your desktop to launch the Audience Display. The audience display will appear with the “Background” and game logo visible. Only open the Audience Display after configuring an event through FMS Event Wizard.
+Double click the "Audience Display" shortcut on your desktop to launch the Audience Display. The audience display will appear with the a background screen and game logo visible.
+Only open the Audience Display after configuring an event through FMS Event Wizard.
 
-See the Audience Display information in the :doc:`FMS User’s Guide <../../audience-display/displays/index>` documentation for additional details about using the Audience Display. Note: The Audience Display must be running in order to hear game sounds.
+See the Audience Display information in the :ref:`Audience Display User's Guide <audience-index>` documentation for additional details about using the Audience Display. 
+
+.. note::
+    Note: The Audience Display must be running in order to hear game sounds.
 
 Audience Compatibility Mode
 ---------------------------
@@ -96,18 +101,18 @@ If you have trouble running the Audience Display in its default configuration, y
 
     C:\Program Files (x86)\FIRST\AudienceDisplayExeOffseason (64 bit OS)
 
-Right click on AudienceDisplay.exe and select Properties. Under Compatibility, select “Run this program in compatibility mode” and pick “Windows XP (Service Pack 3)” from the dropdown box.
+Right click on AudienceDisplay.exe and select Properties. Under Compatibility, select "Run this program in compatibility mode" and pick "Windows XP (Service Pack 3)" from the dropdown box.
 
 Select OK. When you re-launch the Audience Display using the shortcut on your desktop, it should run properly.
 
-It’s also possible to run the audience display remotely. If you wish to do so, please see the appropriate configuration instructions in the User’s Guide. It is recommended to run no more than two (2) instances of the Audience Display at any given time.
+If you wish to utiize a remote audience display, please see the appropriate configuration instructions in the User's Guide. It is recommended to run no more than two (2) instances of the Audience Display at any given time.
 
 Advanced Installation
 ---------------------
 
-By default, FMS will use port 80 (localhost) for its Web Portal. However, this can be changed if you need FMS to use another port. Notice: The documentation references port 80 in examples. If you install on another port, you would need to change the references in the documentation to match.
+By default FMS will use port 80 (localhost) for its Web Portal. However this can be changed if you need FMS to use another port. If you install on another port, you would need to change the references in the documentation to match.
 
-Using a command line, navigate to the folder which contains the FMS Off-Season Installer. The only user-configurable installation option for FMS is WebSitePort. Invoke the installer with the WebSitePort argument specifying the port you would like to use. For example, to invoke the installer with the default port (80) you would use the following command (you may need to change the name of the .exe file in this example):
+Using a command line navigate to the folder which contains the FMS Off-Season Installer. The only user-configurable installation option for FMS is WebSitePort. Invoke the installer with the WebSitePort argument specifying the port you would like to use. For example, to invoke the installer with the default port (80) you would use the following command (you may need to change the name of the .exe file in this example):
 
 FMSOffSeasonInstaller.exe WebSitePort=80
 
@@ -116,6 +121,6 @@ Proceed with the installation as described previously.
 Shutting Down
 -------------
 
-To shut down the "FMS" application, simply click the "X" in the upper right. Only do this if a match is not running.
+To shut down the FMS application, simply click the "X" in the upper right. Only do this if a match is not running.
 
-To shut down the "Audience Display" application, simply click "Alt+F4" when the application is in the foreground. Alternately, right click on the icon in the taskbar and selecting "Close Window."
+To shut down the Audience Display application, simply click "Alt+F4" when the application is in the foreground. Alternately, right click on the icon in the taskbar and selecting "Close Window."

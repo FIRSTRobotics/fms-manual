@@ -6,16 +6,17 @@ Upgrading from a previous edition of FMS Off-Season
 
 In order to install an edition of Off-Season FMS on a machine that had a previous installation of FMS (any previous year to your target install), some changes must be made prior to running the installer.
 
-If the target machine did/does not contain a previous version of FMS, Off-Season this article is not relevant.
+If the target machine does not contain a previous version of FMS, Off-Season this article is not relevant.
 
-Heads Up! Running this process will delete all the match/scoring data from this machine, so only do this if you're sure you won't need that data!
+.. note::
+    Running this process will delete all the match/scoring data from this machine. Proceed with caution.
 
 Uninstall the previous FMS Edition
 ----------------------------------
 
 .. image:: images/upgrading-from-a-previous-edition-of-fms-off-season-0.png
 
-On your machine's Control Panel, look for the previous edition of "FMS Off-Season" and select Uninstall. Upon successful uninstall, the screen at right will be shown.
+Using the machine's Control Panel, look for the previous edition of "FMS Off-Season" and select Uninstall. Upon successful uninstall, the screen at right will be shown.
 
 Remove SQL Server 2014 (or 2016)
 --------------------------------

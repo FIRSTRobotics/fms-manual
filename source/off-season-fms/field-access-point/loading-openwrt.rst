@@ -4,16 +4,17 @@
 Loading OpenWRT
 ======================
 
-This article describes how to load the customized FRC\ |reg| build of OpenWRT onto a Linksys 1900ACS wireless access point. This customized build contains versions of various components that have been tested to be (mostly) stable in the FRC use case. It also contains a default network setup (network and wireless configuration, firewall, DHCP, etc.) appropriate for many FRC use cases.
+This article describes how to load the customized FRC\ |reg| build of OpenWRT onto a Linksys 1900ACS wireless access point. This customized build contains versions of various
+components that have been tested to be (mostly) stable in the FRC use case. It also contains a default network setup (network and wireless configuration, firewall, DHCP, etc.) appropriate for many FRC use cases.
 
 Aquiring the firmware
 ---------------------
 
 Go to one of the following locations to download a ZIP of the FRC firmware build.
 
-`Offseason Simple <https://usfirst.collab.net/sf/frs/do/viewRelease/projects.offseasonfms/frs.2017_fms_offseason.may_2017>`_
+`Off-Season Simple <https://usfirst.collab.net/sf/frs/do/viewRelease/projects.offseasonfms/frs.2017_fms_offseason.may_2017>`_
 
-`Offseason VLAN <https://usfirst.collab.net/sf/frs/do/viewRelease/projects.offseasonfms/frs.2017_fms_offseason.2017_linksys_ap_image_with_vlan>`_
+`Off-Season VLAN <https://usfirst.collab.net/sf/frs/do/viewRelease/projects.offseasonfms/frs.2017_fms_offseason.2017_linksys_ap_image_with_vlan>`_
 
 The filename of the image files will always be constructed using the following pattern:
 
