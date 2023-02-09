@@ -3,19 +3,17 @@
 Playoffs (Day 3)
 ======================
 
-Determine the event champions
+Playoffs are a double-elimination tournament consisting of six rounds. After each round, new schedules (for queue staff) and Announcer report (unless the GA Tool is in use) should be printed.
 
-Playoffs
---------
+Playoffs Process
+-------------------
 
-Playoffs are best-of-3 matchups in three phases: Quarterfinals, Semifinals, and Finals. Each phase will play according to the bracket designed for each. After each phase new schedules (for queue staff) and Announcer report (only those pages pertaining to the next phase of competition) should be printed. Only print the report if the announcer needs it!
+#. If the Announcer is not using the electronic GA Tool, Announcer Reports should be printed at the beginning of each round.
+#. Limited numbers of schedules should be reprinted for queue staff and essential personnel at the beginning of each round.
+#. Bracket Reports should be printed for the Head Referee and Game Announcer as needed.
+#. Field Breaks should be employed between rounds as follows:
 
-#. Announcer Reports (pertaining to the specific matches) should be printed at the beginning of each phase.
-#. Limited numbers of schedules should be reprinted for queue staff and essential personnel at the beginning of each phase.
-#. Bracket Reports should be printed for the Head Referee and Game Announcer at the beginning of each phase.
-#. Field Timeouts should be performed (using the Timeout button) in the following instances: Immediately Preceding Back-to-Back matches due to Tiebreaker Matches (all finals and overtime matches are back-to-back, and thus they all have field timeouts) Immediately Preceding any Finals matches
+   * 8-minute Break after rounds 1-3
+   * 15-minute Awards Break after remaining rounds and between finals matches
 
-   * Immediately Preceding Back-to-Back matches due to Tiebreaker Matches (all finals and overtime matches are back-to-back, and thus they all have field timeouts)
-   * Immediately Preceding any Finals matches
-
-Stay calm, stay hydrated, enjoy the matches, don’t get caught up in the hype. Remember, you’re not a Referee. Let them do the heavy lifting, only support their actions, don’t try to direct them.
+Stay calm, stay hydrated, enjoy the matches. You've got the best seat in the house.
