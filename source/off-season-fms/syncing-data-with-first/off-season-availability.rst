@@ -6,9 +6,7 @@ Off-Season Availability
 
 *FIRST*\ |reg| allows Off-Season events (who meet requirements) to synchronize their data and results with *FIRST* HQ, similar to the way that *FIRST* posts results of official events during the competition season. Off-Season events that meet requirement criteria will be able to have their events included- meaning results will be posted to *FIRST* 's Event Results website ( `https://frc-events.firstinspires.org/ <https://frc-events.firstinspires.org/>`_ ) and API ( `https://frc-api.firstinspires.org/v2.0/ <https://frc-api.firstinspires.org/v2.0/>`_ ). *FIRST* has many partners that use *FIRST* 's data to power their apps, such as The Blue Alliance or FRC\ |reg| Spyder.
 
-Sync is not available for the 2020 INFINITE RECHARGE season (see details in paragraph below).
-
-This is not available for versions of FMS installed on personal computers, our "FMS Off-Season" software. This is available only on official *FIRST* fields that were used at 2020 United States or Canadian competitions.
+This is not available for versions of FMS installed on personal computers, our "FMS Off-Season" software. This is available only on official *FIRST* fields that were used at 2023 United States or Canadian competitions.
 
 Requirements
 ------------
@@ -17,7 +15,7 @@ The requirements for 2023 are still under development. Please come back as updat
 
 To apply and participate for the 2023 season, the Off-Season event must requirements that include:
 
-* End before November 8th, 2023 and start after May 18th, 2023 (dates subject to change)
+* End before November 10th, 2023 and start after May 8th, 2023 (dates subject to change)
 * Use an official *FIRST* field, with FMS and Electronics
 * Have a 2023 certified *FIRST* Technical Advisor (FTA) present throughout the event
 * Have a required minimum number of teams in attendance (read details on the application carefully, please)
