@@ -6,15 +6,17 @@ Interface
 Match Play
 ----------
 
-.. image:: images/interface-0.png
+.. image:: images/match-play-interface.png
 
 Match Play (and Match Test) are the most commonly used environments during an FRC event. The screen is used to start and stop matches, disable robots, and control the Audience Display.
 
-[Red] The top part of the screen shows the current match number, match time, score for the alliances and detail by station. Match time is updated in real time and will correspond with the same information shown on the LED Displays. The status of the robots at each end of the playing field is communicated to FMS by the SCCs and DSs. The color of each box corresponds to each end of the playing field, blue for the Blue Alliance, and red for the Red Alliance. Each box includes information on the status of the three robots on each alliance.
+[*Green Box*] The top part of the screen shows the current match number, match time, score for the alliances and detail by station. Match time is updated in real time and will correspond with
+the same information shown on the LED Displays. The status of the robots at each end of the playing field is communicated to FMS by the SCCs and DSs. The color of each box corresponds to each
+end of the playing field, blue for the Blue Alliance, and red for the Red Alliance. Each box includes information on the status of the three robots on each alliance.
 
-[White] Match Control is handled using the buttons in the center of the Match Play and Match Test screens.
+[*White Box*] Match Control is handled using the buttons in the center of the Match Play and Match Test screens.
 
-[Blue] The lower portion of the screen changes based on the selected tab to display schedule information, detailed scoring, and more (described later)
+[*Pink Box*] The lower portion of the screen changes based on the selected tab to display schedule information, detailed scoring, and more (described later)
 
 Station Status
 --------------
@@ -28,27 +30,23 @@ Additionally along the top bar of Match Play is detailed station information- th
 FMS
 ---
 
-Controls to inform FMS which robot in the indicated station position and how to handle it:
+Controls to inform FMS which robot is in the indicated station position and how to handle it:
 
-#. Byp - Select this box to bypass this particular station and force it to a ready (but disabled) state.
+#. Byp - Select this box to bypass this particular station and force it to a ready (but disabled) state
 #. DQ - Select this box to indicate that the corresponding team has been DQ’d for this match (will also cause Bypass)
-#. Card State (entered by Head Referee, can only be edited after Match is over): Green - no card, team in good standing Yellow - team has been assigned a yellow card Red - team assigned a red card in this match. Setting the indicator to red also bypasses the Player Station and automatically assigns the team a DQ for the current match. Note that on its subsequent match, FMS will automatically change the red card to yellow
+#. Card State (entered by Head Referee, can only be edited after Match is over):
 
    * Green - no card, team in good standing
    * Yellow - team has been assigned a yellow card
-   * Red - team assigned a red card in this match. Setting the indicator to red also bypasses the Player Station and automatically assigns the team a DQ for the current match. Note that on its subsequent match, FMS will automatically change the red card to yellow
-
+   * Red - team assigned a red card in this match. Setting the indicator to red also bypasses the Player Station and automatically assigns the team a DQ for the current match. Note that in a subsequent match FMS will automatically change the red card to yellow
 
 #. Estop - used to Estop the robot during the match. This box also shows the team number that it will Estop, for quicker reference.
 #. Team Number - The team number which corresponds with the team designated to play in this station. Teams need to be in the correct station to ensure that they receive the proper Station ID and Position information from FMS.
-#. WPA Key status: Red - team has not been on the playing field Yellow - has linked with the field, but has not played in a match Green - the team has played in a match on the field
+#. WPA Key status:
 
    * Red - team has not been on the playing field
    * Yellow - has linked with the field, but has not played in a match
    * Green - the team has played in a match on the field
-
-
-
 
 Team
 ----
@@ -56,11 +54,9 @@ Team
 Indicates the state of the DS:
 
 #. Left bubble - Indicates status of the FMS-to-DS link. If the team number and DS match, this bubble with be green.
-#. Right bubble - Indicates status of the E-stop. If this light is green, the E-stop in the Team’s Player Station is up. If it is red, the E-stop in the Player Station is down, or the Estop button on FMS has been pressed. An E-stop in the down position will cause the amber light in the Team Station to turn on. All E-stops need to be in the up position to begin a match. Prestarting a match with any E-stop down will prompt a dialog box to be shown indicated in which Player Station the E-stop(s) are down.
+#. Right bubble - Indicates status of the E-stop. If this light is green, the E-stop in the Team’s Player Station is up. If it is red, the E-stop in the Player Station is down, or the Estop button on FMS has been pressed. An E-stop in the down position will cause the amber light in the Team Station to turn on.
 
    * All E-stops need to be in the up position to begin a match. Prestarting a match with any E-stop down will prompt a dialog box to be shown indicated in which Player Station the E-stop(s) are down.
-
-
 
 
 Robot
@@ -68,8 +64,8 @@ Robot
 
 Indicates the state of the Robot:
 
-#. Left bubble - DS-to-Robot link status. If the DS and Robot are linked, this bubble will be green. If the station has been Bypassed, a “B” will appear in this bubble. If no link is established, the Team Light in the Player Station will flash at 1Hz (1 time per second) rate.
-#. Right bubble - Indicator would display in yellow marked area, but only shows when a Robot is connected. Mode and System state of the Robot. “A” indicates Autonomous Mode, “T” indicates Teleoperated mode. If the Robot is disabled, the bubble is red, it will be green when the Robot is enabled by FMS.
+#. Left bubble - DS-to-Robot link status. If the DS and Robot are linked, this bubble will be green. If the station has been Bypassed, a "B" will appear in this bubble. If no link is established, the Team Light in the Player Station will flash at 1Hz (1 time per second) rate.
+#. Right bubble - Indicator would display in yellow marked area, but only shows when a Robot is connected. Mode and System state of the Robot. "A" indicates Autonomous Mode, "T" indicates Teleoperated mode. If the Robot is disabled, the bubble is red, it will be green when the Robot is enabled by FMS.
 
 
 Match Control (FCUI)
@@ -77,31 +73,27 @@ Match Control (FCUI)
 
 .. image:: images/interface-2.png
 
-The buttons in the middle section are used to step through the Match process. In order to be available for use, a match must be selected from the Schedule tab. This bar is commonly referred to as the "FCUI" or Field Control User Interface (which came from the former version, which was a piece of hardware on the scoring table). Details on each button are as follows:
+The buttons in the middle section are used to step through the Match process. In order to be available for use, a match must be selected from the Schedule tab.
+This bar is commonly referred to as the "FCUI" or Field Control User Interface (which came from the former version, which was a piece of hardware on the scoring table).
 
-* *Prestart* - used to prep the field for the upcoming match. Prestart configures the field hardware for the upcoming match. *In Match Test/Practice matches, clicking Prestart will allow for entry of team numbers (in 4-team-alliance playoff matches this is also used to move teams between stations)* *Prestart can be cancelled if necessary while it's running* *Additional options are outlined below*
+* *Prestart* - prepares the field for the upcoming match by configuring the field hardware for the upcoming match
+   
+   *Prestart can be cancelled if necessary while it's running*
 
-   * *In Match Test/Practice matches, clicking Prestart will allow for entry of team numbers (in 4-team-alliance playoff matches this is also used to move teams between stations)*
-   * *Prestart can be cancelled if necessary while it's running*
-   * *Additional options are outlined below*
+   *In Match Test/Practice/Playoff matches, clicking Prestart will allow for entry of team numbers (in playoff matches this is also used to move teams between stations)*
 
+* *Show Match Preview* - display the Match Preview screen on the Audience Display(s) with team names and current ranking data for teams in the upcoming match
+* *Set Audience Display* - display the real-time-score screen on the Audience Display(s)
+* *Match Start* - starts the Match
+* *Match Cancel* - cancels a match in progress (button text changes after start)
 
-* *Show Match Preview -* displays the Match Preview screen with team names and current ranking data for teams in the upcoming match
-* *Set Audience Display -* this button updates the Audience screen with the teams for the match
-* *Match Start -* used to start the match ( *MUST ONLY BE USED WHEN THE FIELD IS IN A SAFE STATE AND NO HUMANS ARE IN DANGEROUS POSITIONS. FTA MUST GIVE PERMISSION FOR A MATCH TO START!* ) *Match Cancel -* use this same button to cancel a match in progress (button text changes after start)
+.. warning::
+   MUST ONLY BE USED WHEN THE FIELD IS IN A SAFE STATE AND NO HUMANS ARE IN DANGEROUS POSITIONS. FTA MUST GIVE PERMISSION FOR A MATCH TO START!
 
-   * *Match Cancel -* use this same button to cancel a match in progress (button text changes after start)
+* *Commit* - confirm the score of the match and write the details to the database
+* *Post Results* - display the final score and results on the Audience Display(s) and publish the results to the web (when applicable)
 
-
-* *Commit -* confirm the score of the match and write the details to the database
-* *Post Results -* trigger the Audience screen and show the final scores and updated Rankings for the teams in the match *Additional options are outlined below*
-
-   * *Additional options are outlined below*
-
-
-* Timeout Start - initialize or end a timeout and show the timing information on the Audience Display and on field LED displays. Length of a Timeout can be changed on the "Options" tab. *Additional options are outlined below*
-
-   * *Additional options are outlined below*
+* *Timeout Start* - start or stop a timeout and update the Audience Display(s) with the timing data. Also updates the on field LED displays. Timeout duration can be changed on the "Options" tab.
 
 Abort Match Option
 ------------------
@@ -109,17 +101,18 @@ Abort Match Option
 .. image:: images/interface-3.png
 
 Once a match has started, the "Start Match" option becomes "Abort Match" as shown, which requires confirmation before ending a Match in progress.
+In non-emergency situations, the "Abort" option is preferred to the field E-Stop, as the E-Stop will put all Robots in an emergency shutdown state, whereas the "Abort" option will not.
 
 Prestart Dropdown
 -----------------
 
 .. image:: images/interface-4.png
 
-The Prestart button has additional options available via a dropdown. Details on each dropdown option are as follows:
+The Prestart button has additional options available via a dropdown.
 
 * *Prestart* - this is the "typical" Prestart process, as outlined in the previous section
-* *Reset Network -* allows for re-programming of the field network hardware without a full "Prestart" (In 2019, this avoids dumping Cargo out of the Cargoships when making network adjustments)
-* *Reset Network With Team Change -* allows for re-programming of the field network hardware while also changing a team in one or more stations
+* *Reset Network* - allows for re-programming of the field network hardware without a full "Prestart"
+* *Reset Network With Team Change* - allows for re-programming of the field network hardware while also changing a team in one or more stations
 
 
 Prestart Dropdown in Match Test/Practice
@@ -127,7 +120,8 @@ Prestart Dropdown in Match Test/Practice
 
 .. image:: images/interface-5.png
 
-In Match Test, Practice Matches and Playoff Matches that are 4-team-alliances, the Prestart button replaces "Prestart" with "Prestart Enter Teams"
+In Match Test, Practice, and Playoff Matches, the Prestart button replaces "Prestart" with "Prestart Enter Teams." In these tournament phases FMS needs to know which teams are participating and in which positions, whereas in qualification matches 
+teams cannot swap stations so no option is presented to adjust team numbers or positions.
 
 * All other options work as described previously. Selecting Prestart Enter Teams will prompt for team numbers to participate in the match, as shown below. If teams were scheduled for the Match, they would be pre-populated in the display.
 
@@ -139,13 +133,14 @@ Commit Dropdown
 
 .. image:: images/interface-7.png
 
-The Commit button has additional options available via a dropdown. Details on each dropdown option are as follows:
+The Commit button has additional options available via a dropdown.
 
 * *Commit* - traditional path of committing scores as final
-* *Commit with Comments -* allows for Scorekeeper to enter a comment before the scores are committed
+* *Commit with Comments* - allows for entering a comment before the scores are committed
 
-
-At official events, if the scores were edited by the Scorekeeper after the match, a comment will be required regardless of selection. A comment is also required if any team was assigned a card. If required or requested, a box will appear during the commit process. Select from the template buttons as a starting point for comments or type freely in the provided box.
+At official events, if the scores were edited by the Scorekeeper after the match a comment will be required regardless of selection.
+A comment is also required if any team was assigned a card. If required or requested, a box will appear during the commit process.
+Select from the template buttons as a starting point for comments or type freely in the provided box.
 
 .. image:: images/interface-8.png
 
@@ -154,7 +149,7 @@ Post-Results Dropdown
 
 .. image:: images/interface-9.png
 
-The Post-Results button has additional options available via a dropdown. Details on each dropdown option are as follows:
+The Post-Results button has additional options available via a dropdown.
 
 * *Post Results* - traditional path of posting results from the Match to the Audience Display
 * *Post Results Without Display -* allows for posting of results from the Match without changing the Audience Display
@@ -165,11 +160,10 @@ Timeout Dropdown
 
 .. image:: images/interface-10.png
 
-The Timeout button has additional options available via a dropdown. Details on each dropdown option are as follows:
+The Timeout button has additional options available via a dropdown.
 
 * *Timeout Start* - start a timeout with the given length according to the "Options" tab
-* *Timeout Start without Display -* start a timeout without changing the Audience Display
-
+* *Timeout Start without Display* - start a timeout without changing the Audience Display (avoids interrupting portions of the event in progress, like an award ceremony)
 
 In Playoff matches, starting a timeout will prompt for additional information about the associated source of the timeout. The countdown clock will not start until the source is selected and Start Timeout is pressed.
 
