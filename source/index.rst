@@ -30,11 +30,9 @@ FMS Manual
 
 .. toctree::
    :maxdepth: 2
-   :caption: Audience Display
+   :caption: Field Server Website
 
-   audience-display/configuration/index
-   audience-display/displays/index
-   audience-display/obs-integration/index
+   field-server-web/index
 
 .. toctree::
    :maxdepth: 2
@@ -50,6 +48,14 @@ FMS Manual
    field-monitor/live/index
    field-monitor/field-connectivity/index
    field-monitor/logs-scores/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Audience Display
+
+   audience-display/configuration/index
+   audience-display/displays/index
+   audience-display/obs-integration/index
 
 .. toctree::
    :maxdepth: 2
