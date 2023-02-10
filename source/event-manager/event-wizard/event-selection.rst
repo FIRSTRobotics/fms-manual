@@ -11,55 +11,57 @@ Selecting a traditional event
 	:align: center
 	:alt: UI Screenshot
 
-The Event Selection step of the Event Wizard displays the complete list of downloaded events from Data Download. On this step, select the event to be played. In this case, the selected event is shown with a green arrow and highlighted blue background on the row.
+The Event Selection step of the Event Wizard displays the complete list of events from Data Download.
+Select the event to be played by clicking on it. In this example, the selected event is shown with a green marker and highlighted blue background on the row.
 
-[Green Arrow] The currently selected event, if there is one, will be shown with a highlighted row background
+[*Green Marker*] The currently selected event, if there is one, will be shown with a highlighted row background
 
-[Red] The "new" and "edit" buttons can be used to manipulate Off-Season events
+[*Red Box*] The "new" and "edit" buttons can be used to manipulate Off-Season events
 
-[Black] Create a database for a selected event (see below)
+[*Pink Box*] Create a database for a selected event (see below)
 
-Creating an Off-Season Event (optional, as needed)
-##################################################
+Creating an Off-Season Event
+##############################
 
 .. image:: images/event-selection-2.png
 	:align: center
 	:alt: UI Screenshot
 
-For FMS Off-Season, clicking “New” (in the red box above) will allow the addition of an unofficial (Off-Season) event. Only events added manually can be edited, those downloaded from FIRST are protected from edits (including off-season events that come from FIRST). If you've requested to sync results with FIRST HQ, do not manually add your event. Instead, use data download to receive it and use the downloaded event.
+For FMS Off-Season, clicking "New" will allow the addition of an unofficial (Off-Season) event. Only events added with the "New" button can be edited,
+those downloaded from FIRST are protected from edits (including off-season events that come from FIRST HQ). If you've requested to sync results with FIRST HQ, do not manually add your event.
+Instead, use data download to receive it and use the downloaded event.
 
-The Event Code (red arrow) must be unique from any other events on the machine- regardless of whether they are official or not. Additionally, it's important to make sure the inclusive start and end dates (blue arrow) are marked properly, as they're used to validate schedules and could create problems in later steps if marked inaccurately.
+The Event Code (*red box*) must be unique from any other events on the machine (official events or Off-Season events).
 
-The alliance count and playoff style can also be edited on this screen, but only before the playoff tournament process has begun (i.e. until Alliance Selection). It cannot be changed in a downloaded, off-season event.
+.. note::
+	Make sure the inclusive start and end dates (*green box*) are marked properly, as they are used to validate schedules.
 
+The alliance count and playoff style can also be edited on this screen, but only before the playoff tournament process has begun (i.e. until Alliance Selection). It cannot be changed in a downloaded event (Official or Off-Season)
 
 Creating Event Database
 #######################
+
+Once the target event has either been selected or created a database must be created to store the event results.
+Click the "Create Event Database" button (the *pink box* in the first photo on this page). For official events an Event PIN prompt will be presented before a database can be created.
+
+Event PINs
+##########
 
 .. image:: images/event-selection-3.png
 	:align: center
 	:alt: UI Screenshot
 
+For traditional events, and Off-Season events that are Syncing data with FIRST, clicking "Create Event Database" will prompt for an Event PIN to be entered.
+The FTA will need to enter the PIN number they were provided by FIRST HQ. Upon pressing Submit, the creation process proceed as described below.
 
-Once the target event has either been selected (traditional event) or created (off-season event) it will need a database to store its results. To initiate this process, click the "Create Event Database" button (shown here in the red box). For an Off-Season event, the Database is automatically created. For a tradition event, an additional window(s) are displayed, as described in the next step.
-
-
-Event PINs
-##########
+Event Database Creation in Progress
+###################################
 
 .. image:: images/event-selection-4.png
 	:align: center
 	:alt: UI Screenshot
 
-For traditional events and Off-Season events that are Syncing data with FIRST, clicking "Create Event Database" will trigger the window shown above. On this screen, the FTA will need to enter the PIN number they were provided by FIRST. Upon doing so and pressing Submit, the creation process proceeds as described below.
-
-Event Database Creation in Progress
-###################################
-
-.. image:: images/event-selection-5.png
-	:align: center
-	:alt: UI Screenshot
-
-Once the target event has had the correct PIN entered, the system will create a location to store the event's results and data. This will temporarily disable the screen (as indicated by the working bar on the lower right) as the event database is created. This will populate registration information, team award history and more.
+The system will create a new database to store the event results and data. This will temporarily disable the screen until the process is complete. 
+This process also populates registration information, team award history and more from the cloud.
 
 Once the process completes, and each time this step is re-opened thereafter, the button will be disabled as the database has already been created.
