@@ -25,6 +25,9 @@ Team Selection displays the downloaded list of registered FRC teams, with those 
 .. note::
   Having any teams that were manually added (using "New") checked as competing teams (red column) will prevent data from being sent to FIRST (scores, results, etc) and therefore is not available in-season.
 
+.. warning::
+  Teams should not be checked off at official events (added as participants) without the direction of the FTA or event manager as there must be corresponding paperwork at FIRST HQ for each participant at official events.
+
 Adding Off-Season Teams (Optional)
 ##################################
 
