@@ -15,6 +15,6 @@ Event Wizard
    activate-schedule
    award-assignments
    alliance-selection
-   alternative-substitution
+   alliance-membership
    wildcards
    archive-upload
