@@ -1,3 +1,5 @@
+.. _audience-obs-index:
+
 OBS Integration
 ===============
 

@@ -1,42 +1,34 @@
 .. include:: <isonum.txt>
+.. _audience-installation:
 
 Installation
 ============
 
-Running on Extended Displays
-----------------------------
+.. important::
+   Please do not install the Audience Display on official *FIRST* |reg| servers ("case 33") - use the laptop marked for Audience Display use instead
 
-.. important:: DO NOT INSTALL THE AUDIENCE DISPLAY ON OFFICIAL *FIRST*\ |reg| SERVERS ("SCORPION CASE #33") - USE ONLY THE REMOTE AUDIENCE DISPLAY MACHINE!
-
-Installation on Remote Computers
---------------------------------
+Installation
+-------------
 
 .. image:: images/installation-0.png
    :alt: Two copies of Windows Explorer opened to the location of the Audience Display installer. One is opened to the off season installer.
 
-The Audience Display is not supported on any platform other than Windows 10 or higher. As noted later, the machine running a remote Audience Display must also have an Ethernet port.
+The Audience Display is not supported on any platform other than Windows 10 or higher (64 Bit). The target machine must also have an Ethernet port and audio output device (headphone jack, HDMI port, etc).
 
-The easiest way to obtain the Audience Display installer is to:
-
-#. Ensure the remote Audience Display is on the FMS Network
-#. Open a web browser (Chrome Preferred) to the following address: http://10.0.100.5/FRCDownloads This will open a browser page to select the available applications to download.
-
-   * http://10.0.100.5/FRCDownloads
-   * This will open a browser page to select the available applications to download.
-
-#. Select the Audience Display application to download.
-#. Install the Audience Display application on the local computer.
-
-.. important:: NEVER RUN THE AUDIENCE SCREEN INSTALLER ON A *FIRST* SERVER
+The Audience Display installer can be found on the field server website downloads page, :ref:`as outlined here <field-server-downloads>`. Download the exe file, move it to the 
+target machine (using a USB drive, for example) and run the installer in the same way that any other program would be installed on Windows.
 
 Version Matching
 ----------------
 
-When running on a remote computer, the Audience Display instance will verify itself against FMS to ensure the version numbers are the same. If they do not match, you’ll see an “FMS Mismatch” watermark shown on top of all screens until the version is updated/downgraded to match the FMS version.
+The Audience Display will regularly verify itself against FMS to ensure the version numbers are the same. If they do not match, you’ll see
+an "FMS Mismatch" watermark shown on top of all screens until the version is upgraded/downgraded to match the FMS version.
 
 Communicating with FMS
 ----------------------
 
-When using a remote installation, the Audience Screen must be connected to the machine hosting the FMS software via Ethernet (such as through a switch or router). In addition, the installation will tell Audience Display to look for FMS at the IP of 10.0.100.5. It's recommended recommended that you ping the FMS machine from the target remote Audience Display machine to make sure the Ethernet connection has been established properly.
+The Audience Screen must be connected to the machine hosting the FMS software via Ethernet (such as through a switch or router). In addition,
+the Audience Display expects to find FMS at the IP of `10.0.100.5`. To verify connectivity from the Audience Display machine to the required IP address, 
+consider using Windows Command Prompty to "ping" the address first.
 
 It is recommended that there be no more than two (2) instances of the Audience Screen running on the FMS network at any given time. The software is not tested beyond this capacity.

@@ -1,117 +1,152 @@
 .. include:: <isonum.txt>
+.. _audience-settings:
 
 Settings
 ========
 
-Details the options available through the configuration and setting panels within the Audience Display software.
+Customize the look and feel of the Audience Display via the configuration panel. Settings are specific to each instance.
 
-Accessing Settings
-------------------
-
-.. image:: images/settings-0.png
-   :alt: Settings panel of the Audience Display
-
-To access the settings panel, with the Audience Display open and running (see :doc:`About <about-audience-display>`) use the hotkey combination of CTRL-SHIFT-F12 (or, alternatively, CTRL-SHIFT-C). This will trigger the upper portion of the Audience Display (or Lower, depending on the Vertical Position setting) to flip to the settings pane as shown in the graphic.
-
-To close the settings panel, either click the 'Save Changes' button (saves changes and closes) or the 'Cancel' button (does not save changes and closes). Note that hitting 'Cancel' will not undo any adjustments you may have made to the position of the window on the screen.
-
-Video Background Style
-----------------------
 
 .. image:: images/settings-1.png
-   :alt: Video Background Style picker
 
-The 'Video Background Style' option has two choices:
+[*Purple Marker*] Access the settings by right clicking on the Audience Display tray icon and selecting "Open/Close Config Panel" or use the keyboard shortcut CTRL-SHIFT-C
 
-* Chroma Background
-* Ranking Display
+General Settings
+------------------
 
-This selection will control the behavior of the upper "two thirds" of the screen in the "Video Only" and "Video and Score" modes.
-
-Chroma Background:
-
-Show the selected color in the area, to be keyed (or cut) out and replaced with live event video from a camera or production feed. (The actually "keying" process and mixing of video would need to be done through external software, not through FMS/Audience Display)
-
-Ranking Display:
-
-Removes the background screen color (Chroma) and shows a ranking screen show 8 team rankings at a time. The list automatically scrolls through all the possible teams at the event, in rank order. Teams must have played one or more qualification matches to be included in the listings. Updates to the qualification rankings via out-of-band processes (such as Match Review) will not update the rankings if the rankings are shown during the update process; to update rankings, the Video Switch must be used to select another view (such as “Background”) and then reload the desired view (“Video Only” or “Video and Score”).During Playoff matches, the rankings are replaced with the playoff bracket to show progression through the tournament phase.
-
-Background Screen Color
------------------------
+To close the settings panel at any time, click the "Close Config Panel" button on the bottom middle of the settings display.
 
 .. image:: images/settings-2.png
-   :alt: Background Screen Color picker. Many presets are shown.
 
-The Background Screen Color dropdown allows selection of the color which will be used for 'Chroma' process described previously. In the "Video Only" and "Video and Score" modes, the Chroma color is overlayed in the top "two thirds" of the screen to allow for video overlay. The Background Screen Color is not used if the "Video Background Style" is set to "Ranking Display" (the Background Screen Color would be hidden in this case).
-
-In addition to the available colors in the dropdown, a specific RGB value can be specified via the "Advanced" button on the bottom. Occasionally, a production company or video software will specify a color to be used for the keying process most accurately. If no specific requests are made, the default value of "Fuchsia" or alternate of "LawnGreen" should be sufficient.
-
-Real-Time Score Type
---------------------
+[*Display Language*] Audience Display is available in multiple languages- select a language from the dropdown
 
 .. image:: images/settings-3.png
-   :alt: Real-Time Score Type picker. "[Default] Full Width" is highlighted.
 
-Careful consideration should be used before changing these options as they can cause confusion for audience members who are "use to" a traditional layout from year to year. For official FRC\ |reg| Events, if in doubt, please contact your Engineering support contact.
+[*Resolution*] The Audience Display is available in 1280x720 ("720") or 1920x1080 ("1080") resolutions
 
-The default option of "Full Width" is the more traditional score bar that takes up the full bottom third or so of the audience display. The alternate view, Center Third, is for use on webcast versions as arranged with *FIRST*\ |reg| HQ and provides an alternate view of the data in a more compact, centered display.
-
-Real-Time Orientation
----------------------
+[*Check for Updates*] Query FMS to see if an updated version is available. If so, a prompt will be presented.
 
 .. image:: images/settings-4.png
-   :alt: Real-Time Scoring Vertical Position pickers. "[Default] Red on Left" and "[Default] Bottom of Screen" are highlighted.
 
-Careful consideration should be used before changing these options, and they may cause confusion for audience members who are "use to" a traditional layout from year to year. For official FRC Events, if in doubt, please contact your Engineering support contact.
+After the update downloads and installs (which is automatic) the Audience Display will need to be re-launched.
 
-[ *Above Red Line* ] The horizontal orientation of the real-time scoring screen can be modified through settings to select whether the red alliance is on the left, or the right, side of the screen. At a traditional FRC Event and setup, the red alliance is setup to the right side when sitting at the scoring table. As such, a projection screen mounted above the scoring table (viewed by the audience sitting across from it) would see the red alliance on the left side when viewing the field. However, some situations (such as webcasting) display the view of the field from the same side as the scoring table. In these situations, the horizontal orientation could be flipped so that the display will properly align overlayed elements with those seen on the live video feed.
-
-[ *Below Red Line* ] The vertical orientation allows for flipping of the "Video and Score" panel from the bottom of the Audience Display to the top. This is useful in situations where the venue has obstructed views, there is conflicting light, or it's more convenient for spectators. The only display affected by this setting is "Video and Score"- all others continue to behave the same way as they normally would.
-
-FIRST Championship Specific
----------------------------
+Graphics Settings
+------------------
 
 .. image:: images/settings-5.png
-   :alt: FIRST Championship: Is Center Screen checkbox. Is unchecked.
 
-Some configuration options are specific to the *FIRST* Championship. Please do not adjust these settings at any events except under the direction of FRC Support.
+**Display Types**:
 
-Sounds
-------
+.. note::
+   Careful consideration should be used before changing these options as they can cause confusion for audience members who expect a traditional layout from year to year.
+   For official FRC |reg| Events, if in doubt, contact your Engineering support contact.
+
+[*Preset Types*] 
+
+* Main Display - Default singleton operation
+* Web Display - Load the default settings for Audience Display instances being used on FIRST Webcast Units
+* Champ Center Display - For use by FIRST HQ at Championship
+* Custom Settings - Individually specified user settings
+
+[*Real-Time Score Types*] 
+
+* Full Width - The traditional score bar that takes up the full bottom third or so of the Audience Display
+* Center Third - Webcast versions as arranged with *FIRST*\ |reg| HQ and provides an alternate view of the data in a more compact, centered display
+
+[*FIRST Championship Center Screen*] Configuration options specific to the *FIRST* Championship. Please do not adjust these settings at any events except under the direction of FRC Support.
+
+[*Award Display Type*] 
+
+* Full Screen - Show award names and award winners full screen without space for chroma (camera shots)
+* Web Display - Show award names and award winners in a simplified web friendly display on top of the camera view
+* Chroma - Show award names and award winners on top of chroma (camera shots) in a larger, venue friendly format
+
+**Display Chroma**:
+
+[*Graphics Background Style*] 
+
+* Chroma - Show the selected color in the area to be keyed (or cut) out and replaced with live event video from a camera or production feed. The actually "keying" process and
+  mixing of video would need to be done through external software, not through FMS/Audience Display.
+
+* Ranking Display - Removes the background screen color (Chroma) and shows a ranking screen in its place. The list automatically scrolls through all the ranked teams at
+  the event, in rank order. Teams must have played one or more qualification matches to be included in the listings.
+
+.. note:: 
+   Updates to the qualification rankings via out-of-band processes (such as Match Review) will not update the rankings if the rankings are on screen during the update process; to update rankings, the Video Switch must be used to select
+   another view (such as "Background") and then reload the desired view ("Video Only" or "Video and Score").During Playoff matches, the rankings are replaced with the playoff
+   bracket to show progression through the tournament.
+
+[*Background Chroma Color*] Select the color to be used for the Chroma Key (if in Chroma mode). In most cases, the deault "Fuchsia" should work great. The desired color will be dictated by the event's production
+group. RGBA and Hex values are both accepted.
 
 .. image:: images/settings-6.png
-   :alt: Soundboard. Sounds available are "Start Match", "End Match", "Pause Match", "Restart Match", "Timer Warning #1", "Timer Warning #2".
 
-Using the third "bar" of the settings panel sounds can be force played to test the connection with the audio/video group. Depending on the season, one or more buttons may not trigger a sound to be played (2015 did not use "Warning #2" for example). Each sound plays once upon click. Additional game-specific sounds may also be present for testing as well.
+.. warning::
+   Avoid using common colors like "red" or "blue" as Chroma Key colors, as they will also cause portions of the other graphics (like the FIRST logo) to be keyed out.
+
+[*Alliance Hybrid View Chroma Display*] 
+
+**Real-Time Display**:
+
+.. note::
+   Careful consideration should be used before changing these options as they can cause confusion for audience members who expect a traditional layout from year to year.
+   For official FRC |reg| Events, if in doubt, contact your Engineering support contact.
+
+.. image:: images/settings-7.png
+
+[*Real-Time Score Horizontal*] Traditionally, the red alliance is setup to the right side when sitting at the scoring table. As such, a projection screen mounted above
+the scoring table (viewed by the audience sitting across from it) would see the red alliance on the left side when viewing the field. However, some situations (such as webcasting)
+display the view of the field from the same side as the scoring table. In these situations the horizontal orientation could be flipped so that the display will properly align
+overlayed elements with those seen on the live video feed.
+
+[*Real-Time Score Vertical*] Move the real time score display to the bottom of the screen or to the top of the screen based on venue needs.
+
+Video Settings
+------------------
+
+.. image:: images/settings-8.png
+
+[*Animation Rendering*] The default of "Minimize CPU" should be sufficient for most users. The alternative of "Window Capture" may be needed for some broadcasting scenarios such 
+as when using OBS or vMix. The "Allow Window Capture" option uses a lot of CPU resources and may result in choppy video when not using matching broadcast software.
+
+.. warning::
+   If using the Minimal CPU option and using vMix or OBS to capture the Audience Display window, the animations will not capture in vMix or OBS.
+
+[*Enable OBS Integration*] Instruct the Audience Display to issue commands that can be detected by OBS (a broadcast software). For more information see :ref:`this article <audience-obs-index>`
+
+Sound Settings
+------------------
+
+.. image:: images/settings-9.png
+
+Select a sound from the "Sound Selection" dropdown.
+
+[*Play Once*] Single play of the selected sound
+
+[*Play/Stop Looped*] Start or stop playing the sound until the opposite button is clicked. Particularly helpful 
+
+NDI |reg| Settings
+------------------
+
+.. image:: images/settings-10.png
+
+NDI Settings are for advanced users and are described in more detail within the software itself (in the corresponding blue boxes).
+
+Shortcuts
+------------------
+
+.. image:: images/settings-11.png
+
+Quick reference of the available shortcuts and actions in the Audience Display.
 
 Resolution and Positioning
 --------------------------
 
-.. image:: images/settings-7.png
-   :alt: Left to Right. Resolution Selector, "Center on Screen" Button, Audience Display move handle.
+[*Positioning*] To *quickly* position the Audience Display on the monitor, click the "Center on Screen" button from the right-click menu of the taskbar.
+the placement on the screen. Alternatively, hold CTRL-SHIFT and CLICK-DRAG the mouse on the window to drag the window around.
 
-[ *Resolutions* ] Audience Display is compatible with three (3) resolutions- 1024x768 (3:4 aspect ratio) and 1920x1080 / 1280x720 (16:9 aspect ratio). The resolution can be adjusted using the radio buttons, and takes effect upon clicking the "Save Changes" button. There are slight differences between the display of data in the various resolutions- but the critical game data remains the same.
+To *precisely* position the Audience Display on the monitor, use CTRL-ARROW, SHIFT-ARROW, or CTRL-SHIFT-ARROW to move the display in the direction
+of the arrow. Each subsequent modifier (CTRL, SHIFT, CTRL-SHIFT) adjusts the display in the direction of the arrow key pressed a different incremental amount.
 
-[ *Positioning* ] To *quickly* position the Audience Display on the monitor, either click the "Center on Screen" button or "Hold and drag" on the designated area to manually adjust the placement on the screen. You can also alternatively hold CTRL-SHIFT and CLICK-DRAG the mouse on the window to drag the window around.
-
-To *precisely* position the Audience Display on the monitor (version 3.25 or higher), you can also use CTRL-ARROW, SHIFT-ARROW, or CTRL-SHIFT-ARROW to move the display in the direction of the arrow. Each subsequent modifier (CTRL, SHIFT, CTRL-SHIFT) adjusts the display in the direction of the arrow key pressed a different incremental amount.
-
-To precisely throw the audience display to another screen (centered) in one keystroke, use the CTRL-SHIFT-1, CTRL-SHIFT-2, and CTRL-SHIFT-3 keyboard shortcuts. These shortcuts will throw the Audience Display to Display 1, Display 2, and Display 3 as defined by Windows, respectively, and centered within the display.
-
-Control Bar
------------
-
-.. image:: images/settings-8.png
-   :alt: Left to Right. Version Info, "Check For Updates" button, "Restore Defaults" button, "Save Changes" button, "Cancel" button.
-
-On the bottom of the settings pane is the control bar. On the left is the version of the Audience Display software (which must match FMS, see :doc:`Installation <installation>`). On the right are options to Restore Defaults (return the Audience Display to it's "out of the box" settings, colors, etc), Save Changes (save any changes made and close settings) and Cancel (don't save any changes, and close the settings panel). Note that "Cancel" does not undo any positioning changes made, either through centering or manual adjustments. Also to the right of the Version information is the "Check for Updates" button, which checks the LOCAL FMS installation for updates to the Audience Display application. This DOES NOT look for updates on the Web. You must update FMS before using this "Check for Updates" button.
-
-Animation Rendering Optimization
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-One of the features added to Version 7.x of the Audience Displays is the ability to change the Rendering Optimization. There are two options, one is a "Minimize CPU Utilization" option and the other allows Window Capturing. Unless using vMix, OBS, or other tools to capture the Audience Display window using software on the local computer running the Audience Display software, you should be using the "Minimize CPU Utilization" option as the "Allow Window Capture" option uses a lot of CPU resources and will result in choppy video if those resources are not present. If using the Minimal CPU option and using vMix or OBS to capture the Audience Display window, the animations will not capture in vMix or OBS. Don't say I didn't warn you.
-
-Jump Menu
----------
-
-The Audience Display has a Jump Menu, accessible by right-clicking the Audience Display icon in the Taskbar. The Jump menu provides additional functionality not accessible anywhere else in the Audience Display. The Jump Menu may not be enabled if you're using Windows 10 Home Edition (a quick Google search on "Enable Jump Lists on Windows 10 Home" can help locate instructions), Ask HQ Support for help if you need additional help using the Jump Menu.
+To precisely throw the audience display to another screen (centered) in one keystroke, use the CTRL-SHIFT-1, CTRL-SHIFT-2, and CTRL-SHIFT-3 keyboard shortcuts. These shortcuts will
+throw the Audience Display to Display 1, Display 2, and Display 3 as defined by Windows, respectively, and centered within the display.
