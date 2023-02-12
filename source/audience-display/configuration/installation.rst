@@ -1,5 +1,5 @@
 .. include:: <isonum.txt>
-.. _audience-installation:
+.. _audience-config-installation:
 
 Installation
 ============
@@ -7,8 +7,8 @@ Installation
 .. important::
    Please do not install the Audience Display on official *FIRST* |reg| servers ("case 33") - use the laptop marked for Audience Display use instead
 
-Installation
--------------
+Installation Overview
+---------------------
 
 .. image:: images/installation-0.png
    :alt: Two copies of Windows Explorer opened to the location of the Audience Display installer. One is opened to the off season installer.
