@@ -1,4 +1,5 @@
 .. include:: <isonum.txt>
+.. _audience-playoff-specific:
 
 Playoff Specific
 ================
@@ -8,31 +9,36 @@ Screens available specifically for the Playoff process.
 Alliance Selection
 ------------------
 
-.. image:: images/playoff-specific-0.png
-   :alt: Aliance Selection screen
+.. image:: images/playoff-1.png
 
-Used in conjunction with the "Available Teams" display to guide Teams and the Audience through the alliance selection process. It shows the captains and each of their picks, as entered by the scorekeeper. Teams appear on the display once the scorekeeper loses focus on the box containing their team number (see Alliance Selection).
+Guide teams and the audience through the alliance selection process. Views contain the alliances, which will populate with the team numbers 
+of selected teams as entered by the Scorekeeper. Teams available for selection are displayed in rank order in the top section of the screen.
 
-Available Teams
----------------
+[*Left*] Alliance selection view without "Chroma" for live camera feed
 
-.. image:: images/playoff-specific-1.png
-   :alt: Available Teams screen
-
-Teams not yet selected during Alliance Selection are shown in the "Available Teams" display. Up to 70 teams are displayed in order of their Qualification rank. This display should be used in conjunction with the "Alliance Selection" view to assist Teams and the Audience in knowing who remains available for selection.
-
-Hybrid
-------
-
-.. image:: images/playoff-specific-2.png
-   :alt: Hybrid Alliance Selection screen
-
-The Hybrid view is a combination view used to combine the Alliance Selection screen, Available Teams screen, AND a video chroma box so that this view can stay up without significantly impacting the video performance of the event.
+[*Right*] Alliance selection view with space for a live camera feed
 
 Bracket
 -------
 
-.. image:: images/playoff-specific-3.png
-   :alt: Playoff Bracket screen
+.. image:: images/playoff-2.png
 
-The bracket display is used during the Playoff tournament to indicate standings of all alliances. It is useful to show the Audience when an alliance advances from one level of the tournament to the next (e.g. Quarterfinals to Semifinals). Until a phase is complete (i.e. Quarterfinals) the bracket will continue to show the active phase with alliance numbers filled in on the following phase as applicable.
+The bracket display is used during the Playoff tournament to guide teams and the audience through the playoff tournament.
+
+.. note::
+   The double elimintation bracket is new in 2023. The bracket view is critical to keeping everyone in the venue aware 
+   of the progression through the playoffs- please coordinate with the announcer/emcee to display the bracket at the 
+   conclusion of each match.
+
+Break
+-------
+
+.. image:: images/playoff-3.png
+
+The break timing display is available during both Qualification and Playoff matches, though is typically only used in Playoffs when between matches.
+The display contains the match number or phase (e.g. "Test Match") as well as the event name, time remaining and upcoming match data.
+Upon timer expiry/cancel, the "buzzer" sound will be played if "sound alerts" were enabled when the break was started by the scoring table.
+
+[*Left*] Traditional timing screen
+
+[*Right*] Alternative timing screen when "Graphics Background" setting is "Rankings"

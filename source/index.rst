@@ -53,6 +53,7 @@ FMS Manual
    :maxdepth: 2
    :caption: Audience Display
 
+   audience-display/about/index
    audience-display/configuration/index
    audience-display/displays/index
    audience-display/obs-integration/index
