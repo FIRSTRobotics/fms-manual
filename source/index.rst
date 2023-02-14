@@ -6,8 +6,6 @@
 FMS Manual
 ==========
 
-.. important:: Please note that this FMS documentation is *in progress* of being updated for 2023. Read at your own risk.
-
 .. toctree::
    :maxdepth: 2
    :caption: Overview and Key Terminology
