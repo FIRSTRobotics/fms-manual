@@ -3,6 +3,8 @@
 Qualifications Pit Display
 ============================================
 
+.. important:: Please note that this section of the FMS documentation is *in progress* of being updated for 2023. Read at your own risk.
+
 Qualification Pit Display
 
 Display
