@@ -4,7 +4,7 @@
 Awards
 ======================
 
-Awards are a key component of the FIRST Robotics Competition and each event's Closing Ceremonies. Take care to maintain confidentiality throughout the awards processes.
+Awards are a key component of the *FIRST*\ |reg| Robotics Competition and each event's Closing Ceremonies. Take care to maintain confidentiality throughout the awards processes.
 
 Awards Process
 ----------------
@@ -15,7 +15,7 @@ Awards Process
    * In the rare event that the Judge Advisor is unable to submit award assignments, you will have to revert to manual entry.
 
    .. important::
-      Be careful to prevent wandering eyes from accessing the awards, make sure to pay attention to all warning boxes when entering or displaying awards, and do not post the awards nor submit them prior to their official announcement. awards that are submitted are immediately posted online and are available via the FIRST API and online.
+      Be careful to prevent wandering eyes from accessing the awards, make sure to pay attention to all warning boxes when entering or displaying awards, and do not post the awards nor submit them prior to their official announcement. awards that are submitted are immediately posted online and are available via the *FIRST*\ |reg| API and online.
 
 #. [Regional Events Only] Once all awards are entered move on to the Wildcard step and ensure that there are four (4) green checkmarks. Once verified, click “Calculate Wildcards” to allow the system to calculate wildcards.
 

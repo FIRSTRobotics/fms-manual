@@ -3,12 +3,9 @@
 Network Config
 ======================
 
-Config
-------
+.. image:: images/network-config-1.png
 
-.. image:: images/network-config-0.png
-
-The Network Config tab on the Settings page contains all of the network settings that may be adjusted for the FMS hardware and software. The Network Config tab is the default tab on the Settings Page. It has four sections: Smart Router, Router, Windows and Access Point.
+The Network Config tab on the Settings page contains all of the network settings that may be adjusted for the FMS hardware and software. It has four sections: Smart Router, Router, Windows and Access Point.
 
 [ *Red* - Smart Router] Contains functions for setting the Smart Router configuration within the FMS Hardware set. Set Router Configuration can be used to configure the router settings for venue-specific network access configuration. Do not change the settings on the Smart Router without FTA and/or FRC Engineering support.
 

@@ -4,9 +4,9 @@
 Overview
 ======================
 
-The Scorekeeper Reference documentation IS NOT an exhaustive tome of all knowledge regarding Scorekeeper best practices, helpful life lessons, or anything you should take with you if you’re ever trapped on a deserted island. Instead, this document is intended to provide some guidance and helpful reminders for completing your role as a Scorekeeper.
+The Scorekeeper Reference documentation IS NOT an exhaustive tome of all knowledge regarding Scorekeeper best practices, helpful life lessons, or anything you should take with you if you're ever trapped on a deserted island. Instead, this document is intended to provide some guidance and helpful reminders for completing your role as a Scorekeeper.
 
-THANK YOU very much from all of us at FIRST for volunteering your time and unique skills to guide our events!
+THANK YOU very much from all of us at *FIRST*\ |reg| for volunteering your time and unique skills to guide our events!
 
 Purpose
 -------
@@ -20,7 +20,7 @@ This guide may be of help to Off-Season events, but is designed for official in-
 
 In the Step-by-Step section, “Days” designated to specific steps are assuming a traditional regional schedule and may not apply to a condensed (district) schedule.
 
-Prior to an event, Scorekeepers may find it helpful to export this documentation to be printed or saved on a personal device. To export, click on the ‘Read the Docs’ label in the bottom-left corner of the page to open the panel.
+Prior to an event, Scorekeepers may find it helpful to export this documentation to be printed or saved on a personal device. To export, click on the 'Read the Docs' label in the bottom-left corner of the page to open the panel.
 
 .. image:: images/scorekeeper-intro-0.png
 
