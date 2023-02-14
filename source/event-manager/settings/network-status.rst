@@ -3,10 +3,7 @@
 Network Status
 ======================
 
-Status
-------
-
-.. image:: images/network-status-0.png
+.. image:: images/network-status-1.png
 
 The Network Status tab on the Settings page contains all of the network status information that is queried from the FMS hardware and software. The Network Status tab is the default tab on the Settings Page. It has three sections: Smart Router, Router, and Access Point. All data on this tab is "Read Only", adjustments are made through " :doc:`Network Config <network-config>`
 
