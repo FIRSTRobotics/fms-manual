@@ -5,8 +5,9 @@
 Welcome to fms-manual! This repository contains the various source articles for the fms-manual website. fms-manual is licensed under Creative Commons, with assets such as the FIRST logo under trademark and copyright of [FIRST](https://www.firstinspires.org/).
 
 The website is available under the following domains:
-- fms-manual.readthedocs.io
-- http://fms-manual.rtfd.io/
+- https://fms-manual.readthedocs.io/
+- https://fms-manual.rtfd.io/
+- https://bit.ly/fmsmanual
 
 ## Requirements for Building
 

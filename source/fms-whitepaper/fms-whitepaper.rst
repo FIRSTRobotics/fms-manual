@@ -9,13 +9,13 @@ The purpose of this document is to provide an insight to the functional structur
 Role of the Field Management System (FMS)
 -----------------------------------------
 
-The FIELD MANAGEMENT SYSTEM (FMS) is the electronics core responsible for controlling the *FIRST*\ |reg| Robotics Competition (FRC) playing field. The FMS encompasses all field electronics, including the Field Management server, Referee Panels, Field Access Point, Team Stack Lights, Emergency Stops, etc. Additional hardware and software components may be added to the FMS for each years’ challenges.
+The FIELD MANAGEMENT SYSTEM (FMS) is the electronics core responsible for controlling the *FIRST*\ |reg| Robotics Competition (FRC) playing field. The FMS encompasses all field electronics, including the Field Management server, Referee Panels, Field Access Point, Team Stack Lights, Emergency Stops, etc. Additional hardware and software components may be added to the FMS for each years' challenges.
 
 The FMS is also responsible for coordinating control of the Driver Stations and robots during a match, as well as providing the pipeline for them to communicate. The FMS also provides the infrastructure for real-time score-keeping, and logs diagnostic data during the event. Finally, the FMS provides data to the Audience and Pit Displays.
 
 The FMS is based on Ethernet architecture. End devices such as the Driver Station, Referee Panels and other field components communicate over a wired Ethernet interface. Numerous other field electronics (such as Stack Lights and Emergency Stops) also connect to devices that, in the end, communicate over Ethernet to the rest of the network. Wireless communications (WIFI) is only used to communicate with the robots during a match.
 
-Although the FMS Field Network is all on one physical network, this physical network is split into Virtual Networks (VLANs), to ensure each team’s communications are independent from other teams, as well as the rest of the field electronics.
+Although the FMS Field Network is all on one physical network, this physical network is split into Virtual Networks (VLANs), to ensure each team's communications are independent from other teams, as well as the rest of the field electronics.
 
 The goal of the FMS is to provide a unified, secure and robust solution to running FRC matches in a fair and consistent manner. Many protocols and procedures are put in place to ensure the FMS is operational and running to full capacity.
 
@@ -25,7 +25,12 @@ The Field Network
 Components
 ^^^^^^^^^^
 
-The FMS is made of many components, all working together in unison to provide the full functionality of an FRC field. This section contains most, but not all, of the field electronic components and has been generalized to be season-agnostic.
+The FMS is made of many components, all working together in unison to provide the full functionality of an FRC field. This section contains most, but not all, of the field electronic components and has been generalized to be season-agnostic. 
+
+The Smart Router
+~~~~~~~~~~~~~~~~
+
+The Smart Router is located inside the FMS roadcase, and is the device that is presented to the venue internet. The Smart Router is used to reduce or eliminate IP address conflicts with the venue, simplify internet connectivity troubleshooting, and has a built-in VPN function which may be employed by FRC Engineering when venue content filtering prohibits mission-critical connections.
 
 The Field Router
 ~~~~~~~~~~~~~~~~
