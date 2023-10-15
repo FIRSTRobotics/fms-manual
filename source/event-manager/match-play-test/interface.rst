@@ -32,17 +32,17 @@ FMS
 
 Controls to inform FMS which robot is in the indicated station position and how to handle it:
 
-#. Byp - Select this box to bypass this particular station and force it to a ready (but disabled) state
-#. DQ - Select this box to indicate that the corresponding team has been DQ’d for this match (will also cause Bypass)
-#. Card State (entered by Head Referee, can only be edited after Match is over):
+1. Byp - Select this box to bypass this particular station and force it to a ready (but disabled) state
+2. DQ - Select this box to indicate that the corresponding team has been DQ’d for this match (will also cause Bypass)
+3. Card State (entered by Head Referee, can only be edited after Match is over):
 
    * Green - no card, team in good standing
    * Yellow - team has been assigned a yellow card
    * Red - team assigned a red card in this match. Setting the indicator to red also bypasses the Player Station and automatically assigns the team a DQ for the current match. Note that in a subsequent match FMS will automatically change the red card to yellow
 
-#. Estop - used to Estop the robot during the match. This box also shows the team number that it will Estop, for quicker reference.
-#. Team Number - The team number which corresponds with the team designated to play in this station. Teams need to be in the correct station to ensure that they receive the proper Station ID and Position information from FMS.
-#. WPA Key status:
+4. Estop - used to Estop the robot during the match. This box also shows the team number that it will Estop, for quicker reference.
+5. Team Number - The team number which corresponds with the team designated to play in this station. Teams need to be in the correct station to ensure that they receive the proper Station ID and Position information from FMS.
+6. WPA Key status:
 
    * Red - team has not been on the playing field
    * Yellow - has linked with the field, but has not played in a match
@@ -53,8 +53,8 @@ Team
 
 Indicates the state of the DS:
 
-#. Left bubble - Indicates status of the FMS-to-DS link. If the team number and DS match, this bubble with be green.
-#. Right bubble - Indicates status of the E-stop. If this light is green, the E-stop in the Team’s Player Station is up. If it is red, the E-stop in the Player Station is down, or the Estop button on FMS has been pressed. An E-stop in the down position will cause the amber light in the Team Station to turn on.
+7. Left bubble - Indicates status of the FMS-to-DS link. If the team number and DS match, this bubble with be green.
+8. Right bubble - Indicates status of the E-stop. If this light is green, the E-stop in the Team’s Player Station is up. If it is red, the E-stop in the Player Station is down, or the Estop button on FMS has been pressed. An E-stop in the down position will cause the amber light in the Team Station to turn on.
 
    * All E-stops need to be in the up position to begin a match. Prestarting a match with any E-stop down will prompt a dialog box to be shown indicated in which Player Station the E-stop(s) are down.
 
@@ -64,8 +64,8 @@ Robot
 
 Indicates the state of the Robot:
 
-#. Left bubble - DS-to-Robot link status. If the DS and Robot are linked, this bubble will be green. If the station has been Bypassed, a "B" will appear in this bubble. If no link is established, the Team Light in the Player Station will flash at 1Hz (1 time per second) rate.
-#. Right bubble - Indicator would display in yellow marked area, but only shows when a Robot is connected. Mode and System state of the Robot. "A" indicates Autonomous Mode, "T" indicates Teleoperated mode. If the Robot is disabled, the bubble is red, it will be green when the Robot is enabled by FMS.
+9. Left bubble - DS-to-Robot link status. If the DS and Robot are linked, this bubble will be green. If the station has been Bypassed, a "B" will appear in this bubble. If no link is established, the Team Light in the Player Station will flash at 1Hz (1 time per second) rate.
+10. Right bubble - Indicator would display in yellow marked area, but only shows when a Robot is connected. Mode and System state of the Robot. "A" indicates Autonomous Mode, "T" indicates Teleoperated mode. If the Robot is disabled, the bubble is red, it will be green when the Robot is enabled by FMS.
 
 
 Match Control (FCUI)
