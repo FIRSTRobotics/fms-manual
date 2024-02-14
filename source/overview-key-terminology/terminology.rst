@@ -30,9 +30,9 @@ A fair number of acronyms are used throughout this manual. Below is a list of ma
    * - AD
      - Audience Display
      - A software program that is used to control the display of game information to the audience, including real-time scoring, rankings, playoff brackets, and more.
-   * - FCUI
-     - Field Control User Interface
-     - Formerly a piece of FIRST hardware, now refers to the match control bar within the Match Play interface.
+   * - FTA
+     - FIRST Technical Advisor
+     - Volunteer representative of FIRST HQ at events, supervises field operations and troubleshooting
    * - 
      - roboRIO
      - Control system "brain" manufactured by National Instruments and required on each FRC Robot
