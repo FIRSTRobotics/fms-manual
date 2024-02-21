@@ -68,7 +68,7 @@ Present an Award
 This process assumes all awards have been downloaded or manually entered before the start of the awards ceremony.
 
 .. note::
-    New in 2023: Some awards will be presented during the Playoff tournament, between matches. Scorekeepers will need to go back and forth from the Event Wizard to Match Play to facilitate this process.
+    Some awards may be presented during the Playoff tournament, between matches. Scorekeepers will need to go back and forth from the Event Wizard to Match Play to facilitate this process.
 
 .. image:: images/awards-6.png
 
@@ -109,6 +109,9 @@ For award presented to individuals, such as Volunteer of the Year, additional fi
 
 Award Assignment from Application
 #################################
+
+.. warning::
+    This process is part of the Manual Award Assignment process, and considered a backup process as well. This should not be necessary except upon direction of FIRST HQ and/or your FTA
 
 Some award require the winning team/person to have previously applied or been nominated, such as the Woodie Flower's Award.
 In these cases, when assigning the award in FMS, a drop-down list of potential winners will be offered.
