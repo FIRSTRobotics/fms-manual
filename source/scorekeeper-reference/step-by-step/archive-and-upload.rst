@@ -8,6 +8,7 @@ This is the very last step you should perform on the server. Before doing this, 
 Event Upload Process
 ---------------------
 
+#. Check with Head Ref, FTA, and Event Manager to see if there are any files they need printed/saved before archiving the event.
 #. If, and only if, the support person gives you the go-ahead, perform the “Upload Event Data” step by clicking the button.
 #. Once the upload is showing completed, check in with your FRC Support person. The support team needs to verify that they received the upload. Support may need to remote into the system to perform a backup manually if the operation fails, so please stay near.
 #. Once they're done, and have verified that everything is good, you can close all applications and log off and shut down the server.

@@ -5,7 +5,7 @@ About Tab
 
 .. image:: images/about-tab.png
 
-The "About" tab contains version information and software notices. 2023 versions of FMS will always have a Major Version of "10".
+The "About" tab contains version information and software notices. 2024 versions of FMS will always have a Major Version of "11".
 
 [Green] Build (revision) of the software currently installed
 
@@ -13,6 +13,7 @@ The "About" tab contains version information and software notices. 2023 versions
 
 [Blue] For traditional versions of FMS, check for available updated versions and initiate the install process
 
-[Green] Current software license, which was agreed to upon installation of the software
+The EULA software license, which was agreed to upon installation of the software, is also available for review.
 
-There is no built in update capability in the Off-Season version of the software. In the traditional version, once an update download has been initiated, download progress statistics will be displayed and the installation process will begin automatically.
+There is no built in update capability in the Off-Season version of the software. In the traditional version, once an update download has been initiated,
+download progress statistics will be displayed and the installation process will begin automatically.

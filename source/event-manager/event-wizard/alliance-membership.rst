@@ -7,10 +7,8 @@ Substitution
 ############
 .. image:: images/alliance-membership-1.png
 
-Playoff rules stipulate that if any member of an alliance becomes unable or unwilling to continue playing through the tournament, they can be replaced by the next highest-ranking
-team not selected during Alliance Selection. The alliance membership wizard steps is used to bring a backup robot into the playoff tournament.
-
-[*Purple Markers*] Click the radio button next to the team being removed from the playoff tournament
+Playoff rules stipulate that if any member of an alliance becomes unable or unwilling to continue playing through the tournament, the alliance captain may adopt the next highest-ranking
+team not selected during Alliance Selection process to act as a Backup Robot. The alliance membership wizard step is used to assign the backup robot into an alliance.
 
 [*Pink Box*] Type the incoming team number into the corresponding row for the alliance they are joining
 
@@ -25,8 +23,8 @@ Un-doing Substitution
 
 .. image:: images/alliance-membership-3.png
 
-If a substitution is made by accident, it can be undone. Though it is possible to undo, it can add confusion to field staff and audience members. Scorekeepers should be double checking
-before entering substitute robots. 
+If a substitution is made by accident it can be undone. Though it is possible to undo, it can add confusion to field staff and audience members. Scorekeepers should be double checking
+before entering backup robots. 
 
 [*Green Marker*] Click the red "X" next to the backup robot to remove it. The software will confirm that you want to undo the backup robot and requires a password before completing the process.
 

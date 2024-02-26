@@ -3,7 +3,7 @@
 Backup Config
 ======================
 
-.. image:: images/backup-config-1.png
+.. image:: images/backup-config-0.png
 
 The Backup Config tab provides facilities to set a data backup location and manually force backups to occur. Backups should be set to an off-system USB storage location using the “Browse” button (red arrow) to select the location. The currently selected location will be shown in the text box to the left of the Browse button.
 
