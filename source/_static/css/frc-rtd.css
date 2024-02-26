@@ -36,7 +36,7 @@
 	display: block;
 	float: left;
 	height: 100%;
-	width: 25%;
+	width: 33.3333%;
 }
 
 .rst-versions {
@@ -68,7 +68,7 @@
 }
 
 .wy-nav-content {
-	max-width: 820px;
+	max-width: 1000px;
 }
 
 .wy-nav-content-wrap {
