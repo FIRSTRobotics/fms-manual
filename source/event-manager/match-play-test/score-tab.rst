@@ -5,9 +5,6 @@ Score Tab
 
 Game specific field scoring and adjustments.
 
-Score Tab
-------------------
-
 The Score Tab is the primary location used to confirm the score of the match prior to Commit Score. The information shown on this tab is input by the Referees using the Touchscreens or by the automated scoring system (except in FMS Off-Season).
 Scoring value can be manually edited through this interface. The total alliance score is automatically recalculated as these adjustments are made. Values are not editable until after the match is over, 
 because values come from the Referees or automation during the match. In FMS Off-Season, values are editable during the match as there are no Referee panels or real time automation.

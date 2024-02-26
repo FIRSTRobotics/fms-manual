@@ -4,7 +4,7 @@ Interface
 ===========
 
 Match Play
-----------
+-----------
 
 .. image:: images/match-play-interface.png
 
@@ -73,7 +73,7 @@ The fields left to right indicate information about the connection state of each
 
 
 Match Control (FCUI)
---------------------
+---------------------
 
 .. image:: images/interface-2.png
 
@@ -111,7 +111,7 @@ Once a match has started, the "Start Match" option becomes "Abort Match" as show
 In non-emergency situations, the "Abort" option is preferred to the field E-Stop, as the E-Stop will put all Robots in an emergency shutdown state, whereas the "Abort" option will not.
 
 Discard Match Option
-------------------
+---------------------
 
 .. image:: images/interface-3b.png
 
