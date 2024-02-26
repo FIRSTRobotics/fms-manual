@@ -19,11 +19,11 @@ Information provided in this documentation is not intended to overrule or supers
 Current Revision
 ################
 
-.. image:: images/chargeduplogo.png
+.. image:: images/crescendologo.png
 	:align: center
 	:alt: FRC Current Season Game Logo
 
-While every effort is made to update the documentation to remain instep with all current features and season information, it's not always possible. As best as possible, the documentation is accurate for the current FIRST Robotics Competition game (based on the logo shown).
+Every effort is made to update the documentation to remain instep with all current features and season information. As best as possible, the documentation is accurate for the current FIRST Robotics Competition game (based on the logo shown).
 
 Documentation Accuracy
 ######################

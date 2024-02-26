@@ -3,19 +3,19 @@
 Field Test
 ===========
 
-Field Test is used to confirm basic operation of all the LED Displays, Team Lights, and basic scoring hardware.
+Field Test is used to confirm basic operation of all the LED Displays, Team Lights and scoring hardware.
 Field Test is also used to confirm the network connections to the Audience Screen and the Internet.
-After Field Test, a full Match Test should be used to confirm all hrdware is performing as expected in-match.
+After Field Test a full Match Test should be used to confirm all hardware is performing as expected in-match.
 In FMS Off-Season, the Field Test screen is not accessible.
 
-.. image:: images/field-test-1.png
+.. image:: images/field-test-0.png
 
 On initial load, the screen will be temporarily blocked while the status of all hardware is updated.
 
 Interface
 #############################
 
-.. image:: images/field-test-2.png
+.. image:: images/field-test-1.png
 
 [*Green Box*] Shows the connection status of the hardware at the corresponding areas of the playing field; Blue Alliance end, Scoring Table, and Red Alliance end. Green indicates
 a successful connection. Use "Refresh Indicators" to re-check the status.
@@ -29,7 +29,7 @@ a successful connection. Use "Refresh Indicators" to re-check the status.
 Lights and Signs
 #############################
 
-.. image:: images/field-test-3.png
+.. image:: images/field-test-2.png
 
 This panel is used to test the Stack Lights and team signs.
 
@@ -47,10 +47,16 @@ This panel is used to test the Stack Lights and team signs.
 .. note::
     The Team Stack Light test this will not illuminate the amber lights (E-stop indictor). E-stop lights only turn on when the E-stop in the corresponding Player Station is pushed, or the Arena E-stop is pressed
 
+
+Game Specific Field Test
+#############################
+
+Please see the next page for additional information.
+
 Network Communication
 ##################################
 
-.. image:: images/field-test-4.png
+.. image:: images/field-test-3.png
 
 * Internet - confirm an active connection to the Internet (specific ports and procedures)
 * Audience Connectivity - test connection between FMS and the Audience Display program
@@ -66,9 +72,7 @@ Network Communication
 Hardware Warnings
 ##############################
 
-.. image:: images/field-test-5.png
-
-Any warnings detected during the hardware check process appear under the "Warnings" section near the top of the Field Test screen. This section only shows if there is at least one warning.
+Any warnings detected during the hardware check will appear within the Field Test screen. Possible warnings include:
 
 * Machine Firewall Enabled (pictured) - Having the firewall enabled can cause problems when FMS attempts to communicate status data to the Driver Stations. At an official event, contact support if this message is displayed.
 * Spare Infrastructure Hardware on Network (not pictured) - The system has noticed spare hardware (e.g. SCC) on the network. No action needed.

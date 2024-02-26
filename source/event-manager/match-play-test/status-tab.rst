@@ -6,15 +6,13 @@ Status Tab
 .. image:: images/status-tab-0.png
 
 The Status tab shows detailed information for each robot linked to FMS; this information is also displayed on the Field Monitor used by the FTA and FTA Assistant (FTAA).
-Examples are for Blue Station 1 (team number 1 in this case) but the same data exists for all stations. The information for each team is:
+The same data is collected for all stations.
 
-#. Station and Team number (in this case station 1, team number 1)
-#. DS: Red square - nothing connected Green circle with X - Indicates if a DS is physically connected to the switch at the SCC Solid green circle - DS is in FMS mode (i.e. connected to FMS)
+#. Station and Team number (in the format station: team)
+#. DS:
 
    * Red square - nothing connected
-   * Green circle with X - Indicates if a DS is physically connected to the switch at the SCC
-   * Solid yellow circle with "M" - Team is in the wrong station and should "Move" (usually, stations 1 and 3 are reversed)
-   * Solid yellow circle with "W" - Team is not in this match ("Wrong Match") or the previous match has not been finalized and therefore the DS is "Waiting"
+   * Green circle with X - Indicates if a DS is physically connected to the switch at the SCC  
    * Solid green circle - DS is in FMS mode (i.e. connected to FMS)
 
 #. BWU - Indicates the Bandwidth Utilization/Consumption for that particular team (should be under 2-3 for almost all teams, and FRC rules allow a maximum of 4)
@@ -26,8 +24,9 @@ Examples are for Blue Station 1 (team number 1 in this case) but the same data e
    * "A" - Autonomous
    * "T" - Teleoperated
    * Red square - robot is disabled
-   * Green circle - enabled.
-   * Black diamond "E" - Robot is Estopped
+   * Green circle - enabled
+   * Black diamond "A" - Robot is A-Stopped
+   * Black diamond "E" - Robot is E-Stopped
    * Blank - No Robot connected
 
 #. Avg Trip - average time required to send a message to the robot and have the robot respond (this is basically a ping). Units are in milliseconds. Usually under 10 for most Robots.
@@ -35,10 +34,10 @@ Examples are for Blue Station 1 (team number 1 in this case) but the same data e
 #. Background Color of Row:
 
    * "Clear" - Robot connected and ready (or running)
-   * Yellow - Robot not connected (Estopped, or any item on the row is "Red", like DS)
+   * Yellow - Robot not connected (A-Stopped, E-Stopped, or any item on the row is "Red", like DS)
    * Brown - Bypassed
-
-#. The caution marker will appear next to teams that have out of date versions of hardware or software on their robot (such as old roboRIO firmware)
+   * Says "Move" - Team is in the wrong station and should "Move" (usually, stations 1 and 3 are reversed)
+   * Says "Waiting" - Team is not in this match ("Wrong Match") or the previous match has not been finalized and therefore the DS is "Waiting"
 
 .. note::
    It is important to remember that items can only "go green" if the items to the left of it are already "green." For instance, a roboRIO will not be green unless the Radio is already green. This aids in the speed of troubleshooting.

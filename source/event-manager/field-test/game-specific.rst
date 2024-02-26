@@ -6,15 +6,10 @@ Game Specific
 Field Test - Game Specific
 ##########################
 
-.. image:: images/field-test-6.png
+.. image:: images/field-test-game-specific.png
 
-[*Blue Marker*] Toggle the lights on or off in the Blue Alliance Charge Station
+Amp, Speaker and Subwoofer Status blocks will be green or red to indicate whether they can be detected by FMS. 
 
-[*Red Marker*] Toggle the lights on or off in the Red Alliance Charge Station
+The Coop and Amp Buttons can be depressed to see the red/green indicator blocks display the state in realtime.
 
-[*Pink Marker*] Status of the PCK Lighting Controller. Green background indicates a successful connection.
-
-[*Gold Marker*] Test the various lighting patterns that appear on the light strings in the drivers station
-
-.. note::
-    You must use the "Refresh Indicators" button to update the green/red PCK Lighting Controller status indicators on this tab.
+Stack lights and motors can be toggled on and off to test their connection and operation.

@@ -72,9 +72,9 @@ Select *save* after any adjustments for the timing to take effect. Timing can on
 
 On the right side of the display there are options for some common operations:
 
-* *Force Cleanup Lights On* - When not in-match, force the purple "cleanup" lights to illuminate and indicate field staff may begin clearing the field. Cannot be used once the green lights are on.
+* *Force Cleanup Lights On* - When not in-match, force the purple "cleanup" lights to illuminate and indicate field staff may begin clearing the field. Cannot be used once the green lights are on (or in games where cleanup lights are not applicable).
 * *Force Field Lights On* - When not in-match, force the green field reset lights to illuminate and indicate to teams and field staff that the field is "safe to enter"
-* *Awards Mode* - Change the state of lights and motors on the field into a photogenic mode worth of the awards ceremony
+* *Awards Mode* - Change the state of lights and motors on the field into a photogenic mode worthy of the awards ceremony
 * *Force Event Database Backup* - Force a copy of the event database to be made and written to the USB Drive specified in :doc:`Settings <../settings/backup-config>`
 * *Re-calculate Current Rankings* - Runs all teams through the calculator for the given tournament phase
 * *Re-calculate District Rankings* - Runs all teams through the calculator for the distirct rankings at the selected event

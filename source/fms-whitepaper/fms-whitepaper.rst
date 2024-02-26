@@ -207,15 +207,15 @@ Team Stack Lights
 
 On the field are located 6 stack lights, one per team. Each stack light contains two LED sections equal to the alliance color (red or blue), and an additional amber LED used to indicate Emergency Stop status. Below is a table representing the state of the stack lights and what they indicate.
 
-+----------+--------------------------------------------+----------------------------+
-|          | Alliance Color                             | Amber Color                |
-+----------+--------------------------------------------+----------------------------+
-| Flashing | No connection to robot or station bypassed | N/A                        |
-+----------+--------------------------------------------+----------------------------+
-| Solid    | Robot Enabled                              | Estop pressed/enabled      |
-+----------+--------------------------------------------+----------------------------+
-| Off      | Connection Established to Robot            | Estop not pressed/disabled |
-+----------+--------------------------------------------+----------------------------+
++----------+--------------------------------------------+--------------------------------------------------+
+|          | Alliance Color                             | Amber Color                                      |
++----------+--------------------------------------------+--------------------------------------------------+
+| Flashing | No connection to robot or station bypassed | Astop pressed/enabled (during autonomous period) |
++----------+--------------------------------------------+--------------------------------------------------+
+| Solid    | Robot Enabled                              | Estop pressed/enabled                            |
++----------+--------------------------------------------+--------------------------------------------------+
+| Off      | Connection Established to Robot            | Estop not pressed/disabled                       |
++----------+--------------------------------------------+--------------------------------------------------+
 
 Field Stack Light
 ^^^^^^^^^^^^^^^^^
@@ -281,6 +281,6 @@ Provided an event has an internet connection available, the FMS server uploads m
 
 If the event does not have Internet available, event data is backed up to a USB drive. The FTA at the event then uploads the event database as possible to HQ for posting to Azure.
 
-The database is queried via the FMS API (Documentation available here: `https://usfirst.collab.net/sf/projects/first_community_developers/ <https://usfirst.collab.net/sf/projects/first_community_developers/>`__ ) and is available to users who request access.
+The database is queried via the FMS API (Documentation available here: `https://frc-events.firstinspires.org/services/api <https://frc-events.firstinspires.org/services/api>`__ ) and is available to users who request access.
 
 The data model is year specific, due to game scoring breakdowns being available.

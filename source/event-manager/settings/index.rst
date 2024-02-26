@@ -13,7 +13,5 @@ Settings
    backup-config
    hardware
    data
-   displays
    multi-field-setup
-   tasks
    fms-theme
