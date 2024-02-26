@@ -29,6 +29,13 @@ Most items have hover text with additional information. Generally, green means s
 
 [*Pink Box*] The event name and code are displayed at all times
 
+Other Indicators
+--------------------
+
+.. image:: images/indicators-1.png     
+
+As long as at least two matches have been run since opening FMS, hovering over the ahead/behind time in the bottom right corner will list recent cycle times as a quick preview.
+
 .. image:: images/working.png
 
 When a task requires additional time to complete (such as schedule generation) a "busy indicator" will appear and block the screen until the operation completes
