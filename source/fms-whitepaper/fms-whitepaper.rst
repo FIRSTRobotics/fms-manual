@@ -207,15 +207,15 @@ Team Stack Lights
 
 On the field are located 6 stack lights, one per team. Each stack light contains two LED sections equal to the alliance color (red or blue), and an additional amber LED used to indicate Emergency Stop status. Below is a table representing the state of the stack lights and what they indicate.
 
-+----------+--------------------------------------------+----------------------------+
-|          | Alliance Color                             | Amber Color                |
-+----------+--------------------------------------------+----------------------------+
-| Flashing | No connection to robot or station bypassed | N/A                        |
-+----------+--------------------------------------------+----------------------------+
-| Solid    | Robot Enabled                              | Estop pressed/enabled      |
-+----------+--------------------------------------------+----------------------------+
-| Off      | Connection Established to Robot            | Estop not pressed/disabled |
-+----------+--------------------------------------------+----------------------------+
++----------+--------------------------------------------+--------------------------------------------------+
+|          | Alliance Color                             | Amber Color                                      |
++----------+--------------------------------------------+--------------------------------------------------+
+| Flashing | No connection to robot or station bypassed | Astop pressed/enabled (during autonomous period) |
++----------+--------------------------------------------+--------------------------------------------------+
+| Solid    | Robot Enabled                              | Estop pressed/enabled                            |
++----------+--------------------------------------------+--------------------------------------------------+
+| Off      | Connection Established to Robot            | Estop not pressed/disabled                       |
++----------+--------------------------------------------+--------------------------------------------------+
 
 Field Stack Light
 ^^^^^^^^^^^^^^^^^
