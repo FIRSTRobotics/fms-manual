@@ -43,7 +43,7 @@ Assignment Download
 ####################
 
 At official events, Judge Advisors use the "Award Entry System" to submit the winners of various awards from the Judge's room throughout the event. Once they're done 
-with assignments for a given day, they'll "release" those assignmemts to the Scorekeeper.
+with assignments for a given day, they'll "release" those assignments to the Scorekeeper.
 
 .. image:: images/awards-4.png
 
