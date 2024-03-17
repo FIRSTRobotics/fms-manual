@@ -25,7 +25,7 @@ Most items have hover text with additional information. Generally, green means s
 [*Yellow Box*] The "ahead behind" timer displays once at least two matches have been played since FMS was opened. The time difference between when the match was started and when it was scheduled to begin will be displayed here. Hover over this timer to see recent cycle times.
 
 .. note::
-        As a general rule of thumb, events should not be operating more than one cycle time ahead of schedule. For example, if your cycle time is 7 miunutes, then your "ahead behind" time should be "7 minutes ahead" or less.
+        As a general rule of thumb, events should not be operating more than one cycle time ahead of schedule. For example, if your cycle time is 7 minutes, then your "ahead behind" time should be "7 minutes ahead" or less.
 
 [*Pink Box*] The event name and code are displayed at all times
 
