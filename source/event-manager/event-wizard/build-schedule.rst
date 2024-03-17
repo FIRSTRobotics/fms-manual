@@ -114,7 +114,7 @@ regenerating the full schedule and losing any played matches.
 The displayed schedule times are fixed and will not update, "The Schedule is The Schedule" so to speak. Even if the event is running ahead or behind, the schedule times will remain the same.
 
 .. note::
-    As a general rule of thumb, events should not be operating more than one cycle time ahead of schedule. For example, if your cycle time is 7 miunutes, then your "ahead behind" time should be "7 minutes ahead" or less.
+    As a general rule of thumb, events should not be operating more than one cycle time ahead of schedule. For example, if your cycle time is 7 minutes, then your "ahead behind" time should be "7 minutes ahead" or less.
     Getting too far ahead can be confusing to teams, parents, VIPs, sponsors, etc. who show up or tune in to see a particular team compete only to find out the match was played early. Running ahead could cause an online viewer to miss important content.
 
 Playoff Notes
