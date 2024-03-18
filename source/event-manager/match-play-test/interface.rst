@@ -40,7 +40,7 @@ The fields left to right indicate information about the connection state of each
    * Yellow - team has been assigned a yellow card
    * Red - team assigned a red card in this match. Setting the indicator to red also bypasses the Player Station and automatically assigns the team a DQ for the current match. Note that in a subsequent match FMS will automatically change the red card to yellow
 
-#. Byp - Select to bypass this particular station and force it to a ready (but disabled) state. (Note: During Match Test and Practice Matches only, the CTRL-SHIFT-B key combination will bypass all stations.)
+#. Byp - Select to bypass this particular station and force it to a ready (but disabled) state. (Note: During Match Test and Practice Matches only, the CTRL-SHIFT-B key combination will bypass all currently unconnected stations.)
 #. DQ - Select to indicate that the corresponding team has been DQ’d for this match (will also cause Bypass)
 #. WPA Key status:
 
