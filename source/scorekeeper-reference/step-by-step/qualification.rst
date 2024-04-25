@@ -44,7 +44,7 @@ Qualification
 
 #. When you reach the end of Qualification Matches (and are headed into Alliance Selection):
 
-   * Using the Optins tab in Match Play select "Recalculate Rankings" for the qualification matches
+   * Using the Options tab in Match Play select "Recalculate Rankings" for the qualification matches
    * Use the "Settings" button, "Backup" tab, "Force Event Backup" button to ensure the event database is backed up.
    * Print the Qualifications Ranking report for the Announcer and Emcee as soon as the final qualification match has completed.
    * Use the Alliance Selection step in the Event Wizard to set alliances as they are picked. 
