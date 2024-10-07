@@ -146,11 +146,12 @@ The following ports are opened for communication between your Robot and Driver S
 
 * UDP/TCP 1180 - 1190: Camera Data
 * TCP 1735: SmartDashboard
-* UDP 1130: DS-to-Robot control data
-* UDP 1140: Robot-to-DS status data
+* UDP 1130: Dashboard-to-ROBOT control data
+* UDP 1140: ROBOT-to-Dashboard status data
 * HTTP 80: Camera/web interface
 * HTTP 443: Camera/web interface (secure)
 * UDP/TCP 554: Real-Time Streaming Protocol for h.264 camera streaming
+* UDP/TCP 1250: CTRE Diagnostics Server
 * UDP/TCP 5800-5810: Team Use
 
 Teams are permitted to utilize ports 5800-5810 for their own purposes, or any other open ports (other than 1130 and 1140) if not already allocated.
