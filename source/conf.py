@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Field Management System Manual'
-copyright = '2024 FIRST Robotics Competition'
+copyright = '2025 FIRST Robotics Competition'
 author = 'FIRST'
 
 # The full version, including alpha/beta/rc tags
-release = '2024a'
+release = '2025a'
 
 
 # -- General configuration ---------------------------------------------------
