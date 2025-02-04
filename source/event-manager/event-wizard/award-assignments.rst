@@ -53,8 +53,8 @@ When assignments have been released, a message will be posted to the Slack chann
 
 .. image:: images/awards-5.png
 
-After assignments are downloaded, the "Is Assigned" and "Has Script" fields should change to "Yes" to reflect that they were successfully downloaded. The "Is Assigned" field will still change 
-to "Yes" if an award was assigned manually.
+After assignments are downloaded, the "Is Assigned" and "Has Script" fields should change to "Yes" to reflect that they were successfully downloaded, along with "Yes" appearing in the "From Judges" column.
+The "Is Assigned" field will still change to "Yes" if an award was assigned manually.
 
 .. note::
     Not all awards have an associated script, so it is possible that "Has Script" may remain a "No" even after a successful download of an award. For example, the Dean's List awards do not have scripts.
@@ -96,6 +96,8 @@ Manual Award Assignments (Backup)
     This is a backup process and should only be done upon direction of FIRST HQ and/or your FTA
 
 .. image:: images/awards-9.png
+    :align: center
+    :width: 450
 
 When in manual assignment mode, click on an award to assign and select the "Assign Award" button.
 
@@ -124,11 +126,11 @@ first and last name fields additionally appear. Selecting the winner from the dr
 Award Assignment Confirmation Messages
 ######################################
 
-.. image:: images/award-assignments-7.png
-
 When a team number is entered on the Assign Award dialogue, there are potential confirmation messages that can be presented.
 
-.. image:: images/award-assignments-7.png
+.. image:: images/awards-11.png
+    :align: center
+    :width: 350
 
 Upon each award assignment, the assignment is compared against an eligibility algorithm for the given team to determine if they qualify for that award.
 If an attempt is made to assign an award to an ineligible team, a message is presented and requires attention.
