@@ -11,7 +11,7 @@ View and Add Registrations
 .. image:: images/team-selection-1.png
 
 
-Team Selection displays the downloaded list of registered FRC teams, with those registered for the event pre-checked. This list should be used to verify all the teams registered are actually present at the venue.
+Team Selection displays the downloaded list of registered FRC teams, with those registered for the event pre-checked. This list should be used to verify all the teams registered are actually present at the venue. The qualification version of the page is shown here, but the process looks the same for practice matches.
 
 .. note::
   The Qualification schedule should not be generated until all teams have arrived at the venue, or otherwise instructed by HQ and/or the local event manager. Otherwise, a schedule may need to be re-generated if a team ends up not attending and there may be confusion if multiple versions of the schedule have been created. 

@@ -12,7 +12,7 @@ Indicator Bar
 
 [*Green Box*] The bubble indicators relay quick status information about major hardware and software status information on the field. The bubbles are not displayed in the Off-Season version.
 
-* "A" - Status of the Game-Specific Field Hardware
+* "A" - Status of the Game-Specific Field Hardware and Red/Blue SCC (Field Automation)
 * "Heart" - PLC Heartbeat and Arena Light Status (flashes at 1Hz)
 * "Whistle" - Referee screen status (If red, the number of screens missing are displayed)
 * "USB Symbol" - Backup Status

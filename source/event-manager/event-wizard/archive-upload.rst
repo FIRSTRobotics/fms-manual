@@ -1,11 +1,11 @@
 .. _event-wizard-archive-upload:
 
-Archive and Upload
+Event Upload
 ======================
 
-.. image:: images/archive-upload.png
+.. image:: images/event-upload.png
 
-The Event Data Upload step is used to do a complete backup of all event information. Copies are placed on the Event Server, USB drive (which must be connected),
+The Event Data Upload step is used to do a complete backup of all event information. Copies are placed on the local Server, USB drive (which must be connected),
 as well as uploaded to FIRST (provided an Internet connection is available and the event is an official FIRST event).
 Verification is also done to confirm the upload was successful.
 

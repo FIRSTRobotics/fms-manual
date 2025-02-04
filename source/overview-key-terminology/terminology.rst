@@ -39,3 +39,6 @@ A fair number of acronyms are used throughout this manual. Below is a list of ma
    * - 
      - Pit Display
      - A laptop, provided by FIRST that displays ranking information at each event to people not in the immediate area of the field
+   * - 
+     - Vivid
+     - Manufacturer of the FRC Robot Radio that went into service in late 2024
