@@ -19,7 +19,7 @@ Information provided in this documentation is not intended to overrule or supers
 Current Revision
 ################
 
-.. image:: images/reefscape.webp
+.. image:: images/reefscape.png
 	:align: center
 	:alt: FRC Current Season Game Logo
 
