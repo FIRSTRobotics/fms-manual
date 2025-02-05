@@ -9,6 +9,8 @@ Setup
 -----
 
 .. image:: images/multi-field-setup-0.png
+    :align: center
+    :width: 450
 
 Multi-field setup is used for configuring FMS for use at events with more than one active playing field. Do not modify anything within this tab without FRC Engineering support.
 

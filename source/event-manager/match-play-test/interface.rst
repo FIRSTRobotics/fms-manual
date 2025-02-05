@@ -18,12 +18,15 @@ end of the playing field, blue for the Blue Alliance, and red for the Red Allian
 
 [*Pink Box*] The lower portion of the screen changes based on the selected tab to display schedule information, detailed scoring, and more (described later)
 
-Field Status
+Robot Status
 --------------
 
 .. image:: images/interface-1.png
 
-Match number and timing information in the center of the display (yellow arrow), with time represented in minute:seconds to match the timers on the field. The match number is also displayed, and additional conditional indicators will appear below the timer as applicable (such as when a referee review is underway). The status indicator on the "Blue Alliance" and "Red Alliance" sides (indicated by the pink arrow) will turn from Red to Green when there is a known ready state for all Robots on that Alliance (connected or bypassed). In order for a match to start, both backgrounds must be green (known state for all Robots on the Field).
+Match score (yellow arrow) and timing information in the center of the display (green arrow), with time represented in minute:seconds to match the timers on the field. 
+The match number is also displayed, and additional conditional indicators will appear below the timer as applicable (such as when a referee review is underway). 
+The status indicator on the "Blue Alliance" and "Red Alliance" sides (indicated by the pink arrow) will turn from Red to Green when there is a known ready state for all Robots on that Alliance (connected or bypassed). 
+In order for a match to start, both backgrounds must be green (known state for all Robots on the Field).
 
 The top bar of Match Play also contains detailed station information- the background color indicates the alliance (Red or Blue) and meanings are detailed below. Markers in the example graphic are shown for Blue Alliance, though the layout is the same for the Red Alliance.
 
@@ -87,12 +90,11 @@ This bar is commonly referred to as the "FCUI" or Field Control User Interface (
    *In Match Test/Practice/Playoff matches, clicking Prestart will allow for entry of team numbers (in playoff matches this is also used to move teams between stations)*
 
 * *Show Match Preview* - display the Match Preview screen on the Audience Display(s) with team names and current ranking data for teams in the upcoming match
-* *Set Audience Display* - display the real-time-score screen on the Audience Display(s)
+* *Show Match Score Bar* - display the real-time-score screen on the Audience Display(s)
 * *Match Start* - starts the Match
 
-  *Match Cancel* - cancels a match in progress (button text changes after start)
-
-  *Discard Match* - discard the match result and logs (button text changes after match ends)
+  *  *Match Cancel* - cancels a match in progress (button text changes after start)
+  * *Discard Match* - discard the match result and logs (button text changes after match ends)
 
 .. warning::
    MUST ONLY BE USED WHEN THE FIELD IS IN A SAFE STATE AND NO HUMANS ARE IN DANGEROUS POSITIONS. FTA MUST GIVE PERMISSION FOR A MATCH TO START!
@@ -100,12 +102,14 @@ This bar is commonly referred to as the "FCUI" or Field Control User Interface (
 * *Commit* - confirm the score of the match and write the details to the database
 * *Post Results* - display the final score and results on the Audience Display(s) and publish the results to the web (when applicable)
 
-* *Timeout Start* - start or stop a timeout and update the Audience Display(s) with the timing data. Also updates the on field LED displays. Timeout duration can be changed on the "Options" tab.
+* *Start Break* - start or stop a timeout and update the Audience Display(s) with the timing data. Also updates the on field LED displays. Timeout duration can be changed on the "Options" tab.
 
 Abort Match Option
 ------------------
 
 .. image:: images/interface-3.png
+    :align: center
+    :width: 250
 
 Once a match has started, the "Start Match" option becomes "Abort Match" as shown, which requires confirmation before ending a Match in progress.
 In non-emergency situations, the "Abort" option is preferred to the field E-Stop, as the E-Stop will put all Robots in an emergency shutdown state, whereas the "Abort" option will not.
@@ -114,6 +118,8 @@ Discard Match Option
 ---------------------
 
 .. image:: images/interface-3b.png
+    :align: center
+    :width: 250
 
 Once a match has ended, the "Abort Match" option becomes "Discard Match" as shown, which requires an HQ password / intervention to use.
 The purpose of this option is to discard results and logs that will be declared invalid regardless, and thus bypass the need to commit and/or post the result (and risk it showing on the web).
@@ -122,12 +128,14 @@ Prestart Dropdown
 -----------------
 
 .. image:: images/interface-4.png
+    :align: center
+    :width: 350
 
 The Prestart button has additional options available via a dropdown.
 
 * *Prestart* - the "typical" Prestart process, as outlined in the previous section
 * *Reset Network* - allows for re-programming of the field network hardware without a full "Prestart"
-* *Reset Network With Team Change* - allows for re-programming of the field network hardware while also changing a team in one or more stations
+* *Reset Network With Team Change* - allows for re-programming of the field network hardware while also changing a team in one or more stations (disabled when not applicable, such as qualification matches)
 
 .. note::
    The reset network option will not clear locked E-Stop and A-Stop states, instead a full "Back Out" and "Re-Prestart" is required to clear Stop flags.
@@ -136,18 +144,25 @@ Prestart Dropdown in Match Test/Practice
 ----------------------------------------
 
 .. image:: images/interface-5.png
+    :align: center
+    :width: 350
 
-In Match Test, Practice, and Playoff Matches, the Prestart button replaces "Prestart" with "Prestart Enter Teams." In these tournament phases FMS needs to know which teams are participating and in which positions, whereas in qualification matches 
-teams cannot swap stations so no option is presented to adjust team numbers or positions.
+In some phases of the event, the Prestart button replaces "Prestart" with "Prestart Enter Teams." This happens in phases where FMS needs to know which teams are participating and in which positions, whereas in tradiitonal 
+qualification matches teams cannot swap stations so no option is presented to adjust team numbers or positions. Clicking in one of the station boxes will present a list of participating teams to select from, or the 
+team number can be entered using the keyboard. The team must be attending the event and have a generated WPA key in order to be available for Prestart.
 
 * All other options work as described previously. Selecting Prestart Enter Teams will prompt for team numbers to participate in the match, as shown below. If teams were scheduled for the Match, they would be pre-populated in the display.
 
 .. image:: images/interface-6.png
+    :align: center
+    :width: 350
 
 Commit Dropdown
 ---------------
 
 .. image:: images/interface-7.png
+    :align: center
+    :width: 350
 
 The Commit button has additional options available via a dropdown.
 
@@ -159,11 +174,15 @@ A comment is also required if any team was assigned a card. If required or reque
 Select from the template buttons as a starting point for comments or type freely in the provided box.
 
 .. image:: images/interface-8.png
+    :align: center
+    :width: 350
 
 Post-Results Dropdown
 ---------------------
 
 .. image:: images/interface-9.png
+    :align: center
+    :width: 350
 
 The Post-Results button has additional options available via a dropdown.
 
@@ -171,20 +190,25 @@ The Post-Results button has additional options available via a dropdown.
 * *Post Results Without Display -* allows for posting of results from the Match without changing the Audience Display
 
 
-Timeout Dropdown
+Break Start
 ----------------
 
 .. image:: images/interface-10.png
+    :align: center
+    :width: 600
 
-The Timeout button has additional options available via a dropdown.
+The Break Start button has additional options that present in a modal on click.
 
-* *Timeout Start* - start a timeout with the given length according to the "Options" tab
-* *Timeout Start without Display* - start a timeout without changing the Audience Display (avoids interrupting portions of the event in progress, like an award ceremony)
+* *Break Time* - pick a default length or enter a custom length for the break (min:sec)
+* *Enable Audio Warning* - (unchecked by default) when checked, audible queues will be emitted from the Audience Display as time expires
+* *Match After Break* - indicate which Match # will be played after the break (for display to the Audience)
+* *Show on Audience Display* - (unchecked by default) when checked, the Audience Display will reveal the timer when the Break is started
 
 Alternate Flow
 --------------
 
-.. image:: images/interface-11.png
+.. image:: images/interface-2.png
 
-Some elements of the FCUI have alternate flows. Above are examples are alternate flows for "Show Match Preview," clicking an alternate (yellow) button will return the FCUI to that step. Also shown is the style for Match Start, which has additional highlighting due to the dangerous nature of enabling robots and starting a Match.
+Some elements of the FCUI have "alternate flows". Above are examples are alternate flows for "Show Match Preview," clicking an alternate (yellow) button will return the FCUI to that step. 
+Also shown is the style for Match Start, which has additional highlighting and padding due to the dangerous nature of enabling robots and starting a Match.
 

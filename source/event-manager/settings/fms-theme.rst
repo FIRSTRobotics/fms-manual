@@ -4,6 +4,8 @@ FMS Theme
 ======================
 
 .. image:: images/fms-theme-0.png
+    :align: center
+    :width: 350
 
 The FMS Theme tab allows for the modification of the appearance of the FMS software.
 

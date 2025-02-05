@@ -8,28 +8,18 @@ Status Tab
 The Status tab shows detailed information for each robot linked to FMS; this information is also displayed on the Field Monitor used by the FTA and FTA Assistant (FTAA).
 The same data is collected for all stations.
 
-#. Station and Team number (in the format station: team)
-#. DS:
+.. note::
+   This section only covers high-level information, as the display is covered in full detail in the :doc:`Web Field Monitor <../../field-monitor/live/monitor>` section. Within FMS 
+   only the "detailed" version of the Field Monitor is available. For the "Simple" version please use the web based Field Monitor.
 
-   * Red square - nothing connected
-   * Green circle with X - Indicates if a DS is physically connected to the switch at the SCC  
-   * Solid green circle - DS is in FMS mode (i.e. connected to FMS)
-
-#. BWU - Indicates the Bandwidth Utilization/Consumption for that particular team (should be under 2-3 for almost all teams, and FRC rules allow a maximum of 4)
-#. Radio - Indicates that the DS is able to communicate with the radio on the robot
-#. roboRIO - Indicates that the DS is able to communicate with the roboRIO on the robot
-#. Voltage - Battery voltage reported by the Robot (12-13 is normally a fully charged battery, under ~9 may result in visible performance problems).The background of this cell will be a line indicating relative battery voltage over a short sample amount of time.
-#. Enabled/Mode - The state and mode of the robot.
-
-   * "A" - Autonomous
-   * "T" - Teleoperated
-   * Red square - robot is disabled
-   * Green circle - enabled
-   * Black diamond "A" - Robot is A-Stopped
-   * Black diamond "E" - Robot is E-Stopped
-   * Blank - No Robot connected
-
-#. Avg Trip - average time required to send a message to the robot and have the robot respond (this is basically a ping). Units are in milliseconds. Usually under 10 for most Robots.
+#. Station and Team number (in the format station - team)
+#. DS - Driver Station
+#. BWU - Bandwidth Utilization/Consumption and airtime information
+#. Radio - Status of the radio on the robot
+#. RIO - Status of the roboRIO on the robot
+#. Battery - Battery voltage reported by the Robot (12-13 is normally a fully charged battery, under ~9 may result in visible performance problems).The background of this cell will be a line indicating relative battery voltage over a short sample amount of time.
+#. Status - The state and mode of the robot
+#. Trip Time - average time required to send a message to the robot and have the robot respond (this is basically a ping). Units are in milliseconds. Usually under 10 for most Robots.
 #. Packets - indicates the number of packets dropped in the DS-to-Robot link. Typically there are some lost packets. In a very tame wireless environment, this number will be less than 100 (simulated environment results in large value in example photo)
 #. Background Color of Row:
 

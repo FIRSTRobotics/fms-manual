@@ -74,7 +74,7 @@ Hardware Warnings
 
 Any warnings detected during the hardware check will appear within the Field Test screen. Possible warnings include:
 
-* Machine Firewall Enabled (pictured) - Having the firewall enabled can cause problems when FMS attempts to communicate status data to the Driver Stations. At an official event, contact support if this message is displayed.
+* Machine Firewall Enabled (not pictured) - Having the firewall enabled can cause problems when FMS attempts to communicate status data to the Driver Stations. At an official event, contact support if this message is displayed.
 * Spare Infrastructure Hardware on Network (not pictured) - The system has noticed spare hardware (e.g. SCC) on the network. No action needed.
 * Spare Game-Specific Hardware on Network (not pictured) - The system has noticed spare game specific hardware (e.g. auxiliary control cabinet) on the network. No action needed.
 * Spare Server on Network (not pictured) - It is believed that the backup (secondary) server may be on the network. Check if it is powered off, or contact support for assistance. Matches will not operate correctly with the secondary machine powered on.
