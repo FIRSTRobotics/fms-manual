@@ -17,13 +17,13 @@ Event Level
 
 .. image:: images/data-2.png
 
-[ *Red* ] Purge an entire event, all match and alliance data.
+[ *Purge Event Data* ] Purge an entire event, all match and alliance data.
 
-[ *Blue* ] Purge just the alliances from an event.
+[ *Purge Alliances* ] Purge just the alliances from an event.
 
-[ *Pink* ] Undo any participants added manually, and return the registration list to its state as downloaded from HQ.
+[ *Reset Participants* ] Undo any participants added manually, and return the registration list to its state as downloaded from HQ.
 
-[ *Green* ] Undo all award assignments, return the awards to their default (unassigned) state.
+[ *Purge Award Assignments* ] Undo all award assignments, return the awards to their default (unassigned) state.
 
 Tournament Level
 ----------------
