@@ -8,8 +8,8 @@ Field Test - Game Specific
 
 .. image:: images/field-test-game-specific.png
 
-Amp, Speaker and Subwoofer Status blocks will be green or red to indicate whether they can be detected by FMS. 
+IO Status blocks will be green or red to indicate whether they can be detected by FMS. 
 
-The Coop and Amp Buttons can be depressed to see the red/green indicator blocks display the state in realtime.
+The Barge Light Dropdown can be used to test individual light bars in the truss.
 
-Stack lights and motors can be toggled on and off to test their connection and operation.
+The Barge Light Pattern button can be used to run a preset pattern on the field truss.

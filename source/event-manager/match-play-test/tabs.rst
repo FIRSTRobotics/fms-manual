@@ -46,6 +46,8 @@ Video Switch
 ------------
 
 .. image:: images/tabs-2.png
+    :align: center
+    :width: 350
 
 The Video Switch tab is used to manually change the state of the Audience Display(s). See :doc:`Audience Display <../../audience-display/displays/index>` Screens for more details on each option.
 Select on this interface, via the radio buttons, which screen to show to the Audience (i.e. which screen is active in the Audience Display). It also informs which screen is currently being shown.
@@ -70,10 +72,15 @@ Options
 Match timing can be adjusted from this screen, for use in such things as demo matches. Clicking *Restore Defaults* will return all three fields to their season-specific standards.
 Select *save* after any adjustments for the timing to take effect. Timing can only be changed prior to Prestart.
 
+* *Timing Items* - Adjust the corresponding time
+* *Hide/Unhide Scores in Playoffs* - Hide the red and blue alliance final scores at the end of teleop in Playoff matches 
+* *Hide Scores* - Hide and unhide red and blue alliance scores on demand
+* *Practice Field Mode* - Bypasses some restrictions such as requiring valid scores in order to commit a match
+
 On the right side of the display there are options for some common operations:
 
 * *Force Cleanup Lights On* - When not in-match, force the purple "cleanup" lights to illuminate and indicate field staff may begin clearing the field. Cannot be used once the green lights are on (or in games where cleanup lights are not applicable).
-* *Force Field Lights On* - When not in-match, force the green field reset lights to illuminate and indicate to teams and field staff that the field is "safe to enter"
+* *Force Field Reset Lights On* - When not in-match, force the green field reset lights to illuminate and indicate to teams and field staff that the field is "safe to enter"
 * *Awards Mode* - Change the state of lights and motors on the field into a photogenic mode worthy of the awards ceremony
 * *Force Event Database Backup* - Force a copy of the event database to be made and written to the USB Drive specified in :doc:`Settings <../settings/backup-config>`
 * *Re-calculate Current Rankings* - Runs all teams through the calculator for the given tournament phase
