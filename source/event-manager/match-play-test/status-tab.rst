@@ -9,7 +9,7 @@ The Status tab shows detailed information for each robot linked to FMS; this inf
 The same data is collected for all stations.
 
 .. note::
-   This section only covers high-level information, as the display is covered in full detail in the :doc:`Web Field Monitor <../../field-monitor/live/monitor>` section. Within FMS 
+   This section only covers high-level information, as the display is covered in full detail in the :doc:`Web Field Monitor <../../field-monitor/live/index>` section. Within FMS 
    only the "detailed" version of the Field Monitor is available. For the "Simple" version please use the web based Field Monitor.
 
 #. Station and Team number (in the format station - team)

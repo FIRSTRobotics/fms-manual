@@ -3,18 +3,15 @@
 Qualifications Pit Display
 ============================================
 
-.. important:: Please note that this section of the FMS documentation is *in progress* of being updated for 2023. Read at your own risk.
-
 Qualification Pit Display
-
-Display
--------
 
 .. image:: images/qualifications-pit-display-0.png
 
 The standard Qualification Pit Display looks similar to the internet event results pages, but specially adapted for use on site at events in progress.
 
-Across the bottom of the display are indicators of the last match played on the field, the time difference between that Published schedule and the actual times that match was played, and the last time the data was updated. Note: The "all data as of" marker is based on the Pit machine's time, not the event server. Please make sure the Timezone is properly set on the Pit machine for timing to be accurate.
+Across the bottom of the display are indicators of the last match played on the field, the time difference between that Published schedule and the actual 
+times that match was played, and the last time the data was updated. Note: The "all data as of" marker is based on the Pit machine's time, not the event 
+server. Please make sure the Timezone is properly set on the Pit machine for timing to be accurate.
 
 The remainder of the screen is dedicated to current rankings as of Last Match Played on the field, as indicated at the bottom of the screen.
 

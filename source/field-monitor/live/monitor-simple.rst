@@ -1,9 +1,13 @@
-.. _field-monitor-live:
+.. _field-monitor-live-simple:
 
-Live Monitor
+Live Monitor Simple
 ======================
 
 The Field Monitor provides a live view of robot and field status. To view the Field Monitor, access the web interface at 10.0.100.5 and select Field Monitor from the navigation bar.
+
+.. note::
+  The images below show the previous version of the Live Field Monitor. While the conditions described are still accurate, the actual columns displayed on the "Simple" version of the monitor is different then depicted below.
+
 
 Basic Layout
 ------------
