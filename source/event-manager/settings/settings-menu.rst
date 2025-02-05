@@ -12,10 +12,17 @@ configuration or changing the Data Sync state) or "Experimental"  (as in the cas
 by an asterisk (*). In the Off-Season version of the software the Settings are permanently unlocked though some features (such as hardware configuration or Data Sync) are disabled because they do not apply.
 
 The left bar of the Settings Page (pink box) contains quick-access information and available tabs. Information also includes the current server time information and the currently active time zone.
-The bottom has buttons for Awards Mode (which will enable all LEDs on the field to match their alliance color) and display the current year on the Team Signs, whereas Night Mode
-will turn all LEDs on the Field off.
+
 
 .. important::
     It is critical that the time zone of the server be set correctly for the location the event is being held, especially if the event will have schedules and data available online. 
 
 Clicking the tabs on the left will change which data is available on the right side of the screen (green box). Information about each tab can be found in its associated documentation step.
+
+The bottom has buttons for a few operations:
+
+[*Restart FMS Services*] Click to reset the underlying FMS Services on the Server, which requires the FTA password
+
+[*Awards Mode*] Enable all LEDs on the field to match their alliance color and display the current year on the Team Signs
+
+[*Night Mode*] Turn off all LED Displays and put the field in a low power state

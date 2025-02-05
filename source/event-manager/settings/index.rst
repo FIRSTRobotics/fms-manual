@@ -7,11 +7,10 @@ Settings
    :maxdepth: 1
 
    settings-menu
-   network-status
-   network-config
+   fms-network
    data-sync
    backup-config
-   hardware
+   game-specific
    data
    multi-field-setup
    fms-theme
