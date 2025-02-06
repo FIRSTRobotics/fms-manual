@@ -10,19 +10,18 @@ Installation
 Installation Overview
 ---------------------
 
-.. image:: images/installation-0.png
-   :alt: Two copies of Windows Explorer opened to the location of the Audience Display installer. One is opened to the off season installer.
+.. image:: images/audience-installation-0.png
 
 The Audience Display is not supported on any platform other than Windows 10 or higher (64 Bit). The target machine must also have an Ethernet port and audio output device (headphone jack, HDMI port, etc).
 
-The Audience Display installer can be found on the field server website downloads page, :ref:`as outlined here <field-server-downloads>`. Download the exe file, move it to the 
-target machine (using a USB drive, for example) and run the installer in the same way that any other program would be installed on Windows.
+The Audience Display installer can be retrieved on the field server website downloads page, :ref:`as outlined here <field-server-downloads>` and shown in the photo above.
+Download the exe file, move it to the target machine (using a USB drive, for example) and run the installer in the same way that any other program would be installed on Windows.
 
 Version Matching
 ----------------
 
-The Audience Display will regularly verify itself against FMS to ensure the version numbers are the same. If they do not match, you’ll see
-an "FMS Mismatch" watermark shown on top of all screens until the version is upgraded/downgraded to match the FMS version.
+The Audience Display will regularly verify itself against FMS to ensure the version numbers are the same. If they do not match, you'll see
+an "FMS Mismatch" watermark shown on top of all screens until the version is updated to match the FMS version.
 
 Communicating with FMS
 ----------------------

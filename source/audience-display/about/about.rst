@@ -12,22 +12,26 @@ Audience Display is a software program, built and distributed by *FIRST*\ |reg| 
 Servers. This manual will walk through the available displays, configuration options, and best practices related to the Audience Display.
 
 .. important::
-   Please do not install the Audience Display on official *FIRST* |reg| servers ("case 33") - use the laptop marked for Audience Display use instead
+   Please do not install the Audience Display on official *FIRST* |reg| servers ("case 33") - use the laptop marked Audience Display instead
 
 Wiring Audience Display
 -----------------------
 
 In order to connect to FMS, the Audience Display must have a wired connection to FMS. The Audience Display needs to be on the same network as the FMS
-machine, and no additional LANs. 
+machine. 
 
 Opening Audience Display
 ------------------------
 
 .. image:: images/about-audience-display-0.png
    :alt: Audience Display Icon: The FIRST Logo inside a computer monitor
+    :align: center
+    :width: 200
 
-To open the Audience Display, after installation, simply double-click on the television icon containing the *FIRST* logo. A splash screen will be displayed while background processes
-complete, and the display will go to either the Background, or, if instructions are actively being sent (such as during a match) will jump to the appropriate position for that point in time.
+To open the Audience Display, after installation, simply double-click on the television icon containing the *FIRST* logo for either the "Primary" or "Secondary" display. 
+In most cases, only a single instance (the "Primary") is needed. In some cases, it may be useful to have a second instance running (the "Secondary") to retrieve additional graphics or 
+looks. Consult with the FTA and/or FIRST Engineering before using the Secondary Display. A splash screen will be displayed while background processes complete, and the display will 
+go to either the Background, or, if instructions are actively being sent (such as during a match) will jump to the appropriate position for that point in time.
 
 Audio Output
 ------------
@@ -45,17 +49,32 @@ Event Setup Order
 It is highly recommended that you do not run the Audience Display program until after initial configuration of the event is complete through
 the Event Wizard. Opening the programs out of order may result in freezing while event data is attempting to process.
 
-Jump Menu
----------
+Hover Menu
+----------
 
-The Audience Display has a Jump Menu, accessible by right-clicking the Audience Display icon in the Taskbar. The Jump menu provides additional functionality not accessible anywhere
-else in the Audience Display. You can enable expanded options by clicking CTRL+SHIFT+D while the Audience Display is the active window. The Jump Menu may not be enabled if you are
-using Windows 10 Home Edition. Ask HQ Support for help if you need additional help using the Jump Menu.
+The Audience Display has a Hover Menu, accessible by simply hovering over the icon in the Taskbar. The menu provides additional functionality not accessible anywhere
+else in the Audience Display.
+
+.. image:: images/about-audience-display-1.png
+    :align: center
+    :width: 250
+
+From left to right, the hover icons are:
+
+[*Open Config Panel*] Open the config panel, the same as using the hotkey combination
+
+[*Center Display*] Arrange the display to the center of the current monitor
+
+[*Reset To Primary Display*] Force the program to go to the primary display, centered, as determined by which display has your taskbar
+
+[*Play Sound Once*] Play a single test sound
+
+[*Play Sound Looping*] Loop a test track for audio testing and tuning
+
+[*Play Match Result Animation Test*] Runs the Post-Result animation one time in order to verify render quality
+
 
 Closing Audience Display
 ------------------------
-
-.. image:: images/about-audience-display-1.png
-   :alt: Right click menu for the Audience Display taskbar entry. The "Close window" option is highlighted.
 
 To close the software, either right-click on the taskbar icon and select 'Close window' or use the Windows hotkey combination of ALT-F4 (making sure the active window is the Audience Display)

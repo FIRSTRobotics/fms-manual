@@ -1,13 +1,13 @@
 .. include:: <isonum.txt>
-.. _audience-obs-home:
+.. _audience-automation-obs:
 
 OBS Websockets
 ==============
 
-OBS Integration must be configured through the settings tab, and is considered an advanced feature. We recommend only using this feature after coordination with FRC\ |reg| Event Support!
+OBS Integration must be configured through the settings' automation tab and is considered an advanced feature.
 
 OBS Websockets / OBS Integration allows you to control your video feed (for use on a webstream, or potentially on a scoreboard at off-season events) via the free OBS Software
-and use of the *FIRST*\ |reg| FMS Audience Display by automatically changing what the audience is seeing based on what is happening at the event without the need for an operator.
+and use of the *FIRST*\ Audience Display by automatically changing what the audience is seeing based on what is happening at the event without the need for an operator.
 To do so, configure the two required programs as outlined below.
 
 OBS Setup and Installation
@@ -49,17 +49,19 @@ FMS_FULL and FMS_HIDDEN in order for any operation to take place.
    Adding additional scenes beyond those listed is also fine, but FMS may transition away from it during match flow.
 
 .. warning::
-   Don't forget to configure the audio the desired way in each scene, or globally!
+   Don't forget to configure the audio the desired way in each scene, or globally.
 
 Audience Display Settings
 -----------------------------
 
 .. image:: images/obs-4.png
-
-.. important:: 
-   Do not enable this feature without the corresponding setup in OBS as it may impact Match Play
+    :align: center
+    :width: 400
 
 Look for the OBS Integration options in the Video tab of the Audience Display settings. Only enable the feature after enabling Websockets in the OBS software. The default address should be
 sufficient for most use cases, and should contain the address (starting with WS) and including the port number (default of 4455). Select a passkey (consisting of 6 or more characters) to encrypt your connection.
+
+.. important:: 
+   Do not enable this feature without the corresponding setup in OBS as it may impact Match Play
 
 There are no other settings to change in the Audience Display for this feature.
