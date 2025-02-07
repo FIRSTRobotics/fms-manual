@@ -7,13 +7,14 @@ Activate Schedule
     :align: center
     :width: 400
 
-After the schedule has been generated and alliances defined, the schedule must be activated in order to use Match Play or appear on the web.
+|
+| After the schedule has been generated and alliances defined, the schedule must be activated in order to use Match Play or appear on the web.
 
 [*Gold Box*] The currently active level in Match Play
 
 [*Pink Box*] All levels that are publicly visible
 
-[*Green Box*] Used to make the schedule available for Match Play and available for viewing on the FIRST website and API (the schedule does not sync in FMS Off-Season or when disabled)
+[*Green Box*] Used to make the schedule available for Match Play and available for viewing on the *FIRST* website and API (the schedule does not sync in FMS Off-Season or when disabled)
 
 Database Backup
 ###############

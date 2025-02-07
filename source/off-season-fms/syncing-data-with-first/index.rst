@@ -1,7 +1,7 @@
 .. _off-season-sync-index:
 
-Syncing Data with FIRST
-=======================
+Syncing Data with *FIRST*
+=========================
 
 .. toctree::
    :maxdepth: 1

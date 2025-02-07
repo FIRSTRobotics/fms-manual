@@ -11,11 +11,13 @@ Define Tournament Level Parameters
 Tournament levels are configured and managed in the build steps of the Event Wizard. This step is used to setup the schedule for the Day(s), the lunch period, number of matches per team,
 and match duration. This documentation will build a traditional two day qualification tournament.
 
-[*Green Box*] Enter the initial Cycle Time (in minutes) for matches, which should be pre-populated with the suggested value. This is the start-to-start time for matches. This time can change across the day or between days using the "Add Cycle Change" button described later.
+[*Green Box*] Enter the initial Cycle Time (in minutes) for matches, which should be pre-populated with the suggested value. This is the start-to-start time for matches. This time can 
+change across the day or between days using the "Add Cycle Change" button described later.
 
-[*Pink Box*] Enter the number of matches per team (which will usually be pre-populated with the number required by FIRST HQ)
+[*Pink Box*] Enter the number of matches per team (which will usually be pre-populated with the number required by *FIRST* HQ)
 
-[*Gold Box*] Confirm the number of Teams matches the number expected (as defined in the Team Selection step). This is critical to team experience (not having to re-do a schedule if a team is added/missing). Please confirm with the event manager / appropriate party that all teams are present or accounted for before building a schedule.
+[*Gold Box*] Confirm the number of Teams matches the number expected (as defined in the Team Selection step). This is critical to team experience (not having to re-do a schedule if a 
+team is added/missing). Please confirm with the event manager / appropriate party that all teams are present or accounted for before building a schedule.
 
 The number of matches that will be needed will be displayed on the far right (Total # Matches)
 
@@ -72,7 +74,8 @@ button must be used under the matching day on which the change will occur.
 The primary intended use for Cycle Changes are to allow teams and field staff to have a slightly slower cycle time for each team's first appearance on the field that day,
 then lower that cycle time for the remainder of the day.
 
-[*Green Box*] Press the "Add Cycle Change" button to add the appropriate number of changes to each day on your schedule. If any changes must be removed, they can be deleted using the corresponding red Delete Cycle Change button. There is no limit to the number of cycle changes on a particular day, though FIRST HQ recommends no more than one change.
+[*Green Box*] Press the "Add Cycle Change" button to add the appropriate number of changes to each day on your schedule. If any changes must be removed, they can be deleted using the corresponding red Delete Cycle Change button.
+There is no limit to the number of cycle changes on a particular day, though *FIRST* HQ recommends no more than one change.
 
 [*Purple Box*] The match number after which the change will happen (must be unique, i.e. no cascading changes)
 
@@ -94,7 +97,8 @@ If the event has a Regional Director (RD) or show manager, the schedule should b
 
 [*Green Indicator*] Click the Generate Schedule button once all the critical details are confirmed.
 
-In the example below, we've accidentally attempted to create a schedule that starts at 9:00 PM instead of 9:00 AM. We could still go with 9:00 PM if we wish by selecting Yes, or selecting No to go back and make a correction.
+In the example below, we've accidentally attempted to create a schedule that starts at 9:00 PM instead of 9:00 AM. We could still go with 9:00 PM if we wish by selecting Yes, or selecting No to 
+go back and make a correction.
 
 .. image:: images/build-schedule-6.png
 

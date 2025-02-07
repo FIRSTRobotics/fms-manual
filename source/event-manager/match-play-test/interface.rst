@@ -111,8 +111,9 @@ Abort Match Option
     :align: center
     :width: 250
 
-Once a match has started, the "Start Match" option becomes "Abort Match" as shown, which requires confirmation before ending a Match in progress.
-In non-emergency situations, the "Abort" option is preferred to the field E-Stop, as the E-Stop will put all Robots in an emergency shutdown state, whereas the "Abort" option will not.
+| 
+| Once a match has started, the "Start Match" option becomes "Abort Match" as shown, which requires confirmation before ending a Match in progress.
+   In non-emergency situations, the "Abort" option is preferred to the field E-Stop, as the E-Stop will put all Robots in an emergency shutdown state, whereas the "Abort" option will not.
 
 Discard Match Option
 ---------------------
@@ -121,8 +122,9 @@ Discard Match Option
     :align: center
     :width: 250
 
-Once a match has ended, the "Abort Match" option becomes "Discard Match" as shown, which requires an HQ password / intervention to use.
-The purpose of this option is to discard results and logs that will be declared invalid regardless, and thus bypass the need to commit and/or post the result (and risk it showing on the web).
+| 
+| Once a match has ended, the "Abort Match" option becomes "Discard Match" as shown, which requires an HQ password / intervention to use.
+   The purpose of this option is to discard results and logs that will be declared invalid regardless, and thus bypass the need to commit and/or post the result (and risk it showing on the web).
 
 Prestart Dropdown
 -----------------
@@ -131,7 +133,8 @@ Prestart Dropdown
     :align: center
     :width: 350
 
-The Prestart button has additional options available via a dropdown.
+| 
+| The Prestart button has additional options available via a dropdown.
 
 * *Prestart* - the "typical" Prestart process, as outlined in the previous section
 * *Reset Network* - allows for re-programming of the field network hardware without a full "Prestart"
@@ -147,9 +150,10 @@ Prestart Dropdown in Match Test/Practice
     :align: center
     :width: 350
 
-In some phases of the event, the Prestart button replaces "Prestart" with "Prestart Enter Teams." This happens in phases where FMS needs to know which teams are participating and in which positions, whereas in tradiitonal 
-qualification matches teams cannot swap stations so no option is presented to adjust team numbers or positions. Clicking in one of the station boxes will present a list of participating teams to select from, or the 
-team number can be entered using the keyboard. The team must be attending the event and have a generated WPA key in order to be available for Prestart.
+| 
+| In some phases of the event, the Prestart button replaces "Prestart" with "Prestart Enter Teams." This happens in phases where FMS needs to know which teams are participating and in which positions, whereas in tradiitonal 
+   qualification matches teams cannot swap stations so no option is presented to adjust team numbers or positions. Clicking in one of the station boxes will present a list of participating teams to select from, or the 
+   team number can be entered using the keyboard. The team must be attending the event and have a generated WPA key in order to be available for Prestart.
 
 * All other options work as described previously. Selecting Prestart Enter Teams will prompt for team numbers to participate in the match, as shown below. If teams were scheduled for the Match, they would be pre-populated in the display.
 
@@ -164,7 +168,8 @@ Commit Dropdown
     :align: center
     :width: 350
 
-The Commit button has additional options available via a dropdown.
+| 
+| The Commit button has additional options available via a dropdown.
 
 * *Commit* - traditional path of committing scores as final
 * *Commit with Comments* - allows for entering a comment before the scores are committed
@@ -184,7 +189,8 @@ Post-Results Dropdown
     :align: center
     :width: 350
 
-The Post-Results button has additional options available via a dropdown.
+| 
+| The Post-Results button has additional options available via a dropdown.
 
 * *Post Results* - traditional path of posting results from the Match to the Audience Display
 * *Post Results Without Display -* allows for posting of results from the Match without changing the Audience Display
@@ -197,7 +203,8 @@ Break Start
     :align: center
     :width: 600
 
-The Break Start button has additional options that present in a modal on click.
+| 
+| The Break Start button has additional options that present in a modal on click.
 
 * *Break Time* - pick a default length or enter a custom length for the break (min:sec)
 * *Enable Audio Warning* - (unchecked by default) when checked, audible queues will be emitted from the Audience Display as time expires

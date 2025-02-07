@@ -23,10 +23,10 @@ Team Selection displays the downloaded list of registered FRC teams, with those 
 [*Blue Box*] The "new" and "edit" buttons can be used to add unofficial teams for Off-Season use. These are disabled at official events.
 
 .. note::
-  Having any teams that were manually added (using "New") checked as competing teams (red column) will prevent data from being sent to FIRST (scores, results, etc) and therefore is not available in-season.
+  Having any teams that were manually added (using "New") checked as competing teams (red column) will prevent data from being sent to *FIRST* (scores, results, etc) and therefore is not available in-season.
 
 .. warning::
-  Teams should not be checked off at official events (added as participants) without the direction of the FTA or event manager as there must be corresponding paperwork at FIRST HQ for each participant at official events.
+  Teams should not be checked off at official events (added as participants) without the direction of the FTA or event manager as there must be corresponding paperwork at *FIRST* HQ for each participant at official events.
 
 Adding Off-Season Teams (Optional)
 ##################################
@@ -34,12 +34,12 @@ Adding Off-Season Teams (Optional)
 .. image:: images/team-selection-2.png
 
 If additional teams are needed at an Off-Season event, the "new" button (*blue box in the top photo on this page*) can be used to create a custom team. The team number (*red marker*) must be unique.
-Make sure the team is checked as competing once created. Only teams added manually can be edited, those downloaded from FIRST are protected from edits.
+Make sure the team is checked as competing once created. Only teams added manually can be edited, those downloaded from *FIRST* are protected from edits.
 
-Events with custom teams cannot sync with FIRST servers.
+Events with custom teams cannot sync with *FIRST* servers.
 
 .. note::
-  FIRST HQ has designed and "pre-loaded" a set of Teams that, while not "official teams" in FRC, can be used during the Off-Season at an event without disabling the ability to Sync with FIRST servers. These teams contain "Demo" in their name and appear at the end of the team list.
+  *FIRST* HQ has designed and "pre-loaded" a set of Teams that, while not "official teams" in FRC, can be used during the Off-Season at an event without disabling the ability to Sync with *FIRST* servers. These teams contain "Demo" in their name and appear at the end of the team list.
 
 Generate Security Keys
 ######################
@@ -59,7 +59,7 @@ This should only be used by the FTA, as it requires their password to complete, 
 
 The schedule generation steps assume that all teams will use the same security keys throughout the event; as a result, performing Keys steps is not necessary to repeat on each Team Selection step of the Wizard (even though there are multiple).	
 
-The Clear All Keys button (*red button in the pink box*) returns all teams to their default, keyless, state. This should only be used at the direction of FIRST HQ and requires the FTA password.
+The Clear All Keys button (*red button in the pink box*) returns all teams to their default, keyless, state. This should only be used at the direction of *FIRST* HQ and requires the FTA password.
 
 WPA Kiosk Key Download
 ######################

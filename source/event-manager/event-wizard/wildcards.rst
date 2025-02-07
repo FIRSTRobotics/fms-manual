@@ -4,7 +4,7 @@ Wildcards
 ===========
 
 In previous seasons, Wildcards were occasionally generated at Regional events to afford the opportunity for additional teams to attend
-the FIRST Championship. This process has been replaced by a points system. For more information, please see the FRC Blog Post at:
+the *FIRST* Championship. This process has been replaced by a points system. For more information, please see the FRC Blog Post at:
 
 `https://community.firstinspires.org/regional-advancement-task-force-update <https://community.firstinspires.org/regional-advancement-task-force-update>`_
 

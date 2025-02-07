@@ -7,10 +7,11 @@ Backup Config
     :align: center
     :width: 450
 
-The Backup Config tab provides facilities to set a data backup location and manually force backups to occur. Backups should be set to an off-system USB storage 
-location using the "Browse" button (top of the image) to select the location. The currently selected location will be shown in the text box to the left of the Browse button.
+|
+| The Backup Config tab provides facilities to set a data backup location and manually force backups to occur. Backups should be set to an off-system USB storage 
+    location using the "Browse" button (top of the image) to select the location. The currently selected location will be shown in the text box to the left of the Browse button.
 
-The backup is used when uploading event archives to FIRST- so it's important to check the backup location in the event of an upload failure (it may be a full location or unavailable). 
+The backup is used when uploading event archives to *FIRST*- so it's important to check the backup location in the event of an upload failure (it may be a full location or unavailable). 
 It is also important to keep an eye on the indicator at the bottom of FMS that indicates the backup status; a gray or red status indicator shows that there's a problem with the backup 
 and should be corrected immediately, a gray status indicator shows the backup is working.
 

@@ -7,7 +7,8 @@ FMS Theme
     :align: center
     :width: 350
 
-The FMS Theme tab allows for the modification of the appearance of the FMS software.
+|
+| The FMS Theme tab allows for the modification of the appearance of the FMS software.
 
 [ Theme Mode ] Select from Light or Dark mode.
 

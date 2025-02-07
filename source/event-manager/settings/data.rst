@@ -47,7 +47,9 @@ Detail Level
 
 [ *Purge Individual Match* ] By selecting a tournament phase and entering a match number, dump only one specific match from a level (all plays lost).
 
-[ *Reassign Match Result* ] By selecting a test match and traditional match, the results can be overwritten from the test match to the traditional match. The original results of the traditional match will be lost, and replacement is only done on the most recent play.
+[ *Reassign Match Result* ] By selecting a test match and traditional match, the results can be overwritten from the test match to the traditional match. The original 
+results of the traditional match will be lost, and replacement is only done on the most recent play.
 
-[ *Truncate Qual Schedule* ] By entering a value here, the qualification schedule can be shortened, while maintaining equality for all teams (this is only for emergency use, such as acts of god or the direction of FIRST HQ). It requires the password of a support engineer.
+[ *Truncate Qual Schedule* ] By entering a value here, the qualification schedule can be shortened, while maintaining equality for all teams (this is only for emergency 
+use, such as acts of god or the direction of *FIRST* HQ). It requires the password of a support engineer.
 

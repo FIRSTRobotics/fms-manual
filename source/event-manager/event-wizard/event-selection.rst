@@ -11,8 +11,9 @@ Selecting a traditional event
 	:align: center
 	:alt: UI Screenshot
 
-The Event Selection step of the Event Wizard displays the complete list of events from Data Download.
-Select the event to be played by clicking on it. In this example, the selected event is shown with a green marker and highlighted blue background on the row.
+|
+| The Event Selection step of the Event Wizard displays the complete list of events from Data Download.
+	Select the event to be played by clicking on it. In this example, the selected event is shown with a green marker and highlighted blue background on the row.
 
 [*Green Marker*] The currently selected event, if there is one, will be shown with a highlighted row background
 
@@ -26,10 +27,12 @@ Creating an Off-Season Event
 .. image:: images/event-selection-2.png
 	:align: center
 	:alt: UI Screenshot
+	:width: 350
 
-For FMS Off-Season, clicking "New" will allow the addition of an unofficial (Off-Season) event. Only events added with the "New" button can be edited,
-those downloaded from FIRST are protected from edits (including off-season events that come from FIRST HQ). If you've requested to sync results with FIRST HQ, do not manually add your event.
-Instead, use data download to receive it and use the downloaded event.
+|
+| For FMS Off-Season, clicking "New" will allow the addition of an unofficial (Off-Season) event. Only events added with the "New" button can be edited,
+	those downloaded from *FIRST* are protected from edits (including off-season events that come from *FIRST* HQ). If you've requested to sync results with *FIRST* HQ, do not manually add your event.
+	Instead, use data download to receive it and use the downloaded event.
 
 The Event Code (*red box*) must be unique from any other events on the machine (official events or Off-Season events).
 
@@ -50,9 +53,11 @@ Event PINs
 .. image:: images/event-selection-3.png
 	:align: center
 	:alt: UI Screenshot
+	:width: 300
 
-For traditional events, and Off-Season events that are Syncing data with FIRST, clicking "Create Event Database" will prompt for an Event PIN to be entered.
-The FTA will need to enter the PIN number they were provided by FIRST HQ. Upon pressing Submit, the creation process proceed as described below.
+|
+| For traditional events, and Off-Season events that are Syncing data with *FIRST*, clicking "Create Event Database" will prompt for an Event PIN to be entered.
+	The FTA will need to enter the PIN number they were provided by *FIRST* HQ. Upon pressing Submit, the creation process proceed as described below.
 
 Event Database Creation in Progress
 ###################################
@@ -61,7 +66,8 @@ Event Database Creation in Progress
 	:align: center
 	:alt: UI Screenshot
 
-The system will create a new database to store the event results and data. This will temporarily disable the screen until the process is complete. 
-This process also populates registration information, team award history and more from the cloud.
+|
+| The system will create a new database to store the event results and data. This will temporarily disable the screen until the process is complete. 
+	This process also populates registration information, team award history and more from the cloud.
 
 Once the process completes, and each time this step is re-opened thereafter, the button will be disabled as the database has already been created.

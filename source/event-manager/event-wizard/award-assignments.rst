@@ -19,7 +19,7 @@ Assignment Interface
 
 .. image:: images/awards-2.png
 
-[*Red Box*] In order for an award to be visible on the web through the FIRST website, it must be marked as "Public" using the checkbox in that award's row.
+[*Red Box*] In order for an award to be visible on the web through the *FIRST* website, it must be marked as "Public" using the checkbox in that award's row.
 
 [*Gold Box*] Indicates whether or not stealth mode is on, see below for more information.
 
@@ -29,7 +29,7 @@ Assignment Interface
 
 [*Green Box*] Control buttons used to manage the award presentation process, as described below.
 
-[*Pink Marker*] Used to Upload Award Assignments marked "Public" to the FIRST website after all awards for the day (or the event) have been presented
+[*Pink Marker*] Used to Upload Award Assignments marked "Public" to the *FIRST* website after all awards for the day (or the event) have been presented
 
 Stealth Mode
 ###############
@@ -60,7 +60,7 @@ The "Is Assigned" field will still change to "Yes" if an award was assigned manu
     Not all awards have an associated script, so it is possible that "Has Script" may remain a "No" even after a successful download of an award. For example, the Dean's List awards do not have scripts.
 
 .. warning::
-    Manual award assignments should not be used without consulting FIRST HQ and/or the FTA. If the download process fails, contact your event support staff.
+    Manual award assignments should not be used without consulting *FIRST* HQ and/or the FTA. If the download process fails, contact your event support staff.
 
 Present an Award
 ################
@@ -93,13 +93,14 @@ Manual Award Assignments (Backup)
 #################################
 
 .. warning::
-    This is a backup process and should only be done upon direction of FIRST HQ and/or your FTA
+    This is a backup process and should only be done upon direction of *FIRST* HQ and/or your FTA
 
 .. image:: images/awards-9.png
     :align: center
     :width: 450
 
-When in manual assignment mode, click on an award to assign and select the "Assign Award" button.
+|
+| When in manual assignment mode, click on an award to assign and select the "Assign Award" button.
 
 Type the team number of the winning team in the corresponding box and the team name will appear below. The team name can be used to confirm that the 
 right team has been entered. If the award is presented to a team that's not competing (such as at District Championships) the number will show an "error" indicator,
@@ -113,7 +114,7 @@ Award Assignment from Application
 #################################
 
 .. warning::
-    This process is part of the Manual Award Assignment process, and considered a backup process as well. This should not be necessary except upon direction of FIRST HQ and/or your FTA
+    This process is part of the Manual Award Assignment process, and considered a backup process as well. This should not be necessary except upon direction of *FIRST* HQ and/or your FTA
 
 Some award require the winning team/person to have previously applied or been nominated, such as the Woodie Flower's Award.
 In these cases, when assigning the award in FMS, a drop-down list of potential winners will be offered.

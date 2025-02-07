@@ -7,7 +7,8 @@ Live
     :align: center
     :width: 700
 
-There are two versions of the Live Field Monitor available. The simple version (pink marker) and the detailed monitor (blue marker).
+|
+| There are two versions of the Live Field Monitor available. The simple version (pink marker) and the detailed monitor (blue marker).
 
 .. toctree::
    :maxdepth: 1
