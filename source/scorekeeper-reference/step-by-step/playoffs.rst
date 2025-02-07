@@ -18,7 +18,7 @@ Stay calm, stay hydrated, enjoy the matches. You've got the best seat in the hou
    * 6-minute Break after rounds 3 and 4
    * 15-minute Awards Break after remaining rounds and between finals matches
    * Timers should start as soon as the field is cleared (or as soon as scores are posted if delayed by ref discussions)
-   * Coordination may need to be organized between the scoring table and additional AV staff to make sure the timer bar is visible on screen when the timer is running.
+   * Coordination may need to be organized between the scoring table and additional A/V staff to make sure the timer bar is visible on screen when the timer is running.
 
 #. Alliance Captains should be submitting lineup cards directly to the Head Ref (or their designee) more than 2 minutes before match start.
 
@@ -35,11 +35,11 @@ Stay calm, stay hydrated, enjoy the matches. You've got the best seat in the hou
 
    * The backup robot coupon should come with a new lineup card and also be delivered to the Head Ref or their designee.
    * The Head Ref/FTA will probably ask about who is first on the list before the coupon is officially submitted to the scoring table for use.
-   * Return to Event Wizard and Select Alliance Membership (Step 15) before prestarting the match where the new robot will be coming in.
+   * Return to Event Wizard and Select Alliance Membership before prestarting the match where the new robot will be coming in.
    * Select radio button next to the team subbing out and enter the backup team number into the Round 3 / Backup slot.
    * Select "Save Alliances" and once you verify changes - return to match play.
 
-#. In case of a tie during eliminations - the tiebreakers found in [Rule 10.6.2.1] should be utilized by the Head Ref
+#. In case of a tie during eliminations - the tiebreakers found in the Tournament section of the Game Manual should be utilized by the Head Ref
 #. Awards will be announced during 15-minute awards breaks after round 4, 5, and between finals matches.
 
    * Before leaving Match Play select "Start Break" on the FCUI, and make sure the audio is deselected (so it does not sound the horn during the awards ceremony)

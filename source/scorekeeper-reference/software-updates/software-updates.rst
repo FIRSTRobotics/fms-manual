@@ -7,10 +7,7 @@ Software Updates
 Overview
 --------
 
-The Field Management System (FMS) is the electronics core of a *FIRST*\ |reg| Robotics Competition (FRC\ |reg|) playing field and encompasses both
-hardware and software components. Updates are released periodically, some publicly and some privately to official *FIRST* events. 
-For FRC Scorekeepers, please additionally consult your official training and discussion area for additional updates.
+The Field Management System (FMS) is the electronics core of a *FIRST* Robotics Competition (FRC) playing field and encompasses both
+hardware and software components. Updates are released periodically, some publicly and some privately to official *FIRST* events.
 
-Notice: Not all updates are publicly available. For up-to-date public downloads, please visit
-this `page on TeamForge <https://usfirst.collab.net/sf/frs/do/viewSummary/projects.offseasonfms/frs>`_.
-For volunteers, additional downloads may be available from your *FIRST* point of contact.
+Some Volunteers, such as Scorekeepers, may be granted access to downloads of FMS updates for personal user / training. Consult your *FIRST* point of contact for more information.

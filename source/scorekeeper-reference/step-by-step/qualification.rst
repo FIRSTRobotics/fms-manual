@@ -3,7 +3,7 @@
 Qualification (Day 2) and Alliance Selection (Day 3)
 =====================================================
 
-At most all events, Qualification occurs over more than one day; typically qualification runs for one full day and up through lunch on the second day.
+At most all events Qualification matches occur over more than one day; typically qualification runs for one full day and up through lunch on the second day.
 The Qualification Schedule is generated on the day preceding the beginning of Qualification, if possible. It is extremely important that all teams on the
 Qualification Schedule are present and will be participating in the Qualification matches. If one or more teams that are appearing on the Qualification Schedule leave
 the tournament prior to the start of the Qualification matches, the Qualification Schedule should be regenerated to remove the missing team(s).
@@ -36,7 +36,7 @@ Qualification
    * Use the "Settings" button, "Backup" tab, "Force Event Backup" button to ensure the event database is backed up.
    * For three-day Regional events only, load in the Friday Award winners.
 
-      * Navigate to Step 11 in the Event Wizard
+      * Navigate to Award Assignment step in the Event Wizard
       * If the Judge Advisor has uploaded the awards, you can click "Download Judge's Award Assignments" otherwise you will need to enter the award assignments manually.
 
    * During the Awards Ceremony, put the field lights into "Awards Mode."
@@ -48,7 +48,7 @@ Qualification
    * Use the "Settings" button, "Backup" tab, "Force Event Backup" button to ensure the event database is backed up.
    * Print the Qualifications Ranking report for the Announcer and Emcee as soon as the final qualification match has completed.
    * Use the Alliance Selection step in the Event Wizard to set alliances as they are picked. 
-   * Use the video switcher on the alliance wizard step to select the Hybrid Alliance display onto the audience screens during the Alliance Selection ceremony.
+   * Use the video switcher on the alliance wizard step to select the Alliance Selection display onto the audience screens during the Alliance Selection ceremony.
    * Verify what time the Playoff matches will start with your FTA so that the schedule can be constructed as soon as alliances have been selected
 
 #. Immediately following the Alliance Selection process, quickly build the playoff schedule so that the Backup Robots report and Playoff Coupon report can be printed out. Verify that the cycle time is set to 9 minutes.
@@ -59,6 +59,6 @@ Qualification
    * Keep the Backup Robot report in a safe spot near you once it has been returned by the Referees (which may not be until after lunch)
    * Print some additional Brackets and Schedules for queuing and field staff
 
-#. Activate the Playoff Match Schedule (Event Wizard Step 14).
+#. Activate the Playoff Match Schedule.
 #. Print Playoff Schedules and initial Announcer reports if the GA tool is not being used (save the paper if you can!)
 #. Before you leave for lunch, use the video switcher to display the Bracket

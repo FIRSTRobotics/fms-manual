@@ -3,6 +3,9 @@
 WPA Kiosk Operation
 ======================
 
+.. warning::
+    This information is not yet updated for the new 2025 Kiosk compatible with Vivid Hosting radios. Please come back later for updated information.
+
 This article assumes the kiosk has been configured by event staff and is ready for team use. If not, please see the configuration article.
 
 Enter Team and Program
