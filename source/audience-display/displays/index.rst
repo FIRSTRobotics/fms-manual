@@ -7,6 +7,7 @@ Displays
 .. toctree::
    :maxdepth: 1
 
-   match-flow
-   playoff-specific
-   specialty
+   match-displays
+   playoff-displays
+   announcement
+   specialty-displays

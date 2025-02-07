@@ -54,7 +54,7 @@ FMS Manual
    audience-display/about/index
    audience-display/configuration/index
    audience-display/displays/index
-   audience-display/obs-integration/index
+   audience-display/automation/index
 
 .. toctree::
    :maxdepth: 2
