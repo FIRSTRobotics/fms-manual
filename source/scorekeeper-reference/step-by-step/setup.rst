@@ -9,8 +9,8 @@
 Setup (Day 0)
 ======================
 
-For a three-day Regional event, setup is done on the day preceding the Practice matches; Program Delivery Partners can choose to also allow pit load-in during setup, but this does not affect setup activities.
-For a two-day District event, setup may happen on the same day as Practice matches and robot Inspection. For the purposes of this document, setup is just considered the "setup activity" and is not specific to event type.
+For a three-day Regional event, setup is done on the day preceding the Practice matches; Program Delivery Partners can choose to also allow pit load-in during setup but this does not affect setup activities.
+For a two-day District event setup may happen on the same day as Practice matches and robot Inspection. For the purposes of this document, setup is just considered the "setup activity" and is not specific to event type.
 
 Setup Process
 -----------------
@@ -28,9 +28,9 @@ Setup Process
 #. Once the Event Database has been created, start setting up the Audience Display.
 
    * If an FMS update was required, you will also need to update the Audience Display. This can be done using the "Check for Updates" button within the Audience Display configuration panel. 
-   * If the Audience Display application is not already on the computer, connect to the FMS Network and navigate to http://10.0.100.5/FRCDownloads where you can download the current Audience Display installer.
+   * If the Audience Display application is not already on the computer, connect to the FMS Network and navigate to http://10.0.100.5/FRCDownloads on the Audience Display where you can download the current Audience Display installer.
    * A/V or Webcast may need to run their own Audience Display. They can follow the same process to get an up-to-date version of the Audience Display
-   * Create a folder on the Desktop where you can store commonly accessed reports, like team lists and schedules.
+   * Create a folder on the Desktop of the FMS server where you can store commonly accessed reports, like team lists and schedules.
 
 #. Launch the Primary Audience Display software and configure the display(s) using the following hotkey combinations. Note that the Audience Display does not run on the FMS Server, but rather the laptop with the "Audience Display" sticker. At some events, the A/V department may be responsible for this setup.
 
@@ -59,7 +59,7 @@ Setup Process
    .. note::
        You cannot access the Match Test area (the button will not become active) until the Data Download (Step 1) has been completed, an event is selected, and the database has been created (Step 2). Contact FRC Support for assistance if this has not been completed yet.
 
-#. Coordinate with the FTA and A/V to ensure that all game sounds play correctly. You can use the “Test Sound” buttons within the Audience Display configuration panel, or use the continuous sound player in the Audience Display jump menu (right-click the Audience Display icon in the task bar).
+#. Coordinate with the FTA and A/V to ensure that all game sounds play correctly. You can use the "Test Sound" buttons within the Audience Display configuration panel, or use the loop sound in the Audience Display hover menu (hover over the Audience Display icon in the task bar).
 #. Verify the printer is working correctly.
 
    * Locate and stage additional paper for easy access

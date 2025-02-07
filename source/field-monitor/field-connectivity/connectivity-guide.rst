@@ -3,6 +3,9 @@
 Connectivity Guide
 ======================
 
+.. note::
+    The screenshots in this article show a former version of the field monitor. While some of the columns are missing or look slightly different, the concepts and information described are still accurate.
+
 Introduction
 ------------
 

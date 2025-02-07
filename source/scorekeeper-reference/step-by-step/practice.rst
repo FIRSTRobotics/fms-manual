@@ -3,13 +3,15 @@
 Practice (Day 1)
 ======================
 
-During Practice, teams will come to the Practice Field and run their robots according to a set Practice Schedule. The actual schedule isn’t “set in stone”, and different event types (Regional vs District) will run Practice differently. It’s recommended to run all Practice matches within a Practice schedule to allow the FMS to log match data and robot data so that FTAs and HQ can examine robot and/or field problems through the match logs.
+During Practice matches teams will come to the Field and run their robots according to a set Practice Schedule. The actual schedule is not "set in stone" and different event types (Regional vs District) 
+will run Practice differently. It is recommended to run all Practice matches within a Practice schedule to allow the FMS to log match data and robot data so that FTAs and HQ can examine robot and/or field 
+problems through the match logs.
 
 Practice Process
 --------------------
 
 #. Check in with the FTA.
-#. Launch the FMS Event Manager software (if not already loaded).
+#. Launch the FMS Event Manager software (if not already loaded)
 
    * Check with HQ Support to determine if any FMS updates or other software updates/maintenance is required.
 
@@ -26,17 +28,18 @@ Practice Process
 #. Ensure the Practice Schedule is Activated in the Event Wizard.
 #. Field Calibration: Teams will be given an amount of time where they can come and take measurements or calibrate their sensors. This process is overseen by the FTA, but Scorekeeper presence for safety is appreciated.
 
-   * The FTA should be overseeing this and handling Q/A about this time. For situational awareness: robots may be turned on - but may not drive, extend outside frame perimeter, or interact with field elements/notes. [Rule T301] Not required, but is nice to NOT have the field in night mode - so it is lit more like it will be during matches for those doing camera calibrations.
+   * The FTA should be overseeing this and handling Q/A about this time. For situational awareness: robots may be turned on - but may not drive, extend outside frame perimeter, or interact with field elements/notes. 
+   * Not required, but is nice to NOT have the field in night mode - so it is lit more like it will be during matches for those doing camera calibrations.
 
 #. Lunch Break
 #. Practice Matches
 #. Generate a Qualification Match schedule using the corresponding steps in the Event Wizard.
 
    .. important::
-      Verify the FMS Server is set to the correct timezone. FMS will warn you in the event of timezone irregularities, do not click through. If there is a timezone mismatch issue contact FRC Support immediately.
+      Verify the FMS Server is set to the correct timezone. FMS will warn you in the event of timezone irregularities, do not click through without reading. If there is a timezone mismatch issue contact FRC Support immediately.
 
-   * Be sure to use the Lunch checkbox in the Schedule Break during the Lunch period!
-   * Print out sufficient copies of the Qualification Schedule Report to distribute to teams. In some venues, the Pit Admin may only need a single copy of the schedule and they’ll go and make copies.
+   * Be sure to use the Lunch checkbox in the Schedule Break during the Lunch period
+   * Print out sufficient copies of the Qualification Schedule Report to distribute to teams. In some venues, the Pit Admin or event manager may only need a single copy of the schedule and they will go and make copies.
    * Print out any copies needed for queuing and field staff
    * Work with the Event Manager and FTA to ensure that the Qualification Match schedule works within the overall timeframe of the event (start/end times, lunch period, etc.).
    * If you activated the Qualification Schedule as part of this process, but have not yet completed Practice Matches, return to the Event Manager and re-activate the practice match schedule. This is necessary in order to continue playing through the Practice schedule.

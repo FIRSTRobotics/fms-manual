@@ -5,6 +5,9 @@ WPA Kiosk
 
 Navigation and use of the WPA Event Kiosk Pogram
 
+.. warning::
+    This information is not yet updated for the new 2025 Kiosk compatible with Vivid Hosting radios. Please come back later for updated information.
+
 Opening View
 ------------
 
