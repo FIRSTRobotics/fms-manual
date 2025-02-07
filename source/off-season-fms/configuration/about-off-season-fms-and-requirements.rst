@@ -30,7 +30,7 @@ In order to install Off-Season FMS, the target machine must meet these minimum r
 * Operating System: Windows 10
 * Processor Speed: 64 bit OS
 * CPU: 2.0 GHz
-* Memory: 2 GB RAM
+* Memory: 4 GB RAM
 * Hard drive: 1 GB free hard disk space
 * Hardware: Ethernet and USB Port
 * Resolution: 1920x1080 or higher for best visibility
