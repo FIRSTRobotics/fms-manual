@@ -8,7 +8,7 @@ Execute Match Maker
 
 .. image:: images/run-match-maker-1.png
 
-Once the match schedule has been generated it’s necessary to generate the alliances. The MatchMaker algorithm is used for this purpose.
+Once the match schedule has been generated it is necessary to generate the alliances. The MatchMaker algorithm is used for this purpose.
 It creates over 5 million possible schedules and selects the best one that meets the criteria outlined in the game manual. MatchMaker should only be run one time for the Practice schedule,
 and one time for the Qualification schedule. If it is believed that the schedule is not optimum, consult FRC Engineering for additional review. This process should be done with the FTA present.
 
@@ -25,7 +25,7 @@ Upon execution, MatchMaker will begin formulating the alliances. A progress mess
 This process takes more time when more teams are involved- occasionally upwards of four minutes. The process should not be interrupted
 
 .. note::
-    MatchMaker can only run if the user has Administrator permissions on the server and has FMS running as an admin. This should be automatic on FIRST owned hardward, but may need to be done manually on personal hardware.
+    MatchMaker can only run if the user has Administrator permissions on the server and has FMS running as an admin. This should be automatic on *FIRST* owned hardward, but may need to be done manually on personal hardware.
 
 Review Schedule
 ###############
@@ -45,10 +45,12 @@ The statistics tab contains helpful information for evaluating the strength of t
 
 * Team - Team Number
 * Matches - number of matches played which are used to calculate rankings. This number should match the number in "Matches Per Team" at the top of the build screen.
-* Surrogates - number of matches played in which this team is a surrogate. Teams should only play 1 surrogate match maximum. If any team has more than 1 in this column, click the "Execute MatchMarker" button again to regenerate the alliance pairings.
+* Surrogates - number of matches played in which this team is a surrogate. Teams should only play 1 surrogate match maximum. If any team has more than 1 in this column, click the "Execute MatchMarker" 
+* button again to regenerate the alliance pairings.
 * # Partners - total number of different alliance partners. The total possible number of different alliance partners is the number of matches played * 2
 * # Opponents - total number of different opponents. The total possible number of different opponents is the number of matches played * 3.
-* Alliance Partners - a complete list of all the teams which will be on an alliance with the team in the Team column. Notation is given as Team Number (number of times this team will be on your alliance). For example: 812(2) means the team on that row will be on an alliance with team 812 twice over the course of all Qualification matches.
+* Alliance Partners - a complete list of all the teams which will be on an alliance with the team in the Team column. Notation is given as Team Number (number of times this team will be on your alliance). 
+* For example: 812(2) means the team on that row will be on an alliance with team 812 twice over the course of all Qualification matches.
 * Opponents - A complete list of all teams which will be an opponent of the team in the Team column. Notation is the same as Alliance Partners column.
 
 If a team is playing with (or against) the same team multiple times, it will be shown in parentheses next to the other team's number, as shown in the *green box* above.
@@ -70,7 +72,7 @@ Alternate Alliance Pairing Method (Optional)
 .. image:: images/run-match-maker-6.png
 
 If an alternative Alliance Pairing Algorithm is desired for the Practice or Qualification Tournament, in can be imported into the software.
-This is done on either "Run Match Maker" step in the Wizard. This is not supported for official FIRST Events.
+This is done on either "Run Match Maker" step in the Wizard. This is not supported for official *FIRST* Events.
 
 Before adding pairings, the schedule itself must be generated on the previous step. Schedules (time/date portion) cannot be imported, only the pairings.
 

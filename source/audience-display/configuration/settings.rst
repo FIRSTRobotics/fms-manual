@@ -17,7 +17,8 @@ To close the settings panel at any time, click the "Save and Close" button on th
     :align: center
     :width: 450
 
-[*Display Language*] Audience Display is available in multiple languages- select a language from the dropdown
+|
+| [*Display Language*] Audience Display is available in multiple languages- select a language from the dropdown
 
 .. image:: images/audience-settings-2.png
 
@@ -45,13 +46,13 @@ Graphics Settings
 [*Preset Types*] 
 
 * Main In-House Display - Default singleton operation
-* Live Stream Display (default) - Load the default settings for Audience Display instances being used on FIRST Webcast Units
-* Champ Center Display - For use by FIRST HQ at FIRST Championship
+* Live Stream Display (default) - Load the default settings for Audience Display instances being used on *FIRST* Webcast Units
+* Champ Center Display - For use by *FIRST* HQ at *FIRST* Championship
 * Custom Settings - Individually specified user settings
 
 [*Real-Time Score Types*] 
 
-* Live Stream Bug (default) - Webcast versions as arranged with *FIRST*\ HQ and provides an alternate view of the data in a more compact, centered display
+* Live Stream Bug (default) - Webcast versions as arranged with *FIRST* HQ and provides an alternate view of the data in a more compact, centered display
 * Full Width - The traditional score bar that takes up the full bottom third or so of the Audience Display
 
 [*FIRST Championship Center Screen and Division Name*] Configuration options specific to the *FIRST* Championship. Please do not adjust these settings at any events except under the direction of FRC Support.
@@ -85,7 +86,7 @@ group. RGBA and Hex values are both accepted.
 .. image:: images/audience-settings-5.png
 
 .. warning::
-   Avoid using common colors like "red" or "blue" as Chroma Key colors, as they will also cause portions of the other graphics (like the FIRST logo) to be keyed out.
+   Avoid using common colors like "red" or "blue" as Chroma Key colors, as they will also cause portions of the other graphics (like the *FIRST* logo) to be keyed out.
 
 **Real-Time Display**:
 
@@ -97,9 +98,10 @@ group. RGBA and Hex values are both accepted.
     :align: center
     :width: 550
 
-[*Real-Time Score Horizontal*] The red alliance is setup to the right side when viewed from the scoring table. As such, a projection screen mounted behind the scoring 
-table (viewed by the audience sitting across from it) would see the red alliance on the left side when viewing the field. However, in some venue setups this configuration 
-is not viable. In these situations the horizontal orientation can be flipped so that the display will properly align overlayed elements with those seen on the live video feed.
+|
+| [*Real-Time Score Horizontal*] The red alliance is setup to the right side when viewed from the scoring table. As such, a projection screen mounted behind the scoring 
+    table (viewed by the audience sitting across from it) would see the red alliance on the left side when viewing the field. However, in some venue setups this configuration 
+    is not viable. In these situations the horizontal orientation can be flipped so that the display will properly align overlayed elements with those seen on the live video feed.
 
 [*Real-Time Score Vertical*] Move the real time score display to the bottom of the screen or to the top of the screen based on venue needs.
 
@@ -110,8 +112,9 @@ Automation Settings
     :align: center
     :width: 450
 
-[*Animation Rendering*] The default of "Minimize CPU" should be sufficient for most users. The alternative of "Window Capture" may be needed for some broadcasting scenarios such 
-as when using OBS or vMix. The "Allow Window Capture" option uses a lot of CPU resources and may result in choppy video when not using matching broadcast software.
+| 
+| [*Animation Rendering*] The default of "Minimize CPU" should be sufficient for most users. The alternative of "Window Capture" may be needed for some broadcasting scenarios such 
+    as when using OBS or vMix. The "Allow Window Capture" option uses a lot of CPU resources and may result in choppy video when not using matching broadcast software.
 
 .. warning::
    If using the Minimal CPU option and using vMix or OBS to capture the Audience Display window, the animations will not capture in vMix or OBS.
@@ -127,7 +130,8 @@ Sound Settings
     :align: center
     :width: 450
 
-Select a sound from the "Sound Selection" dropdown.
+| 
+| Select a sound from the "Sound Selection" dropdown.
 
 [*Play Once*] Single play of the selected sound
 

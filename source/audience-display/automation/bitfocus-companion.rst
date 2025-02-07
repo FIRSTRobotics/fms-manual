@@ -8,7 +8,7 @@ BitFocus Integration must be configured through the settings' automation tab and
 with computer networking.
 
 BitFocus Companion is an incredibly popular audio/video/production control program that allows you to control almost any network-capable equipment (such as video mixers or audio consoles).
-The free Companion Software and use of the *FIRST*\ Audience Display allows automation based on event progression and may eliminate the need for one or more operators. Follow the below steps 
+The free Companion Software and use of the *FIRST* Audience Display allows automation based on event progression and may eliminate the need for one or more operators. Follow the below steps 
 to configure and use BitFocus Companion.
 
 For the remainder of this documentation, the product will be referred to simply as "Companion"
@@ -17,7 +17,7 @@ Recommended Setup
 ----------------------------
 
 referred can only dispatch commands to devices that share a network connection, and therefore, the devices must be on the same network as the BitFocus installation. 
-However it is critical not to add production equipment (or any unknown equipment) to the field network with FIRST Engineering permission. Instead, the recommended practice 
+However it is critical not to add production equipment (or any unknown equipment) to the field network with *FIRST* Engineering permission. Instead, the recommended practice 
 is to have two Ethernet NICs on the Companion target machine. One NIC will live on the field network (and receive a DHCP address of 10.0.100.*) and the other can live on 
 the network with the production equipment to be controlled (which must not be 10.*). 
 
@@ -39,6 +39,8 @@ After changing settings, be sure to click "Hide" and *not* "Quit" as Companion m
 .. image:: images/bitfocus-1.png
     :align: center
     :width: 400
+
+|
 
 Determine Events of Interest
 ----------------------------
@@ -72,9 +74,10 @@ configure individual actions for Companion buttons, instead more information can
     :align: center
     :width: 550
 
-In the above example, there is a button of interest for Alliance Selection located on page 6, row 1, column 3 (or 6/1/3). There is also a button for Match Start 
-located at 6/2/6. Save this information for use when configuring the Audience Display. What Audience Display will do when making a call to Companion is exactly the 
-same as pressing the button on a physical surface (such as an Elgato StreamDeck) or in the online GUI. This includes both the "button down" and "button up" states.
+|
+| In the above example, there is a button of interest for Alliance Selection located on page 6, row 1, column 3 (or 6/1/3). There is also a button for Match Start 
+   located at 6/2/6. Save this information for use when configuring the Audience Display. What Audience Display will do when making a call to Companion is exactly the 
+   same as pressing the button on a physical surface (such as an Elgato StreamDeck) or in the online GUI. This includes both the "button down" and "button up" states.
 
 .. note::
    There could be as many additional buttons as desired on any number of pages, Audience Display will simply ignore irrelevant buttons. Notice the numbering scheme 
@@ -90,12 +93,15 @@ section.
     :align: center
     :width: 550
 
-For each event type of interest, click the "Add Command" button and complete the associated fields. A complete configuration for the example buttons above would look like this:
+|
+| For each event type of interest, click the "Add Command" button and complete the associated fields. A complete configuration for the example buttons above would look like this:
 
 .. image:: images/bitfocus-4.png
     :align: center
     :width: 500
     
+|
+
 .. note::
    The Audience Display can only accept a single action for each event type. If multiple downstream events need to happen based on the event trigger, they must be configured 
    to run in the button press stack within Companion.

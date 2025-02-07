@@ -14,4 +14,4 @@ It is recommended to download files to the server and place them on a USB Stick,
 * FTA Notepad - mobile application for use of FTAs. Not yet available, and requires an FTA login username/password.
 
 .. warning::
-    Do not install the Audience Display on the FMS Server's owned by FIRST HQ
+    Do not install the Audience Display on the FMS Server's owned by *FIRST* HQ

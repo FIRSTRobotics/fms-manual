@@ -6,7 +6,7 @@ Event Upload
 .. image:: images/event-upload.png
 
 The Event Data Upload step is used to do a complete backup of all event information. Copies are placed on the local Server, USB drive (which must be connected),
-as well as uploaded to FIRST (provided an Internet connection is available and the event is an official FIRST event).
+as well as uploaded to *FIRST* (provided an Internet connection is available and the event is an official *FIRST* event).
 Verification is also done to confirm the upload was successful.
 
 **DEPENDING ON THE SIZE OF THE DATABASE, THE AMOUNT OF LOG DATA STORED, AND THE SPEED OF THE INTERNET CONNECTION AT THE EVENT THIS STEP MAY TAKE UP TO 10 MINUTES!**

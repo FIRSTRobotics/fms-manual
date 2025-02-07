@@ -22,7 +22,7 @@ copyright = '2025 FIRST Robotics Competition'
 author = 'FIRST'
 
 # The full version, including alpha/beta/rc tags
-release = '2025a'
+release = '2025.1'
 
 
 # -- General configuration ---------------------------------------------------

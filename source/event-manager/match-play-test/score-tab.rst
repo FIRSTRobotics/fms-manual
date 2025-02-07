@@ -31,7 +31,8 @@ Referee Completion Warning
 .. image:: images/score-tab-1.png
     :align: center
 
-If a Scorekeeper attempts to Commit a score before the Referees have completed their scoring of the match, a warning dialog will be presented.
+| 
+| If a Scorekeeper attempts to Commit a score before the Referees have completed their scoring of the match, a warning dialog will be presented.
 
 Post-Match Comments
 -------------------
@@ -40,7 +41,8 @@ Post-Match Comments
     :align: center
     :width: 350
 
-If a match is edited by the scorekeeper after the clock expires, or any cards were assigned in the match, a comment window is automatically opened when the Commit button is pressed on the FCUI.
-This box can be used for comments regarding why the score was edited after the match ended and these comments will be saved and available later, should a review be necessary.
-The box can also be manually requested using the dropdown arrow on the commit button in the FCUI.
+|
+| If a match is edited by the scorekeeper after the clock expires, or any cards were assigned in the match, a comment window is automatically opened when the Commit button is pressed on the FCUI.
+    This box can be used for comments regarding why the score was edited after the match ended and these comments will be saved and available later, should a review be necessary.
+    The box can also be manually requested using the dropdown arrow on the commit button in the FCUI.
 

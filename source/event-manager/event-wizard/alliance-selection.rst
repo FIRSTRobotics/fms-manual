@@ -38,7 +38,8 @@ In off-season events or when the hardware is unavailable, selecting "FMS" Timer 
     :align: center
     :width: 450
 
-The buttons in the Head Referee panel directly mirror the FMS interface:
+| 
+| The buttons in the Head Referee panel directly mirror the FMS interface:
 
 * The green "Play" button is the "Timer Start" button
 * The red "Pause" button is the "Timer Pause" button
