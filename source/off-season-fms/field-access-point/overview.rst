@@ -4,7 +4,7 @@
 Overview
 ===========
 
-The Wireless Acess Point used at official FRC\ |reg| competitions is the Linksys 1900ACS running customized OpenWRT firmware.
+The Wireless Acess Point used at official FRC competitions is the Linksys 1900ACS running customized OpenWRT firmware.
 In an attempt to provide a tested AP that can be used with FMS Off-Season, a modified version of the firmware used during the season has been released for teams or individuals to load on their devices.
 
 This page provides an overview of the AP images. For download and installation information, please see :doc:`Loading OpenWRT <loading-openwrt>`

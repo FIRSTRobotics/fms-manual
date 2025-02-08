@@ -7,7 +7,7 @@ About Off-Season FMS and Requirements
 Overview
 --------
 
-The Field Management System (FMS) is the electronics core of a *FIRST*\ |reg| Robotics Competition (FRC\ |reg|) playing field and encompasses both hardware and software components. The software package is used to control all the field electronics (LED Displays, Station Control Cabinets, E-stops, enable/disable of the Robots, network security, etc.) and is used to manage the event by creating match schedules, scoring the matches in real-time, and posting information to the Audience screen. The FMS Off-Season version is designed to work without the full set of FRC field electronics, but retain much of the functionality that remains useful to events without *FIRST* hardware.
+The Field Management System (FMS) is the electronics core of a *FIRST* Robotics Competition (FRC) playing field and encompasses both hardware and software components. The software package is used to control all the field electronics (LED Displays, Station Control Cabinets, E-stops, enable/disable of the Robots, network security, etc.) and is used to manage the event by creating match schedules, scoring the matches in real-time, and posting information to the Audience screen. The FMS Off-Season version is designed to work without the full set of FRC field electronics, but retain much of the functionality that remains useful to events without *FIRST* hardware.
 
 Additional information about the software can be found in the other articles of this documentation.
 

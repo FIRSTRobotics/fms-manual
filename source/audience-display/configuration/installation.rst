@@ -5,7 +5,7 @@ Installation
 ============
 
 .. important::
-   Please do not install the Audience Display on official *FIRST* |reg| servers ("case 33") - use the laptop marked for Audience Display use instead
+   Please do not install the Audience Display on official *FIRST* servers ("case 33") - use the laptop marked for Audience Display use instead
 
 Installation Overview
 ---------------------

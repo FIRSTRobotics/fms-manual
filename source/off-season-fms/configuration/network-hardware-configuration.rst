@@ -11,7 +11,7 @@ Layout
 
 .. image:: images/network-hardware-configuration-0.png
 
-The typical FRC\ |reg| field, electronics and hardware are not normally available at events utilizing FMS Off-Season. As such, the host team or organization will need to provide some basic network hardware in order to run the event.
+The typical FRC field, electronics and hardware are not normally available at events utilizing FMS Off-Season. As such, the host team or organization will need to provide some basic network hardware in order to run the event.
 If you event has the full official electronics you should not use FMS Off-Season- you must use the official FMS build in order to talk to network hardware.
 
 At a very basic level the Field Management System consists of a router, switches and a laptop/desktop with the FMS software. In the above diagram, the six driver station computers can be seen connected to 
