@@ -58,6 +58,9 @@ The break timing display is available during both Qualification and Playoff matc
 The display contains the match number or phase (e.g. "Test Match") as well as the event name, time remaining and upcoming match data.
 Upon timer expiry/cancel, the "buzzer" sound will be played if "sound alerts" were enabled when the break was started by the scoring table.
 
-[*Left*] Traditional timing screen
+Video can be inserted in the remaining space on the screen using Chroma, or, when the settings option for Rankings background is enabled the 
+Qualificiton Rankings or Playoff Brack will be in the remaining space.
 
-[*Right*] Alternative timing screen when "Graphics Background" setting is "Rankings"
+[*Left*] Qualification break
+
+[*Right*] Playoff break

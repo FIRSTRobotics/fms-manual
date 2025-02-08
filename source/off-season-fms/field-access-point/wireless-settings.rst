@@ -4,7 +4,7 @@
 Wireless Settings + Status
 =================================
 
-This article details how to view the wireless status and change the wireless settings for the FRC\ |reg| OpenWRT image
+This article details how to view the wireless status and change the wireless settings for the FRC OpenWRT image
 
 Accessing the Wireless Overview
 -------------------------------

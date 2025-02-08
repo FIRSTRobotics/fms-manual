@@ -62,4 +62,4 @@ Failed Installations
 
 .. image:: images/upgrading-from-a-previous-edition-of-fms-off-season-7.png
 
-If your machine is not compatible, or the installer encounters other problems, you can review the log file for assistance. *FIRST*\ |reg| HQ is not able to provide individual troubleshooting assistance.
+If your machine is not compatible, or the installer encounters other problems, you can review the log file for assistance. *FIRST* HQ is not able to provide individual troubleshooting assistance.

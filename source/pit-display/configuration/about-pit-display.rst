@@ -7,7 +7,7 @@ About Pit Display
 Introduction
 ------------
 
-Pit Display is a web based software program, built and distributed by *FIRST*\ |reg|, that is used to relay rankings and tournament information from FMS to the 
+Pit Display is a web based software program, built and distributed by *FIRST*, that is used to relay rankings and tournament information from FMS to the 
 spectators in the Pit at the venue. Pit Display can be run on an computer containing and internet browser (like Firefox or Chrome) and an ethernet port. 
 This manual will walk through the available data, configuration options, and best practices related to the Pit Display.
 

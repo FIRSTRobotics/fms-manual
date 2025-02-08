@@ -4,7 +4,7 @@
 Default Settings
 ======================
 
-This article describes the default values of various settings in the FRC\ |reg| Offseason Simple image for the Linksys WRT1900 ACS AP.
+This article describes the default values of various settings in the FRC Offseason Simple image for the Linksys WRT1900 ACS AP.
 
 Network
 -------

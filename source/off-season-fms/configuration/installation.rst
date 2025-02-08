@@ -10,7 +10,7 @@ Retrieve Installer
     FMS Off-Season shoud not be installed on top of a previous version. Please completly remove the old version before continuing. For help on doing this, please 
     :ref:`see this article <off-season-upgrading>`
 
-In order to install FMS Off-Season, download the EXE file from the *FIRST*\ |reg| website. The file contains the necessary pre-requisites and is usually around 600 MB in size.
+In order to install FMS Off-Season, download the EXE file from the *FIRST* website. The file contains the necessary pre-requisites and is usually around 600 MB in size.
 
 Access the Installer download `from this site <https://usfirst.collab.net/sf/projects/offseasonfms/>`_ (look for the most recent available)
 

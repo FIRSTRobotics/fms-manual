@@ -92,7 +92,7 @@ group. RGBA and Hex values are both accepted.
 
 .. note::
    Careful consideration should be used before changing these options as they can cause confusion for audience members who expect a traditional layout from year to year.
-   For official FRC |reg| Events, if in doubt, contact your Engineering support contact.
+   For official FRC Events, if in doubt, contact your Engineering support contact.
 
 .. image:: images/audience-settings-6.png
     :align: center
