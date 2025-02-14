@@ -98,13 +98,13 @@ The Field Wireless Access Point(s)
 
 There are two APs on each field. The primary Field Wireless Access Point (WAP) broadcasts and receives wireless data from robots on the playing field using the 6GHz band. 
 
-The Field WAP hosts a hidden SSID for each robot scheduled to play on the field, all of which are multiplexed over a single wireless interface. Each SSID is allocated a VLAN to the corresponding Driver Station.
+The Field AP hosts a SSID for each robot scheduled to play on the field, all of which are multiplexed over a single wireless interface. Each SSID is allocated a VLAN to the corresponding Driver Station.
 
-The Field WAP connects to the Score Switch through a 10/100/1000 Gigabit Ethernet trunk line. The switch ports on the Field WAP are unused and unallocated, only the WAN (trunk) line is used.
+The Field AP connects to the Score Switch through a 10/100/1000 Gigabit Ethernet trunk line. The switch ports on the Field AP are unused and unallocated, only the FMS (trunk) line is used for connectivity. 
 
-The Field WAP uses the 802.11n Wi-Fi standard, and the 6GHz band is reserved exclusively for robots. The standard configuration employs WPA2/AES encryption with a unique key per team, per event.
+The Field AP uses the 802.11ax Wi-Fi standard, and the 6GHz band is reserved exclusively for robots. The standard configuration employs WPA3/AES encryption with a unique key per team, per event.
 
-A second WAP is installed on each field for the FTA to access the field network from their wireless device. This runs on either the 2.4 or 5GHz band based on network congestion.
+A second AP is installed on each field for the FTA to access the field network from their wireless device. This runs on either the 2.4GHz or 5GHz band based on network congestion.
 
 Referee Panels
 ~~~~~~~~~~~~~~
@@ -117,12 +117,12 @@ The Head Referee panel includes controls for the LED light strings on the playin
 Robots
 ~~~~~~
 
-Each robot contains, at minimum, a wireless radio and robot controller (roboRIO). The wireless radio is configured in bridge mode to communicate to the Field WAP using an assigned SSID 
+Each robot contains, at minimum, a wireless radio and robot controller (roboRIO). The wireless radio is configured in client (bridge) mode to communicate to the Field AP using an assigned SSID 
 and WPA Key, which then communicates with the robot controller and any other devices on the robot at the discretion of the team. At each event, each team is assigned a unique encryption key.
 The key changes between each team's event.
 
 The robot radio is responsible for connecting to the field, as well as implementing the bandwidth limit. Each team must configure their radio at the event before it will successfully link 
-with the Field WAP. Radio configuration kiosks are provided for this purpose.
+with the Field AP. Radio configuration kiosks are provided for this purpose.
 
 Additional Non-Field Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -146,7 +146,7 @@ VLANs and Network Policy
 The FMS field network is split into multiple networks using VLANs, a method by which data is encapsulated on the trunk lines, and then distributed at the switch based on its configuration. 
 This is employed on the field to ensure each teams' connection to their respective robot is private from other teams on the field.
 
-The Field Router sets up the VLANs 10, 20, 30 (Blue), 40, 50, 60 (Red) and 100 (Admin). The switches (and Field WAPs) then assign specific ports (or SSIDs, in the case of the Field WAP) to each VLAN, 
+The Field Router sets up the VLANs 10, 20, 30 (Blue), 40, 50, 60 (Red) and 100 (Admin). The switches (and Field APs) then assign specific ports (or SSIDs, in the case of the Field AP) to each VLAN, 
 allowing that port to become isolated form the rest of the network. Each VLAN consists only of the Robot, the Driver Station, and the FMS server. The FMS server is a part of the Admin VLAN, but 
 the Field Router is configured to permit it communication with the Driver Station of each VLAN.
 
@@ -160,14 +160,14 @@ The Field Router does not provide a DHCP server to the rest of the Field Network
 pools change depending on what teams are scheduled for that match (10.TEA.MS.xx). The Admin VLAN has mostly statically addressed devices, with some, such as Referee Panels, running on DHCP.
 
 Team IP addresses follow the 10.TEA.MS.xx scheme, and are dynamically addressed with DHCP unless otherwise configured by the team. Prior to the beginning of the match, the FMS server sends new 
-configuration parameters to the switches on the field, to reconfigure their VLAN settings to accept the new IP addresses. The Field Router and Field WAP are also reconfigured using this process. 
+configuration parameters to the switches on the field, to reconfigure their VLAN settings to accept the new IP addresses. The Field Router and Field AP are also reconfigured using this process. 
 The Prestart process is described at length later in this paper.
 
 Network Bandwidth
 ^^^^^^^^^^^^^^^^^
 
-The FMS Field Network has limited bandwidth available. There is an imposed 4Mbit/s limit for each team via the robot radios to ensure no one team overloads the system, causing packets to drop 
-for other teams. Given that each wireless SSID that the Field WAP handles is multiplexed, this adds up to a total of 4x6=24Mbit/s for the Field WAP. All other traffic on the FMS Field Network is not limited by bandwidth.
+The FMS Field Network has limited bandwidth available. There is an imposed 7Mbit/s limit for each team via the robot radios to ensure no one team overloads the system, causing packets to drop 
+for other teams. Given that each wireless SSID that the Field AP handles is multiplexed, this adds up to a total of 7x6=42Mbit/s for the Field AP. All other traffic on the FMS Field Network is not limited by bandwidth.
 
 The Robot Radio prioritizes certain communications over others. Driver Station control and status packets are the highest priority, followed by Network Tables, then all other traffic (e.g. video).
 
