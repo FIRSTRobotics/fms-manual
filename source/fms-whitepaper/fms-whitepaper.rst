@@ -100,7 +100,7 @@ There are two APs on each field. The primary Field Wireless Access Point (WAP) b
 
 The Field AP hosts a SSID for each robot scheduled to play on the field, all of which are multiplexed over a single wireless interface. Each SSID is allocated a VLAN to the corresponding Driver Station.
 
-The Field AP connects to the Score Switch through a 10/100/1000 Gigabit Ethernet trunk line. The switch ports on the Field AP are unused and unallocated, only the FMS (trunk) line is used for connectivity. 
+The Field AP connects to the Score Switch through a 10/100/1000 Gigabit Ethernet trunk line. The switch ports on the Field AP are unused and unallocated, only the trunk line (labled "FMS" on the VH-113 AP) is used for connectivity. 
 
 The Field AP uses the 802.11ax Wi-Fi standard, and the 6GHz band is reserved exclusively for robots. The standard configuration employs WPA3/AES encryption with a unique key per team, per event.
 
