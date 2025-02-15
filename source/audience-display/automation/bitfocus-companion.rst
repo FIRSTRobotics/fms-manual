@@ -81,13 +81,14 @@ configure individual actions for Companion buttons, instead more information can
 
 .. note::
    There could be as many additional buttons as desired on any number of pages, Audience Display will simply ignore irrelevant buttons. Notice the numbering scheme 
-   for Companion is 0-based.
+   for Companion is often 0-based.
 
 Audience Display Settings
 -----------------------------
 
-Within the Audience Display settings, check the "Enable BitFocus Companion Integration" checkbox and complete the address as configured in the above "Download and Installation" 
-section. 
+Within the Audience Display settings, check the "Enable BitFocus Companion Integration" checkbox and complete the address as configured in 
+the above "Download and Installation" section. The address must be a valid URL- written with the leading http (or https). The port is 
+also required as Companion should not be run on 80 or 443. Since it must be a valid url, the use of localhost must be replaced with 127.0.0.1.
 
 .. image:: images/bitfocus-3.png
     :align: center
@@ -105,6 +106,9 @@ section.
 .. note::
    The Audience Display can only accept a single action for each event type. If multiple downstream events need to happen based on the event trigger, they must be configured 
    to run in the button press stack within Companion.
+
+.. warning::
+   The Companion pages are not 0-indexed unlike the rows and columns. Be careful to make sure you're setting the right page in your request! You will not be able to save a config that tries to use page 0.
 
 A Note on State Tracking
 ----------------------------
