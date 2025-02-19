@@ -38,7 +38,7 @@ Tournament Reports:
    * *Schedule By Team* : Qualification match schedule, sorted by team (lengthy report, not recommended for printing)
    * *Announcer’s Report* : Detailed report of team details for reference by the announcers (one page per match)
    * *Match Results* : Final scores of all completed matches in the qualification tournament
-   * *Ranking* : Current qualifiction ranking of all teams at the event (updates as matches are player or re-played)
+   * *Ranking* : Current qualification ranking of all teams at the event (updates as matches are played or re-played)
    * *Bypass* : Shows which teams have been Bypassed during which matches of the qualification tournament
    * *Cycle Time* : Shows the actual time between match starts
 
