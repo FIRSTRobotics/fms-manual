@@ -59,7 +59,7 @@ The display contains the match number or phase (e.g. "Test Match") as well as th
 Upon timer expiry/cancel, the "buzzer" sound will be played if "sound alerts" were enabled when the break was started by the scoring table.
 
 Video can be inserted in the remaining space on the screen using Chroma, or, when the settings option for Rankings background is enabled the 
-Qualificiton Rankings or Playoff Brack will be in the remaining space.
+Qualification Rankings or Playoff Bracket will be in the remaining space.
 
 [*Left*] Qualification break
 
