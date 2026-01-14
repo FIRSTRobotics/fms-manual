@@ -7,3 +7,4 @@ Operation
    :maxdepth: 1
 
    wpa-kiosk-operation
+   om5p-wpa-kiosk-operation

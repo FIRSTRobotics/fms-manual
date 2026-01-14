@@ -99,3 +99,4 @@ FMS Manual
 
    wpa-kiosk/setup/index
    wpa-kiosk/operation/index
+   
