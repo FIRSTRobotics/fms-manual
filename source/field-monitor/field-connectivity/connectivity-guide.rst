@@ -11,7 +11,7 @@ Introduction
 
 When using the Field Monitor to diagnose connectivity issues, always work from left to right. All connection statuses are reported to the FMS by the Driver Station (DS). This means that regardless of true connection status, a Radio won't "go green" until the DS is fully connected. Additionally, a roboRIO won't "go green" unless the Radio is connected.
 
-.. image:: images/connectivity-guide-0.png
+.. image:: images/connectivity-guide-1.png
 
 In this example, all six teams have a varying connectivity state.
 

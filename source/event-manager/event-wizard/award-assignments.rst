@@ -7,29 +7,22 @@ Award Assignments
 
 Under normal circumstances, award winners are downloaded by the Scorekeeper using the process outlined below.
 
-[*Green Box*] If awards could not be downloaded, or an adjustment needs to be made, manual editing must be enabled. This requires authorization of the FTA and should only be used as a last resort.
-
-There are two Award Assignment steps in the Event Wizard- both function identically. The first Award Assignment step is intended for use at the end of day 1, and by default displays only day 1 awards.
-The second Award Assignment step is intende for use at the end of day 2, and by default displays only day 2 awards.
-
-[*Pink Box*] Toggle the visible award set. This is especially useful when an award is being presented from the other award set, as toggling the visible set avoids having to switch back and forth between wizard steps.
+[**Green Box**] If awards could not be downloaded, or an adjustment needs to be made, manual editing must be enabled. This requires authorization of the FTA and should only be used as a last resort.
 
 Assignment Interface
 ####################
 
 .. image:: images/awards-2.png
 
-[*Red Box*] In order for an award to be visible on the web through the *FIRST* website, it must be marked as "Public" using the checkbox in that award's row.
+[**Red Box**] In order for an award to be visible on the web through the *FIRST* website, it must be marked as "Public" using the checkbox in that award's row.
 
-[*Gold Box*] Indicates whether or not stealth mode is on, see below for more information.
+[**Yellow Box**] Indicates whether or not stealth mode is on, see below for more information.
 
-[*Black Marker*] Using the Set Field to Awards Mode button the lights and team signs can be changed in the arena to a more universal look that's ready for the awards ceremony.
+[**Green Box**] Control buttons used to manage the award presentation process, as described below.
 
-[*Purple Marker*] Download the Award Assignments from the Judge's system.
+Using the Set Field to Awards Mode button the lights and team signs can be changed in the arena to a more universal look that's ready for the awards ceremony.
 
-[*Green Box*] Control buttons used to manage the award presentation process, as described below.
-
-[*Pink Marker*] Used to Upload Award Assignments marked "Public" to the *FIRST* website after all awards for the day (or the event) have been presented
+Use the Upload Award Assignments button to Upload Award Assignments marked "Public" to the *FIRST* website after all awards for the day (or the event) have been presented
 
 Stealth Mode
 ###############

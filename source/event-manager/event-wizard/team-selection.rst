@@ -20,7 +20,7 @@ Team Selection displays the downloaded list of registered FRC teams, with those 
 
 [*Green Box*] The count of competing (checked) teams along with the ability to filter the team list. Radio buttons can also be used to switch the view list from all FRC Teams (All) to just those that are checked (Competing Only)
 
-[*Blue Box*] The "new" and "edit" buttons can be used to add unofficial teams for Off-Season use. These are disabled at official events.
+[*Yellow Box*] The "new" and "edit" buttons can be used to add unofficial teams for Off-Season use. These are only enabled in the Off-Season version of FMS.
 
 .. note::
   Having any teams that were manually added (using "New") checked as competing teams (red column) will prevent data from being sent to *FIRST* (scores, results, etc) and therefore is not available in-season.
@@ -32,34 +32,39 @@ Adding Off-Season Teams (Optional)
 ##################################
 
 .. image:: images/team-selection-2.png
+  :align: center
 
-If additional teams are needed at an Off-Season event, the "new" button (*blue box in the top photo on this page*) can be used to create a custom team. The team number (*red marker*) must be unique.
-Make sure the team is checked as competing once created. Only teams added manually can be edited, those downloaded from *FIRST* are protected from edits.
-
-Events with custom teams cannot sync with *FIRST* servers.
+|
+| If additional teams are needed while using Off-Season FMS, the "New Team" button (**yellow box in the top screenshot on this page**) can be used to create a custom team. The team number (*red marker*) must be unique. Make sure the team is checked as competing once created. Only teams added manually can be edited, those downloaded from *FIRST* are protected from edits.
 
 .. note::
-  *FIRST* HQ has designed and "pre-loaded" a set of Teams that, while not "official teams" in FRC, can be used during the Off-Season at an event without disabling the ability to Sync with *FIRST* servers. These teams contain "Demo" in their name and appear at the end of the team list.
+  *FIRST* HQ has designed and "pre-loaded" a set of Teams that, while not "official teams" in FRC, can be used during the Off-Season at an event without disabling the ability to Sync with *FIRST* servers. These teams' names are "Off-Season Demo Team" and appear at the end of the team list.
 
-Generate Security Keys
-######################
+Save Event Participants
+#######################
 
 .. image:: images/team-selection-3.png
 
-Once the teams competing at the event have all been checked off and the proper number is displayed under "Total Competing Teams", security ("WPA") keys should be generated.
-This is done using the "Generate Security Keys" button (*green button inside the pink box*). Once keys are generated the "Key Generated" column will display the new status of "True".
+Once the teams competing at the event have all been checked off and the proper number is displayed under "Total Competing Teams", the event participant data should be saved.
+This is done using the "Save Event Participants" button (**green button inside the pink box**). This button performs the following tasks:
+
+* Creates event particpant records in the FMS database
+* Generates WPA Keys for robot wifi connection to the field. Once keys are generated the "Key Generated" column will display the new status of "True".
+* Creates DHCP scopes for the teams to be able to connect to the field
+* Downloads historical award and participation data for the selected teams. This is to allow FMS to properly calculate award eligibility.
+* Uploads event participant data to the FMS cloud systems via FMS data sync. This will update the event page on FRC Events to show any newly selected teams for the event.
 
 .. note::
   If additional teams are added later, the same process can be used to generate keys for those new teams- teams with existing keys will remain untouched.
 
 Once the keys are generated, the FTA should use the WPA Kiosk program on the WPA Laptop to download keys from FMS to the kiosk program. This download process will require FTA authentication and is outlined in more detail :ref:`wpa-kiosk-setup`.
 
-As a backup to the traditional WPA Kiosk setup process, the Export Keys button (*blue button inside the pink box*) can be used to save the key file needed to run the Radio Kiosk.
+As a backup to the traditional WPA Kiosk setup process, the Export Keys button (**blue button inside the pink box**) can be used to save the key file needed to run the Radio Kiosk.
 This should only be used by the FTA, as it requires their password to complete, and is only used as a backup solution.
 
 The schedule generation steps assume that all teams will use the same security keys throughout the event; as a result, performing Keys steps is not necessary to repeat on each Team Selection step of the Wizard (even though there are multiple).	
 
-The Clear All Keys button (*red button in the pink box*) returns all teams to their default, keyless, state. This should only be used at the direction of *FIRST* HQ and requires the FTA password.
+The Clear All Keys button (**red button in the pink box**) returns all teams to their default, keyless, state. This should only be used at the direction of *FIRST* HQ and requires the FTA password.
 
 WPA Kiosk Key Download
 ######################

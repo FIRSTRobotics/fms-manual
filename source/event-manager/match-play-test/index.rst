@@ -12,4 +12,3 @@ Match Play/Test
    status-tab
    score-tab
    match-test
-   game-detail-tab

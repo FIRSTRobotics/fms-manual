@@ -43,15 +43,24 @@ FMS Manual
    :maxdepth: 2
    :caption: Field Monitor
 
-   field-monitor/live/index
-   field-monitor/field-connectivity/index
-   field-monitor/logs-scores/index
+   field-monitor/live/live-monitor
+   field-monitor/field-connectivity/connectivity-guide
+
+.. toctree::
+   :maxdepth: 2
+   :caption: FTA Notepad
+
+   fta-notepad/login
+   fta-notepad/live
+   fta-notepad/overview
+   fta-notepad/open-issues
 
 .. toctree::
    :maxdepth: 2
    :caption: Audience Display
 
    audience-display/about/index
+   audience-display/about-web/index
    audience-display/configuration/index
    audience-display/displays/index
    audience-display/automation/index
@@ -61,8 +70,13 @@ FMS Manual
    :caption: Off-Season FMS
 
    off-season-fms/configuration/index
-   off-season-fms/syncing-data-with-first/index
    off-season-fms/field-access-point/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Off-Season Events
+
+   off-season-events/index
 
 .. toctree::
    :maxdepth: 2
@@ -71,6 +85,7 @@ FMS Manual
    scorekeeper-reference/overview/overview
    scorekeeper-reference/step-by-step/index
    scorekeeper-reference/software-updates/index
+   scorekeeper-reference/non-standard-playoffs/index
 
 .. toctree::
    :maxdepth: 1

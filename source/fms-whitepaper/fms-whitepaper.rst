@@ -138,7 +138,7 @@ Field Network
 
 The figure below shows a basic network diagram of the FMS field network setup. VLANs have been labelled to indicate how networks are separated. Robots and other equipment are excluded from this diagram.
 
-.. image:: images/fms-whitepaper-0.png
+.. image:: images/network-diagram-new-33-case.png
 
 VLANs and Network Policy
 ^^^^^^^^^^^^^^^^^^^^^^^^

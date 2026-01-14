@@ -22,10 +22,11 @@ Un-doing Substitution
 #####################
 
 .. image:: images/alliance-membership-3.png
+    :align: center
 
 If a substitution is made by accident it can be undone. Though it is possible to undo, it can add confusion to field staff and audience members. Scorekeepers should be double checking
 before entering backup robots. 
 
-[*Green Marker*] Click the red "X" next to the backup robot to remove it. The software will confirm that you want to undo the backup robot and requires a password before completing the process.
+[*Yellow Marker*] Click the red "X" next to the backup robot to remove it. The software will confirm that you want to undo the backup robot and requires a password before completing the process.
 
 A backup robot cannot be removed once it has played in a match.
