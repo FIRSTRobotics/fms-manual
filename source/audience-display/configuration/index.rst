@@ -8,3 +8,4 @@ Configuration
 
    installation
    settings
+   settings-web

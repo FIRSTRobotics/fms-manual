@@ -10,9 +10,9 @@ Retrieve Installer
     FMS Off-Season shoud not be installed on top of a previous version. Please completly remove the old version before continuing. For help on doing this, please 
     :ref:`see this article <off-season-upgrading>`
 
-In order to install FMS Off-Season, download the EXE file from the *FIRST* website. The file contains the necessary pre-requisites and is usually around 600 MB in size.
+In order to install FMS Off-Season, download the installer file from the *FIRST* official Box folder. The file contains the necessary pre-requisites and is usually around 600 MB in size.
 
-Access the Installer download `from this site <https://usfirst.collab.net/sf/projects/offseasonfms/>`_ (look for the most recent available)
+Access the Installer download from the `Scorekeeper Box folder <https://usfirst.box.com/s/twoaemnhoajhn24erwxekqrfeqq8y2in>`_ which does not require a Box account to access. Look in the folder for the corresponding season year.
 
 FMS require a 64 bit Windows OS. *FIRST* recommends Windows 10.
 
@@ -22,6 +22,7 @@ Installation Process
 Depending on your machine settings, Windows may prevent the file from running since it was downloaded from the Internet. To do this, right click on the Installer file and select "Properties." On the Properties menu, select "Unblock" and "OK." Then, attempt to run the installer by double-clicking.
 
 .. image:: images/installation-0.png
+    :align: center
 
 By default, FMS will utilize port 80 (localhost) for its Web Portal. If you need FMS Off-Season to operate on a different port, please see the section about using an alternate port. For most users, the normal installation instructions should be sufficient.
 
@@ -38,15 +39,18 @@ The install button may bring up the User Account Control box depending on your v
 The FMS Off-Season installer will run and Windows will provide feedback on the progress.
 
 .. image:: images/installation-1.png
+    :align: center
 
 When the installation finishes, you can close the installer.
 
 .. image:: images/installation-2.png
+    :align: center
 
 Desktop Icons
 -------------
 
 .. image:: images/installation-3.png
+    :align: center
 
 The installer will place an icon on the desktop. The FMS icon (red arrow) will open the Event Manager (which includes the wizard that walks through the event, the control to turn robots on and off, etc).
 
@@ -61,6 +65,7 @@ Run as Admin
 ------------
 
 .. image:: images/installation-4.png
+    :align: center
 
 Right click on the FMS icon (red arrow) on the desktop and select Properties. Under the Compatibility tab, click the box next to “Run as an administrator” and select OK.
 
@@ -72,10 +77,12 @@ Once FMS Off-Season is installed, you should see a shortcut on your desktop to �
 Launch FMS Off-Season by double-clicking on the FMS shortcut. If you are prompted by “User Account Control,” select Yes to give FMS access to run on your machine.
 
 .. image:: images/installation-5.png
+    :align: center
 
 Once FMS is loaded you must agree to a safety warning. Beyond that, refer to the :ref:`FMS User's Guide <event-wizard-navigation>` for additional operating instructions.
 
 .. image:: images/installation-6.png
+    :align: center
 
 Launching Audience
 ------------------
@@ -92,6 +99,7 @@ Audience Compatibility Mode
 ---------------------------
 
 .. image:: images/installation-7.png
+    :align: center
 
 The Audience Display should run properly with no advanced configuration. You only need to follow these instructions if you encountered trouble running the program out of the box.
 

@@ -7,13 +7,12 @@ Qualification Pit Display
 
 .. image:: images/qualifications-pit-display-0.png
 
-The standard Qualification Pit Display looks similar to the internet event results pages, but specially adapted for use on site at events in progress.
+The standard Qualification Pit Display looks similar to the Qualification Rankings screen on the Audience Display.
 
-Across the bottom of the display are indicators of the last match played on the field, the time difference between that Published schedule and the actual 
-times that match was played, and the last time the data was updated. Note: The "all data as of" marker is based on the Pit machine's time, not the event 
-server. Please make sure the Timezone is properly set on the Pit machine for timing to be accurate.
+The Pit Display will fill the available vertical space on screen with rankings and then transition between "pages" of rankings.
 
-The remainder of the screen is dedicated to current rankings as of Last Match Played on the field, as indicated at the bottom of the screen.
+.. note::
+    If there are no rankings yet, only the header will appear on this screen.
 
 Along with rank and team number detailed information related to that season's game is displayed, based on the tie-breaking criteria shown in the game manual.
 

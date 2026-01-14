@@ -16,5 +16,4 @@ Event Wizard
    award-assignments
    alliance-selection
    alliance-membership
-   wildcards
    archive-upload

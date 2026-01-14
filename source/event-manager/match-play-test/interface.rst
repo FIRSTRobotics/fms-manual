@@ -16,55 +16,55 @@ end of the playing field, blue for the Blue Alliance, and red for the Red Allian
 
 [*Blue Box*] Match Control is handled using the buttons in the center of the Match Play and Match Test screens.
 
-[*Pink Box*] The lower portion of the screen changes based on the selected tab to display schedule information, detailed scoring, and more (described later)
+[*Red Box*] The lower portion of the screen changes based on the selected tab to display schedule information, detailed scoring, and more (described later)
 
 Robot Status
 --------------
 
 .. image:: images/interface-1.png
 
-Match score (yellow arrow) and timing information in the center of the display (green arrow), with time represented in minute:seconds to match the timers on the field. 
+Match score (yellow boxes) and timing information in the center of the display (green box), with time represented in minute:seconds to match the timers on the field. 
 The match number is also displayed, and additional conditional indicators will appear below the timer as applicable (such as when a referee review is underway). 
-The status indicator on the "Blue Alliance" and "Red Alliance" sides (indicated by the pink arrow) will turn from Red to Green when there is a known ready state for all Robots on that Alliance (connected or bypassed). 
+The status indicator on the "Blue Alliance" and "Red Alliance" sides (indicated by the orange box) will turn from Red to Green when there is a known ready state for all Robots on that Alliance (connected or bypassed). 
 In order for a match to start, both backgrounds must be green (known state for all Robots on the Field).
 
-The top bar of Match Play also contains detailed station information- the background color indicates the alliance (Red or Blue) and meanings are detailed below. Markers in the example graphic are shown for Blue Alliance, though the layout is the same for the Red Alliance.
-
-**Gray Arrows**
+The top bar of Match Play also contains detailed station information- the background color indicates the alliance (Red or Blue) and meanings are detailed below.
 
 The fields left to right indicate information about the connection state of each Driver Station, Robot and Team.
 
-#. Station - Assigned station for corresponding team (Stations are 1, 2 and 3 from left to right when viewed from within the Alliance Station)
-#. Team - The team number which corresponds with the team designated to play in this station. Teams need to be in the correct station to ensure that they receive the proper Station ID and Position information from FMS.
-#. Stop Button - used to Estop the robot during the match
-#. Card State (entered by Head Referee, can only be edited after Match is over by toggling throgh possible states):
+**Station** - Assigned station for corresponding team (Stations are 1, 2 and 3 from left to right when viewed from within the Alliance Station)
 
+**Team** - The team number which corresponds with the team designated to play in this station. Teams need to be in the correct station to ensure that they receive the proper Station ID and Position information from FMS.
+
+**Stop Button** - used to Estop the robot during the match
+
+**Card State/Button** (entered by Head Referee, can only be edited after Match is over by toggling throgh possible states):
    * Green - no card, team in good standing
    * Yellow - team has been assigned a yellow card
    * Red - team assigned a red card in this match. Setting the indicator to red also bypasses the Player Station and automatically assigns the team a DQ for the current match. Note that in a subsequent match FMS will automatically change the red card to yellow
 
-#. Byp - Select to bypass this particular station and force it to a ready (but disabled) state. (Note: During Match Test and Practice Matches only, the CTRL-SHIFT-B key combination will bypass all currently unconnected stations.)
-#. DQ - Select to indicate that the corresponding team has been DQ’d for this match (will also cause Bypass)
-#. WPA Key status:
+**Byp** - Select to bypass this particular station and force it to a ready (but disabled) state. (Note: During Match Test and Practice Matches only, the CTRL-SHIFT-B key combination will bypass all currently unconnected stations.)
 
+**DQ** - Select to indicate that the corresponding team has been DQ’d for this match (will also cause Bypass)
+
+**WPA Key status**
    * Red with X - team has not been on the playing field
    * Yellow with Check - has linked with the field, but has not played in a match
    * Green with Check - the team has played in a match on the field
 
-#. DS Status:
-
+**DS Status**
    * Red with X - Driver Station is not detected by the playing field (FMS-to-DS link is down)
    * Green with Check - Driver Station is detected by the field
 
-#. Stop Status:
-
-   * Red with A - Robot has been A-Stopped by the Team
-   * Red with B - Robot has been E-Stopped by the Team (button)
-   * Red with S - Robot has been E-Stopped by the Scoring Table
+**E-Stop Status**
+   * Red with X - The E-Stop is pressed
    * Green with Check - the team has played in a match on the field
 
-#. Robot Status:
+**A-Stop Status**
+   * Red with X - The A-Stop is pressed
+   * Green with Check - The A-Stop is not pressed
 
+**Robot Status**
    * Red with X - Robot is not connected to the Driver Station
    * Green with Check - Robot is connected to the Driver Station
 

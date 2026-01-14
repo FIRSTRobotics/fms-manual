@@ -23,8 +23,9 @@ on `this Game Manual page. <http://www.firstinspires.org/resource-library/frc/co
 Current Revision
 ################
 
-.. image:: images/reefscape.png
+.. image:: images/rebuilt.png
 	:align: center
+	:width: 300px
 	:alt: FRC Current Season Game Logo
 
 |

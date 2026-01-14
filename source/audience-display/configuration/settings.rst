@@ -1,8 +1,8 @@
 .. include:: <isonum.txt>
 .. _audience-settings:
 
-Settings
-========
+Settings (Windows App Version)
+==============================
 
 Customize the look and feel of the Audience Display via the configuration panel. Settings are specific to each instance. 
 Access the settings by clicking on the Audience Display hover menu and clicking the first icon, or use the keyboard shortcut CTRL-SHIFT-C 

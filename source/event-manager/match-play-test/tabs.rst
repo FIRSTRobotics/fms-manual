@@ -9,7 +9,6 @@ The bottom of the Match Play interface has a display window with a number of tab
 
 * *Schedule* - displays the currently active schedule
 * *Score* - displays the counts for various scoring elements as they are entered by referees or collected from automated scoring components on the field (:doc:`score tab <score-tab>`)
-* *Game Details* - displays detailed information specific to the game (if applicable, :doc:`game specific <game-detail-tab>` )
 * *Status* - displays connection information on all the robots current on the playing field (see :doc:`status tab <status-tab>`)
 * *Video Switch* - manual interface used to control the Audience Display(s)
 * *Message* - display messages on the Background of the Audience Display(s)
@@ -62,8 +61,7 @@ Message
 
 .. image:: images/tabs-3.png
 
-Messages can be displayed on all Audience Display instances by typing a message and selecting *Send Message*.
-To remove the text from the Audience Display use the *Clear Message* button. Messages will be displayed on all instances of Audience Display running on the FMS Network.
+Messages can be displayed on all Audience Display instances by typing a title and subtitle and clicking *Send Message*. Messages will be displayed on all instances of Audience Display running on the FMS Network.
 
 Options
 -------

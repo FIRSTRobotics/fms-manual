@@ -1,7 +1,7 @@
 .. _field-server-index:
 
-Field Server Web
-=================
+Field Server Website
+====================
 
 .. toctree::
    :maxdepth: 1
@@ -10,3 +10,4 @@ Field Server Web
    reports
    video-switch
    downloads
+   logs-scores
