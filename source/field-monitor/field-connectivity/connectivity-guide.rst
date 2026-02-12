@@ -16,11 +16,11 @@ When using the Field Monitor to diagnose connectivity issues, always work from l
 In this example, all six teams have a varying connectivity state.
 
 * Team 1: Fully connected and match-ready.
-* Team 2: All green indicators, but yellow bar is still present. This state is generally the result of a robot code issue, and will prevent the field from "going green" until resolved.
+* Team 2: All connected indicators, but yellow sqaure and exclamation mark for RIO is still present. This state is generally the result of a robot code issue, and will prevent the field from "going green" until resolved.
 * Team 3: No roboRIO connection.
-* Team 4: No Radio connection. A green Radio connection is required in order to have a green roboRIO connection.
+* Team 4: Wrong station. This signifies that the team must move to the correct station (in most cases, stations 1 and 3 are flipped). "Team Mismatch" signifies that the team has come up for the wrong match or has plugged in before the scoring table finalized the previous match, in which case their DS is "Waiting".
 * Team 5: An ethernet cable is plugged in, but the DS isn't properly communicating with the FMS.
-* Team 6: Wrong station. Yellow "M" signifies that the team must "Move" to the correct station (in most cases, stations 1 and 3 are flipped). Yellow "W" signifies that the team has come up for the "Wrong Match" or has plugged in before the scoring table finalized the previous match, in which case their DS is "Waiting".
+* Team 6: No Radio connection. A Radio connection is required in order to have a roboRIO connection.
 
 .. note::
    Reminder: When troubleshooting connectivity, always start with the DS and work your way from left to right on the Field Monitor.
@@ -31,7 +31,7 @@ Driver Station Troubleshooting
 DS Ethernet
 ^^^^^^^^^^^
 
-If the Field Monitor shows a DS ethernet connection, move on to **DS Software**.
+If the Field Monitor shows yellow square with an exclamation mark for DS connection, move on to **DS Software**.
 
 #. Verify DS ethernet cable is securely plugged into the DS computer, making sure to check for worn out ethernet ports.
 #. Verify the DS computer is turned on and logged in.
@@ -54,7 +54,7 @@ If the Field Monitor shows a DS ethernet connection, move on to **DS Software**.
 DS Software
 ^^^^^^^^^^^
 
-If the Field Monitor shows a fully green DS connection, move on to **Robot Troubleshooting**.
+If the Field Monitor shows a white circle with a checkmark for DS connection, move on to **Robot Troubleshooting**.
 
 #. Confirm the DS software is running on the DS computer.
 #. Confirm the team is in the correct station, and in practice matches, verify the correct number was entered prior to Prestart.
@@ -118,10 +118,28 @@ Robot Troubleshooting
 
 Note: When troubleshooting a robot, a team-member should perform any actions which require contacting the robot. You should only contact a robot if the team directly asks for your assistance. 
 
-Robot Radio
-^^^^^^^^^^^
+VH-109 Robot Radio
+^^^^^^^^^^^^^^^^^^
 
-If the Field Monitor shows a green Radio connection, move on to **roboRIO**.
+If the Field Monitor shows signal bars for the Radio connection, move on to **roboRIO**.
+
+#. Verify the robot is powered on. Locate the radio and check that it is receiving power. (~45 second boot time)
+#. Verify the radio is in client (bridge) mode and programmed for the event.
+
+   * Blue 6GHz LED indicates the radio is in Client Mode and Linked. If the Field Monitor still does not show a Radio connected, verify firewalls are disabled on the DS.
+   * SYS LED will blink in a Blink/Blink/Pause .._.._ pattern to indicate the radio has been programmed and is attempting to connect to the field AP. At the discretion of the FTA, the radio may be (re)programmed on the field.
+
+
+#. If a radio is powered on and booted in client mode but does not link to the field:
+
+   * Verify the radio has been programmed for the current event in progess. (Radios must be reprogrammed for each new event)
+   * Check with the team to ensure they have no backup radios powered on in the venue.
+
+
+OM5P Robot Radio (China Events Only)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If the Field Monitor shows signal bars for the Radio connection, move on to **roboRIO**.
 
 #. Verify the robot is powered on. Locate the radio and check that it is receiving power. (~60 second boot time)
 #. Verify the radio is in bridge mode and programmed for the event.
