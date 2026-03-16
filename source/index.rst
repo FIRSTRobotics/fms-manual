@@ -45,6 +45,7 @@ FMS Manual
 
    field-monitor/live/live-monitor
    field-monitor/field-connectivity/connectivity-guide
+   field-monitor/status-indicators/status-indicators
 
 .. toctree::
    :maxdepth: 2
