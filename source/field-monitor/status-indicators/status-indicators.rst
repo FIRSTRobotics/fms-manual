@@ -3,7 +3,6 @@
 Status Indicators
 =================
 
-
 Driver Station (DS)
 -------------------
 
@@ -65,4 +64,17 @@ Indicator                                 Explanation
 .. image:: images/yellow-t.png            Robot is disabled in Teleoperated mode
 .. image:: images/white-a.png             Robot is enabled in Auto mode
 .. image:: images/white-t.png             Robot is enabled in Teleoperated mode
+========================================  ===========
+
+
+Other Indicators
+----------------
+
+========================================  ===========
+Indicator                                 Explanation    
+========================================  ===========
+.. image:: images/radio.png               The radio currently connected to the Robot Access Point has a different MAC Address than the one used by this team in their previous match.
+.. image:: images/key.png                 The team's WPA key has not yet been used in a match.
+.. image:: images/bypassed.png            The robot has been bypassed by the Scorekeeper at the direction of the FTA.
+.. image:: images/not-ready.png           The robot is not fully connected and ready for match operation. **NOTE**: This indicator is driven by the same data that drives the Rio indicators. This is equivalent to the row background changing to yellow in the previous version of the Field Monitor.
 ========================================  ===========
