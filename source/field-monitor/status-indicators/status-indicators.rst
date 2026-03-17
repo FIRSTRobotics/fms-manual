@@ -7,6 +7,9 @@ Status Indicators
 Driver Station (DS)
 -------------------
 
+.. note::
+    For suggestions on resolving issues with the Driver Station computer and software, please go to the Driver Station Troubleshooting section of the :ref:`Connectivity Guide <field-monitor-connectivity-guide>`
+
 ========================================  ===========
 Indicator                                 Explanation    
 ========================================  ===========
@@ -18,6 +21,9 @@ Indicator                                 Explanation
 
 Radio
 -----
+
+.. note::
+    For suggestions on resolving issues with the robot radio, please go to the Robot Troubleshooting section of the :ref:`Connectivity Guide <field-monitor-connectivity-guide>`
 
 ===================================  ===========
 Indicator                            Explanation    
@@ -33,12 +39,15 @@ Indicator                            Explanation
 Rio
 ---
 
+.. note::
+    For suggestions on resolving issues with the Rio, please go to the Robot Troubleshooting section of the :ref:`Connectivity Guide <field-monitor-connectivity-guide>`
+
 ========================================  ===========
 Indicator                                 Explanation    
 ========================================  ===========
 .. image:: images/yellow-x.png            No device is detected.
-.. image:: images/yellow-exclamation.png  Rio is powered on and connected to the field, but the code is likely not running.
-.. image:: images/white-check.png         Rio is powered on and connected to the field with code running.
+.. image:: images/yellow-exclamation.png  Rio is powered on and responding to ping, but the code is likely not running.
+.. image:: images/white-check.png         Rio is powered on and responding to ping with code running.
 ========================================  ===========
 
 
