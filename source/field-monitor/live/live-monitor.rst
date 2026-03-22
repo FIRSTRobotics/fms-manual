@@ -1,7 +1,7 @@
 .. _field-monitor-live-simple:
 
-Live Monitor
-======================
+Field Monitor
+=============
 
 The Field Monitor provides a live view of robot and field status. To view the Field Monitor, access the web interface at 10.0.100.5 and select Field Monitor from the navigation bar.  Use ctrl-b to swap the position of the red and blue field ends.
 
@@ -12,36 +12,40 @@ The Field Monitor shows match state and robot/driver station connectivity. The t
 Driver station pane
 -------------------
 
-Each of the six driver stations has a pane that shows status for that station.  In each pane, the first number indicates the station, and the second number indicates the team assigned to that station. In the example above, team #6 is assigned to the Red 3 station.
+Each of the six driver stations has a pane that shows status for that station.  In each pane, the first number indicates the station, 
+and the second number indicates the team assigned to that station. In the example above, team #4 is assigned to the Red 3 station.
 
 Four symbols show the connectivity state of the station.
 
-DS - Driver Station connectivity.
-
-Radio - Robot radio connectivity.
-
-RIO - indicates whether the Driver Station is communicating with the roboRIO.
-
-Robot - indicates the current state of the robot.
+======  ===========
+Label   Description
+======  ===========
+DS      Driver Station connectivity.
+Radio   Robot radio connectivity.
+RIO     indicates whether the Driver Station is communicating with the roboRIO.
+Robot   indicates the current state of the robot.
+======  ===========
 
 :ref:`Status Indicators <field-monitor-status-indicators>` provides details on the meaning of the connectivity state symbols.
 
 When a robot is fully connected, the statistics section populates with useful metrics about the robot and its connectivity to the field.
 
-Trip Time - The round trip time taken by an ICMP echo request (ping) from the driver station to the roboRIO, in milliseconds.
-
-BWU - Network bandwidth consumption between the driver station and robot, in megabits per second.
-
-Missed Packets - number of ICMP echo requests (ping) that were not acknowledged by the roboRIO.
-
-Battery - shows the current voltage and lowest voltage reported by the roboRIO.
+==============  ===========
+Label           Description
+==============  ===========
+Trip Time       The round trip time taken by an ICMP echo request (ping) from the driver station to the roboRIO, in milliseconds.
+BWU             Network bandwidth consumption between the driver station and robot, in megabits per second.
+Missed Packets  Count of ICMP echo requests (ping) that were not acknowledged by the roboRIO.
+Battery         Current voltage and lowest voltage reported by the roboRIO.
+==============  ===========
 
 Prior to Prestart
 -----------------
 
 .. image:: images/field-monitor-1.png
 
-No valid data is shown prior to prestart.  It is normal to see TEAM MISMATCH prior to prestart, as the comparison is being made to the teams from the previous match.
+No valid robot data is shown prior to prestart. It is normal to see TEAM MISMATCH prior to prestart, as the comparison is being 
+made to the teams from the previous match.
 
 Pre-Start Complete
 ------------------
@@ -50,9 +54,10 @@ Pre-Start Complete
 
 Once prestart is completed, valid data is shown on the monitor.
 
-Team 1 has a computer plugged in to the driver station, but the Driver Station software is not running.
+Team 1 has a computer connected in to the driver station, but the Driver Station software is not running.
 
-Team 5 is plugged into Team 4's Driver Station, indicated by the yellow bar "MOVE TO STATION 2". The team's driver station and the display on the back of the team sign will also indicate that they should move to a different station.
+Team 5 is connected to Team 4's Driver Station, indicated by the yellow bar "MOVE TO STATION 2". The team's driver station and the 
+display on the back of the team sign will also indicate that they should move to a different station.
 
 .. image:: images/field-monitor-3.png
 
@@ -92,7 +97,8 @@ Match Over
 
 .. image:: images/field-monitor-8.png
 
-The match ran to completion successfully. Robot radios are no longer connected.  Driver station laptops are connected but there is no longer communication with the driver station softare.
+The match ran to completion successfully. Robot radios are no longer connected.  Driver station laptops are connected but there is 
+no longer communication with the driver station softare.
 
 Special indicators
 ------------------

@@ -3,8 +3,6 @@
 Connectivity Guide
 ==================
 
-:ref:`Status Indicators <field-monitor-status-indicators>` has examples of each of the indicators on the field monitor.
-
 Introduction
 ------------
 
@@ -12,6 +10,8 @@ When using the Field Monitor to diagnose connectivity issues, always work from d
 On the field monitor, this means work from left to right. All connection statuses are reported
 to the FMS by the Driver Station (DS). This means that regardless of true connection status, a robot radio won't fully connect 
 until the driver station is fully connected. Similarly, the roboRIO won't fully connect until the robot radio is fully connected.
+
+:ref:`Status Indicators <field-monitor-status-indicators>` describes all of the potential status indicators in detail.
 
 .. image:: images/connectivity-guide-1.png
 
@@ -35,16 +35,18 @@ You are verifying that the driver station has Ethernet connectivity and properly
 Driver Station Ethernet
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Use this procedure if the Field Monitor DS icon is a yellow square with an X.  Otherwise, move on to `Driver Station Software`_.
+.. image:: images/ds-x.png
+
+This status indicates no ethernet connectivity.
 
 #. Verify ethernet cable is securely plugged into the laptop, making sure to check for worn out ethernet ports.
 #. Verify the laptop is turned on and logged in.
-#. Verify the ethernet adapter is enabled in Windows and functioning. Quickly access network adapters by typing "ncpa.cpl" into the start menu and pressing the return key. 
+#. Verify the ethernet adapter is enabled and functioning. Quickly access network adapters by typing "ncpa.cpl" into the start menu and pressing the return key. 
 #. If the adapter is found in the previous step:
 
    * Disable/Re-enable the adapter.
    * Restart the laptop.
-   * Verify the driver station ethernet cable by connecting to a different device.
+   * Verify the ethernet cable by connecting to a different device.
    * Use a USB to ethernet adapter.
    * Offer a loaner laptop.
   
@@ -57,17 +59,19 @@ Use this procedure if the Field Monitor DS icon is a yellow square with an X.  O
 Driver Station Software
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Use this procedure if the Field Monitor DS icon is a yellow box with an exclamation point.  Otherwise, move on to `Robot Troubleshooting`_.
+.. image:: images/ds-bang.png
+
+This status indicates a device is connected at the driver station, but FMS cannot communicate with the Driver Station software.
 
 #. Confirm the driver station software is running.
-#. Disable all additional network adapters. Quickly access network adapters by typing "ncpa.cpl" into the start menu and pressing the return key
-#. Verify the laptop ethernet adapter is enabled and functioning. If not, move back to `Driver Station Ethernet`_.
+#. Disable all additional network adapters. Quickly access network adapters by typing "ncpa.cpl" into the start menu and pressing the return key.
+#. Verify the ethernet adapter is enabled and functioning. If not, move back to `Driver Station Ethernet`_.
 #. If the adapter is found:
 
    * Verify the adapter is set to 'Obtain an IP address automatically' (DHCP).
    * Disable/Re-enable the adapter.
    * Restart the laptop.
-   * Verify the cable by connecting to a different device.
+   * Verify the ethernet cable by connecting to a different device.
    * Use a USB to ethernet adapter.
    * Offer a loaner laptop.
 
@@ -78,7 +82,7 @@ Use this procedure if the Field Monitor DS icon is a yellow box with an exclamat
    * Offer a loaner laptop.
 
 #. Restart the DS Software
-#. Disable all three Windows Defender Firewall profiles (Domain, Public, Private) as well as any third-party firewall applications if present.
+#. Check whether firewalls are enabled via the Driver Station Diagnostics tab.  If so, disable all three Windows Defender Firewall profiles (Domain, Public, Private) as well as any third-party firewall applications if present.
 
    * If the firewall cannot be disabled (often due to lack of admin access) consider using the loaner laptop.
    * If the firewall can't be disabled but allows for specified ports to be opened, create port exceptions for:
@@ -114,10 +118,12 @@ Use this procedure if the Field Monitor DS icon is a yellow box with an exclamat
    * Offer a loaner laptop.
    * Follow up by working with the team to troubleshoot when time allows.
 
-Robot Troubleshooting
+Radio Troubleshooting
 ---------------------
 
-Use this procedure if the Field Monitor Radio icon is a yellow box with an X.  Otherwise, move on to `roboRIO`_.
+.. image:: images/radio-x.png
+
+This status indicates the radio is not connected to the Field Access Point.
 
 Note: When troubleshooting a robot, a team member should perform any actions which require contacting the robot. You should only contact a robot if the team directly asks for your assistance. 
 
@@ -151,8 +157,18 @@ OM5P Robot Radio (China Events Only)
    * Verify the radio has been programmed for the current event in progess. (Radios must be reprogrammed for each new event)
    * Check with the team to ensure they have no backup radios powered on in the venue.
 
-roboRIO
-^^^^^^^
+
+roboRIO Troubleshooting
+-----------------------
+
+.. image:: images/rio-x.png
+
+This status indicates that the driver station software cannot communicate with the roboRIO.
+
+.. image:: images/radio-laptop.png
+   :scale: 50%
+   
+This status indicates that the radio cannot communicate with the roboRIO.
 
 #. Verify the roboRIO is receiving power.
 #. Check for activity on the amber ethernet traffic light on the roboRIO. If there is no activity on the link light (not flashing, or flashing very slow):
@@ -161,7 +177,7 @@ roboRIO
    * If the robot has a switched ethernet network, verify the switch is powered up.
    * Confirm the green ethernet link light on the roboRIO is illuminated. If it is not, the cable should be replaced.
    * Have the team move the cable to a different port on the radio, or directly into the radio if the roboRIO was connected through a switch.
-   * Reset the roboRIO. (Circular blue button on the front panel)
+   * Reset the roboRIO. (Circular blue button on the front panel, or via the button in the Driver Station Diagnostics tab)
    * Power cycle the robot.
 
 #. For roboRIO 2.0 models, verify the microSD card is present and fully seated.
@@ -170,10 +186,17 @@ roboRIO
 #. Reset the roboRIO. (Circular blue button on the front panel)
 #. Power cycle the robot.
 #. Confirm the roboRIO is running the correct image.
-#. If the Field Monitor shows a yellow icon with an exclamation point for Rio:
 
-   * Ask the team if code was changed between matches. (If yes, the team likely did not build/deploy correctly)
-   * For roboRIO 2.0 models, verify the microSD card is present and fully seated.
-   * Check the DS diagnostics tab for messages from the robot.
-   * Reset the roboRIO. (Circular blue button on the front panel)
-   * Power cycle the robot.
+Code Troubleshooting
+--------------------
+
+.. image:: images/roborio-bang.png
+   :scale: 50%
+
+This status indicates that the roboRIO is present, but no code is detected.
+
+#. Ask the team if code was changed between matches. (If yes, the team likely did not build/deploy correctly)
+#. For roboRIO 2.0 models, verify the microSD card is present and fully seated.
+#. Check the Driver Station Diagnostics tab for messages from the robot.
+#. Restart the robot code via the button in the Driver Station Diagnostics tab.
+#. Reset the roboRIO. (Circular blue button on the front panel, or via the button in the Driver Station Diagnostics tab)

@@ -3,7 +3,7 @@
 Status Indicators
 =================
 
-This page describes the states for the status indicators on the :ref:`Field Monitor <field-monitor-live-simple>`.
+This page describes the status indicators on the :ref:`Field Monitor <field-monitor-live-simple>`.
 
 Driver Station
 --------------

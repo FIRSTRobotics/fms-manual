@@ -44,8 +44,9 @@ FMS Manual
    :caption: Field Monitor
 
    field-monitor/live/live-monitor
-   field-monitor/field-connectivity/connectivity-guide
    field-monitor/status-indicators/status-indicators
+   field-monitor/field-connectivity/connectivity-guide
+   
 
 .. toctree::
    :maxdepth: 2
