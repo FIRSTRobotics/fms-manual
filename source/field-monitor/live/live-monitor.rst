@@ -33,9 +33,9 @@ When a robot is fully connected, the statistics section populates with useful me
 ==============  ===========
 Label           Description
 ==============  ===========
-Trip Time       The round trip time taken by an ICMP echo request (ping) from the driver station to the roboRIO, in milliseconds.
+Trip Time       The round trip time taken by the control/status packets between the driver station and the roboRIO, in milliseconds.
 BWU             Network bandwidth consumption between the driver station and robot, in megabits per second.
-Missed Packets  Count of ICMP echo requests (ping) that were not acknowledged by the roboRIO.
+Missed Packets  Count of control packets that were not acknowledged by the roboRIO.
 Battery         Current voltage and lowest voltage reported by the roboRIO.
 ==============  ===========
 
