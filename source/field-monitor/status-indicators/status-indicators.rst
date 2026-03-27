@@ -38,7 +38,7 @@ Indicator                            Explanation
 ===================================  ===========
 
 roboRIO
----
+-------
 
 .. note::
     For suggestions on resolving issues with the roboRIO, please go to the Robot Troubleshooting section of the :ref:`Connectivity Guide <field-monitor-connectivity-guide>`

@@ -190,7 +190,7 @@ This status indicates that the radio cannot communicate with the roboRIO.
 Code Troubleshooting
 --------------------
 
-.. image:: images/roborio-bang.png
+.. image:: images/roboRIO-bang.png
    :scale: 50%
 
 This status indicates that the roboRIO is present, but no code is detected.
