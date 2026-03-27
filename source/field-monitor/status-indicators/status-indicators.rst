@@ -30,11 +30,11 @@ Robot radio
 Indicator                            Explanation    
 ===================================  ===========
 .. image:: images/yellow-x.png       The radio is not connected to the Field Access Point.
-.. image:: images/yellow-laptop.png  The radio is connected to the Field Access Point, but cannot communicate with the Driver Station software. The radio communicates with the Driver Station software through the roboRIO, so if the roboRIO is not connected this indicator will still show.
-.. image:: images/radio-1-bar.png    The radio is connected to the Field Access Point, can communicate with the Driver Station software, and has poor connection quality.
-.. image:: images/radio-2-bars.png   The radio is connected to the Field Access Point, can communicate with the Driver Station software, and has fair connection quality.
-.. image:: images/radio-3-bars.png   The radio is connected to the Field Access Point, can communicate with the Driver Station software, and has good connection quality.
-.. image:: images/radio-4-bars.png   The radio is connected to the Field Access Point, can communicate with the Driver Station software, and has excellent connection quality.
+.. image:: images/yellow-laptop.png  The radio is connected to the Field Access Point, but cannot be pinged by the Driver Station software.
+.. image:: images/radio-1-bar.png    The radio is connected to the Field Access Point, can be pinged by the Driver Station software, and has poor connection quality.
+.. image:: images/radio-2-bars.png   The radio is connected to the Field Access Point, can be pinged by the Driver Station software, and has fair connection quality.
+.. image:: images/radio-3-bars.png   The radio is connected to the Field Access Point, can be pinged by the Driver Station software, and has good connection quality.
+.. image:: images/radio-4-bars.png   The radio is connected to the Field Access Point, can be pinged by the Driver Station software, and has excellent connection quality.
 ===================================  ===========
 
 roboRIO
