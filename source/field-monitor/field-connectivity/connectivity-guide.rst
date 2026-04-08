@@ -27,6 +27,8 @@ In this example, each team has a different connectivity state.
 .. note::
    When troubleshooting connectivity, always start with the driver station and work your way from left to right on the Field Monitor.
 
+.. _ds-troubleshooting:
+
 Driver Station Troubleshooting
 ------------------------------
 
@@ -118,6 +120,20 @@ This status indicates a device is connected at the driver station, but FMS canno
    * Offer a loaner laptop.
    * Follow up by working with the team to troubleshoot when time allows.
 
+.. image:: images/ds-bang-only.png
+
+This status can indicate:
+
+* Driver station has multiple IP addresses
+
+  * Vivid imager
+  * Wifi on
+  * Extra static IP
+
+* High CPU on driver station is preventing the FMS from communicating with the driver station software
+
+.. _radio-troubleshooting:
+
 Radio Troubleshooting
 ---------------------
 
@@ -157,6 +173,8 @@ OM5P Robot Radio (China Events Only)
    * Verify the radio has been programmed for the current event in progess. (Radios must be reprogrammed for each new event)
    * Check with the team to ensure they have no backup radios powered on in the venue.
 
+
+.. _computer-troubleshooting:
 
 roboRIO Troubleshooting
 -----------------------
