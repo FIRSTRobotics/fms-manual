@@ -180,9 +180,6 @@ VH-109 Robot Radio
 
 #. The Driver Station may display a firmware version warning for a radio that has already been programmed at the event. This is a known issue — the DS check was not updated to recognize firmware version 2.x. This warning can be safely ignored.
 
-.. note::
-   If multiple robots on one side of the field lose connectivity simultaneously, suspect a network loop on one of the affected robots. An Ethernet loop on a robot (e.g., a cable accidentally connecting two ports of the same switch) can take down the field VLAN for that station group. Resolve by rebooting the field Access Point for those stations; then identify and remove the loop on the offending robot.
-
 OM5P Robot Radio (China Events Only)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
