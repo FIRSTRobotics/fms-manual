@@ -6,9 +6,9 @@ Connectivity Guide
 Introduction
 ------------
 
-When using the Field Monitor to diagnose connectivity issues, always work from driver station, to radio, to roboRIO.  
+When using the Field Monitor to diagnose connectivity issues, always work from driver station, to radio, to roboRIO.
 On the field monitor, this means work from left to right. All connection statuses are reported
-to the FMS by the Driver Station (DS). This means that regardless of true connection status, a robot radio won't fully connect 
+to the FMS by the Driver Station (DS). This means that regardless of true connection status, a robot radio won't fully connect
 until the driver station is fully connected. Similarly, the roboRIO won't fully connect until the robot radio is fully connected.
 
 :ref:`Status Indicators <field-monitor-status-indicators>` describes all of the potential status indicators in detail.
@@ -41,7 +41,7 @@ This status indicates no ethernet connectivity.
 
 #. Verify ethernet cable is securely plugged into the laptop, making sure to check for worn out ethernet ports.
 #. Verify the laptop is turned on and logged in.
-#. Verify the ethernet adapter is enabled and functioning. Quickly access network adapters by typing "ncpa.cpl" into the start menu and pressing the return key. 
+#. Verify the ethernet adapter is enabled and functioning. Quickly access network adapters by typing "ncpa.cpl" into the start menu and pressing the return key.
 #. If the adapter is found in the previous step:
 
    * Disable/Re-enable the adapter.
@@ -49,7 +49,7 @@ This status indicates no ethernet connectivity.
    * Verify the ethernet cable by connecting to a different device.
    * Use a USB to ethernet adapter.
    * Offer a loaner laptop.
-  
+
 #. If no adapter is found:
 
    * Restart the laptop.
@@ -142,7 +142,7 @@ Radio Troubleshooting
 
 This status indicates the radio is not connected to the Field Access Point.
 
-Note: When troubleshooting a robot, a team member should perform any actions which require contacting the robot. You should only contact a robot if the team directly asks for your assistance. 
+Note: When troubleshooting a robot, a team member should perform any actions which require contacting the robot. You should only contact a robot if the team directly asks for your assistance.
 
 VH-109 Robot Radio
 ^^^^^^^^^^^^^^^^^^
@@ -158,7 +158,6 @@ VH-109 Robot Radio
 
    * Verify the radio has been programmed for the current event in progress. (Radios must be reprogrammed for each new event)
    * Check with the team to ensure they have no backup radios powered on in the venue.
-   * Verify the Ethernet cable from the roboRIO is plugged into the roboRIO port on the radio, not the AUX port. The AUX port is for direct tethered connections and will not pass robot traffic to the field.
    * Check the physical placement of the radio. Proximity to high-EMI components such as Falcon motors can cause interference. Moving the radio away from motors may resolve connectivity issues.
    * If a heat sink is mounted flush against the radio's antenna face, it can block RF transmission. Ensure the heat sink is positioned to allow the antenna to radiate freely.
 
@@ -181,10 +180,13 @@ VH-109 Robot Radio
 
 #. The Driver Station may display a firmware version warning for a radio that has already been programmed at the event. This is a known issue — the DS check was not updated to recognize firmware version 2.x. This warning can be safely ignored.
 
+.. note::
+   If multiple robots on one side of the field lose connectivity simultaneously, suspect a network loop on one of the affected robots. An Ethernet loop on a robot (e.g., a cable accidentally connecting two ports of the same switch) can take down the field VLAN for that station group. Resolve by rebooting the field Access Point for those stations; then identify and remove the loop on the offending robot.
+
 OM5P Robot Radio (China Events Only)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Verify the robot is powered on. 
+#. Verify the robot is powered on.
 #. Locate the radio and check that it is receiving power. (~60 second boot time)
 #. Verify the radio is in bridge mode and programmed for the event.
 
@@ -206,7 +208,7 @@ This status indicates that the driver station software cannot communicate with t
 
 .. image:: images/radio-laptop.png
    :scale: 50%
-   
+
 This status indicates that the radio cannot communicate with the roboRIO.
 
 #. Verify the roboRIO is receiving power.
