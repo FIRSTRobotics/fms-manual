@@ -32,6 +32,7 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install -r source/requirements.txt
+        sudo apt update
         sudo apt install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin
 
     - name: Build PDF
