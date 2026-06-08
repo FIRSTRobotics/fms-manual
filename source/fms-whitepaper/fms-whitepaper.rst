@@ -17,7 +17,7 @@ The FMS is also responsible for coordinating control of the Driver Stations and 
 The FMS also provides the infrastructure for real-time score-keeping, and logs diagnostic data during the event. Finally, the FMS provides data to the Audience and Pit Display.
 
 The FMS is based on Ethernet architecture. End devices such as the Driver Station, Referee Panels and other field components communicate over a wired Ethernet interface. Numerous other field electronics 
-(such as Stack Lights and Emergency Stops) also connect to devices that, in the end, communicate over Ethernet to the rest of the network. Wireless communications (WIFI) is only used to communicate with the robots during a match.
+(such as Stack Lights and Emergency Stops) also connect to devices that, in the end, communicate over Ethernet to the rest of the network. Wireless communications (WIFI) is used to communicate with the robots during a match, and by the FTA(s) for accessing robot troubleshooting data through the Field Monitor.
 
 Although the FMS Field Network is all on one physical network, this physical network is split into Virtual Networks (VLANs), to ensure each team's communications are independent from other teams and the rest of the field electronics.
 
@@ -41,8 +41,8 @@ simplify internet connectivity troubleshooting, and has a built-in VPN function 
 The Field Router
 ~~~~~~~~~~~~~~~~
 
-The Field Router is located inside the FMS roadcase, and is used to provide the FMS network with an internet uplink to the venue connection, route all cross-network traffic, and establish 
-routing rules and VLAN configurations. The Field Router does not directly connect to any other member of the network other than the Score Switch. All active interfaces on the Field Router are 10/100/1000 Gigabit Ethernet.
+The Field Router is located inside the FMS roadcase, and is used to provide the FMS network with an internet uplink through the Smart Router, route all cross-network traffic, and establish 
+routing rules and VLAN configurations. The Field Router does not directly connect to any other member of the network other than the Score Switch and Smart Router. All active interfaces on the Field Router are 10/100/1000 Gigabit Ethernet.
 
 The Score Switch
 ~~~~~~~~~~~~~~~~
@@ -96,23 +96,23 @@ field devices, such as scoring devices located in the Alliance Stations. Devices
 The Field Wireless Access Point(s)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are two APs on each field. The primary Field Wireless Access Point (WAP) broadcasts and receives wireless data from robots on the playing field using the 6GHz band. 
+There are two APs on each field. The primary Field Wireless Access Point (WAP) broadcasts and receives wireless data from robots on the playing field using the 6GHz band with a 40MHz channel width. 
 
-The Field AP hosts a SSID for each robot scheduled to play on the field, all of which are multiplexed over a single wireless interface. Each SSID is allocated a VLAN to the corresponding Driver Station.
+The Field AP hosts an SSID for each robot scheduled to play on the field, all of which are multiplexed over a single wireless interface. Each SSID is allocated the VLAN for the corresponding Driver Station. In past seasons these SSIDs were hidden, but they are currently broadcast and visible.
 
-The Field AP connects to the Score Switch through a 10/100/1000 Gigabit Ethernet trunk line. The switch ports on the Field AP are unused and unallocated, only the trunk line (labled "FMS" on the VH-113 AP) is used for connectivity. 
+The Field AP connects to the Score Switch through a 10/100/1000 Gigabit Ethernet trunk line. The switch ports on the Field AP are unused and unallocated, only the trunk line (labeled "FMS" on the VH-113 AP) is used for connectivity. 
 
 The Field AP uses the 802.11ax Wi-Fi standard, and the 6GHz band is reserved exclusively for robots. The standard configuration employs WPA3/AES encryption with a unique key per team, per event.
 
-A second AP is installed on each field for the FTA to access the field network from their wireless device. This runs on either the 2.4GHz or 5GHz band based on network congestion.
+A second AP is installed on each field for the FTA to access the field network from their wireless device. This runs on the 5GHz band and does not overlap with robot communications.
 
 Referee Panels
 ~~~~~~~~~~~~~~
 
-There are typically multiple Referee Panels located around the field. There is no standard configuration or location for these panels as it dictated by the season's game. It is common for there to 
+There are typically multiple Referee Panels located around the field. There is no standard configuration or location for these panels as it is dictated by the season's game. It is common for there to 
 be at least 5; 3 on one side, and 2 on the other. The panels are used to input minor and major fouls, yellow and red cards as well to award points that are not scored automatically.
 
-The Head Referee panel includes controls for the LED light strings on the playing field, declaring when it is safe for field staff and team members to enter the field, and to initiate a referee review of the match.
+The Head Referee panel includes controls for the LED light strings on the playing field, declaring when it is safe for field staff and team members to enter the field, and to initiate a referee review of the match. Referee Panels are also used during Alliance Selection.
 
 Robots
 ~~~~~~
@@ -131,7 +131,7 @@ Additional devices may be introduced to the Field Network at the FTA's discretio
 of a match. This is commonly used to monitor a robot's connection state, and is often used when troubleshooting a robot that does not connect to the field. It is also used during matches if a robot 
 suddenly loses connection or experiences problems. The Game Announcer may also connect to the Field Network to access and provide up-to-the-minute team statistics to relay during the match.
 
-These wireless devices operate only on the 2.4GHz or 5GHz wireless network and do not overlap with robot communications.
+Wireless connection to any of these devices is done through the 5GHz wireless network and do not overlap with robot communications.
 
 Field Network
 ^^^^^^^^^^^^^
@@ -147,7 +147,7 @@ The FMS field network is split into multiple networks using VLANs, a method by w
 This is employed on the field to ensure each teams' connection to their respective robot is private from other teams on the field.
 
 The Field Router sets up the VLANs 10, 20, 30 (Blue), 40, 50, 60 (Red) and 100 (Admin). The switches (and Field APs) then assign specific ports (or SSIDs, in the case of the Field AP) to each VLAN, 
-allowing that port to become isolated form the rest of the network. Each VLAN consists only of the Robot, the Driver Station, and the FMS server. The FMS server is a part of the Admin VLAN, but 
+allowing that port to become isolated from the rest of the network. Each VLAN consists only of the Robot, the Driver Station, and the FMS server. The FMS server is a part of the Admin VLAN, but 
 the Field Router is configured to permit it communication with the Driver Station of each VLAN.
 
 The Admin VLAN is the only VLAN capable of reaching the venue Internet. This allows the FMS server to upload match results and awards information to *FIRST* servers, as well as download 
@@ -167,7 +167,7 @@ Network Bandwidth
 ^^^^^^^^^^^^^^^^^
 
 The FMS Field Network has limited bandwidth available. There is an imposed 7Mbit/s limit for each team via the robot radios to ensure no one team overloads the system, causing packets to drop 
-for other teams. Given that each wireless SSID that the Field AP handles is multiplexed, this adds up to a total of 7x6=42Mbit/s for the Field AP. All other traffic on the FMS Field Network is not limited by bandwidth.
+for other teams. Given that each wireless SSID that the Field AP handles is multiplexed, this adds up to a total of 7x6=42 Mbit/s for the Field AP. All other traffic on the FMS Field Network is not limited by bandwidth.
 
 The Robot Radio prioritizes certain communications over others. Driver Station control and status packets are the highest priority, followed by Network Tables, then all other traffic (e.g. video).
 
@@ -177,7 +177,7 @@ Driver Station and Robot Communications
 The Driver Station to Robot Communication is identical to that of a system without the FMS in terms of packets. The only difference is that on an FMS network, the packets are routed through 
 the FMS Field Network, then to the Robot. These packets include control data for your robot, telling it what state it should be in and what the values of the joysticks are. FMS does not send any packets to your robot.
 
-The following ports are opened for communication between your Robot and Driver Station. All other ports are blocked. All ports are bidirectional unless otherwise stated. Check the Game Manua for the up-to-date list for each season.
+The following ports are opened for communication between your Robot and Driver Station. All other ports are blocked. All ports are bidirectional unless otherwise stated. Check the Game Manual for the up-to-date list for each season.
 
 * UDP/TCP 1180 - 1190: Camera Data
 * TCP 1735: SmartDashboard
@@ -251,7 +251,7 @@ Below is a table representing the state of the stack lights and what they indica
 +----------+--------------------------------------------+------------------------------------------------------------+
 |          | Alliance Color                             | Amber Color                                                |
 +----------+--------------------------------------------+------------------------------------------------------------+
-| Flashing | No connection to robot or station bypassed | Astop pressed/enabled (during or before autonomous period) |
+| Flashing | No connection to robot or station bypassed | A-Stop pressed/enabled (during or before autonomous period) |
 +----------+--------------------------------------------+------------------------------------------------------------+
 | Solid    | Robot Enabled                              | Estop pressed/enabled                                      |
 +----------+--------------------------------------------+------------------------------------------------------------+
@@ -269,6 +269,7 @@ representing the state of the stack lights and what they indicate.
 +----------+-----------------------------+--------------------------------------------------------+---------------------------------------------------------+---------------------------------------------------+-------------------------------------------------------------------------+
 | Flashing | Match Ready                 | N/A                                                    | N/A                                                     | *During Match:*                                   | Match Ready (single chime, coincides with green LED beginning to flash) |
 |          |                             |                                                        |                                                         | Scoring malfunction (e.g. jammed, sensor blocked) |                                                                         |
+|          |                             |                                                        |                                                         | or field hardware missing                         |                                                                         |
 |          |                             |                                                        |                                                         |                                                   |                                                                         |
 |          |                             |                                                        |                                                         |                                                   |                                                                         |
 |          |                             |                                                        |                                                         | *Post Match:*                                     |                                                                         |
