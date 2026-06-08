@@ -98,7 +98,7 @@ The Field Wireless Access Point(s)
 
 There are two APs on each field. The primary Field Wireless Access Point (WAP) broadcasts and receives wireless data from robots on the playing field using the 6GHz band with a 40MHz channel width. 
 
-The Field AP hosts an SSID for each robot scheduled to play on the field, all of which are multiplexed over a single wireless interface. Each SSID is allocated the VLAN for the corresponding Driver Station. In past seasons these SSIDs were hidden, but they are currently broadcast and visible.
+The Field AP hosts an SSID for each robot scheduled to play on the field, all of which are multiplexed over a single wireless interface. Each SSID is allocated to the VLAN for the corresponding Driver Station. In past seasons these SSIDs were hidden, but they are currently broadcast and visible.
 
 The Field AP connects to the Score Switch through a 10/100/1000 Gigabit Ethernet trunk line. The switch ports on the Field AP are unused and unallocated, only the trunk line (labeled "FMS" on the VH-113 AP) is used for connectivity. 
 
@@ -167,7 +167,7 @@ Network Bandwidth
 ^^^^^^^^^^^^^^^^^
 
 The FMS Field Network has limited bandwidth available. There is an imposed 7Mbit/s limit for each team via the robot radios to ensure no one team overloads the system, causing packets to drop 
-for other teams. Given that each wireless SSID that the Field AP handles is multiplexed, this adds up to a total of 7x6=42 Mbit/s for the Field AP. All other traffic on the FMS Field Network is not limited by bandwidth.
+for other teams. Given that each wireless SSID that the Field AP handles is multiplexed, this adds up to a total of 7x6=42Mbit/s for the Field AP. All other traffic on the FMS Field Network is not limited by bandwidth.
 
 The Robot Radio prioritizes certain communications over others. Driver Station control and status packets are the highest priority, followed by Network Tables, then all other traffic (e.g. video).
 
