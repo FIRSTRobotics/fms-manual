@@ -25,7 +25,6 @@ jobs:
         make html
   build-pdf:
     runs-on: ubuntu-latest
-    container: texlive/texlive:latest
     steps:
     - uses: actions/checkout@v5
     - uses: actions/setup-python@v6
@@ -33,10 +32,15 @@ jobs:
         python-version: '3.12'
         cache: 'pip'
         cache-dependency-path: 'source/requirements.txt'
-    - name: Install Python Dependencies
+    # TeX Live is installed from apt rather than the texlive/texlive image: the
+    # image tracks the latest TeX Live, which is incompatible with the pinned
+    # Sphinx 7.2.6 LaTeX macros (the PDF build overflows TeX's input stack).
+    # Ubuntu's TeX Live matches the version this manual is validated against.
+    - name: Install Dependencies
       run: |
         pip install -r source/requirements.txt
-
+        sudo apt update
+        sudo apt install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-lang-greek texlive-luatex texlive-xetex texlive-fonts-extra dvipng librsvg2-bin
     - name: Build PDF
       run: |
         make latexpdf

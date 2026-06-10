@@ -26,7 +26,10 @@ services:
     command: make linkcheck
 
   pdf:
-    image: texlive/texlive:latest
+    # Pinned to a historic TeX Live: the latest image is incompatible with the
+    # pinned Sphinx 7.2.6 LaTeX macros (the PDF build overflows TeX's input
+    # stack). TL2023 matches the version CI builds against.
+    image: texlive/texlive:TL2023-historic
     profiles: ["pdf"]
     working_dir: /docs
     volumes:
