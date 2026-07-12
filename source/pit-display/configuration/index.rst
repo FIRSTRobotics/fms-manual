@@ -1,37 +1,25 @@
 .. _pit-display-index:
 
-About Pit Display
-======================
+Pit Display
+===========
 
-Introduction
-------------
+The Pit Display is a single page app that shows current rankings and tournament information to  
+spectators in the Pit at the venue. It is available on the local fieldside network and from the FRC Events web site.  
 
-Pit Display is a web based software program, built and distributed by *FIRST*, that is used to relay rankings and tournament information from FMS to the 
-spectators in the Pit at the venue. Pit Display can be run on an computer containing and internet browser (like Firefox or Chrome) and an ethernet port. 
-This manual will walk through the available data, configuration options, and best practices related to the Pit Display.
+Any recent computer running Chrome is supported for the Pit Display.  Connect the computer via ethernet, either to the
+fieldside network via the Score Switch or to the internet. Whenever possible, use a wired Ethernet connection. 
+Using a wireless connection is not recommended.
 
-Wiring Pit Display
-------------------
+Using the fieldside network is generally preferred to using the internet, as the fieldside version is not dependent
+on FMS data sync to the cloud.
 
-In order to connect to FMS the Pit Display must have a wired connection to FMS. The target machine must be on the same network as the FMS machine (10.0.100.X), and no additional LANs. 
-Whenever possible, the Pit Display should be on a wired Ethernet connection.It is not recommended to attempt to run the Pit Display on a wireless connection. 
-Wireless networks for *FIRST* fields have different names from truck to truck, contact the FTA for additional information.
+Loading the Pit Display
+=======================
 
-Opening Pit Display
--------------------
+When on the fieldside network, navigate to the Field Server at http://10.0.100.5 and select the Pit Display option.  
 
-To open the Pit Display, simply use an web browser (such as Chrome or Firefox) and open a new page/tab. Navigate to 10.0.100.5 in your browser address bar and click on "Pit Display" in the top navigation bar. This will open a dropdown to select a language for the Pit Display. 
-Once a language is chosen, the Pit display will open for the appropriate tournament level (Qual/Playoff) with translations for the selected language. If the display does not open, ensure your connection to FMS by using ping 
-and (for Off-Season installations) making sure IIS is running on the FMS machine. (IIS will automatically be running on Official *FIRST* fields)
+When on the internet, go to https://frc-events.firstinspires.org, navigate to the event rankings page, and append "/live" to the URL.  
+For example, for the 2026 PAPHI1 event, the URL is https://frc-events.firstinspires.org/2026/PAPHI1/rankings/live
 
-Event Setup Order
------------------
-
-In order to properly synchronize with FMS, it is highly recommended that you do not run access the Pit Display program until after initial configuration of the event is 
-complete through the Event Wizard and Practice matches are complete. Configuration information is downloaded by the program and completing in this order should lead to the best experience. 
-There is no informaiton on the Pit Display during Practice matches, so there is no advantage to running the Pit Display earlier in the event.
-
-Closing Pit Display
--------------------
-
-To close the software, simply close your web browser (or the Pit Display tab therein) or use the windows hotkey combination of ALT-F4.
+The Pit Display is active during Qualification and Playoffs.  During Qualification rounds, it shows the current team rankings.  During the Playoffs, it shows the current 
+state of the Playoff bracket.
