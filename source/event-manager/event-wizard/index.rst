@@ -16,4 +16,5 @@ Event Wizard
    award-assignments
    alliance-selection
    alliance-membership
+   regional-advancement
    archive-upload
