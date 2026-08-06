@@ -7,16 +7,11 @@ Regional Advancement
     **Screenshot needed** — ``images/regional-advancement-1.png``: the whole step shortly after entering it,
     with the team list populated and the full row of buttons along the bottom visible.
 
-At regional events, a number of Championship invitations are earned at the event itself. The Regional Advancement
-step ranks every team at the event by regional points, works out which teams earn an invitation here, reveals
-them to the audience, and publishes the result to *FIRST*.
+At regional events during the official competition season, some Championship invitations are earned at the event 
+itself. The Regional Advancement step ranks every team at the event by regional points, works out which teams 
+earn an invitation, reveals them to the audience, and publishes the result.
 
-This step is normally run at the very end of the event, after the playoff tournament and the awards ceremony.
-
-.. note::
-    Regional advancement applies only to regional events, in seasons where regional ranking is in use. FMS will
-    refuse to calculate rankings for an event that is not a regional, or for a season that does not use the
-    regional advancement model.
+This step is run at the very end of the event, after the playoff tournament and the awards ceremony.
 
 Before You Start
 ################
@@ -63,9 +58,6 @@ Every team at the event is listed in rank order.
    * - Status
      - Whether — and how — the team has qualified. See below.
 
-The formula behind each point category is set by *FIRST* for the season; consult the season's advancement
-documentation rather than inferring it from the totals shown here.
-
 Status Values
 #############
 
@@ -92,11 +84,6 @@ The Status column is blank (``None``) for every team until Determine Advancement
    * - ``NotEventQualified``
      - The team did not earn an invitation at this event.
 
-.. note::
-    **Draft — please confirm.** The status descriptions above are written from the values FMS displays. They
-    should be checked against the season's advancement policy before this page is published, particularly the
-    distinction between the pool and event-qualified statuses.
-
 Running the Step
 ################
 
@@ -114,45 +101,34 @@ This button is disabled once advancement has been published.
 Determine Advancement
 *********************
 
-Recalculates the rankings and then works out which teams earn a Championship invitation at this event, filling
-in the Status column for every team.
-
-.. note::
-    **Screenshot needed** — ``images/regional-advancement-3.png``: the "Regional Advancement Determined!"
-    confirmation.
-
-Determine Advancement can be run more than once — if an award or result is corrected, recalculate and determine
+This button recalculates the rankings and then works out which teams earn a Championship invitation at this event, filling
+in the Status column for every team. It can be run more than once. If an award or result is corrected, recalculate and determine
 again. It is disabled once advancement has been published.
 
 Reveal Advancers
 ****************
 
 Switches the Audience Display to the advancing teams. FMS asks for confirmation first, because this is the moment
-the teams find out:
-
-.. note::
-    **Screenshot needed** — ``images/regional-advancement-4.png``: the "Reveal Advancers?" confirmation dialog.
+the teams find out.
 
 .. warning::
     Confirm the results are correct **before** revealing. Check with the FTA or event support staff if anything
-    on the list looks wrong — once the audience has seen it, a correction is a very public one.
+    on the list looks wrong. Once the audience has seen it, a correction is a very public one.
 
 Publish Regional Advancement
 ****************************
 
-Marks the results public, takes a full backup of the event database, and uploads the event data to *FIRST*, where
-the advancement results become publicly visible.
-
-.. note::
-    **Screenshot needed** — ``images/regional-advancement-5.png``: the "Publish Regional Advancement?"
-    confirmation dialog.
+Marks the results public, takes a full backup of the event database, uploads the event data, and makes the advancement results 
+become publicly visible.
 
 .. warning::
     Publishing is the point of no return for this step. Once the results are public, both "Recalculate Rankings"
-    and "Determine Advancement" are disabled, so any correction after this point has to be handled by *FIRST* HQ.
+    and "Determine Advancement" are disabled, so any correction after this point has to be handled by *FIRST* HQ 
+    after the event.
 
 If the event is not syncing with the cloud, FMS still marks the results public locally and takes the backup, but
-nothing is uploaded until syncing is restored.
+nothing is uploaded until syncing is restored. As the FTA to send the backup to FIRST so that the cloud database
+can be updated.
 
 Audience Display Controls
 #########################
@@ -174,14 +150,6 @@ Three buttons drive what the audience sees during the advancement portion of the
 
 "Show Previously Qualified Teams" is normally shown before the reveal, so the audience understands why some
 high-ranked teams do not appear among the advancers.
-
-.. note::
-    **Screenshot needed** — ``images/regional-advancement-6.png``: the audience display showing the previously
-    qualified teams.
-
-.. note::
-    **Screenshot needed** — ``images/regional-advancement-7.png``: the audience display showing the revealed
-    advancing teams.
 
 .. note::
     FMS Off-Season does not publish regional advancement. The button has no effect in an off-season build.
