@@ -127,7 +127,7 @@ become publicly visible.
     after the event.
 
 If the event is not syncing with the cloud, FMS still marks the results public locally and takes the backup, but
-nothing is uploaded until syncing is restored. As the FTA to send the backup to FIRST so that the cloud database
+nothing is uploaded until syncing is restored. Ask the FTA to send the backup to FIRST so that the cloud database
 can be updated.
 
 Audience Display Controls
