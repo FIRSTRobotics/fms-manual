@@ -33,8 +33,17 @@ release = '2025.1'
 extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinxext.opengraph',
-    'hoverxref.extension'
+    'hoverxref.extension',
+    'sphinxext.rediraffe'
 ]
+
+# Keep old URLs working after a page is renamed, merged away or split up. Each entry maps the
+# source file that used to exist to the one that replaced it, and the HTML build writes a
+# redirecting page at the old address. Add an entry whenever a page is deleted or renamed.
+rediraffe_redirects = {
+    'event-manager/match-play-test/tabs.rst': 'event-manager/match-play-test/index.rst',
+    'event-manager/match-play-test/bypass-vs-dq-vs-red-card.rst': 'event-manager/match-play-test/interface.rst',
+}
 
 # Configure OpenGraph support
 ogp_site_url = 'https://fms-manual.readthedocs.io/en/latest/'
