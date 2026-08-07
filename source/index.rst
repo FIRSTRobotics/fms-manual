@@ -13,7 +13,8 @@ FMS Manual
    overview-key-terminology/index
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+   :titlesonly:
    :caption: Event Manager (FMS)
 
    event-manager/navigation-and-indicators/index
