@@ -3,9 +3,7 @@
 Regional Advancement
 ======================
 
-.. note::
-    **Screenshot needed** — ``images/regional-advancement-1.png``: the whole step shortly after entering it,
-    with the team list populated and the full row of buttons along the bottom visible.
+.. image:: images/regional-advancement-1.png
 
 At regional events during the official competition season, some Championship invitations are earned at the event 
 itself. The Regional Advancement step ranks every team at the event by regional points, works out which teams 
@@ -27,9 +25,7 @@ the event.
 The Team List
 #############
 
-.. note::
-    **Screenshot needed** — ``images/regional-advancement-2.png``: a close crop of the team list showing several
-    ranked rows, ideally including at least one team with a qualifying status and one without.
+.. image:: images/regional-advancement-2.png
 
 Every team at the event is listed in rank order.
 
