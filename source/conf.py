@@ -54,7 +54,8 @@ linkcheck_timeout = 30
 linkcheck_retries = 3
 linkcheck_workers = 1
 
-linkcheck_ignore = [r'http://10.0.100.5/.*']
+# Field-network addresses (10.0.0.0/8) are only reachable from an FRC field, never from CI
+linkcheck_ignore = [r'https?://10\.']
 
 # Specify HTML logo for ReadTheDocs
 html_logo = "_static/images/frclogo.png"
