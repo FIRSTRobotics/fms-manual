@@ -40,6 +40,47 @@ Adding Off-Season Teams (Optional)
 .. note::
   *FIRST* HQ has designed and "pre-loaded" a set of Teams that, while not "official teams" in FRC, can be used during the Off-Season at an event without disabling the ability to Sync with *FIRST* servers. These teams' names are "Off-Season Demo Team" and appear at the end of the team list.
 
+Importing a Team List (Optional)
+################################
+
+At an Off-Season event the competing team list can be loaded from a file instead of checking teams off one at a time.
+
+What the File Looks Like
+------------------------
+
+The file is a plain ASCII or UTF-8 text list of team numbers, saved as ``.txt`` or ``.csv``. Team numbers can be one per line::
+
+  1234
+  5678
+  9012
+
+or separated by commas::
+
+  1234,5678,9012
+
+Both forms can be mixed in the same file, and blank lines and extra spaces are ignored. Nothing else belongs in the
+file - no header row, no team names, and no comments.
+
+Every number in the file must be a team FMS already knows about: a team downloaded in :ref:`event-wizard-data-download`,
+one of the pre-loaded Off-Season Demo Teams, or a team created here with "New Team". Importing does not create teams.
+
+The count in the confirmation prompt is the number of distinct teams found, so if it is not the number expected, the file
+is not the right one.
+
+.. warning::
+  Importing **replaces** the competing team list rather than adding to it. 
+
+WPA keys that have already been generated are kept, so a team that is imported again keeps the key it was given.
+
+When a File Cannot Be Imported
+------------------------------
+
+If any entry in the file cannot be matched to a team, **nothing is imported**. FMS lists each entry it could not use 
+and the line it was found on.
+
+The usual causes are a header row, team names left in alongside the numbers, or a team that has not been downloaded from
+*FIRST* or created with "New Team" yet. 
+
 Save Event Participants
 #######################
 
