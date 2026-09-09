@@ -1,0 +1,42 @@
+# Local development for the FMS Manual.
+#
+#   docker compose up docs
+#       Live HTML preview at http://localhost:8000 (auto-rebuilds on save).
+#
+#   docker compose run --rm linkcheck
+#       Run the same broken-link check that CI runs.
+#
+#   docker compose --profile pdf run --rm pdf
+#       Build the PDF (uses the full TeX Live image, same as CI). Output lands
+#       in build/latex/. This image is several GB and is only pulled if you
+#       opt into the "pdf" profile.
+
+services:
+  docs:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/docs
+
+  linkcheck:
+    build: .
+    volumes:
+      - .:/docs
+    command: make linkcheck
+
+  pdf:
+    # Pinned to a historic TeX Live: the latest image is incompatible with the
+    # pinned Sphinx 7.2.6 LaTeX macros (the PDF build overflows TeX's input
+    # stack). TL2023 matches the version CI builds against.
+    image: texlive/texlive:TL2023-historic
+    profiles: ["pdf"]
+    working_dir: /docs
+    volumes:
+      - .:/docs
+    command: >
+      bash -c "apt-get update
+        && apt-get install -y --no-install-recommends python3-venv >/dev/null
+        && python3 -m venv /tmp/venv
+        && /tmp/venv/bin/pip install --no-cache-dir -r source/requirements.txt
+        && /tmp/venv/bin/python -m sphinx -M latexpdf source build"

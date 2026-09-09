@@ -27,6 +27,8 @@ In this example, each team has a different connectivity state.
 .. note::
    When troubleshooting connectivity, always start with the driver station and work your way from left to right on the Field Monitor.
 
+.. _ds-troubleshooting:
+
 Driver Station Troubleshooting
 ------------------------------
 
@@ -121,6 +123,18 @@ This status indicates a device is connected at the driver station, but FMS canno
    * Offer a loaner laptop.
    * Follow up by working with the team to troubleshoot when time allows.
 
+.. image:: images/ds-bang-only.png
+
+This status can indicate:
+
+* Driver station has multiple IP addresses
+
+  * Vivid imager
+  * Wifi on
+  * Extra static IP
+
+* High CPU on driver station is preventing the FMS from communicating with the driver station software
+
 .. note::
    If the Driver Station shows the robot as fully connected (all green) but FMS still shows "Start DS", the DS may have established a direct connection to the robot bypassing FMS. Check that WiFi is fully disabled (it can take a moment to disconnect), and close any third-party tools that communicate with the robot (e.g., RioLog, Phoenix Tuner) as these can interfere with the DS-to-robot link. Restarting the DS software usually resolves this.
 
@@ -134,6 +148,8 @@ If a team loses joystick control during a match but the driver station is otherw
 #. Try moving joysticks to different USB ports. Sometimes moving to a different port resolves detection issues without restarting the DS.
 #. Restart the DS software if joystick reconnection does not restore function.
 #. If the DS gets stuck at "Resetting DS UI.vi" for more than 30 seconds, force close it through Task Manager and reopen.
+
+.. _radio-troubleshooting:
 
 Radio Troubleshooting
 ---------------------
@@ -195,6 +211,8 @@ OM5P Robot Radio (China Events Only)
    * Verify the radio has been programmed for the current event in progess. (Radios must be reprogrammed for each new event)
    * Check with the team to ensure they have no backup radios powered on in the venue.
 
+
+.. _computer-troubleshooting:
 
 roboRIO Troubleshooting
 -----------------------

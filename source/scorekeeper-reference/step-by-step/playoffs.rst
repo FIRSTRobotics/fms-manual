@@ -42,7 +42,7 @@ Stay calm, stay hydrated, enjoy the matches. You've got the best seat in the hou
 #. In case of a tie during eliminations - the tiebreakers found in the Tournament section of the Game Manual should be utilized by the Head Ref
 #. Awards will be announced during 15-minute awards breaks after round 4, 5, and between finals matches.
 
-   * Before leaving Match Play select "Start Break" on the FCUI, and make sure the audio is deselected (so it does not sound the horn during the awards ceremony)
+   * Before leaving Match Play select "Start Break", and make sure the audio is deselected (so it does not sound the horn during the awards ceremony)
    * Open the Event Wizard and navigate to the award assignment step
    * Set the field the Awards Mode
    * Follow along with the Awards Ceremony and display awards accordingly

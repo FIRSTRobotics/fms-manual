@@ -14,12 +14,13 @@ At official *FIRST* events, all of the data on the score tab comes from automate
 
 .. image:: images/score-tab-0.png
 
-All input values are quantities, not points. It is not necesary for the Scorekeeper to know the underlying score calculations as FMS will automatically convert any quantity inputs to point values.  For additional information about each scoring element please see the official game manual or consult your Head Referee at your event. Values in the "Ranking Point Progress" section are read-only progression indicators relative to the associated ranking point.
-
+All input values are quantities, not points. It is not necesary for the Scorekeeper to know the underlying score calculations as FMS will automatically convert any quantity inputs to point values.  
+For additional information about each scoring element please see the official game manual or consult your Head Referee at your event. Values in the "Ranking Point Progress" section are read-only 
+progression indicators relative to the associated ranking point.
 
 .. warning::
-    Notice that Major and Minor Foul Pts are points credited to the alliance, which means they're calculated off the other alliance's violations. Changing the Major/Minor Foul counts on a given alliance will change the score of the *opposite* alliance.
-
+    Notice that Major and Minor Foul Pts are points credited to the alliance, which means they're calculated off the other alliance's violations. Changing the Major/Minor Foul counts on a given 
+    alliance will change the score of the *opposite* alliance.
 
 Referee Completion Warning
 --------------------------
@@ -37,7 +38,7 @@ Post-Match Comments
     :align: center
 
 |
-| If a match is edited by the scorekeeper after the clock expires, or any cards were assigned in the match, a comment window is automatically opened when the Commit button is pressed on the FCUI.
+| If a match is edited by the scorekeeper after the clock expires, or any cards were assigned in the match, a comment window is automatically opened when the match is committed.
     This box can be used for comments regarding why the score was edited after the match ended and these comments will be saved and available later, should a review be necessary.
-    The box can also be manually requested using the dropdown arrow on the commit button in the FCUI.
+    The box can also be manually requested using the dropdown arrow on the Commit button.
 

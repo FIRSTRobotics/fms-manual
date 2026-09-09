@@ -16,7 +16,7 @@ Match Preview
 .. image:: images/match-flow-1.png
 
 The Match Preview screen displays team names and rankings for the teams scheduled to compete in the next match. The Match Preview is a mandatory screen in the
-FCUI process and can even be selected again once the "Show Match Score Bar" button has been pressed until the Match is started.
+match start, and can even be selected again once the "Show Match Score Bar" button has been pressed until the Match is started.
 
 [*Left*] Qualification Matches - Team rankings are displayed next to their team name and avatar
 

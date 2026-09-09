@@ -1,22 +1,19 @@
-.. _match-play-interface:
-
-Interface
-===========
+.. _match-play:
 
 Match Play
------------
+===========
 
 .. image:: images/match-play-interface.png
 
-Match Play (and Match Test) are the most commonly used environments during an FRC event. The screen is used to start and stop matches, disable robots, and control the Audience Display.
+Match Play (and :doc:`Match Test <match-test>`) are the most commonly used environments during an FRC event. The screen is used to start and stop matches, disable robots, and control the Audience Display.
 
-[*Green Box*] The top part of the screen shows the current match number, match time, score for the alliances and detail by station. Match time is updated in real time and will correspond with
-the same information shown on the LED Displays. The status of the robots at each end of the playing field is communicated to FMS by the SCCs and DSs. The color of each box corresponds to each
-end of the playing field, blue for the Blue Alliance, and red for the Red Alliance. Each box includes information on the status of the three robots on each alliance.
+[*Green Box*] The top part of the screen shows the current match number, match time, score for the alliances and detail by station. The status of the robots at each end of the playing field is communicated to FMS by the SCCs and DSs. 
+The color of each box corresponds to each end of the playing field, blue for the Blue Alliance, and red for the Red Alliance. 
+Each box includes information on the status of the three robots on each alliance.
 
-[*Blue Box*] Match Control is handled using the buttons in the center of the Match Play and Match Test screens.
+[*Blue Box*] The match is stepped through its states using the buttons in the center of the Match Play and Match Test screens.
 
-[*Red Box*] The lower portion of the screen changes based on the selected tab to display schedule information, detailed scoring, and more (described later)
+[*Red Box*] The lower portion of the screen changes based on the selected tab to display schedule information, detailed scoring, and more (each tab has its own article)
 
 Robot Status
 --------------
@@ -75,17 +72,32 @@ The fields left to right indicate information about the connection state of each
    All E-Stops and A-Stops need to be in the up (released) position to prestart or begin a match. Prestarting a match with any Stop down will prompt a dialog box to be shown indicated in which Player Station the Stop(s) are down.
 
 
-Match Control (FCUI)
+.. _match-play-bypass-dq-red-card:
+
+Bypass vs DQ vs Red Card
+------------------------
+
+Bypass and DQ essentially perform the same function to the Driver's Station, but have different outcomes with respect to event Rankings.
+
+The bypass checkbox is selected when a team is unable to compete due to a malfunctioning robot, but still chooses to participate in 
+the match by standing in the Alliance Station or utilizing a Human Player.  For this participation, the team is awarded full ranking 
+points. Bypass disables any inputs from the corresponding team's Driver Station and cause the Team Light to flash at a 1Hz rate.
+
+The DQ checkbox is used to disqualify a team from a match. A DQ is given to a team which plays a qualification match without having passed Inspection, or simply chooses not to participate in the match.
+
+The referee will issue a Red Card for a number of reasons, such as rules violations or inappropriate conduct during a match.
+If the Red Card indicator is showing when "Commit Score" is pressed the team receives 0 (zero) ranking points for that match (or, in a Playoff match, their alliance loses).
+
+Match State
 ---------------------
 
 .. image:: images/interface-2.png
 
 The buttons in the middle section are used to step through the Match process. In order to be available for use, a match must be selected from the Schedule tab.
-This bar is commonly referred to as the "FCUI" or Field Control User Interface (which came from the former version, which was a piece of hardware on the scoring table).
 
 * *Prestart* - prepares the field for the upcoming match by configuring the field hardware for the upcoming match
    
-   *Prestart can be cancelled if necessary while it's running*
+   *Once Prestart begins, this button becomes "Prestart Cancel." Pressing it while Prestart is running cancels it immediately. Pressing it after Prestart has completed backs the field out to the pre-Prestart state, and asks for confirmation first. This is the "Back Out" referred to elsewhere in this article.*
 
    *In Match Test/Practice/Playoff matches, clicking Prestart will allow for entry of team numbers (in playoff matches this is also used to move teams between stations)*
 
@@ -216,6 +228,17 @@ Alternate Flow
 
 .. image:: images/interface-2.png
 
-Some elements of the FCUI have "alternate flows". Above are examples are alternate flows for "Show Match Preview," clicking an alternate (yellow) button will return the FCUI to that step. 
+Some buttons have "alternate flows". Above are examples are alternate flows for "Show Match Preview," clicking an alternate (yellow) button will return to that step. 
 Also shown is the style for Match Start, which has additional highlighting and padding due to the dangerous nature of enabling robots and starting a Match.
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   schedule-tab
+   score-tab
+   status-tab
+   video-switch-tab
+   message-tab
+   options-tab
 

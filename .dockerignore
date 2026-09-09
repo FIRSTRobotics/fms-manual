@@ -1,0 +1,13 @@
+# Keep the build context small and fast. The repo is mounted at runtime via
+# docker-compose, so almost nothing needs to be copied into the image itself
+# (only source/requirements.txt is used during the build).
+.git
+.github
+.idea
+.vscode
+build
+_build
+photoshop-files
+*.pyc
+__pycache__
+.DS_Store

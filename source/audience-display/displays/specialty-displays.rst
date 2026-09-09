@@ -38,7 +38,7 @@ Message
     :width: 550
 
 |
-| A custom message can been displayed using the "Message" tab in :ref:`Match Test/Play <match-play-tabs>` 
+| A custom message can been displayed using the :ref:`Message tab <match-play-message>` in Match Play/Test
 
 Qual Rank
 ----------

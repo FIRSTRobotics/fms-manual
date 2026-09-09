@@ -13,7 +13,8 @@ FMS Manual
    overview-key-terminology/index
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+   :titlesonly:
    :caption: Event Manager (FMS)
 
    event-manager/navigation-and-indicators/index
@@ -46,7 +47,14 @@ FMS Manual
    field-monitor/live/live-monitor
    field-monitor/status-indicators/status-indicators
    field-monitor/field-connectivity/connectivity-guide
-   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Field Monitor V3
+
+   field-monitor-v3/live/live-monitor
+   field-monitor-v3/status-indicators/status-indicators
+   field-monitor-v3/field-connectivity/connectivity-guide
 
 .. toctree::
    :maxdepth: 2

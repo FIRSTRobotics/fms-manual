@@ -9,7 +9,7 @@ Driver Station
 --------------
 
 .. note::
-    For suggestions on resolving issues with the Driver Station computer and software, please go to the Driver Station Troubleshooting section of the :ref:`Connectivity Guide <field-monitor-connectivity-guide>`
+    For suggestions on resolving issues with the Driver Station computer and software, please go to the Driver Station Troubleshooting section of the :ref:`Connectivity Guide <ds-troubleshooting>`
 
 ========================================  ===========
 Indicator                                 Explanation    
@@ -24,7 +24,7 @@ Robot radio
 -----------
 
 .. note::
-    For suggestions on resolving issues with the robot radio, please go to the Robot Troubleshooting section of the :ref:`Connectivity Guide <field-monitor-connectivity-guide>`
+    For suggestions on resolving issues with the robot radio, please go to the Robot Troubleshooting section of the :ref:`Connectivity Guide <radio-troubleshooting>`
 
 ===================================  ===========
 Indicator                            Explanation    
@@ -41,7 +41,7 @@ roboRIO
 -------
 
 .. note::
-    For suggestions on resolving issues with the roboRIO, please go to the Robot Troubleshooting section of the :ref:`Connectivity Guide <field-monitor-connectivity-guide>`
+    For suggestions on resolving issues with the roboRIO, please go to the Robot Troubleshooting section of the :ref:`Connectivity Guide <computer-troubleshooting>`
 
 ========================================  ===========
 Indicator                                 Explanation    

@@ -13,7 +13,7 @@ Opening View
 The above shows the Event Manager interface when opened for the first time. The different tools are accessed via the tabs along the top of the window. These tools are:
 
 * :ref:`Event Wizard <event-wizard-nav>` - the main interface for setting up the entire tournament. Creating match schedules, input award winners, generating WPA keys, etc. are all done from this interface
-* :ref:`Match Play <match-play-interface>` - the main interface for starting and stopping matches, managing the score, and controlling the information posted to the Audience screen
+* :ref:`Match Play <match-play>` - the main interface for starting and stopping matches, managing the score, and controlling the information posted to the Audience screen
 * :ref:`Match Test <match-play-test>` - the tool used to test the playing field in order to verify proper functionality of all electronics and scoring devices
 * :ref:`Match Review <match-review-match-review>` - review or modify the score from a previous match
 * :ref:`Field Test <field-test-field-test>` - perform basic initial functionality tests of the playing field (not available in Off-Season version)
