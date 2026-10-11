@@ -8,9 +8,10 @@ Video Switch
     :width: 500
 
 The output of the Audience Display(s) on the field network can be changed using the video switch buttons.
-A green background is applied to the display that is curently showing on the Audience Display(s).
-Some displays cannot be activated from the web version and are shown as disabled. A disabled button still turns green
-when that display is selected from within FMS.
+A blue background is applied to the display that was showing on the Audience Display(s) when the page was opened, or to the last button selected on this page.
+The highlight does not follow changes made afterwards from within FMS or from another browser; refresh the page to update it.
+Some displays cannot be activated from the web version and are shown as disabled. A disabled button is still highlighted
+if that display was showing when the page was opened.
 
 Post Message to Audience
 ------------------------
