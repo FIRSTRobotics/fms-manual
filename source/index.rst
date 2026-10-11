@@ -69,7 +69,6 @@ FMS Manual
    :maxdepth: 2
    :caption: Audience Display
 
-   audience-display/about/index
    audience-display/about-web/index
    audience-display/configuration/index
    audience-display/displays/index

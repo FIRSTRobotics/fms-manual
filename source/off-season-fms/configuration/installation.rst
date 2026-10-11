@@ -54,7 +54,7 @@ Desktop Icons
 
 The installer will place an icon on the desktop. The FMS icon (red arrow) will open the Event Manager (which includes the wizard that walks through the event, the control to turn robots on and off, etc).
 
-The Audience Display, which will display scores and team information (as well as playing game sounds), will additionally add an icon if you elect to install it. For more information, :doc:`see this article <../../audience-display/configuration/installation>` .
+The Audience Display, which will display scores and team information (as well as playing game sounds), is not installed separately. It is opened in a web browser. For more information, :ref:`see this article <audience-about-web-index>` .
 
 Uninstalling
 ------------
