@@ -26,3 +26,17 @@ The pages found on the Field Server Website are outlined below:
 * About - Version and license information, shown below
 
 .. image:: images/field-server-2.png
+
+The About page shows the FMS Version. When FMS has a PLC version to report, a PLC Version line is shown directly below it.
+
+Home Page
+---------
+
+When FMS has an active event, the home page shows the event name at the top, followed by:
+
+* *View Results Online* - opens the event's page on the FRC Events website (https://frc-events.firstinspires.org) in a new browser tab. The device being used needs an Internet connection for this page to load.
+* *Open Match Graph for last played match* - opens the :ref:`Match Graph <field-server-logs-scores>` of the most recently played match. This button only appears once a match has been played.
+
+When there is no active event, the home page instead shows the message "There is currently no active event in FMS!". This message can also appear for a moment while the page is loading.
+
+Below this, the *Available Pages* list links to each page of the website.

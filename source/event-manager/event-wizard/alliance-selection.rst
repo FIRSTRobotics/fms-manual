@@ -69,5 +69,46 @@ Under normal operation, the Scorekeeper focuses on entering the Captain and sele
 FTA (or their designee) focuses on managing the Pick Timer.
 
 The Scorekeeper starts and stops the timer during the scheduled breaks, which happen between the last Qualification match and the 
-start of the Alliance Selection process as well as between each "round" of Alliance Selection. The can be started using the 2:00 
+start of the Alliance Selection process as well as between each "round" of Alliance Selection. The can be started using the 2:00
 and 8:00 buttons in the interface.
+
+Editing Alliance Names and Members
+##################################
+
+Two red buttons above "Undo Last Selection" allow the alliances to be corrected by hand. Each requires :ref:`HQ approval <hq-approval>`, and both are disabled
+once the Build Playoff Schedule step has been completed.
+
+* "Edit Alliance Names" unlocks the name box of every alliance so that the names can be typed over. The new names are saved, and the boxes locked again, when "Save Alliances" is clicked.
+* "Edit Alliance Members" replaces the team numbers in the alliance table with boxes that team numbers can be typed into directly. A valid team number is saved
+  as soon as it is entered; there is no separate save step. A box is highlighted red when the number in it cannot be used, for example because the same team has
+  been entered on another alliance. Click "Edit Alliance Members" again (approval is requested again) to return to the normal display.
+
+"Undo Last Selection" remains the right tool for a mistake that has just been made. Use these buttons only at the direction of event support.
+
+Set Field To Alliance Selection Mode
+####################################
+
+Each time the Alliance Selection step is opened, FMS puts the field into its Alliance Selection mode and sends the list of teams still available to the referee panels.
+The "Set Field To Alliance Selection Mode" button does the same thing on demand. Use it if the field has been switched to another mode since the step was opened.
+No password is required.
+
+In the Off-Season version of the software the button is present but has no effect.
+
+Fill Out BYE Alliances
+######################
+
+When an event has fewer alliances than the playoff bracket has places, the empty places can be filled with BYE alliances. Select all of the real alliances first,
+then click "Fill Out BYE Alliances". The button is enabled only while at least one alliance has no captain and no playoff schedule has been generated.
+
+A "Fill Out BYE Alliances?" message lists the alliance numbers that will become BYE alliances. Choose "Create BYEs" to continue. For each alliance that has no captain, FMS:
+
+* Renames the alliance "BYE - " followed by its alliance number
+* Fills it with placeholder teams taken from the Off-Season Demo Teams that have not been used in the Practice or Qualification schedule
+* Marks those teams as competing, and gives them a WPA key if they do not have one
+
+A "BYE Alliances Created" message then lists the placeholder teams placed on each alliance.
+
+If an alliance without a captain already has a team in one of its other positions, or there are not enough unused Off-Season Demo Teams, FMS reports
+"Unable to create BYE alliances", with the reason, and changes nothing.
+
+Once the playoff schedule has been generated and activated, FMS offers to advance the real alliance automatically whenever a match against a BYE alliance comes up in :ref:`Match Play <match-play>`.

@@ -38,6 +38,7 @@ Tournament Reports:
    * *Schedule By Team* : Qualification match schedule, sorted by team (lengthy report, not recommended for printing)
    * *Announcer’s Report* : Detailed report of team details for reference by the announcers (one page per match)
    * *Match Results* : Final scores of all completed matches in the qualification tournament
+   * *Teams Finishing Quals by Match* : Lists each qualification match that is the last scheduled qualification match for one or more teams, with the numbers of the teams that finish in that match. Useful for knowing when each team has played its final qualification match.
    * *Ranking* : Current qualification ranking of all teams at the event (updates as matches are played or re-played)
    * *Bypass* : Shows which teams have been Bypassed during which matches of the qualification tournament
    * *Cycle Time* : Shows the actual time between match starts
@@ -59,6 +60,8 @@ FTA Reports:
 * *WPA Key Status Report* : Shows if teams have linked or played in matches successfully
 * *FTA Team WPA Report* : Same as *WPA Key Status Report* , but with WPA keys shown. Requires FTA password to run and should not be printed.
 * *WPA Test Pit Signs Report* : Generates one page per team that has not yet connected to the field (to place in the team’s pit or distribute as reminder to come do a connection test)
+* *FTA Notes By Match* : Notes recorded in the :ref:`FTA Notepad <fta-notepad-overview>` for each match that has been prestarted, covering Test, Practice, Qualification and Playoff matches with the most recent match first. Notes about the match itself are listed before the notes about each team in the match. Deleted and private notes are not included.
+* *FTA Notes By Team* : Notes recorded in the FTA Notepad about each competing team, listed in team number order, with each team's notes in match order
 
 
 Head Referee Reports:
@@ -82,7 +85,8 @@ Awards Reports:
 Other Event Reports:
 
 * *Competing Teams List Report* : Same as the season team list, but filtered to only the teams competing at the currently selected event
-* *District Rankings for Event Report* : District rankings of eligible teams playing at the currently selected event. Not representative of overall district ranking, only position at the selected event.
+* *District Rankings for Event Report* : District rankings of eligible teams playing at the currently selected event. Not representative of overall district ranking, only position at the selected event. Only available when the active event is a District event or District Championship.
+* *Regional Rankings For Event Report* : Regional rankings and points awarded at the currently selected event for every team. Only available when the active event is a Regional.
 * *Lineup Cards* : Lineup submission sheets for use during the playoff tournament
 
 

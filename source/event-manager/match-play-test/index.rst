@@ -43,3 +43,4 @@ Tabs
 
    interface
    match-test
+   practice-field-mode
