@@ -18,6 +18,12 @@ team not selected during Alliance Selection process to act as a Backup Robot. Th
 
 Click the green Save button to initiate the swap. This will add the incoming team into the schedule in place of the outgoing team for all matches which have not yet been played.
 
+FMS asks "Add team to alliance?" before making the change; choose "Submit" to confirm. A team that is already on an alliance cannot be added to another one.
+
+Backup robots are expected to be brought in by rank. If the team entered is not the highest ranked team in the list of available teams, an "Out Of Order" message
+is shown first: "The backup team being put in is not the next highest ranked team. In order to do this, you must seek approval to skip a team. Would you still like to proceed?"
+Choosing "OK" then requires the FTA password. Choose "Cancel" to go back and correct the team number. This check is not made in the Off-Season version of the software.
+
 Un-doing Substitution
 #####################
 
@@ -27,6 +33,6 @@ Un-doing Substitution
 If a substitution is made by accident it can be undone. Though it is possible to undo, it can add confusion to field staff and audience members. Scorekeepers should be double checking
 before entering backup robots. 
 
-[*Yellow Marker*] Click the red "X" next to the backup robot to remove it. The software will confirm that you want to undo the backup robot and requires the FTA password before completing the process.
+[*Yellow Marker*] Click the red "X" next to the backup robot to remove it. The software will confirm that you want to undo the backup robot (an "Undo team assignment?" message naming the team and the alliance) and requires the FTA password before completing the process.
 
 A backup robot cannot be removed once it has played in a match.

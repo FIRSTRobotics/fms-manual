@@ -7,6 +7,7 @@ Event Wizard
    :maxdepth: 1
 
    navigation
+   software-updates
    data-download
    event-selection
    team-selection

@@ -107,6 +107,22 @@ The schedule generation steps assume that all teams will use the same security k
 
 The Clear All Keys button (**red button in the pink box**) returns all teams to their default, keyless, state. This should only be used at the direction of *FIRST* HQ and requires the FTA password.
 
+Importing Keys
+--------------
+
+The "Import Keys" button, between "Clear All Keys" and "Export Keys", loads WPA keys from a file instead of generating them. It is the reverse of "Export Keys", so
+keys exported from one FMS server can be loaded on another. It requires :ref:`HQ approval <hq-approval>`.
+
+The file is a ``.csv`` file in the format written by "Export Keys": one team per line, as the team number, a comma, and the key. Lines that are not in that
+format, and team numbers FMS does not know, are skipped without a message, so check the file before importing it.
+
+#. Make sure the file contains **every** team competing at the event, not only the teams whose keys are changing.
+#. Click "Import Keys". Once approved, choose the file in the "Select Key File" dialog.
+#. FMS backs up the event database, stores the keys, backs up the event database again, and reports "WPA Keys imported."
+   A team in the file that already had a key is given the key from the file. A team in the file that was not checked as competing is checked as competing.
+#. Check that the competing team list and the "Total Competing Teams" count are still correct, then click the green "Confirm Team Selection" button to save the
+   team selection again. Any competing team that still has no key is given a newly generated one at this point.
+
 WPA Kiosk Key Download
 ######################
 

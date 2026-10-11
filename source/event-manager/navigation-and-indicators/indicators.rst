@@ -29,6 +29,16 @@ Most items have hover text with additional information. Generally, green means s
 
 [*Pink Box*] The event name and code are displayed at all times
 
+Help
+--------------------
+
+The "Help" button (question mark icon) on the indicator bar opens this manual in the default web browser of the FMS server, at the page for the screen
+currently on display. Pressing F1 anywhere in the Event Manager window does the same thing. FMS chooses the page from what is showing at the time:
+the selected tab, the selected Event Wizard step, or the dialog that is open on top of them.
+
+The manual is a website, so the server needs an internet connection for the page to load. If FMS cannot open a browser at all, an "Unable to open help" message
+shows the address of the page so that it can be opened on another device, such as a phone.
+
 Other Indicators
 --------------------
 
