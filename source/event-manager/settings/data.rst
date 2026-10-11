@@ -51,5 +51,5 @@ Detail Level
 results of the traditional match will be lost, and replacement is only done on the most recent play.
 
 [ *Truncate Qual Schedule* ] By entering a value here, the qualification schedule can be shortened, while maintaining equality for all teams (this is only for emergency 
-use, such as acts of god or the direction of *FIRST* HQ). It requires the password of a support engineer.
+use, such as acts of god or the direction of *FIRST* HQ). It requires :ref:`HQ approval <hq-approval>`.
 

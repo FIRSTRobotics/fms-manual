@@ -38,7 +38,7 @@ Video and Score
 
 In Playoff matches, the Alliance number is displayed alongside the team numbers. The white box between the alliance scores will display the time remaining in the match and match phase (auto or teleop).
 
-Traditionally, the Video and Score will have a space for chroma to add video or production data. If set to Rankings (see :ref:`Settings <audience-settings>`)
+Traditionally, the Video and Score will have a space for chroma to add video or production data. If set to Rankings (see :ref:`Settings <audience-settings-web>`)
 the chroma portion of the screen will be replaced with current rankings or, in the case of the Playoff tournament, the bracket.
 
 Match Result
