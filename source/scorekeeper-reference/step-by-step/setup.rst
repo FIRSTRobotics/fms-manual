@@ -27,25 +27,23 @@ Setup Process
 
 #. Once the Event Database has been created, start setting up the Audience Display.
 
-   * If an FMS update was required, you will also need to update the Audience Display. This can be done using the "Check for Updates" button within the Audience Display configuration panel. 
-   * If the Audience Display application is not already on the computer, connect to the FMS Network and navigate to http://10.0.100.5/FRCDownloads on the Audience Display where you can download the current Audience Display installer.
-   * A/V or Webcast may need to run their own Audience Display. They can follow the same process to get an up-to-date version of the Audience Display
+   * The Audience Display runs in a web browser and does not need to be installed. On the Audience Display laptop, connect to the FMS Network and open http://10.0.100.5 in a browser, then select "Audience Display". See :ref:`About Audience Display <audience-about-web-index>`.
+   * If FMS is updated while the Audience Display is open, the display shows "FMS Version Mismatch - Please Refresh". Refresh the browser page.
+   * A/V or Webcast may need to run their own Audience Display. They can follow the same process on their own machine.
    * Create a folder on the Desktop of the FMS server where you can store commonly accessed reports, like team lists and schedules.
 
-#. Launch the Primary Audience Display software and configure the display(s) using the following hotkey combinations. Note that the Audience Display does not run on the FMS Server, but rather the laptop with the "Audience Display" sticker. At some events, the A/V department may be responsible for this setup.
+#. Open the Audience Display and configure the display(s) using the following hotkey combinations, described further in :ref:`Settings <audience-settings-web>`. Note that the Audience Display does not run on the FMS Server, but rather the laptop with the "Audience Display" sticker. At some events, the A/V department may be responsible for this setup.
 
    .. list-table::
       :widths: 35 65
       :header-rows: 0
 
-      * - CTRL-SHIFT-F12
-        - Load Configuration Panel
-      * - CTRL-SHIFT-C
-        - Load Configuration Panel
-      * - CTRL-SHIFT-1
-        - Center AD on Primary Display
-      * - CTRL-SHIFT-2
-        - Center AD on Secondary Display
+      * - ALT-C
+        - Open the settings panel
+      * - ALT-X
+        - Close the settings panel
+      * - ALT-R
+        - Switch between 720 and 1080 resolution
 
 #. Within the FMS Event Manager software, click the "Field Test" button at the top of the application and ensure all of the hardware is online.
 
@@ -59,7 +57,7 @@ Setup Process
    .. note::
        You cannot access the Match Test area (the button will not become active) until the Data Download (Step 1) has been completed, an event is selected, and the database has been created (Step 2). Contact FRC Support for assistance if this has not been completed yet.
 
-#. Coordinate with the FTA and A/V to ensure that all game sounds play correctly. You can use the "Test Sound" buttons within the Audience Display configuration panel, or use the loop sound in the Audience Display hover menu (hover over the Audience Display icon in the task bar).
+#. Coordinate with the FTA and A/V to ensure that all game sounds play correctly. You can use the sound test buttons within the Audience Display settings panel, or use the loop sound button in the Audience Display hover menu (move the mouse over the display).
 #. Verify the printer is working correctly.
 
    * Locate and stage additional paper for easy access

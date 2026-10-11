@@ -1,14 +1,17 @@
 .. _audience-about-web-index:
 
-About Audience Display (Web Version)
-====================================
+About Audience Display
+======================
 
 Introduction
 ------------
 
 Audience Display is a software program, built and distributed by *FIRST* that is used to relay game and status information from FMS to the Audience at the venue and online
-(via the live stream, if applicable). The Audience Display can either be run as a standalone application or as a web app on a separate machine connected to the field network via Ethernet, it cannot run on *FIRST* 
+(via the live stream, if applicable). The Audience Display runs as a web app, in a browser on a separate machine connected to the field network via Ethernet. Nothing needs to be installed, and it should not be run on *FIRST*
 Servers. This manual will walk through the available displays, configuration options, and best practices related to the Audience Display.
+
+.. note::
+   The Windows App Version of the Audience Display is no longer used and is no longer described in this manual.
 
 Wiring Audience Display
 -----------------------
@@ -24,6 +27,14 @@ Opening Audience Display
 
 | 
 | To open the Audience Display, go to `10.0.100.5` in a browser on the Audience Display laptop. Once that website loads, click on "Audience Display" in the top nav bar (**yellow box**). In most cases, only a single instance is needed. In some cases, it may be useful to have a second instance running to retrieve additional graphics or looks. Consult with the FTA and/or *FIRST* Engineering before using the second Display. Upon opening the Audience Display, it will automatically go to either the Background, or if instructions are actively being sent (such as during a match) will jump to the appropriate position for that point in time.
+
+It is recommended that there be no more than two (2) instances of the Audience Display running on the FMS network at any given time. The software is not tested beyond this capacity.
+
+Version Matching
+----------------
+
+The Audience Display regularly checks that it was loaded from the version of FMS that is currently running. If FMS has been updated since the page was opened,
+"FMS Version Mismatch - Please Refresh" is shown at the top of the display. Refresh the browser page to load the current version.
 
 Audio Output
 ------------

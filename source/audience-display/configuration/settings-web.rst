@@ -1,8 +1,8 @@
 .. include:: <isonum.txt>
 .. _audience-settings-web:
 
-Settings (Web Version)
-======================
+Settings
+========
 
 Customize the look and feel of the Audience Display via the settings panel. Settings are specific to each Configuration ID. 
 Access the settings from the Audience Display hover menu and clicking the Gear icon, or use the keyboard shortcut ALT-C when the Audience Display program is in focus.
