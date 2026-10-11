@@ -195,6 +195,6 @@ Keyboard Shortcuts
    * - ALT-3
      - Show Background
 
-.. warning::
-   ALT-1, ALT-2 and ALT-3 operate the Video Switch in FMS. They change what is shown on **every** Audience Display on the field network, not only the one the keys are pressed on, the same as if the
-   Scorekeeper had selected that display. Do not use them without coordinating with the Scorekeeper.
+.. note::
+   ALT-1, ALT-2 and ALT-3 change only the Audience Display the keys are pressed on. They do not change the Video Switch in FMS or any other Audience Display. The display follows FMS again
+   the next time the Scorekeeper changes the Video Switch.
