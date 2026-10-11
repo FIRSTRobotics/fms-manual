@@ -6,7 +6,7 @@ Announcement
 
 Screens specifically designed to announce information to the audience.
 
-In all examples below, the Fucshia pink color represents the "Chroma" and the color can be adjusted in the :ref:`Audience Display Settings <audience-settings>`.
+In all examples below, the Fucshia pink color represents the "Chroma" and the color can be adjusted in the :ref:`Audience Display Settings <audience-settings-web>`.
 
 Schedule
 -------------

@@ -135,7 +135,7 @@ Discard Match Option
     :width: 250
 
 | 
-| Once a match has ended, the "Abort Match" option becomes "Discard Match" as shown, which requires an HQ password / intervention to use.
+| Once a match has ended, the "Abort Match" option becomes "Discard Match" as shown, which requires :ref:`HQ approval <hq-approval>` to use.
    The purpose of this option is to discard results and logs that will be declared invalid regardless, and thus bypass the need to commit and/or post the result (and risk it showing on the web).
 
 Prestart Dropdown
