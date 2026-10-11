@@ -28,7 +28,18 @@ Opening Audience Display
 | 
 | To open the Audience Display, go to `10.0.100.5` in a browser on the Audience Display laptop. Once that website loads, click on "Audience Display" in the top nav bar (**yellow box**). In most cases, only a single instance is needed. In some cases, it may be useful to have a second instance running to retrieve additional graphics or looks. Consult with the FTA and/or *FIRST* Engineering before using the second Display. Upon opening the Audience Display, it will automatically go to either the Background, or if instructions are actively being sent (such as during a match) will jump to the appropriate position for that point in time.
 
+The Audience Display opens with the settings saved under the Configuration ID ``Primary``. To open it with a different set of settings, add the Configuration ID to the end of the address,
+as described in :ref:`Settings <audience-settings-web>`.
+
 It is recommended that there be no more than two (2) instances of the Audience Display running on the FMS network at any given time. The software is not tested beyond this capacity.
+
+Status Messages
+---------------
+
+Messages are shown at the top of the display when something needs attention:
+
+* *SignalR Connection Lost* - the Audience Display has lost its connection to FMS and is not receiving updates. Check the network connection to the field network; the message clears when the connection returns.
+* *FMS Version Mismatch - Please Refresh* - see Version Matching, below.
 
 Version Matching
 ----------------
@@ -55,15 +66,19 @@ the Event Wizard. Opening the programs out of order may result in freezing while
 Hover Menu
 ----------
 
-The Audience Display has a Hover Menu, accessible by simply hovering over the display. The menu provides quick access actions and indicators.
+The Audience Display has a Hover Menu, accessible by simply moving the mouse over the display. The menu provides quick access actions, and hides
+again (along with the mouse pointer) after a few seconds without mouse movement.
 
 .. image:: images/about-web-2.png
     :align: center
+    :width: 1280
 
 | 
 | From left to right, the hover icons are:
 
 [**Open Settings**] Open the settings panel, the same as using the hotkey combination
+
+[**Toggle Resolution**] Switch between the 1280 x 720 and 1920 x 1080 resolutions
 
 [**Play Sound Once**] Play a single test sound
 
@@ -73,7 +88,7 @@ The Audience Display has a Hover Menu, accessible by simply hovering over the di
 
 [**Play Match Result Animation Test**] Runs the Post-Result animation one time in order to verify render quality
 
-[**SignalR Response Time**] This is a live updating indicator of the amount of time it takes for SignalR events (timers, scores, screen changes, etc.) to get from the FMS Server to the Audience Display.
+Each of these also has a keyboard shortcut, listed in :ref:`Settings <audience-settings-web>`.
 
 
 Closing Audience Display

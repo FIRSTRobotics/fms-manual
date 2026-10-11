@@ -4,7 +4,7 @@
 OBS Websockets
 ==============
 
-OBS Integration must be configured through the settings' automation tab and is considered an advanced feature.
+OBS Integration must be configured through the Video tab of the Audience Display :ref:`settings <audience-settings-web>` and is considered an advanced feature.
 
 OBS Websockets / OBS Integration allows you to control your video feed (for use on a webstream, or potentially on a scoreboard at off-season events) via the free OBS Software
 and use of the *FIRST* Audience Display by automatically changing what the audience is seeing based on what is happening at the event without the need for an operator.
