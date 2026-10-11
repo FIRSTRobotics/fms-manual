@@ -49,19 +49,23 @@ Audience Display requires the user to select from possible events to tie to Comp
 
 * *Prestart* - triggered when the process of configuring the field for a match begins
 * *Match Preview* - triggered when the Scorekeeper displays the upcoming match information to the audience
-* *Set Audience* - triggered when the Scorekeeper displays the match score bar to the audience
-* *Match Start* - triggered when the Autonomoud period begins
-* *Teleop Start* - triggered when the Teleoperted period begins, after any automated scoring thresholds have elapsed
+* *Score Bar* - triggered when the Scorekeeper displays the match score bar to the audience
+* *Field Ready* - triggered when the field is ready for the match to be started
+* *Match Start* - triggered when the Autonomous period begins
+* *Teleop Start* - triggered when the Autonomous period ends and the match moves on to the Teleoperated period
 * *Endgame Start* - in games with a designated endgame period, triggered when the endgame warning sound plays to the audience
 * *Match End* - triggered when the Teleoperated period timer expires
-* *Post Result* - triggered when the final scores are display to the audience
+* *Match Aborted* - triggered when a match in progress is aborted
+* *Post Results* - triggered when the final scores are display to the audience
+* *Red Wins*, *Blue Wins* and *Tie Match* - one of these is triggered while the final scores are being displayed, once the result is revealed
 * *Alliance Selection* - triggered when the Scorekeeper shows the Alliance Selection screen to the audience
-* *Award Ceremony* - triggered when the Scorekeeper shows an Award related screen to the audience
+* *Bracket* - triggered when the Scorekeeper shows the playoff bracket to the audience
+* *Award Name* - triggered when an award's name is shown to the audience
+* *Award Winner* - triggered when the winner of an award is revealed to the audience
 
-.. warning:: 
-   Alliance Selection and Award Ceremony states are reliant on Scorekeeper action. It should not be assumed that these states are the official "Start" of a 
-   given ceremony or process, simply reflective of the information being shown to the Audience. In cases such as Awards, the state is not recalled upon 
-   each award presented, simply the first time the state changes.
+.. warning::
+   Alliance Selection, Bracket and Award states are reliant on Scorekeeper action. It should not be assumed that these states are the official "Start" of a
+   given ceremony or process, simply reflective of the information being shown to the Audience.
 
 Setup Companion Buttons
 ----------------------------
@@ -86,7 +90,7 @@ configure individual actions for Companion buttons, instead more information can
 Audience Display Settings
 -----------------------------
 
-Within the Audience Display settings, check the "Enable BitFocus Companion Integration" checkbox and complete the address as configured in 
+Within the Automation tab of the Audience Display :ref:`settings <audience-settings-web>`, check the "Enable BitFocus Integration" checkbox and complete the address as configured in 
 the above "Download and Installation" section. The address must be a valid URL- written with the leading http (or https). The port is 
 also required as Companion should not be run on 80 or 443. Since it must be a valid url, the use of localhost must be replaced with 127.0.0.1.
 
@@ -109,6 +113,17 @@ also required as Companion should not be run on 80 or 443. Since it must be a va
 
 .. warning::
    The Companion pages are not 0-indexed unlike the rows and columns. Be careful to make sure you're setting the right page in your request! You will not be able to save a config that tries to use page 0.
+
+Match Name Custom Variable
+----------------------------
+
+The Audience Display can also tell Companion which match is about to be played, for use in button text or in actions such as naming a recording.
+
+#. In Companion, create a custom variable and note its name.
+#. In the Audience Display settings, check "Set Match Name Custom Variable on Prestart" and enter that name in "Match Name Custom Variable Name".
+
+Each time a match is Prestarted, the Audience Display sets the variable to the tournament level and match number, such as "Qualification 12". No command row is
+needed for this, but BitFocus Integration must be enabled and the address completed.
 
 A Note on State Tracking
 ----------------------------
