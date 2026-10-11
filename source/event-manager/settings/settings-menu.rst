@@ -21,7 +21,7 @@ Clicking the tabs on the left will change which data is available on the right s
 
 The bottom has buttons for a few operations:
 
-[*Restart FMS Services*] Click to reset the underlying FMS Services on the Server, which requires the FTA password
+[*Restart FMS Service*] Click to reset the underlying FMS Service on the Server, which requires the FTA password
 
 [*Awards Mode*] Enable all LEDs on the field to match their alliance color and display the current year on the Team Signs
 

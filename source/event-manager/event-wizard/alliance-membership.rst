@@ -12,7 +12,7 @@ team not selected during Alliance Selection process to act as a Backup Robot. Th
 
 [*Pink Box*] Type the incoming team number into the corresponding row for the alliance they are joining
 
-[*Green Box*] The list of available team eligible to come into the playoff tournament. This list should be compared to the teams on the "Backup Team List" report and discussed with the Head Referee to select the correct team to bring into the tournament- it is not up to the choice of the alliance.
+[*Green Box*] The list of available team eligible to come into the playoff tournament. This list should be compared to the teams on the "Backup Pool Report" and discussed with the Head Referee to select the correct team to bring into the tournament- it is not up to the choice of the alliance.
 
 .. image:: images/alliance-membership-2.png
 

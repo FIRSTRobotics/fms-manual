@@ -11,7 +11,7 @@ Awards Process
 
 * Awards must be entered into FMS prior to the presentation of any awards. Navigate to Award Assignment step of the Event Wizard, where there are two methods for award entry.
 
-   * The preferred and most common award entry method is through the Judge Advisor portal. If the Judge Advisor has submitted awards through the Portal, you can fetch the award assignments by clicking on "Download Judge's Award Assignments"
+   * The preferred and most common award entry method is through the Judge Advisor portal. If the Judge Advisor has submitted awards through the Portal, you can fetch the award assignments by clicking on "Download Assignments from AES"
    * In cases where the Judge Advisor is unable to submit award assignments, you will have to revert to manual entry.
 
    .. important::

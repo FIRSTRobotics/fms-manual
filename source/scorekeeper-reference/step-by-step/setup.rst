@@ -47,7 +47,7 @@ Setup Process
 
 #. Within the FMS Event Manager software, click the "Field Test" button at the top of the application and ensure all of the hardware is online.
 
-   * All component LEDs should be Green. You may need to click "Refresh Indicators" to get updated information.
+   * All component LEDs should be Green. You may need to click "Refresh All Field Test Indicators" to get updated information.
   
       * Any elements under "Field Hardware" that remain Red may need HQ Support to help troubleshoot.
       * The FTA should help troubleshoot all components of the Field.
@@ -55,7 +55,7 @@ Setup Process
 #. Run Match Test to confirm that all field components operate correctly. This process should be coordinated with the FTA.
 
    .. note::
-       You cannot access the Match Test area (the button will not become active) until the Data Download (Step 1) has been completed, an event is selected, and the database has been created (Step 2). Contact FRC Support for assistance if this has not been completed yet.
+       You cannot access the Match Test area (the button will not become active) until the "Data Download" step of the Event Wizard has been completed, and an event has been selected and its database created in the "Event Selection" step. Contact FRC Support for assistance if this has not been completed yet.
 
 #. Coordinate with the FTA and A/V to ensure that all game sounds play correctly. You can use the sound test buttons within the Audience Display settings panel, or use the loop sound button in the Audience Display hover menu (move the mouse over the display).
 #. Verify the printer is working correctly.
@@ -69,7 +69,7 @@ Setup Process
    .. important::
       Verify with the FTA before making any changes.
 
-#. Generate Practice Match schedules (be sure to use the Lunch checkbox if applicable) and activate the Practice schedule (Steps 3 through 6 in the Event Wizard) and print out sufficient copies to distribute to teams (from the “Reports” button at the top of the application). In some venues, the Pit Admin may only need a single copy of the schedule and they’ll go and make copies. Work with the Event Manager and the FTA to ensure that the Practice Match schedule works within the overall timeframe of the practice portion of the event.
+#. Generate Practice Match schedules (be sure to use the Lunch checkbox if applicable) and activate the Practice schedule (the "Practice Team Selection" through "Activate Practice Schedule" steps in the Event Wizard) and print out sufficient copies to distribute to teams (from the “Reports” button at the top of the application). In some venues, the Pit Admin may only need a single copy of the schedule and they’ll go and make copies. Work with the Event Manager and the FTA to ensure that the Practice Match schedule works within the overall timeframe of the practice portion of the event.
 #. Work with the FTA to determine if you need to print the Announcer’s Report for practice matches. Often this is not necessary.
 #. Work with the FTA to ensure that the WPA Kiosk(s) have been set up. The WPA key file can be imported to the kiosk via the FMS network or exported from the “Practice Team Selection” step from the Event Wizard. Most FTAs will prefer to import the key file over the network.
 #. Ensure the Backup Configuration settings have been set.

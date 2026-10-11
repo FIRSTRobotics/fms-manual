@@ -36,8 +36,8 @@ Stay calm, stay hydrated, enjoy the matches. You've got the best seat in the hou
    * The backup robot coupon should come with a new lineup card and also be delivered to the Head Ref or their designee.
    * The Head Ref/FTA will probably ask about who is first on the list before the coupon is officially submitted to the scoring table for use.
    * Return to Event Wizard and Select Alliance Membership before prestarting the match where the new robot will be coming in.
-   * Select radio button next to the team subbing out and enter the backup team number into the Round 3 / Backup slot.
-   * Select "Save Alliances" and once you verify changes - return to match play.
+   * Enter the backup team number into the "Backup" column, in the row of the alliance the team is joining. See :ref:`Alliance Membership <event-wizard-alliance-membership>`.
+   * Select "Save Alliances", choose "Submit" when FMS asks "Add team to alliance?", and once you verify changes - return to match play.
 
 #. In case of a tie during eliminations - the tiebreakers found in the Tournament section of the Game Manual should be utilized by the Head Ref
 #. Awards will be announced during 15-minute awards breaks after round 4, 5, and between finals matches.

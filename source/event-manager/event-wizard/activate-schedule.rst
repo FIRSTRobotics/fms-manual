@@ -18,7 +18,7 @@ Use the green button to make the schedule available for Match Play and available
 Database Backup
 ###############
 
-The software does incremental backups stored on the local hard drive and USB drive (if so indicated in Settings >> Backup Config) throughout the tournament, but it's also important to do a complete backup at the end of each stage as well.
+The software does incremental backups stored on the local hard drive and USB drive (if so indicated in Settings >> Backup) throughout the tournament, but it's also important to do a complete backup at the end of each tournament level as well.
 
 Full backups of the event database can be made in the :ref:`settings-backup`
 

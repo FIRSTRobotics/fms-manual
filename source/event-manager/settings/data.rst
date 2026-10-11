@@ -65,7 +65,7 @@ Detail Level
 
 .. image:: images/data-4.png
 
-[ *Purge Individual Match* ] By selecting a tournament phase and entering a match number, dump only one specific match from a level (all plays lost).
+[ *Purge Individual Match* ] By selecting a tournament level and entering a match number, dump only one specific match from that level (all plays lost).
 
 [ *Reassign Match Result* ] By selecting a test match and traditional match, the results can be overwritten from the test match to the traditional match. The original 
 results of the traditional match will be lost, and replacement is only done on the most recent play.

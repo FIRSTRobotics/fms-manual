@@ -16,7 +16,7 @@ matches can be cycled quickly without referees or scoring input.
    Practice Field Mode is not the same thing as a Practice match or the Practice schedule, and it is not required in
    order to play Practice matches. Practice matches at an event are normally played with Practice Field Mode disabled,
    as described in the :ref:`Practice step <scorekeeper-practice>` of the Scorekeeper reference. It is also separate
-   from the field type selected in :ref:`Multi-field Setup <settings-multi-field>`.
+   from the field type selected in :ref:`Multifield Setup <settings-multi-field>`.
 
 Enabling and Disabling
 ----------------------
@@ -25,7 +25,7 @@ Practice Field Mode is a toggle on the :ref:`Options tab <match-play-options>` o
 the toggle and select *Save* for it to take effect. Like the other settings on the Options tab, it cannot be changed
 while a match is in progress.
 
-Enabling Practice Field Mode requires an HQ password / intervention. Disabling it does not.
+Enabling Practice Field Mode requires :ref:`HQ approval <hq-approval>`. Disabling it does not.
 
 The setting is shared between Match Play and Match Test, and it stays enabled when FMS is closed and reopened. FMS
 disables it automatically when:

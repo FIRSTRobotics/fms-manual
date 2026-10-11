@@ -50,7 +50,7 @@ Because of this, make sure the event really is over before starting this step.
 
 If the upload does not succeed, an "Archive/Upload Failed!" error is shown. The event remains the active event and the upload can be attempted again.
 
-If the upload fails, be sure to check the backup settings in the Settings >> Backup Config page and force a manual event backup.
+If the upload fails, be sure to check the backup settings in the Settings >> Backup page and force a manual event backup.
 The backup is what is used to upload, so if you find there are problems performing a manual backup this is the best place to start debugging:
 
 * Ensure that the backup location is still present (the USB drive, in most cases)

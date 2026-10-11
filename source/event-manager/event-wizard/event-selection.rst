@@ -12,8 +12,15 @@ Selecting a traditional event
 	:alt: UI Screenshot
 
 |
-| The Event Selection step of the Event Wizard displays the complete list of events from Data Download.
+| The Event Selection step of the Event Wizard displays the list of events from Data Download.
 	Select the event to be played by clicking on it. In this example, the selected event is shown with a green marker and highlighted blue background on the row.
+
+Two switches above the list shorten it to the events most likely to be needed. Both are on each time the step is opened.
+
+* "Filter by Truck Type" - Shows only the events that this FMS server is expected to be used at; for example, a server that belongs to a district shows only that district's events. Off-Season events are still shown.
+* "Filter by date" - Shows only events that have not yet ended and that start within the next 7 days.
+
+The active event, and any event created with the "New" button, is always shown. If the event to be played is not in the list, turn the filters off to see the complete list of events.
 
 [**Green Marker**] The currently selected event, if there is one, will be shown with a highlighted row background
 

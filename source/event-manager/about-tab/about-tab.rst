@@ -5,7 +5,7 @@ About Tab
 
 .. image:: images/about-tab.png
 
-The "About" tab contains version information and software notices. 2025 versions of FMS will always have a Major Version of "12".
+The "About" tab contains version information and software notices.
 
 [Green] Build (revision) of the software currently installed
 

@@ -81,13 +81,13 @@ and the line it was found on.
 The usual causes are a header row, team names left in alongside the numbers, or a team that has not been downloaded from
 *FIRST* or created with "New Team" yet. 
 
-Save Event Participants
-#######################
+Confirm Team Selection
+######################
 
 .. image:: images/team-selection-3.png
 
 Once the teams competing at the event have all been checked off and the proper number is displayed under "Total Competing Teams", the event participant data should be saved.
-This is done using the "Save Event Participants" button (**green button inside the pink box**). This button performs the following tasks:
+This is done using the "Confirm Team Selection" button (**the green button at the bottom of the pink box**). This button performs the following tasks:
 
 * Creates event particpant records in the FMS database
 * Generates WPA Keys for robot wifi connection to the field. Once keys are generated the "Key Generated" column will display the new status of "True".
@@ -100,12 +100,12 @@ This is done using the "Save Event Participants" button (**green button inside t
 
 Once the keys are generated, the FTA should use the WPA Kiosk program on the WPA Laptop to download keys from FMS to the kiosk program. This download process will require FTA authentication and is outlined in more detail :ref:`wpa-kiosk-setup`.
 
-As a backup to the traditional WPA Kiosk setup process, the Export Keys button (**blue button inside the pink box**) can be used to save the key file needed to run the Radio Kiosk.
+As a backup to the traditional WPA Kiosk setup process, the "Export Keys" button (**inside the pink box**) can be used to save the key file needed to run the Radio Kiosk.
 This should only be used by the FTA, as it requires their password to complete, and is only used as a backup solution.
 
 The schedule generation steps assume that all teams will use the same security keys throughout the event; as a result, performing Keys steps is not necessary to repeat on each Team Selection step of the Wizard (even though there are multiple).	
 
-The Clear All Keys button (**red button in the pink box**) returns all teams to their default, keyless, state. This should only be used at the direction of *FIRST* HQ and requires the FTA password.
+The "Clear All Keys" button (**the red button in the pink box**) returns all teams to their default, keyless, state. This should only be used at the direction of *FIRST* HQ and requires the FTA password.
 
 Importing Keys
 --------------
