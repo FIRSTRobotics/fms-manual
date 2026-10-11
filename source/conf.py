@@ -43,6 +43,9 @@ extensions = [
 rediraffe_redirects = {
     'event-manager/match-play-test/tabs.rst': 'event-manager/match-play-test/index.rst',
     'event-manager/match-play-test/bypass-vs-dq-vs-red-card.rst': 'event-manager/match-play-test/interface.rst',
+    'audience-display/about/index.rst': 'audience-display/about-web/index.rst',
+    'audience-display/configuration/installation.rst': 'audience-display/about-web/index.rst',
+    'audience-display/configuration/settings.rst': 'audience-display/configuration/settings-web.rst',
 }
 
 # Configure OpenGraph support

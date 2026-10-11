@@ -37,26 +37,26 @@ Qualification
    * For three-day Regional events only, load in the Friday Award winners.
 
       * Navigate to Award Assignment step in the Event Wizard
-      * If the Judge Advisor has uploaded the awards, you can click "Download Judge's Award Assignments" otherwise you will need to enter the award assignments manually.
+      * If the Judge Advisor has uploaded the awards, you can click "Download Assignments from AES" otherwise you will need to enter the award assignments manually.
 
    * During the Awards Ceremony, put the field lights into "Awards Mode."
    * Check with the FTA to determine if power will remain on or will be shut off overnight. If power to the field will be turned off, shutdown the Scorpion server with direction from the FTA. Otherwise, put the field in Night Mode.
 
 #. When you reach the end of Qualification Matches (and are headed into Alliance Selection):
 
-   * Using the Options tab in Match Play select "Recalculate Rankings" for the qualification matches
+   * Using the Options tab in Match Play select "Recalculate Qual/Playoff Rankings" for the qualification matches
    * Use the "Settings" button, "Backup" tab, "Force Event Backup" button to ensure the event database is backed up.
    * Print the Qualifications Ranking report for the Announcer and Emcee as soon as the final qualification match has completed.
    * Use the Alliance Selection step in the Event Wizard to set alliances as they are picked. 
    * Use the video switcher on the alliance wizard step to select the Alliance Selection display onto the audience screens during the Alliance Selection ceremony.
    * Verify what time the Playoff matches will start with your FTA so that the schedule can be constructed as soon as alliances have been selected
 
-#. Immediately following the Alliance Selection process, quickly build the playoff schedule so that the Backup Robots report and Playoff Coupon report can be printed out. Verify that the cycle time is set to 9 minutes.
+#. Immediately following the Alliance Selection process, quickly build the playoff schedule so that the Backup Pool Report and Playoff Coupon report can be printed out. Verify that the cycle time is set to 9 minutes.
 
    * All that needs to be known is the time which Playoff matches will begin, and the number of matches in playoffs is always the same. Matchmaker is not used in Playoff Match Generation.
-   * The Backup Robot report must go to the Head Referee immediately (so that they can hand it to another Referee or Queue staff to handle backup robot acceptance)
+   * The Backup Pool Report must go to the Head Referee immediately (so that they can hand it to another Referee or Queue staff to handle backup robot acceptance)
    * The Playoff Coupons and Lineups are to be distributed to alliance captains (via the Head Referee). They will need the following items (cut and ready for them): Playoff Coupons, Lineup Cards, 8 Schedules and 8 Brackets
-   * Keep the Backup Robot report in a safe spot near you once it has been returned by the Referees (which may not be until after lunch)
+   * Keep the Backup Pool Report in a safe spot near you once it has been returned by the Referees (which may not be until after lunch)
    * Print some additional Brackets and Schedules for queuing and field staff
 
 #. Activate the Playoff Match Schedule.
