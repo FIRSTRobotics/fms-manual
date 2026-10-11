@@ -11,7 +11,7 @@ Select *save* after any adjustments for the timing to take effect. Timing can on
 * *Timing Items* - Adjust the corresponding time
 * *Hide/Unhide Scores in Playoffs* - Hide the red and blue alliance final scores at the end of teleop in Playoff matches
 * *Hide Scores* - Hide and unhide red and blue alliance scores on demand
-* *Practice Field Mode* - Bypasses some restrictions such as requiring valid scores in order to commit a match
+* *Practice Field Mode* - Commits matches without scores, for fields where the score does not matter. Requires an HQ password to enable. See :ref:`Practice Field Mode <match-play-practice-field-mode>`.
 
 On the right side of the display there are options for some common operations:
 

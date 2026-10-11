@@ -149,6 +149,7 @@ Prestart Dropdown
 | The Prestart button has additional options available via a dropdown.
 
 * *Prestart* - the "typical" Prestart process, as outlined in the previous section
+* *Prestart with last settings* - repeats the previous Prestart without re-programming the field network hardware, which is much faster. Only available when nothing has changed since that Prestart (same match and same teams in the same stations), such as after a "Back Out." It is always available in Match Test and in :ref:`Practice Field Mode <match-play-practice-field-mode>`.
 * *Reset Network* - allows for re-programming of the field network hardware without a full "Prestart"
 * *Reset Network With Team Change* - allows for re-programming of the field network hardware while also changing a team in one or more stations (disabled when not applicable, such as qualification matches)
 
