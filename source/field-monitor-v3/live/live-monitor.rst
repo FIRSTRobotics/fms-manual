@@ -3,7 +3,7 @@
 Field Monitor
 =============
 
-The Field Monitor provides a live view of robot and field status. To view the Field Monitor, access the web interface at 10.0.100.5 and select Field Monitor from the navigation bar.  Use ctrl-b to swap the position of the red and blue field ends.
+The Field Monitor provides a live view of robot and field status. To view the Field Monitor, access the web interface at 10.0.100.5 and select Field Monitor from the navigation bar.  Use ctrl-b to swap the position of the red and blue field ends.  The Field Monitor is designed to run in full screen (F11); see :ref:`Screen size and layout <field-monitor-v3-screen-size>`.
 
 .. image:: images/field-monitor-1.png
 
@@ -116,17 +116,100 @@ In red station 2, the grey badge that says "New Radio" indicates that the robot 
 
 The robot radio must be connected for these indicators to appear.
 
-Responsive layout
------------------
+.. _field-monitor-v3-screen-size:
+
+Screen size and layout
+----------------------
+
+The Field Monitor is designed to fill the screen of a desktop browser. For the best results:
+
+- Press **F11** to put the browser in full screen.
+- Leave the browser zoom at **100%**. On a 1920x1080 display at 100% or 125% Windows scaling, 90% also works.
+
+The Field Monitor never scrolls. Instead, it picks a layout that fits the size of the browser window, and leaves out
+information that will not fit. Zooming the browser out (:kbd:`Ctrl` + :kbd:`-`) makes the window count as larger, so more fits;
+zooming in (:kbd:`Ctrl` + :kbd:`+`) does the opposite. :kbd:`Ctrl` + :kbd:`0` returns to 100%.
+
+What is shown at each window size
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Window sizes are in the units the browser reports, which are screen pixels divided by the Windows display scaling and by the
+browser zoom. A 1920x1080 display at 150% scaling and 100% zoom is a 1280x720 window in full screen.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 70
+
+   * - Window size
+     - What is shown
+   * - At least 1400 wide and 854 tall
+     - The full layout with every statistic, including packet loss. The New Key and New Radio badges are labelled.
+   * - 992 to 1399 wide, and at least 734 tall
+     - The full layout with battery, BWU and trip time. Packet loss is left out, and the New Key and New Radio badges show
+       as icons only.
+   * - At least 992 wide, but shorter than the heights above
+     - The full layout without the statistics row. Only the team, the station status and the DS, Radio and RIO indicators
+       are shown.
+   * - 768 to 991 wide
+     - The compact layout: the six stations are stacked, blue above red, without the statistics row.
+   * - Less than 768 wide
+     - The compact layout, intended for phones.
 
 .. image:: images/field-monitor-9.png
   :align: center
 
-On smaller resolution screens, the page will hide some information in favor of making the 4 main status indicators more easily visible.
+The full layout without the statistics row.
 
 .. image:: images/field-monitor-mobile.png
   :align: center
   :scale: 25 %
 
 | 
-| On phone screens, the stations will be vertically stacked.
+| The compact layout. It needs a window about 650 tall to show all six stations, so hold a phone upright.
+
+Common displays
+^^^^^^^^^^^^^^^
+
+This is what a display shows with the browser in full screen at 100% zoom.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 22 18 60
+
+   * - Display
+     - Windows scaling
+     - Result
+   * - 1920x1080
+     - 100% or 125%
+     - Everything is shown.
+   * - 1920x1080
+     - 150%
+     - The statistics row is hidden. Set the browser zoom to 80%, or change the Windows display scaling to 125%. A zoom of
+       90% is not enough.
+   * - 1366x768
+     - 100%
+     - Battery, BWU and trip time are shown; packet loss is not. Leave the zoom at 100%, because at 90% the statistics row
+       is hidden.
+   * - 1366x768
+     - 150%
+     - The compact layout is shown. Change the Windows display scaling to 100%.
+
+A browser that is not in full screen loses height to its tabs, address bar and the Windows taskbar. On a 1366x768 display
+that is enough to hide the statistics row, so use full screen. A browser snapped to half of a 1920x1080 display shows the
+compact layout.
+
+Hidden detail message
+^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/field-monitor-hidden-detail.png
+  :align: center
+
+If the Field Monitor is opened in a window that is too small for the statistics row, or that is showing the compact layout on
+something wider than a phone, it shows a message saying what is hidden and how to fix it. The message goes away when any of
+these happens:
+
+- The window becomes large enough, for example after pressing F11 or zooming out.
+- It is clicked, or :kbd:`Esc` is pressed.
+- Five seconds pass.
+
+The message is only shown when the page is first opened. Making the window smaller afterwards does not bring it back.
