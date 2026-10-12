@@ -125,6 +125,8 @@ The Field Monitor is designed to fill the screen of a desktop browser. For the b
 
 - Press **F11** to put the browser in full screen.
 - Leave the browser zoom at **100%**. On a 1920x1080 display at 100% or 125% Windows scaling, 90% also works.
+- Set the Windows display scaling (Settings > System > Display > Scale) to **100% or 125%** on a 1920x1080 display, and to
+  **100%** on a 1366x768 display. Higher scaling leaves the Field Monitor less room, and it hides information to fit.
 
 The Field Monitor never scrolls. Instead, it picks a layout that fits the size of the browser window, and leaves out
 information that will not fit. Zooming the browser out (:kbd:`Ctrl` + :kbd:`-`) makes the window count as larger, so more fits;
