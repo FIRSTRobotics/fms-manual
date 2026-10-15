@@ -7,7 +7,7 @@ Syncing Data with *FIRST*
 *FIRST* allows Off-Season events (who meet requirements) to synchronize their data and results with *FIRST* HQ, similar to the way that *FIRST* posts results of official events during the competition season. 
 Off-Season events that meet requirement criteria will be able to have their events included- meaning results will be posted to *FIRST* 's Event Results 
 website ( `https://frc-events.firstinspires.org/ <https://frc-events.firstinspires.org/>`_ ) and API ( `https://frc-api.firstinspires.org/v2.0/ <https://frc-api.firstinspires.org/v2.0/>`_ ). *FIRST* has many partners 
-that use *FIRST* 's data to power their apps, such as The Blue Alliance or FRC\ |reg| Spyder.
+that use *FIRST* 's data to power their apps, such as The Blue Alliance.
 
 This is not available for versions of FMS installed on personal computers, our "FMS Off-Season" software. This is available only on official *FIRST* fields that were used at in-season United States or Canadian competitions.
 

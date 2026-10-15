@@ -12,7 +12,7 @@ Installation Overview
 
 .. image:: images/audience-installation-0.png
 
-The Audience Display is not supported on any platform other than Windows 10 or higher (64 Bit). The target machine must also have an Ethernet port and audio output device (headphone jack, HDMI port, etc).
+The target machine must meet the :ref:`Audience Display System Requirements <audience-system-requirements>`.
 
 The Audience Display installer can be retrieved on the field server website downloads page, :ref:`as outlined here <field-server-downloads>` and shown in the photo above.
 Download the exe file, move it to the target machine (using a USB drive, for example) and run the installer in the same way that any other program would be installed on Windows.

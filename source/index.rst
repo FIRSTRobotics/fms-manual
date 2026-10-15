@@ -17,6 +17,7 @@ FMS Manual
    :titlesonly:
    :caption: Event Manager (FMS)
 
+   event-manager/system-requirements/index
    event-manager/navigation-and-indicators/index
    event-manager/event-wizard/index
    event-manager/match-play-test/index
@@ -69,6 +70,7 @@ FMS Manual
    :maxdepth: 2
    :caption: Audience Display
 
+   audience-display/system-requirements/index
    audience-display/about/index
    audience-display/about-web/index
    audience-display/configuration/index
