@@ -14,7 +14,7 @@ In order to install FMS Off-Season, download the installer file from the *FIRST*
 
 Access the Installer download from the `Scorekeeper Box folder <https://usfirst.box.com/s/twoaemnhoajhn24erwxekqrfeqq8y2in>`_ which does not require a Box account to access. Look in the folder for the corresponding season year.
 
-FMS require a 64 bit Windows OS. *FIRST* recommends Windows 10.
+Before installing, confirm that the target machine meets the :ref:`FMS System Requirements <event-manager-system-requirements>`.
 
 Installation Process
 --------------------
@@ -54,8 +54,6 @@ Desktop Icons
 
 The installer will place an icon on the desktop. The FMS icon (red arrow) will open the Event Manager (which includes the wizard that walks through the event, the control to turn robots on and off, etc).
 
-The Audience Display, which will display scores and team information (as well as playing game sounds), will additionally add an icon if you elect to install it. For more information, :doc:`see this article <../../audience-display/configuration/installation>` .
-
 Uninstalling
 ------------
 
@@ -84,37 +82,6 @@ Once FMS is loaded you must agree to a safety warning. Beyond that, refer to the
 .. image:: images/installation-6.png
     :align: center
 
-Launching Audience
-------------------
-
-Double click the "Audience Display" shortcut on your desktop to launch the Audience Display. The audience display will appear with the a background screen and game logo visible.
-Only open the Audience Display after configuring an event through FMS Event Wizard.
-
-See the Audience Display information in the :ref:`Audience Display User's Guide <audience-index>` documentation for additional details about using the Audience Display. 
-
-.. note::
-    Note: The Audience Display must be running in order to hear game sounds.
-
-Audience Compatibility Mode
----------------------------
-
-.. image:: images/installation-7.png
-    :align: center
-
-The Audience Display should run properly with no advanced configuration. You only need to follow these instructions if you encountered trouble running the program out of the box.
-
-If you have trouble running the Audience Display in its default configuration, you may need to use compatibility mode. Open the location where you installed FMS, which is usually something similar to:
-
-.. code-block:: text
-
-    C:\Program Files (x86)\FIRST\AudienceDisplayExeOffseason (64 bit OS)
-
-Right click on AudienceDisplay.exe and select Properties. Under Compatibility, select "Run this program in compatibility mode" and pick "Windows XP (Service Pack 3)" from the dropdown box.
-
-Select OK. When you re-launch the Audience Display using the shortcut on your desktop, it should run properly.
-
-If you wish to utiize a remote audience display, please see the appropriate configuration instructions in the User's Guide. It is recommended to run no more than two (2) instances of the Audience Display at any given time.
-
 Advanced Installation
 ---------------------
 
@@ -130,5 +97,3 @@ Shutting Down
 -------------
 
 To shut down the FMS application, simply click the "X" in the upper right. Only do this if a match is not running.
-
-To shut down the Audience Display application, simply click "Alt+F4" when the application is in the foreground. Alternately, right click on the icon in the taskbar and selecting "Close Window."

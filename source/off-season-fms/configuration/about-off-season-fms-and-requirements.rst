@@ -25,22 +25,9 @@ Other items, such as speakers or a projector, are recommended to supplement the 
 Software Requirements
 ---------------------
 
-In order to install Off-Season FMS, the target machine must meet these minimum requirements:
+The computer running Off-Season FMS must meet the :ref:`FMS System Requirements <event-manager-system-requirements>`.
 
-* Operating System: Windows 10
-* Processor Speed: 64 bit OS
-* CPU: 2.0 GHz
-* Memory: 4 GB RAM
-* Hard drive: 1 GB free hard disk space
-* Hardware: Ethernet and USB Port
-* Resolution: 1920x1080 or higher for best visibility
-
-Audience Display Requirements
------------------------------
-
-The Audience Display program controls all audio and graphics intended for audience consumption. It can be run on the same machine as Off-Season FMS or on a separate Windows machine located on the same network as the FMS installation.
-The machine being used as the Audience Display must have a modern graphics card capable of running an extended monitor at 1280x720 or 1920x1080 with 100% scaling (based on the Windows scaling settings). For game sounds, the machine must have 
-speakers or connect to a system capable of accepting the audio output of the machine (such as a 1/8" heaphone jack). If using a secondary machine as the Audience Display, it should be connected via Ethernet, not wireless.
+The computer running the Audience Display must meet the :ref:`Audience Display System Requirements <audience-system-requirements>`.
 
 Important Off-Season Notes
 --------------------------
