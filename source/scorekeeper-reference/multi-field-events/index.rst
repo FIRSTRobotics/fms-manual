@@ -47,8 +47,9 @@ Which Field Plays Which Match
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When the Primary field generates a schedule, it alternates matches between the fields: match 1 is assigned to the
-Primary field, match 2 to the Secondary, match 3 to the Primary, and so on. FMS makes an exception for the Einstein
-Finals at the *FIRST* Championship, so check which field each Finals match is assigned to.
+Primary field, match 2 to the Secondary, match 3 to the Primary, and so on. At the *FIRST* Championship, the
+Einstein Final Tiebreaker is always assigned to the Primary field; the other Finals matches follow the normal
+alternation.
 
 Each field moves through only its own matches. When a match is committed, each field advances to the next unplayed
 match *assigned to that field*, so the two fields show different "next" matches.
