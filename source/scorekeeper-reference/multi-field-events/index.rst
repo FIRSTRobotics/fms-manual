@@ -47,13 +47,13 @@ Which Field Plays Which Match
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When the Primary field generates a schedule, it alternates matches between the fields: match 1 is assigned to the
-Primary field, match 2 to the Secondary, match 3 to the Primary, and so on. At the *FIRST* Championship, Final 2 and the
-Final tiebreaker are always assigned to the Primary field.
+Primary field, match 2 to the Secondary, match 3 to the Primary, and so on. FMS makes an exception for the Einstein
+Finals at the *FIRST* Championship, so check which field each Finals match is assigned to.
 
 Each field moves through only its own matches. When a match is committed, each field advances to the next unplayed
 match *assigned to that field*, so the two fields show different "next" matches.
 
-If you Prestart a match that is assigned to the other field, FMS asks *"Start Match on <field> field?"* and states which
+If you Prestart a match in Match Play that is assigned to the other field, FMS asks *"Start Match on <field> field?"* and states which
 field the match is scheduled for. Cancel unless the Head Referee and FTA have agreed to move the match to your field.
 
 Tournament Level
@@ -160,8 +160,8 @@ Because the Secondary field keeps no event data of its own, it cannot load the s
 score while it is disconnected from the Primary field. If the connection drops:
 
 * Do not keep starting matches on the Secondary field. Hold the field and contact the FTA.
-* If a match on the Secondary field ended but could not be committed, do not discard it. Once the connection is
-  restored, commit it and confirm that it appears in the Primary field's schedule.
+* If a match on the Secondary field ended but could not be committed, contact the FTA before committing, replaying or
+  discarding it.
 * After the connection is restored, confirm with the Primary field's Scorekeeper that the Secondary field's recent
   matches show as committed and posted on the Primary field.
 
