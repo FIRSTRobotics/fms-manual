@@ -96,6 +96,7 @@ FMS Manual
    scorekeeper-reference/step-by-step/index
    scorekeeper-reference/software-updates/index
    scorekeeper-reference/non-standard-playoffs/index
+   scorekeeper-reference/multi-field-events/index
 
 .. toctree::
    :maxdepth: 1
