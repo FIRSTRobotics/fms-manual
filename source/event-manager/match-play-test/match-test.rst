@@ -9,7 +9,8 @@ Match Test verifies that the electrical and scoring components connected to FMS 
 almost exactly like Match Play, so see :ref:`Match Play <match-play>` for the screen, its controls and its tabs — only
 the differences are described here.
 
-In Match Test, FMS assigns the match number 999 (998 for multi-field events) and names the teams "Test 1" through
+In Match Test, FMS assigns the match number 999 (998 on a Secondary field and 997 on a Practice field; see
+:ref:`Multi-field Events <scorekeeper-multi-field-events>`) and names the teams "Test 1" through
 "Test 6", unless those names have been changed in Settings. No schedule is loaded, so the Schedule tab stays blank.
 
 Match Test cannot consume a schedule and therefore cannot play matches that "count." Use Match Play for Practice,
